@@ -1,0 +1,14 @@
+﻿[
+    {
+        "file":  "TestResults.xml",
+        "Hash":  "46B44B9B3198BE2CBAC2696DF27333B185E0D5FDD8268011E00B58BCF29D000F"
+    },
+    {
+        "file":  "world_tree_save.backup.json",
+        "Hash":  "3A3C99951E9CFE4EDF0F55A391C32618C1A7AD4554780832DF3B1F3D85DE6E57"
+    },
+    {
+        "file":  "world_tree_save.json",
+        "Hash":  "D9013370A758147A07456BFBD6BC8F5341ACDF900F6A2F2EBDEF6BBD4624CFA2"
+    }
+]

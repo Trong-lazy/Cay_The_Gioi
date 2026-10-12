@@ -1,0 +1,261 @@
+{
+  "source": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+  "sha256_before": "53aee33d69c01e8115a63fe02de635cf8a0aa6782337a80e166b6d72c0430c75",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.49382370710372925,
+        0.44895219802856445,
+        0.4821379482746124
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 436,
+      "faces": 357,
+      "evaluated_triangles": 760,
+      "boundary_edges": 90,
+      "non_manifold_edges": 90,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [],
+      "materials": [
+        "M_Roots"
+      ],
+      "uv_statistics": []
+    },
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.1248013973236084,
+        0.050075531005859375,
+        0.777999997138977
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 346,
+      "faces": 274,
+      "evaluated_triangles": 590,
+      "boundary_edges": 82,
+      "non_manifold_edges": 82,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [],
+      "materials": [
+        "M_Stem"
+      ],
+      "uv_statistics": []
+    },
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4885987639427185,
+        0.22232577204704285,
+        0.6519162058830261
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 1638,
+      "faces": 1612,
+      "evaluated_triangles": 3224,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 155,
+      "uv_layers": [],
+      "materials": [
+        "M_Leaves"
+      ],
+      "uv_statistics": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Leaves",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.36000001430511475,
+            0.7200000286102295,
+            0.14000000059604645,
+            1.0
+          ],
+          "roughness": 0.3799999952316284,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_Roots",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.9399999976158142,
+            0.8899999856948853,
+            0.7900000214576721,
+            1.0
+          ],
+          "roughness": 0.550000011920929,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_Stem",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.3799999952316284,
+            0.6800000071525574,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.44999998807907104,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    }
+  ],
+  "total_evaluated_triangles": 4574,
+  "empty_objects": [],
+  "world_bounds": {
+    "min": [
+      -0.24540764093399048,
+      -0.22647389769554138,
+      -0.4801379442214966
+    ],
+    "max": [
+      0.24841608107089996,
+      0.22247828543186188,
+      0.8379999995231628
+    ],
+    "size": [
+      0.49382370710372925,
+      0.44895219802856445,
+      1.3181378841400146
+    ]
+  },
+  "review_renders": [
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Young_Simple_v01\\front.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Young_Simple_v01\\back.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Young_Simple_v01\\right.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Young_Simple_v01\\perspective.png"
+  ],
+  "sha256_after": "53aee33d69c01e8115a63fe02de635cf8a0aa6782337a80e166b6d72c0430c75",
+  "source_unchanged": true
+}

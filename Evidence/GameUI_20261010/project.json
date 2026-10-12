@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "contents": [
+      {
+        "uri": "mcpforunity://project/info",
+        "mimeType": "text/plain",
+        "text": "{\"success\":true,\"message\":\"Retrieved project info.\",\"error\":null,\"data\":{\"projectRoot\":\"C:/Users/Asus/foder game 3D/Cay_The_Gioi\",\"projectName\":\"Cay_The_Gioi\",\"unityVersion\":\"6000.6.1f1\",\"platform\":\"StandaloneWindows64\",\"assetsPath\":\"C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets\"},\"hint\":null}"
+      }
+    ]
+  }
+}

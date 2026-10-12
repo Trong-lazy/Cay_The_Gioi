@@ -1,0 +1,3 @@
+seedling: 25 mouse + 25 touch, five yaw angles, reward=1, bank=20s, Water rate=1.05x
+young_tree: 25 mouse + 25 touch, five yaw angles, reward=1, bank=20s, Water rate=1.05x
+large_tree: 25 mouse + 25 touch, five yaw angles, reward=1, bank=20s, Water rate=1.05x

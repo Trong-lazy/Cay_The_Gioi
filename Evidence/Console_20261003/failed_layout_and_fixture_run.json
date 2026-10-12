@@ -1,0 +1,124 @@
+{
+  "job_id": "6170999097704ee7a22da3b427c9151e",
+  "status": "failed",
+  "mode": "PlayMode",
+  "started_unix_ms": 1791040903095,
+  "finished_unix_ms": 1791040907193,
+  "last_update_unix_ms": 1791040907193,
+  "progress": {
+    "completed": 59,
+    "total": 59,
+    "current_test_full_name": null,
+    "current_test_started_unix_ms": 1791040907010,
+    "last_finished_test_full_name": "CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates",
+    "last_finished_unix_ms": 1791040907020,
+    "stuck_suspected": false,
+    "editor_is_focused": true,
+    "blocked_reason": null,
+    "failures_so_far": [
+      {
+        "full_name": "CayTheGioi.Tests.AchievementSceneTests.AchievementView_OpensAndCloses_LocksAndUnlocksInput",
+        "message": "SetUp : Unhandled log message: '[Error] Layout update failed to stabilize after 10 iterations.\r\n\r\nOne or more elements are responding to GeometryChangedEvent by modifying layout properties, creating a recursive loop where layout changes trigger new layout changes.\r\nPanel: MainToolbarWindow\r\n\r\nIdentify elements that modify layout in respon"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.AchievementSceneTests.MilestoneInScene_UpgradeAndClaimCoin_SavesAndPersistsAcrossReload",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.AchievementSceneTests.RebirthInScene_PreservesAchievementsAndCoin",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : System.ArgumentNullException : Value cannot be null.\r\nPara"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : System.ArgumentNullException : Value cannot be null.\r\nPara"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : System.ArgumentNullException : Value cannot be null.\r\nPara"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : System.ArgumentNullException : Value cannot be null.\r\nPara"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : System.ArgumentNullException : Value cannot be null.\r\nPara"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CosmeticSceneTests.BuyAndEquipInScene_DeductsCoin_PersistsAcrossReload",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CosmeticSceneTests.DeadOrRebirth_CancelsPreview",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CosmeticSceneTests.Preview_DoesNotDeductCoin_AndDoesNotMutateSavedEquip_AndRestoresOnClose",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.CosmeticSceneTests.ShopView_OpenAndClose_LocksAndUnlocksInput",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.BackupRecoveryDoesNotReplayOldOfflineReward",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.FailedResumeBlocksTransactionsAutosaveQuitThenRetryFromOriginalBaseline",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.PauseAndFocusAggregateCommitBeforeNotificationAndResumeOnline",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.PopupMouseAndSimulatedTouchCloseDoNotCountTreeTap",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.StartupClockCapNeutralFreezePopupAndImmediateReopen",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.OfflineSceneTests.StartupCommitIoFailureKeepsGameplayUninitializedUntilRetry",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      },
+      {
+        "full_name": "CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth",
+        "message": "SetUp : UnityEngine.MissingReferenceException : The object of type 'UnityEngine.InputSystem.InputSettings' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object. Parameter name: data\r\nTearDown : Unhandled log message: '[Error] Layout update failed to st"
+      }
+    ],
+    "failures_capped": true
+  },
+  "error": null,
+  "result": null
+}

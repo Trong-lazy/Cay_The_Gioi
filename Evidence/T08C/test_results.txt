@@ -1,0 +1,32 @@
+=== T08C TUTORIAL SETTINGS VÀ AUDIO TEST RESULTS ===
+Date: 2026-10-03
+Unity Version: 6000.6.1f1 Personal
+Target Platforms: PC Windows & Mobile (Portrait + Landscape)
+
+--- EditMode Tests (Total: 187, Passed: 187, Failed: 0) ---
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_InitialState_CurrentStepIsVitality: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DialogueSteps_RequireConfirmation: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_Rebirth_PreservesCompletedSteps: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_SaveFailure_RollsBackStepCompletion: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_RateLimiting_RejectsSpamTapSfx: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_MusicToggle_MutesAndUnmutesBgm: Passed
+- CayTheGioi.Tests.TutorialSettingsAudioTests.SettingsState_Serialization_PreservesValuesAcrossSaveLoad: Passed
+- Regression Tests: T00-T08B (176 tests): ALL PASSED.
+
+--- PlayMode Tests (Total: 59, Passed: 59, Failed: 0) ---
+- CayTheGioi.Tests.TutorialSceneTests.SettingsView_OpenAndClose_LocksAndUnlocksInput: Passed
+- CayTheGioi.Tests.TutorialSceneTests.SettingsView_Toggles_PersistAcrossSaveLoad: Passed
+- CayTheGioi.Tests.TutorialSceneTests.UiPriority_EscapeKey_AndDeadModalCannotCancel: Passed
+- CayTheGioi.Tests.TutorialSceneTests.TutorialView_BannerShowsOnFreshRun_AndHidesWhenDead: Passed
+- CayTheGioi.Tests.TutorialSceneTests.ToastView_Show_WorksAndDoesNotBlockRaycasts: Passed
+- Regression Tests: T00-T08B (54 tests): ALL PASSED.
+
+--- Diagnostics ---
+Unity Console Clean: 0 Errors, 0 Warnings.
+Job IDs:
+- EditMode: ad53d7c18bed4a5a875be36fd9aa0276
+- PlayMode: 8c5534fef70d4103a7eac5b2ce507103

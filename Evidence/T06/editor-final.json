@@ -1,0 +1,1 @@
+{"success":true,"message":"Code executed successfully.","data":{"result":{"unity":"6000.6.1f1","scene":"Assets/_Project/Scenes/MainScene.unity","dirty":false,"playing":false,"compiling":false,"target":"StandaloneWindows64","fastPlay":false,"flags":"None","validation":null,"clock":null,"pointers":[{"name":"Mouse","enabled":true}],"config":"prototype-3"},"compiler":"codedom"}}

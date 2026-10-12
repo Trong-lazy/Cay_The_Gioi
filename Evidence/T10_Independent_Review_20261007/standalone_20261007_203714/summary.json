@@ -1,0 +1,47 @@
+[
+  {
+    "scenario": "smoke_fresh",
+    "exitCode": 0,
+    "success": true,
+    "error": "",
+    "runtimeErrors": 0,
+    "reportPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_fresh\\report.json",
+    "logPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_fresh\\player.log"
+  },
+  {
+    "scenario": "smoke_offline",
+    "exitCode": 0,
+    "success": true,
+    "error": "",
+    "runtimeErrors": 0,
+    "reportPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_offline\\report.json",
+    "logPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_offline\\player.log"
+  },
+  {
+    "scenario": "smoke_progression",
+    "exitCode": 0,
+    "success": true,
+    "error": "",
+    "runtimeErrors": 0,
+    "reportPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_progression\\report.json",
+    "logPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_progression\\player.log"
+  },
+  {
+    "scenario": "smoke_death_forced_rebirth",
+    "exitCode": 0,
+    "success": true,
+    "error": "",
+    "runtimeErrors": 0,
+    "reportPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_death_forced_rebirth\\report.json",
+    "logPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\smoke_death_forced_rebirth\\player.log"
+  },
+  {
+    "scenario": "ui_flow",
+    "exitCode": 0,
+    "success": true,
+    "error": "",
+    "runtimeErrors": 0,
+    "reportPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\ui_flow\\report.json",
+    "logPath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Review_20261007\\standalone_20261007_203714\\ui_flow\\player.log"
+  }
+]

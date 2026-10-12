@@ -1,0 +1,52 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"version\":\"prototype-5\",\"scene\":\"Assets/_Project/Scenes/MainScene.unity\",\"screen\":[1920,1080],\"log\":[{\"phase\":\"first_root_leaves\",\"water\":0.0,\"growth\":0.0,\"root\":1,\"leaves\":1},{\"phase\":\"second_leaves\",\"water\":6.0,\"growth\":0.0,\"leaves\":2,\"currency\":\"growth\"},{\"phase\":\"trunk\",\"water\":6.0,\"growth\":165.0,\"trunk\":1}],\"leavesText\":\"LEAVES   L2/10   ·   13 Growth\\nGrowth/s tiềm năng 2 → 3\\nTiêu Water/s 0.5 → 0.75\",\"trunkText\":\"TRUNK   L1/5   ·   16 Growth\\nProtection 0.05 → 0.1\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "version": "prototype-5",
+          "scene": "Assets/_Project/Scenes/MainScene.unity",
+          "screen": [
+            1920,
+            1080
+          ],
+          "log": [
+            {
+              "phase": "first_root_leaves",
+              "water": 0.0,
+              "growth": 0.0,
+              "root": 1,
+              "leaves": 1
+            },
+            {
+              "phase": "second_leaves",
+              "water": 6.0,
+              "growth": 0.0,
+              "leaves": 2,
+              "currency": "growth"
+            },
+            {
+              "phase": "trunk",
+              "water": 6.0,
+              "growth": 165.0,
+              "trunk": 1
+            }
+          ],
+          "leavesText": "LEAVES   L2/10   ·   13 Growth\nGrowth/s tiềm năng 2 → 3\nTiêu Water/s 0.5 → 0.75",
+          "trunkText": "TRUNK   L1/5   ·   16 Growth\nProtection 0.05 → 0.1"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

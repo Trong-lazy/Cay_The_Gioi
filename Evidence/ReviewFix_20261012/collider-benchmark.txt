@@ -1,0 +1,25 @@
+﻿==========================================================================================
+TREE ANIMATION & DYNAMIC COLLIDER BENCHMARK REPORT
+Unity Version: 6000.6.1f1
+Platform: WindowsEditor
+Timestamp: 2026-10-12 16:16:16 UTC
+Frames per configuration: 300
+Budget target: Total Update p95 <= 1.0 ms/frame
+==========================================================================================
+
+Stage        | Weather      |  MeanTot |   MedTot |   p90Tot |   p95Tot |   p99Tot |  p95Vert |  p95Cook
+-----------------------------------------------------------------------------------------------
+seedling     | calm         |   0.0556 |   0.0469 |   0.0845 |   0.1035 |   0.1310 |   0.0842 |   0.0000
+seedling     | thunderstorm |   0.0761 |   0.0689 |   0.1092 |   0.1181 |   0.1503 |   0.0450 |   0.0000
+young_tree   | calm         |   0.0697 |   0.0640 |   0.0882 |   0.1005 |   0.1265 |   0.0871 |   0.0000
+young_tree   | thunderstorm |   0.1163 |   0.1055 |   0.1619 |   0.1780 |   0.2139 |   0.0908 |   0.0000
+large_tree   | calm         |   0.6027 |   0.5621 |   0.7563 |   0.8278 |   0.9125 |   0.7885 |   0.0000
+large_tree   | thunderstorm |   0.6526 |   0.6044 |   0.8401 |   0.8971 |   1.0603 |   0.8019 |   0.0000
+
+Evaluation against budget:
+- [PASS] seedling (calm): p95=0.1035 ms (budget 1.5 ms) -> Vertex p95=0.0842 ms, Cook p95=0.0000 ms
+- [PASS] seedling (thunderstorm): p95=0.1181 ms (budget 1.5 ms) -> Vertex p95=0.0450 ms, Cook p95=0.0000 ms
+- [PASS] young_tree (calm): p95=0.1005 ms (budget 1.5 ms) -> Vertex p95=0.0871 ms, Cook p95=0.0000 ms
+- [PASS] young_tree (thunderstorm): p95=0.1780 ms (budget 1.5 ms) -> Vertex p95=0.0908 ms, Cook p95=0.0000 ms
+- [PASS] large_tree (calm): p95=0.8278 ms (budget 1.5 ms) -> Vertex p95=0.7885 ms, Cook p95=0.0000 ms
+- [PASS] large_tree (thunderstorm): p95=0.8971 ms (budget 1.5 ms) -> Vertex p95=0.8019 ms, Cook p95=0.0000 ms

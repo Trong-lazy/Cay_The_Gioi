@@ -1,0 +1,19 @@
+{
+  "task": "T00",
+  "unity": "6000.6.1f1",
+  "scene": "Assets/_Project/Scenes/MainScene.unity",
+  "config": "prototype-1",
+  "playing": true,
+  "initialized": true,
+  "stage": "seedling",
+  "water": 10,
+  "hp": 100,
+  "bootstrapCount": 1,
+  "eventSystemCount": 1,
+  "audioListenerCount": 1,
+  "rightDragRotates": true,
+  "orbitLockPreventsRotation": true,
+  "inputCheckMethod": "Temporary Input System Mouse device; queue right press and delta; run the rig update; verify rotation and lock; remove device and restore the original mouse.",
+  "consoleErrorsAndWarningsAfterSmoke": 0,
+  "visual": "Game View screenshot inspected; seedling, HUD and controls visible. Footer text contrast then adjusted to light text."
+}

@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"width\":637,\"height\":309,\"collider\":\"Tree\",\"hud\":\"Water 18  (+0.8/s)\\nGrowth 10.5  (+1.05/s)\\nHP 100 · ALIVE\\nSức sống 10s / 3600s  +5%\\nTap 0/50\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "width": 637,
+          "height": 309,
+          "collider": "Tree",
+          "hud": "Water 18  (+0.8/s)\nGrowth 10.5  (+1.05/s)\nHP 100 · ALIVE\nSức sống 10s / 3600s  +5%\nTap 0/50"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

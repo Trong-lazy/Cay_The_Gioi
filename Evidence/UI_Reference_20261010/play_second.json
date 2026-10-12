@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"93c60be1539c4529ab928d996c27e115\",\"status\":\"failed\",\"mode\":\"PlayMode\",\"started_unix_ms\":1791601241053,\"finished_unix_ms\":1791601288679,\"last_update_unix_ms\":1791601288679,\"progress\":{\"completed\":65,\"total\":65,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791601288525,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates\",\"last_finished_unix_ms\":1791601288641,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"message\":\"  Expected: False\\r\\n  But was:  True\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth\",\"message\":\"  Expected: not equal to \\\"711441a891a141a09c1b386fcf807d09\\\"\\r\\n  But was:  \\\"711441a891a141a09c1b386fcf807d09\\\"\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce\",\"message\":\"  Expected: 2\\r\\n  But was:  1\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"message\":\"  Expected: in range (-291,1938,291,1938)\\r\\n  But was:  -711.906189f\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "93c60be1539c4529ab928d996c27e115",
+        "status": "failed",
+        "mode": "PlayMode",
+        "started_unix_ms": 1791601241053,
+        "finished_unix_ms": 1791601288679,
+        "last_update_unix_ms": 1791601288679,
+        "progress": {
+          "completed": 65,
+          "total": 65,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": 1791601288525,
+          "last_finished_test_full_name": "CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates",
+          "last_finished_unix_ms": 1791601288641,
+          "stuck_suspected": false,
+          "editor_is_focused": false,
+          "blocked_reason": null,
+          "failures_so_far": [
+            {
+              "full_name": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+              "message": "  Expected: False\r\n  But was:  True\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth",
+              "message": "  Expected: not equal to \"711441a891a141a09c1b386fcf807d09\"\r\n  But was:  \"711441a891a141a09c1b386fcf807d09\"\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce",
+              "message": "  Expected: 2\r\n  But was:  1\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+              "message": "  Expected: in range (-291,1938,291,1938)\r\n  But was:  -711.906189f\r\n"
+            }
+          ],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": null
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

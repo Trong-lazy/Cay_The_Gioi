@@ -1,0 +1,955 @@
+{
+  "generated_at_utc": "2026-10-07T13:53:15.697300+00:00",
+  "blender_version": "5.2.2 LTS",
+  "mode": "read_only_audit",
+  "stages": {
+    "seedling": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Seedling_Simple_v01.fbx",
+      "blend_sha256": "8781507C59608F546229EB4BD0FA0DA8B4B6218416FB5E9A0127E2D5C2918938",
+      "fbx_sha256": "6FC4AA5A5A11D3A0DBA9DC903891CD59D2F6845FF891520432D43E19CB6D60E6",
+      "hashes_unchanged_after_audit": true,
+      "blend_scene": {
+        "mesh_count": 4,
+        "total_vertices": 1436,
+        "total_triangles": 2778,
+        "world_bounds_min": [
+          -0.15159,
+          -0.04656,
+          -0.19805
+        ],
+        "world_bounds_max": [
+          0.14174,
+          0.04178,
+          0.258
+        ],
+        "world_size": [
+          0.29333,
+          0.08834,
+          0.45605
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 600,
+            "triangles": 1180,
+            "zero_area_faces": 58,
+            "uv_layers": [
+              "UVMap"
+            ],
+            "materials": [
+              {
+                "name": "M_Leaves",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 170,
+            "triangles": 316,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Roots",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "SeedShell",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 516,
+            "triangles": 1024,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_SeedShell_Outer",
+                "nodes": []
+              },
+              {
+                "name": "M_SeedShell_Inner",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 150,
+            "triangles": 258,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Stem",
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      },
+      "fbx_reimport": {
+        "mesh_count": 4,
+        "total_vertices": 1436,
+        "total_triangles": 2778,
+        "world_bounds_min": [
+          -0.15159,
+          -0.04656,
+          -0.19805
+        ],
+        "world_bounds_max": [
+          0.14174,
+          0.04178,
+          0.258
+        ],
+        "world_size": [
+          0.29333,
+          0.08834,
+          0.45605
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 600,
+            "triangles": 1180,
+            "zero_area_faces": 58,
+            "uv_layers": [
+              "UVMap"
+            ],
+            "materials": [
+              {
+                "name": "M_Leaves",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 170,
+            "triangles": 316,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Roots",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "SeedShell",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 516,
+            "triangles": 1024,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_SeedShell_Outer",
+                "nodes": []
+              },
+              {
+                "name": "M_SeedShell_Inner",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 150,
+            "triangles": 258,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Stem",
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "young_tree": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Young_Simple_v01.fbx",
+      "blend_sha256": "A862D973F63ADAD5FBAA44713D1948928FEFE45988864249DBD1B7BCD4F3E315",
+      "fbx_sha256": "2F3BFB2C354C91C89EA5CDD96E862F90C60265FB06A304DA60615E9F8AC71FA9",
+      "hashes_unchanged_after_audit": true,
+      "blend_scene": {
+        "mesh_count": 3,
+        "total_vertices": 2420,
+        "total_triangles": 4574,
+        "world_bounds_min": [
+          -0.24541,
+          -0.22647,
+          -0.48014
+        ],
+        "world_bounds_max": [
+          0.24842,
+          0.22248,
+          0.838
+        ],
+        "world_size": [
+          0.49382,
+          0.44895,
+          1.31814
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 1638,
+            "triangles": 3224,
+            "zero_area_faces": 156,
+            "uv_layers": [
+              "UVMap"
+            ],
+            "materials": [
+              {
+                "name": "M_Leaves",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 436,
+            "triangles": 760,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Roots",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 346,
+            "triangles": 590,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Stem",
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      },
+      "fbx_reimport": {
+        "mesh_count": 3,
+        "total_vertices": 2420,
+        "total_triangles": 4574,
+        "world_bounds_min": [
+          -0.24541,
+          -0.22647,
+          -0.48014
+        ],
+        "world_bounds_max": [
+          0.24842,
+          0.22248,
+          0.838
+        ],
+        "world_size": [
+          0.49382,
+          0.44895,
+          1.31814
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 1638,
+            "triangles": 3224,
+            "zero_area_faces": 156,
+            "uv_layers": [
+              "UVMap"
+            ],
+            "materials": [
+              {
+                "name": "M_Leaves",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 436,
+            "triangles": 760,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Roots",
+                "nodes": []
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 346,
+            "triangles": 590,
+            "zero_area_faces": 0,
+            "uv_layers": [],
+            "materials": [
+              {
+                "name": "M_Stem",
+                "nodes": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "large_tree": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Large.fbx",
+      "blend_sha256": "5CBB554D09A88BECC38EAEC33EFEC6ACB56E7417BAD5AD0AD804E8CE633BA70B",
+      "fbx_sha256": "1D0B4B383865D51F8F5C39AC0A72CC2EBA2A1DD35919229CE7896A0DCF229154",
+      "hashes_unchanged_after_audit": true,
+      "blend_scene": {
+        "mesh_count": 3,
+        "total_vertices": 16632,
+        "total_triangles": 26682,
+        "world_bounds_min": [
+          -1.68382,
+          -0.95275,
+          -0.26432
+        ],
+        "world_bounds_max": [
+          1.63814,
+          1.15675,
+          2.35289
+        ],
+        "world_size": [
+          3.32197,
+          2.1095,
+          2.61721
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 15400,
+            "triangles": 24640,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Foliage",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 374,
+            "triangles": 634,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Bark",
+                "nodes": [
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "POINT",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 858,
+            "triangles": 1408,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Bark",
+                "nodes": [
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "POINT",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "fbx_reimport": {
+        "mesh_count": 3,
+        "total_vertices": 16632,
+        "total_triangles": 26682,
+        "world_bounds_min": [
+          -1.68382,
+          -0.95275,
+          -0.26432
+        ],
+        "world_bounds_max": [
+          1.63814,
+          1.15675,
+          2.35289
+        ],
+        "world_size": [
+          3.32197,
+          2.1095,
+          2.61721
+        ],
+        "meshes": [
+          {
+            "name": "Foliage",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 15400,
+            "triangles": 24640,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Foliage",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+                    "colorspace": "Non-Color"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Roots",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 374,
+            "triangles": 634,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Bark",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Trunk_Branches",
+            "location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_euler": [
+              -0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertices": 858,
+            "triangles": 1408,
+            "zero_area_faces": 0,
+            "uv_layers": [
+              "Float2"
+            ],
+            "materials": [
+              {
+                "name": "M_Bark",
+                "nodes": [
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "sRGB"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  },
+                  {
+                    "type": "TEX_IMAGE",
+                    "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+                    "colorspace": "Non-Color"
+                  },
+                  {
+                    "type": "MAPPING",
+                    "vector_type": "TEXTURE",
+                    "scale": [
+                      2.5,
+                      2.5,
+                      1.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

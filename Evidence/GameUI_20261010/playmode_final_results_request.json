@@ -1,0 +1,1 @@
+{"name": "get_test_job", "arguments": {"job_id": "267f60bf297d4f94bfe915a0460286c4", "include_details": true, "include_failed_tests": true, "wait_timeout": 10}}

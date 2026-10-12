@@ -1,0 +1,23 @@
+{
+  "state": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "playing": false,
+        "compiling": false,
+        "scene": "Assets/_Project/Scenes/MainScene.unity",
+        "dirty": false,
+        "save": null,
+        "clock": null,
+        "mouseEnabled": true
+      },
+      "compiler": "codedom"
+    }
+  },
+  "console": {
+    "success": true,
+    "message": "Retrieved 0 log entries.",
+    "data": []
+  }
+}

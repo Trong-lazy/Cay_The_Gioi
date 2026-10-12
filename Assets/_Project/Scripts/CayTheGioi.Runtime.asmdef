@@ -1,0 +1,5 @@
+{
+  "name": "CayTheGioi.Runtime",
+  "rootNamespace": "CayTheGioi",
+  "references": ["CayTheGioi.Domain", "Unity.InputSystem", "UnityEngine.UI"]
+}

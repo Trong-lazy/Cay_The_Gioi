@@ -1,0 +1,3038 @@
+{
+  "protected_checks": {
+    "Assets/_Project/Art/Bonsai_Tree.blend": {
+      "expected": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+      "actual": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+      "unchanged": true
+    },
+    "Assets/_Project/Art/Bonsai_Tree.fbx": {
+      "expected": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644",
+      "actual": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644",
+      "unchanged": true
+    },
+    "ArtSource/Textures/Tree_Common/Leaf_Common_BaseColor.png": {
+      "expected": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+      "actual": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+      "unchanged": true
+    },
+    "ArtSource/Textures/Tree_Common/Leaf_Common_Normal.png": {
+      "expected": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+      "actual": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+      "unchanged": true
+    }
+  },
+  "textures_after": {
+    "Ancient_Bark_BaseColor.png": {
+      "sha256": "35666154a226cfb8d22d1a1c9e4c30f631a752b6b1874546121f3d5ef684b8e6",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        84,
+        74,
+        58
+      ],
+      "corner_00_hex": "#544A3A",
+      "rgb_min": [
+        0.219608,
+        0.192157,
+        0.14902
+      ],
+      "rgb_max": [
+        0.65098,
+        0.580392,
+        0.470588
+      ],
+      "rgb_mean": [
+        0.410453,
+        0.363976,
+        0.291989
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Ancient_Bark_Normal.png": {
+      "sha256": "1c0436e6d324a7c1d62aa9bc283deae01f5e2887b8fd51a2209a23e6439fd4c6",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        229,
+        136,
+        204
+      ],
+      "corner_00_hex": "#E588CC",
+      "rgb_min": [
+        0.027451,
+        0.133333,
+        0.647059
+      ],
+      "rgb_max": [
+        0.976471,
+        0.87451,
+        1.0
+      ],
+      "rgb_mean": [
+        0.499954,
+        0.499955,
+        0.941586
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0,
+      "normal_length_min": 0.993721,
+      "normal_length_mean": 1.000038,
+      "normal_length_max": 1.006148,
+      "normal_z_min": 0.294118
+    },
+    "Large_Bark_BaseColor.png": {
+      "sha256": "9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        147,
+        112,
+        77
+      ],
+      "corner_00_hex": "#93704D",
+      "rgb_min": [
+        0.380392,
+        0.301961,
+        0.219608
+      ],
+      "rgb_max": [
+        0.627451,
+        0.490196,
+        0.345098
+      ],
+      "rgb_mean": [
+        0.511758,
+        0.393023,
+        0.277423
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Large_Bark_Normal.png": {
+      "sha256": "7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        114,
+        124,
+        254
+      ],
+      "corner_00_hex": "#727CFE",
+      "rgb_min": [
+        0.235294,
+        0.341176,
+        0.921569
+      ],
+      "rgb_max": [
+        0.745098,
+        0.658824,
+        1.0
+      ],
+      "rgb_mean": [
+        0.497934,
+        0.498187,
+        0.994905
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0,
+      "normal_length_min": 0.988819,
+      "normal_length_mean": 0.995149,
+      "normal_length_max": 1.003822,
+      "normal_z_min": 0.843137
+    },
+    "Leaf_Ancient_BaseColor.png": {
+      "sha256": "ce0f3028fa3c6dc173b0c6059a8ad719dc39534887edef142d81ca109e4d7c9f",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        64,
+        100,
+        42
+      ],
+      "corner_00_hex": "#40642A",
+      "rgb_min": [
+        0.25098,
+        0.392157,
+        0.164706
+      ],
+      "rgb_max": [
+        0.305882,
+        0.47451,
+        0.203922
+      ],
+      "rgb_mean": [
+        0.253229,
+        0.395248,
+        0.166079
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Leaf_Common_BaseColor.png": {
+      "sha256": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        209,
+        209,
+        200
+      ],
+      "corner_00_hex": "#D1D1C8",
+      "rgb_min": [
+        0.819608,
+        0.819608,
+        0.784314
+      ],
+      "rgb_max": [
+        0.976471,
+        0.976471,
+        0.937255
+      ],
+      "rgb_mean": [
+        0.824653,
+        0.824653,
+        0.79
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Leaf_Common_Normal.png": {
+      "sha256": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        127,
+        127,
+        255
+      ],
+      "corner_00_hex": "#7F7FFF",
+      "rgb_min": [
+        0.027451,
+        0.113725,
+        0.658824
+      ],
+      "rgb_max": [
+        0.972549,
+        0.890196,
+        1.0
+      ],
+      "rgb_mean": [
+        0.498102,
+        0.498208,
+        0.981687
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0,
+      "normal_length_min": 0.987387,
+      "normal_length_mean": 0.993152,
+      "normal_length_max": 1.00853,
+      "normal_z_min": 0.317647
+    },
+    "Leaf_Large_BaseColor.png": {
+      "sha256": "f13432a6a0955e9b93c98fc4fd06ff4a399c926934f60edcf1da2b99887bb64a",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        76,
+        122,
+        46
+      ],
+      "corner_00_hex": "#4C7A2E",
+      "rgb_min": [
+        0.298039,
+        0.478431,
+        0.180392
+      ],
+      "rgb_max": [
+        0.364706,
+        0.572549,
+        0.223529
+      ],
+      "rgb_mean": [
+        0.30068,
+        0.481708,
+        0.182334
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Leaf_Seedling_BaseColor.png": {
+      "sha256": "58f3c33f91a79a4f6429416195fc82ecc60ee46fca22d6adbfa7291dc3177b4a",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        136,
+        178,
+        72
+      ],
+      "corner_00_hex": "#88B248",
+      "rgb_min": [
+        0.533333,
+        0.698039,
+        0.282353
+      ],
+      "rgb_max": [
+        0.596078,
+        0.784314,
+        0.317647
+      ],
+      "rgb_mean": [
+        0.5355,
+        0.702589,
+        0.283396
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    },
+    "Leaf_Young_BaseColor.png": {
+      "sha256": "537132d50c7abefae152794da81c992a9b4951f1f9d086cd04701061aca4c1f5",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        98,
+        144,
+        53
+      ],
+      "corner_00_hex": "#629035",
+      "rgb_min": [
+        0.384314,
+        0.564706,
+        0.207843
+      ],
+      "rgb_max": [
+        0.45098,
+        0.654902,
+        0.247059
+      ],
+      "rgb_mean": [
+        0.386628,
+        0.567938,
+        0.209317
+      ],
+      "alpha_min": 1.0,
+      "alpha_max": 1.0
+    }
+  },
+  "models_after": {
+    "seedling": {
+      "blend_sha256": "8781507c59608f546229eb4bd0fa0da8b4b6218416fb5e9a0127e2d5c2918938",
+      "fbx_sha256": "6fc4aa5a5a11d3a0dba9dc903891cd59d2f6845ff891520432d43e19cb6d60e6",
+      "blend_changed": true,
+      "fbx_changed": true,
+      "total_vertices": 1436,
+      "total_triangles": 2778,
+      "geometry_and_uv_checks": {
+        "Foliage": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "UVMap": "e223e7b193d1099ed39a77c594cbc6714ed02e6f583ef4e181dda4dac502fba4"
+          },
+          "uv_after": {
+            "UVMap": "e223e7b193d1099ed39a77c594cbc6714ed02e6f583ef4e181dda4dac502fba4"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "UVMap": 65
+          }
+        },
+        "Roots": {
+          "geometry_locked_ok": true,
+          "uv_before": {},
+          "uv_after": {},
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {}
+        },
+        "SeedShell": {
+          "geometry_locked_ok": true,
+          "uv_before": {},
+          "uv_after": {},
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {}
+        },
+        "Trunk_Branches": {
+          "geometry_locked_ok": true,
+          "uv_before": {},
+          "uv_after": {},
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {}
+        }
+      },
+      "fbx_roundtrip_checks": {
+        "Foliage": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 4.190951585769653e-08,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Roots": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 3.236345946788788e-08,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "SeedShell": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 1.0536712127723509e-08,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Trunk_Branches": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 3.259629011154175e-08,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        }
+      },
+      "blend_materials": {
+        "M_Leaves": {
+          "name": "M_Leaves",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.65,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.08
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.65,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        },
+        "M_Roots": {
+          "name": "M_Roots",
+          "diffuse_color": [
+            0.58408,
+            0.42327,
+            0.22323,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.58408,
+              0.42327,
+              0.22323,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_SeedShell_Inner": {
+          "name": "M_SeedShell_Inner",
+          "diffuse_color": [
+            0.2705,
+            0.12477,
+            0.06301,
+            1.0
+          ],
+          "roughness_prop": 0.9,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.2705,
+              0.12477,
+              0.06301,
+              1.0
+            ],
+            "Roughness": 0.9,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_SeedShell_Outer": {
+          "name": "M_SeedShell_Outer",
+          "diffuse_color": [
+            0.18116,
+            0.08022,
+            0.03955,
+            1.0
+          ],
+          "roughness_prop": 0.9,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.18116,
+              0.08022,
+              0.03955,
+              1.0
+            ],
+            "Roughness": 0.9,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_Stem": {
+          "name": "M_Stem",
+          "diffuse_color": [
+            0.25818,
+            0.47353,
+            0.10224,
+            1.0
+          ],
+          "roughness_prop": 0.8,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.25818,
+              0.47353,
+              0.10224,
+              1.0
+            ],
+            "Roughness": 0.8,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        }
+      },
+      "fbx_reimported_materials": {
+        "M_Leaves": {
+          "name": "M_Leaves",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.65,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.08
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.65,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Seedling_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        },
+        "M_Roots": {
+          "name": "M_Roots",
+          "diffuse_color": [
+            0.58408,
+            0.42327,
+            0.22323,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.58408,
+              0.42327,
+              0.22323,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_SeedShell_Inner": {
+          "name": "M_SeedShell_Inner",
+          "diffuse_color": [
+            0.2705,
+            0.12477,
+            0.06301,
+            1.0
+          ],
+          "roughness_prop": 0.9,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.2705,
+              0.12477,
+              0.06301,
+              1.0
+            ],
+            "Roughness": 0.9,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_SeedShell_Outer": {
+          "name": "M_SeedShell_Outer",
+          "diffuse_color": [
+            0.18116,
+            0.08022,
+            0.03955,
+            1.0
+          ],
+          "roughness_prop": 0.9,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.18116,
+              0.08022,
+              0.03955,
+              1.0
+            ],
+            "Roughness": 0.9,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_Stem": {
+          "name": "M_Stem",
+          "diffuse_color": [
+            0.25818,
+            0.47353,
+            0.10224,
+            1.0
+          ],
+          "roughness_prop": 0.8,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.25818,
+              0.47353,
+              0.10224,
+              1.0
+            ],
+            "Roughness": 0.8,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        }
+      }
+    },
+    "young": {
+      "blend_sha256": "6559097d0dc945a40569047b3a9f942b3fe48da4d8ea7610434cf232a2afa81c",
+      "fbx_sha256": "2f3bfb2c354c91c89ea5cdd96e862f90c60265fb06a304da60615e9f8ac71fa9",
+      "blend_changed": true,
+      "fbx_changed": true,
+      "total_vertices": 2420,
+      "total_triangles": 4574,
+      "geometry_and_uv_checks": {
+        "Foliage": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "UVMap": "8772f2a29a6ff36cf4fabe01c1b103ddfeddefdc0d7a0bc0bb0cc2b60745b082"
+          },
+          "uv_after": {
+            "UVMap": "8772f2a29a6ff36cf4fabe01c1b103ddfeddefdc0d7a0bc0bb0cc2b60745b082"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "UVMap": 150
+          }
+        },
+        "Roots": {
+          "geometry_locked_ok": true,
+          "uv_before": {},
+          "uv_after": {},
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {}
+        },
+        "Trunk_Branches": {
+          "geometry_locked_ok": true,
+          "uv_before": {},
+          "uv_after": {},
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {}
+        }
+      },
+      "fbx_roundtrip_checks": {
+        "Foliage": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 1.3690441846847534e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Roots": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 7.82310962677002e-08,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Trunk_Branches": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 1.2549571692943573e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        }
+      },
+      "blend_materials": {
+        "M_Leaves": {
+          "name": "M_Leaves",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.7,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.14
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.7,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        },
+        "M_Roots": {
+          "name": "M_Roots",
+          "diffuse_color": [
+            0.39676,
+            0.25818,
+            0.12214,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.39676,
+              0.25818,
+              0.12214,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_Stem": {
+          "name": "M_Stem",
+          "diffuse_color": [
+            0.3564,
+            0.21953,
+            0.0865,
+            1.0
+          ],
+          "roughness_prop": 0.82,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.3564,
+              0.21953,
+              0.0865,
+              1.0
+            ],
+            "Roughness": 0.82,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        }
+      },
+      "fbx_reimported_materials": {
+        "M_Leaves": {
+          "name": "M_Leaves",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.7,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.14
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.7,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Young_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        },
+        "M_Roots": {
+          "name": "M_Roots",
+          "diffuse_color": [
+            0.39676,
+            0.25818,
+            0.12214,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.39676,
+              0.25818,
+              0.12214,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        },
+        "M_Stem": {
+          "name": "M_Stem",
+          "diffuse_color": [
+            0.3564,
+            0.21953,
+            0.0865,
+            1.0
+          ],
+          "roughness_prop": 0.82,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.0
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.3564,
+              0.21953,
+              0.0865,
+              1.0
+            ],
+            "Roughness": 0.82,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": []
+        }
+      }
+    },
+    "large": {
+      "blend_sha256": "c1246a102c102ed8c24fb095501f2dc4348d7164a863fb76bf080a5244906bce",
+      "fbx_sha256": "3378393c60a8eefa904df49251bcd43619de68bbc7d29adc3a9c247277c9cd6e",
+      "blend_changed": true,
+      "fbx_changed": true,
+      "total_vertices": 16632,
+      "total_triangles": 26682,
+      "geometry_and_uv_checks": {
+        "Foliage": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "Float2": "7b7ceafe107eb594de86da53a80886118a625a9de7fd5ac4b46765d3a63db2bb"
+          },
+          "uv_after": {
+            "Float2": "7b7ceafe107eb594de86da53a80886118a625a9de7fd5ac4b46765d3a63db2bb"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "Float2": 12320
+          }
+        },
+        "Roots": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "Float2": "2013a447263562a7fb1fd786b6e95c021e4ab88d2ebe9fadf3e51f360fc64a38"
+          },
+          "uv_after": {
+            "Float2": "2013a447263562a7fb1fd786b6e95c021e4ab88d2ebe9fadf3e51f360fc64a38"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          }
+        },
+        "Trunk_Branches": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "Float2": "a88beec84933d8154f52aceac1dde556b92341fa208682440f698a73c2ede609"
+          },
+          "uv_after": {
+            "Float2": "a88beec84933d8154f52aceac1dde556b92341fa208682440f698a73c2ede609"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          }
+        }
+      },
+      "fbx_roundtrip_checks": {
+        "Foliage": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 4.2981520598697533e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Roots": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 1.0745380149674383e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Trunk_Branches": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 3.427267074584961e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        }
+      },
+      "blend_materials": {
+        "M_Bark": {
+          "name": "M_Bark",
+          "diffuse_color": [
+            0.25415,
+            0.13843,
+            0.0648,
+            1.0
+          ],
+          "roughness_prop": 0.85,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord"
+            },
+            {
+              "name": "Mapping",
+              "type": "ShaderNodeMapping",
+              "scale": [
+                2.5,
+                2.5,
+                1.0
+              ]
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.85
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Texture Coordinate",
+              "from_type": "ShaderNodeTexCoord",
+              "from_socket": "UV",
+              "to_node": "Mapping",
+              "to_type": "ShaderNodeMapping",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Mapping",
+              "from_type": "ShaderNodeMapping",
+              "from_socket": "Vector",
+              "to_node": "Image Texture",
+              "to_type": "ShaderNodeTexImage",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Mapping",
+              "from_type": "ShaderNodeMapping",
+              "from_socket": "Vector",
+              "to_node": "Image Texture.001",
+              "to_type": "ShaderNodeTexImage",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.8,
+              0.8,
+              0.8,
+              1.0
+            ],
+            "Roughness": 0.85,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            }
+          ]
+        },
+        "M_Foliage": {
+          "name": "M_Foliage",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.72,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.2
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.72,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        }
+      },
+      "fbx_reimported_materials": {
+        "M_Bark": {
+          "name": "M_Bark",
+          "diffuse_color": [
+            0.8,
+            0.8,
+            0.8,
+            1.0
+          ],
+          "roughness_prop": 0.85,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.85
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Texture Coordinate",
+              "type": "ShaderNodeTexCoord"
+            },
+            {
+              "name": "Mapping",
+              "type": "ShaderNodeMapping",
+              "scale": [
+                2.5,
+                2.5,
+                1.0
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Mapping.001",
+              "type": "ShaderNodeMapping",
+              "scale": [
+                2.5,
+                2.5,
+                1.0
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Mapping.002",
+              "type": "ShaderNodeMapping",
+              "scale": [
+                2.5,
+                2.5,
+                1.0
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Mapping",
+              "from_type": "ShaderNodeMapping",
+              "from_socket": "Vector",
+              "to_node": "Image Texture",
+              "to_type": "ShaderNodeTexImage",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Texture Coordinate",
+              "from_type": "ShaderNodeTexCoord",
+              "from_socket": "UV",
+              "to_node": "Mapping",
+              "to_type": "ShaderNodeMapping",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Mapping.001",
+              "from_type": "ShaderNodeMapping",
+              "from_socket": "Vector",
+              "to_node": "Image Texture.001",
+              "to_type": "ShaderNodeTexImage",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Texture Coordinate",
+              "from_type": "ShaderNodeTexCoord",
+              "from_socket": "UV",
+              "to_node": "Mapping.001",
+              "to_type": "ShaderNodeMapping",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            },
+            {
+              "from_node": "Mapping.002",
+              "from_type": "ShaderNodeMapping",
+              "from_socket": "Vector",
+              "to_node": "Image Texture.002",
+              "to_type": "ShaderNodeTexImage",
+              "to_socket": "Vector"
+            },
+            {
+              "from_node": "Texture Coordinate",
+              "from_type": "ShaderNodeTexCoord",
+              "from_socket": "UV",
+              "to_node": "Mapping.002",
+              "to_type": "ShaderNodeMapping",
+              "to_socket": "Vector"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              0.8,
+              0.8,
+              0.8,
+              1.0
+            ],
+            "Roughness": 0.85,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Large_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            }
+          ]
+        },
+        "M_Foliage": {
+          "name": "M_Foliage",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.72,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.2
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.72,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Large_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ancient": {
+      "blend_sha256": "b1c1a1504e24fd397a9555afd0382d40032fdb44e850e9e6bacd1d0d57bdc95b",
+      "fbx_sha256": "2efb2b489ccf2d08e3a4c9fa2f058f9145181fb7e45ab4cfa28c01f0099d1ba4",
+      "blend_changed": true,
+      "fbx_changed": true,
+      "total_vertices": 51332,
+      "total_triangles": 73888,
+      "geometry_and_uv_checks": {
+        "Foliage": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "UVMap": "58193205769cda95ed7b91fd14fd177d3add905773a9fbe6848a9dd16ce8224e"
+          },
+          "uv_after": {
+            "UVMap": "58193205769cda95ed7b91fd14fd177d3add905773a9fbe6848a9dd16ce8224e"
+          },
+          "uv_unchanged": true,
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          }
+        },
+        "Roots": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "UVMap": "e8411aec9015c55770670e0837673356bde85a4f33e9f166d540e764b355802b"
+          },
+          "uv_after": {
+            "UVMap": "55765f40c2adfbe3a8da1190924528701043f40f39619a96e937a90078453454"
+          },
+          "uv_unchanged": false,
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          }
+        },
+        "Trunk_Branches": {
+          "geometry_locked_ok": true,
+          "uv_before": {
+            "UVMap": "774dcf35d7dbdfd0dc69e246aeff9169c528bf1e96ed1b9b45f2085bb0b14690"
+          },
+          "uv_after": {
+            "UVMap": "c13501cf55a825e8bc5c837e0d803efe2a418e60cf0a323b0c7522c214436fc0"
+          },
+          "uv_unchanged": false,
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          }
+        }
+      },
+      "fbx_roundtrip_checks": {
+        "Foliage": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 7.152557373046875e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Roots": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 4.806643119081855e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        },
+        "Trunk_Branches": {
+          "vertices_match": true,
+          "triangles_match": true,
+          "polygon_topology_hash_match": true,
+          "uv_hashes_match": true,
+          "materials_match": true,
+          "max_world_vertex_error": 6.419616707723741e-07,
+          "max_world_matrix_error": 1.6292068494294654e-07
+        }
+      },
+      "blend_materials": {
+        "M_Bark": {
+          "name": "M_Bark",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Ancient_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 1.05
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Ancient_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            }
+          ]
+        },
+        "M_Foliage": {
+          "name": "M_Foliage",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.75,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.22
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.75,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        }
+      },
+      "fbx_reimported_materials": {
+        "M_Bark": {
+          "name": "M_Bark",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.88,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 1.05
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.88,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Ancient_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                1024,
+                1024
+              ]
+            }
+          ]
+        },
+        "M_Foliage": {
+          "name": "M_Foliage",
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness_prop": 0.75,
+          "metallic_prop": 0.0,
+          "use_nodes": true,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "ShaderNodeBsdfPrincipled"
+            },
+            {
+              "name": "Material Output",
+              "type": "ShaderNodeOutputMaterial"
+            },
+            {
+              "name": "Normal Map",
+              "type": "ShaderNodeNormalMap",
+              "strength": 0.22
+            },
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ],
+          "links": [
+            {
+              "from_node": "Principled BSDF",
+              "from_type": "ShaderNodeBsdfPrincipled",
+              "from_socket": "BSDF",
+              "to_node": "Material Output",
+              "to_type": "ShaderNodeOutputMaterial",
+              "to_socket": "Surface"
+            },
+            {
+              "from_node": "Normal Map",
+              "from_type": "ShaderNodeNormalMap",
+              "from_socket": "Normal",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Normal"
+            },
+            {
+              "from_node": "Image Texture",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_node": "Image Texture.001",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_type": "ShaderNodeNormalMap",
+              "to_socket": "Color"
+            },
+            {
+              "from_node": "Image Texture.002",
+              "from_type": "ShaderNodeTexImage",
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_type": "ShaderNodeBsdfPrincipled",
+              "to_socket": "Alpha"
+            }
+          ],
+          "principled": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Roughness": 0.75,
+            "Metallic": 0.0,
+            "Specular IOR Level": 0.5
+          },
+          "images": [
+            {
+              "name": "Image Texture",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "sRGB",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Common_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "ShaderNodeTexImage",
+              "image_name": "Leaf_Ancient_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png",
+              "exists": true,
+              "colorspace": "Non-Color",
+              "size": [
+                512,
+                512
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

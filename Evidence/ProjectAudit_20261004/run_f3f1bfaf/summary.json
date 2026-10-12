@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04",
+  "scope": "Fresh standalone QA rerun; no Editor validation",
+  "exe": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Builds\\Windows\\CayTheGioi.exe",
+  "results": [
+    {
+      "scenario": "smoke_fresh",
+      "exitCode": 1,
+      "success": false,
+      "details": "",
+      "error": "SAVE_FAILED: SUSPENDED"
+    },
+    {
+      "scenario": "smoke_offline",
+      "exitCode": 1,
+      "success": false,
+      "details": "Offline atomic OK: WaterDelta=0,00, GrowthDelta=0,00, Elapsed=3600s",
+      "error": ""
+    },
+    {
+      "scenario": "smoke_progression",
+      "exitCode": 1,
+      "success": false,
+      "details": "Full loop OK: RebirthPoints=0, Coin=0, Claimed=0, Equipped=none",
+      "error": ""
+    },
+    {
+      "scenario": "smoke_death_forced_rebirth",
+      "exitCode": 1,
+      "success": false,
+      "details": "Forced Rebirth OK: WasDead=True, Forced=False, Success=False, HP=0, Points=0",
+      "error": ""
+    },
+    {
+      "scenario": "ui_flow",
+      "exitCode": 1,
+      "success": false,
+      "details": "UI flow FAILED: vitality bank > 0 after 50 taps; tutorial step_vitality done; Buy root via UI; root level 1; Buy leaves via UI; leaves level 1; tutorial upgrade steps done; Evolve button (to young_tree); stage young_tree; Buy trunk via UI; trunk level 1; Evolve button (to large_tree); stage large_tree; achievements claimed via UI (total >= 4); cosmetic equipped; RebirthOpen clickable; RebirthConfirm clickable; run reset to seedling; rebirth point awarded; vitality bank kept; ForceSave ok",
+      "error": ""
+    }
+  ],
+  "realSaveUnchanged": true
+}

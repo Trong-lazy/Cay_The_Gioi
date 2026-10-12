@@ -1,0 +1,104 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":[{\"stage\":\"seedling\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":625,\"meshHits\":41,\"physicsTreeHits\":40,\"falsePositiveEmpty\":4,\"falseNegativeVisible\":0,\"examples\":[{\"screenX\":896.4154,\"screenY\":430.6924,\"collider\":\"MeshCollider\",\"hitObject\":\"SeedShell\"},{\"screenX\":913.731262,\"screenY\":453.8399,\"collider\":\"MeshCollider\",\"hitObject\":\"SeedShell\"},{\"screenX\":1000.31067,\"screenY\":453.8399,\"collider\":\"MeshCollider\",\"hitObject\":\"SeedShell\"},{\"screenX\":1017.62659,\"screenY\":430.6924,\"collider\":\"MeshCollider\",\"hitObject\":\"SeedShell\"}],\"missed\":[],\"hiddenBehindGround\":3,\"buriedExamples\":[{\"screenX\":913.731262,\"screenY\":407.544922,\"point\":\"(-0.041918, -0.001081, -0.013088)\",\"part\":\"SeedShell\"},{\"screenX\":1000.31067,\"screenY\":407.544922,\"point\":\"(0.036465, -0.000317, -0.015096)\",\"part\":\"SeedShell\"},{\"screenX\":1017.62659,\"screenY\":407.544922,\"point\":\"(0.052151, -0.000537, -0.014518)\",\"part\":\"SeedShell\"}]},{\"stage\":\"young_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":613,\"meshHits\":53,\"physicsTreeHits\":41,\"falsePositiveEmpty\":0,\"falseNegativeVisible\":0,\"examples\":[],\"missed\":[],\"hiddenBehindGround\":0,\"buriedExamples\":[]},{\"stage\":\"large_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":580,\"meshHits\":187,\"physicsTreeHits\":175,\"falsePositiveEmpty\":0,\"falseNegativeVisible\":0,\"examples\":[],\"missed\":[],\"hiddenBehindGround\":0,\"buriedExamples\":[]}],\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": [
+        {
+          "stage": "seedling",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 625,
+          "meshHits": 41,
+          "physicsTreeHits": 40,
+          "falsePositiveEmpty": 4,
+          "falseNegativeVisible": 0,
+          "examples": [
+            {
+              "screenX": 896.4154,
+              "screenY": 430.6924,
+              "collider": "MeshCollider",
+              "hitObject": "SeedShell"
+            },
+            {
+              "screenX": 913.731262,
+              "screenY": 453.8399,
+              "collider": "MeshCollider",
+              "hitObject": "SeedShell"
+            },
+            {
+              "screenX": 1000.31067,
+              "screenY": 453.8399,
+              "collider": "MeshCollider",
+              "hitObject": "SeedShell"
+            },
+            {
+              "screenX": 1017.62659,
+              "screenY": 430.6924,
+              "collider": "MeshCollider",
+              "hitObject": "SeedShell"
+            }
+          ],
+          "missed": [],
+          "hiddenBehindGround": 3,
+          "buriedExamples": [
+            {
+              "screenX": 913.731262,
+              "screenY": 407.544922,
+              "point": "(-0.041918, -0.001081, -0.013088)",
+              "part": "SeedShell"
+            },
+            {
+              "screenX": 1000.31067,
+              "screenY": 407.544922,
+              "point": "(0.036465, -0.000317, -0.015096)",
+              "part": "SeedShell"
+            },
+            {
+              "screenX": 1017.62659,
+              "screenY": 407.544922,
+              "point": "(0.052151, -0.000537, -0.014518)",
+              "part": "SeedShell"
+            }
+          ]
+        },
+        {
+          "stage": "young_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 613,
+          "meshHits": 53,
+          "physicsTreeHits": 41,
+          "falsePositiveEmpty": 0,
+          "falseNegativeVisible": 0,
+          "examples": [],
+          "missed": [],
+          "hiddenBehindGround": 0,
+          "buriedExamples": []
+        },
+        {
+          "stage": "large_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 580,
+          "meshHits": 187,
+          "physicsTreeHits": 175,
+          "falsePositiveEmpty": 0,
+          "falseNegativeVisible": 0,
+          "examples": [],
+          "missed": [],
+          "hiddenBehindGround": 0,
+          "buriedExamples": []
+        }
+      ],
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

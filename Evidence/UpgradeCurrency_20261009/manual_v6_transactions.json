@@ -1,0 +1,61 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"scene\":\"Assets/_Project/Scenes/MainScene.unity\",\"config\":\"prototype-6\",\"screen\":[1920,1080],\"log\":[{\"phase\":\"first_levels\",\"water\":5.0,\"photosynthesis\":0.0,\"growth\":0.0},{\"phase\":\"young_tree\",\"stage\":\"young_tree\",\"water\":7.5,\"photosynthesis\":27.5,\"growth\":45.0},{\"phase\":\"large_tree\",\"stage\":\"large_tree\",\"water\":32.5,\"photosynthesis\":152.5,\"growth\":245.0},{\"phase\":\"mature_tree\",\"stage\":\"mature_tree\",\"water\":20.0,\"photosynthesis\":390.0,\"growth\":645.0}],\"spirit\":0.0,\"spiritLevel\":2,\"spiritText\":\"SPIRIT_ABSORPTION   L2/10   ·   26 Linh khí\\nLinh khí/s 2 → 3\",\"hud\":\"Water 82  (+0.75/s)\\nGrowth 1061  (+1/s)\\nHP 100 · ALIVE\\nSức sống 0s / 3600s  \\nTap 0/50\\nThời tiết: Bình yên (93.1s)\\nCoin: 0\\nQuang hợp 452 (0.75/s)\\nLinh khí 0 (+2/s)\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "scene": "Assets/_Project/Scenes/MainScene.unity",
+          "config": "prototype-6",
+          "screen": [
+            1920,
+            1080
+          ],
+          "log": [
+            {
+              "phase": "first_levels",
+              "water": 5.0,
+              "photosynthesis": 0.0,
+              "growth": 0.0
+            },
+            {
+              "phase": "young_tree",
+              "stage": "young_tree",
+              "water": 7.5,
+              "photosynthesis": 27.5,
+              "growth": 45.0
+            },
+            {
+              "phase": "large_tree",
+              "stage": "large_tree",
+              "water": 32.5,
+              "photosynthesis": 152.5,
+              "growth": 245.0
+            },
+            {
+              "phase": "mature_tree",
+              "stage": "mature_tree",
+              "water": 20.0,
+              "photosynthesis": 390.0,
+              "growth": 645.0
+            }
+          ],
+          "spirit": 0.0,
+          "spiritLevel": 2,
+          "spiritText": "SPIRIT_ABSORPTION   L2/10   ·   26 Linh khí\nLinh khí/s 2 → 3",
+          "hud": "Water 82  (+0.75/s)\nGrowth 1061  (+1/s)\nHP 100 · ALIVE\nSức sống 0s / 3600s  \nTap 0/50\nThời tiết: Bình yên (93.1s)\nCoin: 0\nQuang hợp 452 (0.75/s)\nLinh khí 0 (+2/s)"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

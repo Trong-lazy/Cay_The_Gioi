@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="69" result="Passed" total="69" passed="69" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:09:42Z" duration="68,7709739">
+  <test-suite type="TestSuite" id="1089" name="Cay_The_Gioi" fullname="Cay_The_Gioi" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:09:42Z" duration="68.770974" total="69" passed="69" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1083" name="CayTheGioi.PlayModeTests.dll" fullname="C:/Users/Asus/foder game 3D/Cay_The_Gioi/Library/ScriptAssemblies/CayTheGioi.PlayModeTests.dll" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:09:42Z" duration="68.737230" total="69" passed="69" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23736" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1084" name="CayTheGioi" fullname="CayTheGioi" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:09:42Z" duration="68.730834" total="69" passed="69" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1085" name="Tests" fullname="CayTheGioi.Tests" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:09:42Z" duration="68.724220" total="69" passed="69" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="AchievementSceneTests" fullname="CayTheGioi.Tests.AchievementSceneTests" classname="CayTheGioi.Tests.AchievementSceneTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:08:36Z" duration="2.537381" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="AchievementView_OpensAndCloses_LocksAndUnlocksInput" fullname="CayTheGioi.Tests.AchievementSceneTests.AchievementView_OpensAndCloses_LocksAndUnlocksInput" methodname="AchievementView_OpensAndCloses_LocksAndUnlocksInput" classname="CayTheGioi.Tests.AchievementSceneTests" runstate="Runnable" seed="1031639016" result="Passed" start-time="2026-10-12 04:08:33Z" end-time="2026-10-12 04:08:34Z" duration="1.432824" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1003" name="MilestoneInScene_UpgradeAndClaimCoin_SavesAndPersistsAcrossReload" fullname="CayTheGioi.Tests.AchievementSceneTests.MilestoneInScene_UpgradeAndClaimCoin_SavesAndPersistsAcrossReload" methodname="MilestoneInScene_UpgradeAndClaimCoin_SavesAndPersistsAcrossReload" classname="CayTheGioi.Tests.AchievementSceneTests" runstate="Runnable" seed="270879942" result="Passed" start-time="2026-10-12 04:08:34Z" end-time="2026-10-12 04:08:35Z" duration="0.770932" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=2
+[SaveController] Save OK (T08A_TEST_RELOAD) rev=3
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1004" name="RebirthInScene_PreservesAchievementsAndCoin" fullname="CayTheGioi.Tests.AchievementSceneTests.RebirthInScene_PreservesAchievementsAndCoin" methodname="RebirthInScene_PreservesAchievementsAndCoin" classname="CayTheGioi.Tests.AchievementSceneTests" runstate="Runnable" seed="1498723498" result="Passed" start-time="2026-10-12 04:08:35Z" end-time="2026-10-12 04:08:36Z" duration="0.297787" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=1
+[SaveController] Rebirth COMMITTED rev=2
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=3
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="ArtPipelineSceneTests" fullname="CayTheGioi.Tests.ArtPipelineSceneTests" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-12 04:08:36Z" end-time="2026-10-12 04:09:00Z" duration="24.455766" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="AllStagePrefabsHaveCleanRootTransformTypedAnchorsAndUrpMaterials" fullname="CayTheGioi.Tests.ArtPipelineSceneTests.AllStagePrefabsHaveCleanRootTransformTypedAnchorsAndUrpMaterials" methodname="AllStagePrefabsHaveCleanRootTransformTypedAnchorsAndUrpMaterials" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" seed="1882445066" result="Passed" start-time="2026-10-12 04:08:36Z" end-time="2026-10-12 04:08:36Z" duration="0.474945" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1008" name="RaycastAccurateAcrossYawAnglesElevatedPitchAspectRatiosAndFrontOccluder" fullname="CayTheGioi.Tests.ArtPipelineSceneTests.RaycastAccurateAcrossYawAnglesElevatedPitchAspectRatiosAndFrontOccluder" methodname="RaycastAccurateAcrossYawAnglesElevatedPitchAspectRatiosAndFrontOccluder" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" seed="1262707846" result="Passed" start-time="2026-10-12 04:08:36Z" end-time="2026-10-12 04:08:52Z" duration="16.339949" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1007" name="RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages" fullname="CayTheGioi.Tests.ArtPipelineSceneTests.RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages" methodname="RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" seed="494975446" result="Passed" start-time="2026-10-12 04:08:52Z" end-time="2026-10-12 04:08:57Z" duration="4.601057" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1010" name="Seedling_CulledBackfaceAndUndergroundGroundClicks_DoNotCountTaps" fullname="CayTheGioi.Tests.ArtPipelineSceneTests.Seedling_CulledBackfaceAndUndergroundGroundClicks_DoNotCountTaps" methodname="Seedling_CulledBackfaceAndUndergroundGroundClicks_DoNotCountTaps" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" seed="174546270" result="Passed" start-time="2026-10-12 04:08:57Z" end-time="2026-10-12 04:08:57Z" duration="0.342800" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1009" name="WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast" fullname="CayTheGioi.Tests.ArtPipelineSceneTests.WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast" methodname="WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast" classname="CayTheGioi.Tests.ArtPipelineSceneTests" runstate="Runnable" seed="342731925" result="Passed" start-time="2026-10-12 04:08:57Z" end-time="2026-10-12 04:09:00Z" duration="2.686003" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (COSMETIC_COMMIT) rev=1
+[SaveController] Save OK (COSMETIC_COMMIT) rev=2
+[SaveController] Save FAILED (EVOLUTION_COMMIT) rev=2
+[SaveController] Save FAILED (TUTORIAL_STEP) rev=2
+[SaveController] Save FAILED (EVOLUTION_COMMIT) rev=2
+[SaveController] Save FAILED (TUTORIAL_STEP) rev=2
+[SaveController] Rebirth COMMITTED rev=3
+[SaveController] Rebirth COMMITTED rev=4
+[SaveController] Save OK (TEST_SAVE) rev=5
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1011" name="CoreResourcesSceneTests" fullname="CayTheGioi.Tests.CoreResourcesSceneTests" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-12 04:09:00Z" end-time="2026-10-12 04:09:03Z" duration="3.293873" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1012" name="MouseTapHoldDragUiAndRightOrbit" fullname="CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit" methodname="MouseTapHoldDragUiAndRightOrbit" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" seed="574286630" result="Passed" start-time="2026-10-12 04:09:00Z" end-time="2026-10-12 04:09:01Z" duration="0.955822" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1015" name="OnlineTickHudPauseAndDead" fullname="CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead" methodname="OnlineTickHudPauseAndDead" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" seed="16503324" result="Passed" start-time="2026-10-12 04:09:01Z" end-time="2026-10-12 04:09:02Z" duration="0.736842" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (BACKGROUND) rev=1
+[SaveController] Save OK (OFFLINE_RESUME) rev=2
+]]></output>
+            </test-case>
+            <test-case id="1016" name="SafeAreaPortraitAndLandscapeKeepHudInsideInsets" fullname="CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets" methodname="SafeAreaPortraitAndLandscapeKeepHudInsideInsets" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" seed="70889873" result="Passed" start-time="2026-10-12 04:09:02Z" end-time="2026-10-12 04:09:02Z" duration="0.303566" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1014" name="SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss" fullname="CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss" methodname="SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" seed="1932796406" result="Passed" start-time="2026-10-12 04:09:02Z" end-time="2026-10-12 04:09:03Z" duration="0.970642" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (BACKGROUND) rev=1
+[SaveController] Save OK (OFFLINE_RESUME) rev=2
+]]></output>
+            </test-case>
+            <test-case id="1013" name="SimulatedTouchTapAndMouseDuplicationSuppression" fullname="CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression" methodname="SimulatedTouchTapAndMouseDuplicationSuppression" classname="CayTheGioi.Tests.CoreResourcesSceneTests" runstate="Runnable" seed="1578937880" result="Passed" start-time="2026-10-12 04:09:03Z" end-time="2026-10-12 04:09:03Z" duration="0.315828" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1017" name="CosmeticSceneTests" fullname="CayTheGioi.Tests.CosmeticSceneTests" classname="CayTheGioi.Tests.CosmeticSceneTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-12 04:09:03Z" end-time="2026-10-12 04:09:05Z" duration="1.496974" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1020" name="BuyAndEquipInScene_DeductsCoin_PersistsAcrossReload" fullname="CayTheGioi.Tests.CosmeticSceneTests.BuyAndEquipInScene_DeductsCoin_PersistsAcrossReload" methodname="BuyAndEquipInScene_DeductsCoin_PersistsAcrossReload" classname="CayTheGioi.Tests.CosmeticSceneTests" runstate="Runnable" seed="1778809531" result="Passed" start-time="2026-10-12 04:09:03Z" end-time="2026-10-12 04:09:04Z" duration="0.564819" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (COSMETIC_COMMIT) rev=1
+[SaveController] Save OK (COSMETIC_COMMIT) rev=2
+[SaveController] Save OK (T08B_TEST_RELOAD) rev=3
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1021" name="DeadOrRebirth_CancelsPreview" fullname="CayTheGioi.Tests.CosmeticSceneTests.DeadOrRebirth_CancelsPreview" methodname="DeadOrRebirth_CancelsPreview" classname="CayTheGioi.Tests.CosmeticSceneTests" runstate="Runnable" seed="1804752119" result="Passed" start-time="2026-10-12 04:09:04Z" end-time="2026-10-12 04:09:04Z" duration="0.319843" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Rebirth COMMITTED rev=1
+]]></output>
+            </test-case>
+            <test-case id="1019" name="Preview_DoesNotDeductCoin_AndDoesNotMutateSavedEquip_AndRestoresOnClose" fullname="CayTheGioi.Tests.CosmeticSceneTests.Preview_DoesNotDeductCoin_AndDoesNotMutateSavedEquip_AndRestoresOnClose" methodname="Preview_DoesNotDeductCoin_AndDoesNotMutateSavedEquip_AndRestoresOnClose" classname="CayTheGioi.Tests.CosmeticSceneTests" runstate="Runnable" seed="1007524742" result="Passed" start-time="2026-10-12 04:09:04Z" end-time="2026-10-12 04:09:04Z" duration="0.292864" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1018" name="ShopView_OpenAndClose_LocksAndUnlocksInput" fullname="CayTheGioi.Tests.CosmeticSceneTests.ShopView_OpenAndClose_LocksAndUnlocksInput" methodname="ShopView_OpenAndClose_LocksAndUnlocksInput" classname="CayTheGioi.Tests.CosmeticSceneTests" runstate="Runnable" seed="1166608530" result="Passed" start-time="2026-10-12 04:09:04Z" end-time="2026-10-12 04:09:05Z" duration="0.308994" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1022" name="EvolutionSceneTests" fullname="CayTheGioi.Tests.EvolutionSceneTests" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-12 04:09:05Z" end-time="2026-10-12 04:09:12Z" duration="7.233787" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1026" name="DisableAndViewFailureReleaseLocksWithoutDuplicatePayment" fullname="CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment" methodname="DisableAndViewFailureReleaseLocksWithoutDuplicatePayment" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" seed="1307649047" result="Passed" start-time="2026-10-12 04:09:05Z" end-time="2026-10-12 04:09:05Z" duration="0.319783" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=3
+]]></output>
+            </test-case>
+            <test-case id="1027" name="InsufficientDeadAndTransitionBlockUiAndWorldCommands" fullname="CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands" methodname="InsufficientDeadAndTransitionBlockUiAndWorldCommands" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" seed="1529303704" result="Passed" start-time="2026-10-12 04:09:05Z" end-time="2026-10-12 04:09:06Z" duration="1.235682" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+]]></output>
+            </test-case>
+            <test-case id="1023" name="MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera" fullname="CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera" methodname="MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" seed="1669304731" result="Passed" start-time="2026-10-12 04:09:06Z" end-time="2026-10-12 04:09:09Z" duration="2.577329" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (TUTORIAL_STEP) rev=3
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=4
+]]></output>
+            </test-case>
+            <test-case id="1025" name="MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits" fullname="CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits" methodname="MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" seed="2050345150" result="Passed" start-time="2026-10-12 04:09:09Z" end-time="2026-10-12 04:09:10Z" duration="1.535133" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+]]></output>
+            </test-case>
+            <test-case id="1024" name="TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition" fullname="CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition" methodname="TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition" classname="CayTheGioi.Tests.EvolutionSceneTests" runstate="Runnable" seed="1575251738" result="Passed" start-time="2026-10-12 04:09:10Z" end-time="2026-10-12 04:09:12Z" duration="1.554727" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1028" name="FoundationSceneTests" fullname="CayTheGioi.Tests.FoundationSceneTests" classname="CayTheGioi.Tests.FoundationSceneTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-12 04:09:12Z" end-time="2026-10-12 04:09:13Z" duration="0.772900" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1029" name="MainSceneInitializesWithoutDuplicatingOnReload" fullname="CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload" methodname="MainSceneInitializesWithoutDuplicatingOnReload" classname="CayTheGioi.Tests.FoundationSceneTests" runstate="Runnable" seed="1438419591" result="Passed" start-time="2026-10-12 04:09:12Z" end-time="2026-10-12 04:09:13Z" duration="0.763417" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1030" name="OfflineSceneTests" fullname="CayTheGioi.Tests.OfflineSceneTests" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-12 04:09:13Z" end-time="2026-10-12 04:09:18Z" duration="5.139773" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1035" name="BackupRecoveryDoesNotReplayOldOfflineReward" fullname="CayTheGioi.Tests.OfflineSceneTests.BackupRecoveryDoesNotReplayOldOfflineReward" methodname="BackupRecoveryDoesNotReplayOldOfflineReward" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="53359775" result="Passed" start-time="2026-10-12 04:09:13Z" end-time="2026-10-12 04:09:14Z" duration="0.871771" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[SaveController] Save OK (EXPLICIT) rev=2
+[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=LoadedFromBackup
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1033" name="FailedResumeBlocksTransactionsAutosaveQuitThenRetryFromOriginalBaseline" fullname="CayTheGioi.Tests.OfflineSceneTests.FailedResumeBlocksTransactionsAutosaveQuitThenRetryFromOriginalBaseline" methodname="FailedResumeBlocksTransactionsAutosaveQuitThenRetryFromOriginalBaseline" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="140297133" result="Passed" start-time="2026-10-12 04:09:14Z" end-time="2026-10-12 04:09:14Z" duration="0.557609" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[SaveController] Save OK (BACKGROUND) rev=2
+[SaveController] Save FAILED (OFFLINE_RESUME) rev=2
+[SaveController] Save FAILED (OFFLINE_RESUME) rev=2
+[SaveController] Save OK (OFFLINE_RESUME) rev=3
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1032" name="PauseAndFocusAggregateCommitBeforeNotificationAndResumeOnline" fullname="CayTheGioi.Tests.OfflineSceneTests.PauseAndFocusAggregateCommitBeforeNotificationAndResumeOnline" methodname="PauseAndFocusAggregateCommitBeforeNotificationAndResumeOnline" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="2030103004" result="Passed" start-time="2026-10-12 04:09:14Z" end-time="2026-10-12 04:09:15Z" duration="0.297018" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[SaveController] Save OK (BACKGROUND) rev=2
+[SaveController] Save OK (OFFLINE_RESUME) rev=3
+]]></output>
+            </test-case>
+            <test-case id="1036" name="PopupMouseAndSimulatedTouchCloseDoNotCountTreeTap" fullname="CayTheGioi.Tests.OfflineSceneTests.PopupMouseAndSimulatedTouchCloseDoNotCountTreeTap" methodname="PopupMouseAndSimulatedTouchCloseDoNotCountTreeTap" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="661996893" result="Passed" start-time="2026-10-12 04:09:15Z" end-time="2026-10-12 04:09:15Z" duration="0.631544" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[SaveController] Save OK (BACKGROUND) rev=3
+[SaveController] Save FAILED (OFFLINE_RESUME) rev=3
+[SaveController] Save OK (OFFLINE_RESUME) rev=4
+]]></output>
+            </test-case>
+            <test-case id="1031" name="StartupClockCapNeutralFreezePopupAndImmediateReopen" fullname="CayTheGioi.Tests.OfflineSceneTests.StartupClockCapNeutralFreezePopupAndImmediateReopen" methodname="StartupClockCapNeutralFreezePopupAndImmediateReopen" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="563907639" result="Passed" start-time="2026-10-12 04:09:15Z" end-time="2026-10-12 04:09:17Z" duration="1.858722" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[SaveController] Save OK (T05_SEED) rev=4
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[SaveController] Save OK (T05_SEED) rev=7
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1034" name="StartupCommitIoFailureKeepsGameplayUninitializedUntilRetry" fullname="CayTheGioi.Tests.OfflineSceneTests.StartupCommitIoFailureKeepsGameplayUninitializedUntilRetry" methodname="StartupCommitIoFailureKeepsGameplayUninitializedUntilRetry" classname="CayTheGioi.Tests.OfflineSceneTests" runstate="Runnable" seed="767367386" result="Passed" start-time="2026-10-12 04:09:17Z" end-time="2026-10-12 04:09:18Z" duration="0.910870" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T05_SEED) rev=1
+[CayTheGioi] Load blocked: OFFLINE_SAVE_FAILED: IO_ERROR: Sharing violation on path C:\Users\Asus\AppData\Local\Temp\DefaultCompany\Cay_The_Gioi\T04_PlayTests_b4bf9892905d46f3938c1cfe1fb85234\world_tree_save.json.tmp
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1037" name="RebirthSceneTests" fullname="CayTheGioi.Tests.RebirthSceneTests" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-12 04:09:18Z" end-time="2026-10-12 04:09:28Z" duration="10.421871" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1041" name="DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth" fullname="CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth" methodname="DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="1105848531" result="Passed" start-time="2026-10-12 04:09:18Z" end-time="2026-10-12 04:09:20Z" duration="1.625828" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Save OK (DEAD) rev=4
+[CayTheGioi] T07 initialized: prototype-6, stage=young_tree, loadOutcome=Loaded
+[SaveController] Rebirth COMMITTED rev=6
+]]></output>
+            </test-case>
+            <test-case id="1040" name="IoFailureMouseRetryAndCrashReloadDoNotDoubleAward" fullname="CayTheGioi.Tests.RebirthSceneTests.IoFailureMouseRetryAndCrashReloadDoNotDoubleAward" methodname="IoFailureMouseRetryAndCrashReloadDoNotDoubleAward" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="794787263" result="Passed" start-time="2026-10-12 04:09:20Z" end-time="2026-10-12 04:09:21Z" duration="1.695050" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Rebirth FAILED rev=3
+[SaveController] Save FAILED (EXPLICIT) rev=3
+[SaveController] Rebirth COMMITTED rev=4
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1038" name="MousePreviewCancelConfirmPersistsBeforeEventRestoresModelHudCapsAndReopen" fullname="CayTheGioi.Tests.RebirthSceneTests.MousePreviewCancelConfirmPersistsBeforeEventRestoresModelHudCapsAndReopen" methodname="MousePreviewCancelConfirmPersistsBeforeEventRestoresModelHudCapsAndReopen" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="1594793260" result="Passed" start-time="2026-10-12 04:09:21Z" end-time="2026-10-12 04:09:23Z" duration="1.748539" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Rebirth COMMITTED rev=4
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1042" name="PauseAndPendingOfflineBlockRebirthUntilCatchupThenClearOldPopup" fullname="CayTheGioi.Tests.RebirthSceneTests.PauseAndPendingOfflineBlockRebirthUntilCatchupThenClearOldPopup" methodname="PauseAndPendingOfflineBlockRebirthUntilCatchupThenClearOldPopup" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="1124677055" result="Passed" start-time="2026-10-12 04:09:23Z" end-time="2026-10-12 04:09:24Z" duration="1.255184" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Save OK (BACKGROUND) rev=4
+[SaveController] Save FAILED (OFFLINE_RESUME) rev=4
+[SaveController] Save OK (OFFLINE_RESUME) rev=5
+[SaveController] Rebirth COMMITTED rev=6
+]]></output>
+            </test-case>
+            <test-case id="1044" name="PointEffectsStayInOfflineAndUpgradeQuotesWithoutVitalityOrCapBuff" fullname="CayTheGioi.Tests.RebirthSceneTests.PointEffectsStayInOfflineAndUpgradeQuotesWithoutVitalityOrCapBuff" methodname="PointEffectsStayInOfflineAndUpgradeQuotesWithoutVitalityOrCapBuff" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="403087610" result="Passed" start-time="2026-10-12 04:09:24Z" end-time="2026-10-12 04:09:26Z" duration="1.538169" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Save OK (POINTS) rev=4
+[CayTheGioi] T07 initialized: prototype-6, stage=young_tree, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1043" name="PreviewAndResetUseRuntimeConfigSnapshot" fullname="CayTheGioi.Tests.RebirthSceneTests.PreviewAndResetUseRuntimeConfigSnapshot" methodname="PreviewAndResetUseRuntimeConfigSnapshot" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="330738711" result="Passed" start-time="2026-10-12 04:09:26Z" end-time="2026-10-12 04:09:27Z" duration="1.228084" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Rebirth COMMITTED rev=4
+]]></output>
+            </test-case>
+            <test-case id="1039" name="SimulatedTouchConfirmAwardsOnceNoTreeTapAndKeepsBank" fullname="CayTheGioi.Tests.RebirthSceneTests.SimulatedTouchConfirmAwardsOnceNoTreeTapAndKeepsBank" methodname="SimulatedTouchConfirmAwardsOnceNoTreeTapAndKeepsBank" classname="CayTheGioi.Tests.RebirthSceneTests" runstate="Runnable" seed="1463468850" result="Passed" start-time="2026-10-12 04:09:27Z" end-time="2026-10-12 04:09:28Z" duration="1.319590" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[T06 Test] viewport=1920x1080
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (T06_SEED) rev=3
+[SaveController] Rebirth COMMITTED rev=4
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1045" name="ReferenceUiSceneTests" fullname="CayTheGioi.Tests.ReferenceUiSceneTests" classname="CayTheGioi.Tests.ReferenceUiSceneTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-12 04:09:28Z" end-time="2026-10-12 04:09:29Z" duration="0.874661" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1047" name="EmptyPanelClickDoesNotCloseButOutsideClickCloses" fullname="CayTheGioi.Tests.ReferenceUiSceneTests.EmptyPanelClickDoesNotCloseButOutsideClickCloses" methodname="EmptyPanelClickDoesNotCloseButOutsideClickCloses" classname="CayTheGioi.Tests.ReferenceUiSceneTests" runstate="Runnable" seed="786335120" result="Passed" start-time="2026-10-12 04:09:28Z" end-time="2026-10-12 04:09:29Z" duration="0.306827" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1046" name="ReferencePanelsDockToCorrectSidesAndNoEventIsCreated" fullname="CayTheGioi.Tests.ReferenceUiSceneTests.ReferencePanelsDockToCorrectSidesAndNoEventIsCreated" methodname="ReferencePanelsDockToCorrectSidesAndNoEventIsCreated" classname="CayTheGioi.Tests.ReferenceUiSceneTests" runstate="Runnable" seed="1119136266" result="Passed" start-time="2026-10-12 04:09:29Z" end-time="2026-10-12 04:09:29Z" duration="0.272896" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1048" name="VoluntaryRebirthOverviewCannotCommitBeforeConfirmation" fullname="CayTheGioi.Tests.ReferenceUiSceneTests.VoluntaryRebirthOverviewCannotCommitBeforeConfirmation" methodname="VoluntaryRebirthOverviewCannotCommitBeforeConfirmation" classname="CayTheGioi.Tests.ReferenceUiSceneTests" runstate="Runnable" seed="755007196" result="Passed" start-time="2026-10-12 04:09:29Z" end-time="2026-10-12 04:09:29Z" duration="0.285572" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1049" name="SaveSceneTests" fullname="CayTheGioi.Tests.SaveSceneTests" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 04:09:29Z" end-time="2026-10-12 04:09:34Z" duration="5.214610" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1054" name="CorruptMain_LoadsFromBackup" fullname="CayTheGioi.Tests.SaveSceneTests.CorruptMain_LoadsFromBackup" methodname="CorruptMain_LoadsFromBackup" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="334459038" result="Passed" start-time="2026-10-12 04:09:29Z" end-time="2026-10-12 04:09:30Z" duration="0.545266" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (T1) rev=1
+[SaveController] Save OK (T2) rev=2
+[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=LoadedFromBackup
+]]></output>
+            </test-case>
+            <test-case id="1061" name="EvolutionCommitsStageToDiskDuringTransition" fullname="CayTheGioi.Tests.SaveSceneTests.EvolutionCommitsStageToDiskDuringTransition" methodname="EvolutionCommitsStageToDiskDuringTransition" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="1747748060" result="Passed" start-time="2026-10-12 04:09:30Z" end-time="2026-10-12 04:09:30Z" duration="0.611205" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[CayTheGioi] T07 initialized: prototype-6, stage=young_tree, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1060" name="FinalStageDeadMetaAndSettingsRestoreWithoutProduction" fullname="CayTheGioi.Tests.SaveSceneTests.FinalStageDeadMetaAndSettingsRestoreWithoutProduction" methodname="FinalStageDeadMetaAndSettingsRestoreWithoutProduction" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="1460129361" result="Passed" start-time="2026-10-12 04:09:30Z" end-time="2026-10-12 04:09:31Z" duration="0.631952" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EXPLICIT) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=large_tree, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1051" name="ForceSave_CreatesFileOnDisk" fullname="CayTheGioi.Tests.SaveSceneTests.ForceSave_CreatesFileOnDisk" methodname="ForceSave_CreatesFileOnDisk" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="2141641428" result="Passed" start-time="2026-10-12 04:09:31Z" end-time="2026-10-12 04:09:31Z" duration="0.294301" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TEST) rev=1
+]]></output>
+            </test-case>
+            <test-case id="1057" name="LifecycleSavesOnceFreezesBankAndZeroElapsedResumeDoesNotCredit" fullname="CayTheGioi.Tests.SaveSceneTests.LifecycleSavesOnceFreezesBankAndZeroElapsedResumeDoesNotCredit" methodname="LifecycleSavesOnceFreezesBankAndZeroElapsedResumeDoesNotCredit" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="1309935350" result="Passed" start-time="2026-10-12 04:09:31Z" end-time="2026-10-12 04:09:32Z" duration="0.313259" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (BACKGROUND) rev=1
+[SaveController] Save OK (OFFLINE_RESUME) rev=2
+[SaveController] Save OK (AUTOSAVE) rev=3
+]]></output>
+            </test-case>
+            <test-case id="1056" name="Regression_TickAndVitalityWorkAfterSaveInit" fullname="CayTheGioi.Tests.SaveSceneTests.Regression_TickAndVitalityWorkAfterSaveInit" methodname="Regression_TickAndVitalityWorkAfterSaveInit" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="2015650266" result="Passed" start-time="2026-10-12 04:09:32Z" end-time="2026-10-12 04:09:32Z" duration="0.259963" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1053" name="Reload_DoesNotAutoEvolve_AndPreservesStage" fullname="CayTheGioi.Tests.SaveSceneTests.Reload_DoesNotAutoEvolve_AndPreservesStage" methodname="Reload_DoesNotAutoEvolve_AndPreservesStage" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="1903453435" result="Passed" start-time="2026-10-12 04:09:32Z" end-time="2026-10-12 04:09:32Z" duration="0.501952" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (SEEDLING) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1055" name="Reload_PreservesBankAndTapProgress" fullname="CayTheGioi.Tests.SaveSceneTests.Reload_PreservesBankAndTapProgress" methodname="Reload_PreservesBankAndTapProgress" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="522366452" result="Passed" start-time="2026-10-12 04:09:32Z" end-time="2026-10-12 04:09:33Z" duration="0.496562" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (VITALITY_TEST) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1052" name="SaveAndReload_RestoresWaterAndLevels" fullname="CayTheGioi.Tests.SaveSceneTests.SaveAndReload_RestoresWaterAndLevels" methodname="SaveAndReload_RestoresWaterAndLevels" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="1889723211" result="Passed" start-time="2026-10-12 04:09:33Z" end-time="2026-10-12 04:09:33Z" duration="0.533807" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TEST_ROUNDTRIP) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1050" name="SaveControllerIsBoundAfterInit" fullname="CayTheGioi.Tests.SaveSceneTests.SaveControllerIsBoundAfterInit" methodname="SaveControllerIsBoundAfterInit" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="2045492153" result="Passed" start-time="2026-10-12 04:09:33Z" end-time="2026-10-12 04:09:34Z" duration="0.274323" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1059" name="SaveFailureShowsRetryAndMouseAndTouchCommitOnce" fullname="CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce" methodname="SaveFailureShowsRetryAndMouseAndTouchCommitOnce" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="404994883" result="Passed" start-time="2026-10-12 04:09:34Z" end-time="2026-10-12 04:09:34Z" duration="0.354094" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EXPLICIT) rev=1
+[SaveController] Save FAILED (EXPLICIT) rev=1
+[SaveController] Save OK (UI_RETRY) rev=2
+[SaveController] Save FAILED (EXPLICIT) rev=2
+[SaveController] Save OK (UI_RETRY) rev=3
+]]></output>
+            </test-case>
+            <test-case id="1058" name="UnsupportedSaveBlocksGameplayAndAllAutomaticWrites" fullname="CayTheGioi.Tests.SaveSceneTests.UnsupportedSaveBlocksGameplayAndAllAutomaticWrites" methodname="UnsupportedSaveBlocksGameplayAndAllAutomaticWrites" classname="CayTheGioi.Tests.SaveSceneTests" runstate="Runnable" seed="54902854" result="Passed" start-time="2026-10-12 04:09:34Z" end-time="2026-10-12 04:09:34Z" duration="0.383202" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EXPLICIT) rev=1
+[CayTheGioi] Load blocked: VERSION_TOO_NEW
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1062" name="TutorialSceneTests" fullname="CayTheGioi.Tests.TutorialSceneTests" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-12 04:09:34Z" end-time="2026-10-12 04:09:36Z" duration="1.653696" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1063" name="SettingsView_OpenAndClose_LocksAndUnlocksInput" fullname="CayTheGioi.Tests.TutorialSceneTests.SettingsView_OpenAndClose_LocksAndUnlocksInput" methodname="SettingsView_OpenAndClose_LocksAndUnlocksInput" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" seed="2005448347" result="Passed" start-time="2026-10-12 04:09:34Z" end-time="2026-10-12 04:09:35Z" duration="0.310447" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1064" name="SettingsView_Toggles_PersistAcrossSaveLoad" fullname="CayTheGioi.Tests.TutorialSceneTests.SettingsView_Toggles_PersistAcrossSaveLoad" methodname="SettingsView_Toggles_PersistAcrossSaveLoad" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" seed="1032384453" result="Passed" start-time="2026-10-12 04:09:35Z" end-time="2026-10-12 04:09:35Z" duration="0.521448" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (SETTINGS_MUSIC) rev=1
+[SaveController] Save OK (SETTINGS_ORBIT) rev=2
+[SaveController] Save OK (TEST_SETTINGS) rev=3
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1067" name="ToastView_Show_WorksAndDoesNotBlockRaycasts" fullname="CayTheGioi.Tests.TutorialSceneTests.ToastView_Show_WorksAndDoesNotBlockRaycasts" methodname="ToastView_Show_WorksAndDoesNotBlockRaycasts" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" seed="1765414310" result="Passed" start-time="2026-10-12 04:09:35Z" end-time="2026-10-12 04:09:36Z" duration="0.262494" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1066" name="TutorialView_BannerShowsOnFreshRun_AndHidesWhenDead" fullname="CayTheGioi.Tests.TutorialSceneTests.TutorialView_BannerShowsOnFreshRun_AndHidesWhenDead" methodname="TutorialView_BannerShowsOnFreshRun_AndHidesWhenDead" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" seed="857167633" result="Passed" start-time="2026-10-12 04:09:36Z" end-time="2026-10-12 04:09:36Z" duration="0.260283" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1065" name="UiPriority_EscapeKey_AndDeadModalCannotCancel" fullname="CayTheGioi.Tests.TutorialSceneTests.UiPriority_EscapeKey_AndDeadModalCannotCancel" methodname="UiPriority_EscapeKey_AndDeadModalCannotCancel" classname="CayTheGioi.Tests.TutorialSceneTests" runstate="Runnable" seed="110959190" result="Passed" start-time="2026-10-12 04:09:36Z" end-time="2026-10-12 04:09:36Z" duration="0.289250" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1068" name="UpgradeSceneTests" fullname="CayTheGioi.Tests.UpgradeSceneTests" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-12 04:09:36Z" end-time="2026-10-12 04:09:40Z" duration="3.716482" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1072" name="CapDeadAndRebindDoNotDuplicateListeners" fullname="CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners" methodname="CapDeadAndRebindDoNotDuplicateListeners" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="1702712596" result="Passed" start-time="2026-10-12 04:09:36Z" end-time="2026-10-12 04:09:37Z" duration="0.457979" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+]]></output>
+            </test-case>
+            <test-case id="1071" name="FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes" fullname="CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes" methodname="FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="392989657" result="Passed" start-time="2026-10-12 04:09:37Z" end-time="2026-10-12 04:09:37Z" duration="0.422704" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (TUTORIAL_STEP) rev=3
+[SaveController] Save OK (TUTORIAL_STEP) rev=4
+]]></output>
+            </test-case>
+            <test-case id="1075" name="MatureSpiritUnlockPaysThreeWalletsAndPersistsProduction" fullname="CayTheGioi.Tests.UpgradeSceneTests.MatureSpiritUnlockPaysThreeWalletsAndPersistsProduction" methodname="MatureSpiritUnlockPaysThreeWalletsAndPersistsProduction" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="1773940145" result="Passed" start-time="2026-10-12 04:09:37Z" end-time="2026-10-12 04:09:38Z" duration="0.765848" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (SPIRIT_ROUNDTRIP) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=mature_tree, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1073" name="MouseAndTouchShowAndSpendGrowthWithoutWaterFallback" fullname="CayTheGioi.Tests.UpgradeSceneTests.MouseAndTouchShowAndSpendGrowthWithoutWaterFallback" methodname="MouseAndTouchShowAndSpendGrowthWithoutWaterFallback" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="414614039" result="Passed" start-time="2026-10-12 04:09:38Z" end-time="2026-10-12 04:09:38Z" duration="0.475081" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (TUTORIAL_STEP) rev=3
+]]></output>
+            </test-case>
+            <test-case id="1069" name="MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap" fullname="CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap" methodname="MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="328830400" result="Passed" start-time="2026-10-12 04:09:38Z" end-time="2026-10-12 04:09:39Z" duration="0.939836" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+]]></output>
+            </test-case>
+            <test-case id="1074" name="PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea" fullname="CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea" methodname="PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="732753103" result="Passed" start-time="2026-10-12 04:09:39Z" end-time="2026-10-12 04:09:39Z" duration="0.295645" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1070" name="SimulatedTouchUiBuysOneAndBlocksTreeBelowButton" fullname="CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton" methodname="SimulatedTouchUiBuysOneAndBlocksTreeBelowButton" classname="CayTheGioi.Tests.UpgradeSceneTests" runstate="Runnable" seed="1104240057" result="Passed" start-time="2026-10-12 04:09:39Z" end-time="2026-10-12 04:09:40Z" duration="0.348865" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1076" name="WeatherSceneTests" fullname="CayTheGioi.Tests.WeatherSceneTests" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-12 04:09:40Z" end-time="2026-10-12 04:09:42Z" duration="1.902168" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1081" name="ForcedRebirthRestoresHpAndClearsBurningAndResetsCalm" fullname="CayTheGioi.Tests.WeatherSceneTests.ForcedRebirthRestoresHpAndClearsBurningAndResetsCalm" methodname="ForcedRebirthRestoresHpAndClearsBurningAndResetsCalm" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="1600616506" result="Passed" start-time="2026-10-12 04:09:40Z" end-time="2026-10-12 04:09:40Z" duration="0.324222" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Rebirth COMMITTED rev=1
+]]></output>
+            </test-case>
+            <test-case id="1077" name="InitialWeatherIsCalmAndHpIsMax" fullname="CayTheGioi.Tests.WeatherSceneTests.InitialWeatherIsCalmAndHpIsMax" methodname="InitialWeatherIsCalmAndHpIsMax" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="172112770" result="Passed" start-time="2026-10-12 04:09:40Z" end-time="2026-10-12 04:09:40Z" duration="0.269075" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1082" name="SaveAndReloadPreservesWeatherStatusAndHp" fullname="CayTheGioi.Tests.WeatherSceneTests.SaveAndReloadPreservesWeatherStatusAndHp" methodname="SaveAndReloadPreservesWeatherStatusAndHp" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="2116328375" result="Passed" start-time="2026-10-12 04:09:40Z" end-time="2026-10-12 04:09:41Z" duration="0.494130" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TEST_WEATHER_SAVE) rev=1
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+]]></output>
+            </test-case>
+            <test-case id="1079" name="StrikeOnLeavesStartsBurningReducesGrowthAndDamagesHp" fullname="CayTheGioi.Tests.WeatherSceneTests.StrikeOnLeavesStartsBurningReducesGrowthAndDamagesHp" methodname="StrikeOnLeavesStartsBurningReducesGrowthAndDamagesHp" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="2035167664" result="Passed" start-time="2026-10-12 04:09:41Z" end-time="2026-10-12 04:09:41Z" duration="0.275048" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1080" name="TreeDeathOpensForcedRebirthModalAndStopsProduction" fullname="CayTheGioi.Tests.WeatherSceneTests.TreeDeathOpensForcedRebirthModalAndStopsProduction" methodname="TreeDeathOpensForcedRebirthModalAndStopsProduction" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="1747724360" result="Passed" start-time="2026-10-12 04:09:41Z" end-time="2026-10-12 04:09:41Z" duration="0.248519" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+]]></output>
+            </test-case>
+            <test-case id="1078" name="WeatherMultipliersApplyToLiveRates" fullname="CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates" methodname="WeatherMultipliersApplyToLiveRates" classname="CayTheGioi.Tests.WeatherSceneTests" runstate="Runnable" seed="415144649" result="Passed" start-time="2026-10-12 04:09:41Z" end-time="2026-10-12 04:09:42Z" duration="0.279060" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/Asus/AppData/LocalLow/DefaultCompany/Cay_The_Gioi\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"started\":46.34535,\"water\":0.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "started": 46.34535,
+          "water": 0.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

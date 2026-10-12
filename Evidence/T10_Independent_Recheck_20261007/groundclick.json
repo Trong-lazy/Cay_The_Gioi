@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":\"{\\\"x\\\":1.0,\\\"y\\\":2.0,\\\"z\\\":0.0}\",\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": "{\"x\":1.0,\"y\":2.0,\"z\":0.0}",
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

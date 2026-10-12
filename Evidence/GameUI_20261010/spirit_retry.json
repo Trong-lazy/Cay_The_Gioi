@@ -1,0 +1,29 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"stage\":\"mature_tree\",\"unlocked\":true,\"level\":2,\"water\":8293.10820514115,\"photo\":8668.10820514115,\"growth\":8682.477606854867,\"spirit\":0.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "stage": "mature_tree",
+          "unlocked": true,
+          "level": 2,
+          "water": 8293.10820514115,
+          "photo": 8668.10820514115,
+          "growth": 8682.477606854867,
+          "spirit": 0.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

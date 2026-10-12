@@ -1,0 +1,231 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":[{\"name\":\"Heading\",\"text\":\"NÂNG CẤP\",\"font\":28,\"rect\":\"(x:0.00, y:-40.00, width:450.00, height:40.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"UpgradePanel\",\"align\":\"UpperLeft\",\"height\":31.0},{\"name\":\"Label\",\"text\":\"Đóng\",\"font\":22,\"rect\":\"(x:-44.00, y:-18.00, width:88.00, height:36.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Close\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Details\",\"text\":\"RỄ   L0/5   ·   5 Water\\nWater/s 0 → 1\",\"font\":20,\"rect\":\"(x:0.00, y:-100.00, width:420.00, height:100.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"root\",\"align\":\"UpperLeft\",\"height\":45.0},{\"name\":\"Reason\",\"text\":\"Sẵn sàng\",\"font\":18,\"rect\":\"(x:0.00, y:-24.00, width:572.00, height:24.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"root\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"Label\",\"text\":\"+1\",\"font\":22,\"rect\":\"(x:-44.00, y:-30.00, width:88.00, height:60.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Buy\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Details\",\"text\":\"LÁ   L0/5   ·   5 Quang hợp\\nQuang hợp/s 0 → 1\\nTiêu Water/s 0 → 0.25\",\"font\":20,\"rect\":\"(x:0.00, y:-100.00, width:420.00, height:100.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"leaves\",\"align\":\"UpperLeft\",\"height\":68.0},{\"name\":\"Reason\",\"text\":\"Sẵn sàng\",\"font\":18,\"rect\":\"(x:0.00, y:-24.00, width:572.00, height:24.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"leaves\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"Label\",\"text\":\"+1\",\"font\":22,\"rect\":\"(x:-44.00, y:-30.00, width:88.00, height:60.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Buy\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Details\",\"text\":\"THÂN   L0/5   ·   10 Growth\\nGrowth/s 0 → 1\\nTiêu Quang hợp/s 0 → 0.25\",\"font\":20,\"rect\":\"(x:0.00, y:-100.00, width:420.00, height:100.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"trunk\",\"align\":\"UpperLeft\",\"height\":68.0},{\"name\":\"Reason\",\"text\":\"Sẵn sàng\",\"font\":18,\"rect\":\"(x:0.00, y:-24.00, width:572.00, height:24.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"trunk\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"Label\",\"text\":\"+1\",\"font\":22,\"rect\":\"(x:-44.00, y:-30.00, width:88.00, height:60.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Buy\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Feedback\",\"text\":\"\",\"font\":18,\"rect\":\"(x:0.00, y:-36.00, width:572.00, height:36.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"UpgradePanel\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"EvolutionDetails\",\"text\":\"Mầm → Cây Non\\n50 Water · 25 Quang hợp · 25 Growth\",\"font\":20,\"rect\":\"(x:0.00, y:-100.00, width:420.00, height:100.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"UpgradePanel\",\"align\":\"UpperLeft\",\"height\":45.0},{\"name\":\"EvolutionReason\",\"text\":\"Thiếu Water, Quang hợp hoặc Growth\",\"font\":18,\"rect\":\"(x:0.00, y:-40.00, width:572.00, height:40.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"UpgradePanel\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"Label\",\"text\":\"Tiến hóa\",\"font\":22,\"rect\":\"(x:-44.00, y:-30.00, width:88.00, height:60.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Evolve\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Label\",\"text\":\"Orbit: Tự do\",\"font\":22,\"rect\":\"(x:-103.00, y:-22.00, width:206.00, height:44.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"OrbitLock\",\"align\":\"MiddleCenter\",\"height\":25.0},{\"name\":\"Details\",\"text\":\"HẤP THỤ LINH KHÍ   L0/0\\n1K Water · 1K Quang hợp · 1K Growth\\nLinh khí/s 0 → 0\",\"font\":20,\"rect\":\"(x:0.00, y:-100.00, width:420.00, height:100.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"SpiritAbsorptionRow\",\"align\":\"UpperLeft\",\"height\":68.0},{\"name\":\"Reason\",\"text\":\"Mở tại Cây Trưởng Thành\",\"font\":18,\"rect\":\"(x:0.00, y:-24.00, width:572.00, height:24.00)\",\"anchor\":\"(0.00, 1.00)(0.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"SpiritAbsorptionRow\",\"align\":\"UpperLeft\",\"height\":20.0},{\"name\":\"Label\",\"text\":\"Mở khóa\",\"font\":22,\"rect\":\"(x:-44.00, y:-30.00, width:88.00, height:60.00)\",\"anchor\":\"(0.00, 0.00)(1.00, 1.00)\",\"color\":\"RGBA(0.160, 0.250, 0.160, 1.000)\",\"parent\":\"Buy\",\"align\":\"MiddleCenter\",\"height\":50.0}],\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": [
+          {
+            "name": "Heading",
+            "text": "NÂNG CẤP",
+            "font": 28,
+            "rect": "(x:0.00, y:-40.00, width:450.00, height:40.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "UpgradePanel",
+            "align": "UpperLeft",
+            "height": 31.0
+          },
+          {
+            "name": "Label",
+            "text": "Đóng",
+            "font": 22,
+            "rect": "(x:-44.00, y:-18.00, width:88.00, height:36.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Close",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Details",
+            "text": "RỄ   L0/5   ·   5 Water\nWater/s 0 → 1",
+            "font": 20,
+            "rect": "(x:0.00, y:-100.00, width:420.00, height:100.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "root",
+            "align": "UpperLeft",
+            "height": 45.0
+          },
+          {
+            "name": "Reason",
+            "text": "Sẵn sàng",
+            "font": 18,
+            "rect": "(x:0.00, y:-24.00, width:572.00, height:24.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "root",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "Label",
+            "text": "+1",
+            "font": 22,
+            "rect": "(x:-44.00, y:-30.00, width:88.00, height:60.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Buy",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Details",
+            "text": "LÁ   L0/5   ·   5 Quang hợp\nQuang hợp/s 0 → 1\nTiêu Water/s 0 → 0.25",
+            "font": 20,
+            "rect": "(x:0.00, y:-100.00, width:420.00, height:100.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "leaves",
+            "align": "UpperLeft",
+            "height": 68.0
+          },
+          {
+            "name": "Reason",
+            "text": "Sẵn sàng",
+            "font": 18,
+            "rect": "(x:0.00, y:-24.00, width:572.00, height:24.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "leaves",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "Label",
+            "text": "+1",
+            "font": 22,
+            "rect": "(x:-44.00, y:-30.00, width:88.00, height:60.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Buy",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Details",
+            "text": "THÂN   L0/5   ·   10 Growth\nGrowth/s 0 → 1\nTiêu Quang hợp/s 0 → 0.25",
+            "font": 20,
+            "rect": "(x:0.00, y:-100.00, width:420.00, height:100.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "trunk",
+            "align": "UpperLeft",
+            "height": 68.0
+          },
+          {
+            "name": "Reason",
+            "text": "Sẵn sàng",
+            "font": 18,
+            "rect": "(x:0.00, y:-24.00, width:572.00, height:24.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "trunk",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "Label",
+            "text": "+1",
+            "font": 22,
+            "rect": "(x:-44.00, y:-30.00, width:88.00, height:60.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Buy",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Feedback",
+            "text": "",
+            "font": 18,
+            "rect": "(x:0.00, y:-36.00, width:572.00, height:36.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "UpgradePanel",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "EvolutionDetails",
+            "text": "Mầm → Cây Non\n50 Water · 25 Quang hợp · 25 Growth",
+            "font": 20,
+            "rect": "(x:0.00, y:-100.00, width:420.00, height:100.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "UpgradePanel",
+            "align": "UpperLeft",
+            "height": 45.0
+          },
+          {
+            "name": "EvolutionReason",
+            "text": "Thiếu Water, Quang hợp hoặc Growth",
+            "font": 18,
+            "rect": "(x:0.00, y:-40.00, width:572.00, height:40.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "UpgradePanel",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "Label",
+            "text": "Tiến hóa",
+            "font": 22,
+            "rect": "(x:-44.00, y:-30.00, width:88.00, height:60.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Evolve",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Label",
+            "text": "Orbit: Tự do",
+            "font": 22,
+            "rect": "(x:-103.00, y:-22.00, width:206.00, height:44.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "OrbitLock",
+            "align": "MiddleCenter",
+            "height": 25.0
+          },
+          {
+            "name": "Details",
+            "text": "HẤP THỤ LINH KHÍ   L0/0\n1K Water · 1K Quang hợp · 1K Growth\nLinh khí/s 0 → 0",
+            "font": 20,
+            "rect": "(x:0.00, y:-100.00, width:420.00, height:100.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "SpiritAbsorptionRow",
+            "align": "UpperLeft",
+            "height": 68.0
+          },
+          {
+            "name": "Reason",
+            "text": "Mở tại Cây Trưởng Thành",
+            "font": 18,
+            "rect": "(x:0.00, y:-24.00, width:572.00, height:24.00)",
+            "anchor": "(0.00, 1.00)(0.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "SpiritAbsorptionRow",
+            "align": "UpperLeft",
+            "height": 20.0
+          },
+          {
+            "name": "Label",
+            "text": "Mở khóa",
+            "font": 22,
+            "rect": "(x:-44.00, y:-30.00, width:88.00, height:60.00)",
+            "anchor": "(0.00, 0.00)(1.00, 1.00)",
+            "color": "RGBA(0.160, 0.250, 0.160, 1.000)",
+            "parent": "Buy",
+            "align": "MiddleCenter",
+            "height": 50.0
+          }
+        ],
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

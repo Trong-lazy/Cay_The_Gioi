@@ -1,0 +1,62 @@
+{
+  "source": "Actual project Domain sources compiled under .NET; not Unity Play Mode",
+  "timeline": [
+    {
+      "dt": 0.05,
+      "until": 20,
+      "hp": 96.00000000000028,
+      "strikes": 1,
+      "burningRemaining": 8,
+      "weather": "thunderstorm"
+    },
+    {
+      "dt": 20,
+      "until": 20,
+      "hp": 96,
+      "strikes": 1,
+      "burningRemaining": 8,
+      "weather": "thunderstorm"
+    },
+    {
+      "dt": 60,
+      "until": 60,
+      "hp": 80,
+      "strikes": 1,
+      "burningRemaining": 0,
+      "weather": "calm"
+    }
+  ],
+  "stormEnd": [
+    {
+      "nearDeath": false,
+      "hp": 98,
+      "life": "ALIVE",
+      "diedEvents": 0,
+      "healthEvents": 1,
+      "aliveSeconds": 1,
+      "weather": "calm"
+    },
+    {
+      "nearDeath": true,
+      "hp": 3,
+      "life": "ALIVE",
+      "diedEvents": 0,
+      "healthEvents": 1,
+      "aliveSeconds": 1,
+      "weather": "calm"
+    }
+  ],
+  "dueStrike": {
+    "dt": 5,
+    "weatherRemaining": 55,
+    "strikes": 1,
+    "expectedWeatherRemaining": 55
+  },
+  "death": {
+    "alive": 18.5,
+    "expectedAlive": 18.5,
+    "water": 28.5,
+    "expectedWater": 28.5,
+    "resourceSuccess": true
+  }
+}

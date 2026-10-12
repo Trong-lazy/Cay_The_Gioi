@@ -1,0 +1,65 @@
+{
+  "mode": "preview",
+  "source_reference": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+  "target": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+  "input_hash": "690424d073b5b1c68fa19dc1e2aa1af9dbf2098e720dd19d827f6ac685771adf",
+  "reference_hash": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+  "before_foliage_triangles": 6160,
+  "after_foliage_triangles": 24640,
+  "sprig_count": 385,
+  "blades_per_sprig": 4,
+  "actual_reference_blades": 1540,
+  "exact_source_template_count": 8,
+  "normalized_mid_surface_max_error": 1.9588793553612986e-07,
+  "geometry_checks": {
+    "degenerate_faces": 0,
+    "loose_vertices": 0,
+    "non_manifold_edges": 0
+  },
+  "before_bounds": {
+    "min": [
+      -1.6806612014770508,
+      -0.952319860458374,
+      0.6733759641647339
+    ],
+    "max": [
+      1.6353061199188232,
+      1.1520261764526367,
+      2.3216822147369385
+    ],
+    "size": [
+      3.315967321395874,
+      2.1043460369110107,
+      1.6483062505722046
+    ]
+  },
+  "after_bounds": {
+    "min": [
+      -1.683823823928833,
+      -0.9527472257614136,
+      0.6869006156921387
+    ],
+    "max": [
+      1.6381416320800781,
+      1.156751036643982,
+      2.3528895378112793
+    ],
+    "size": [
+      3.321965456008911,
+      2.1094982624053955,
+      1.6659889221191406
+    ]
+  },
+  "unchanged_meshes": {
+    "Roots": "0536bbe167cd74e1725b7e180edc42bf6d050b3031e37115da71a06e890cac6a",
+    "Trunk_Branches": "ed26ea80f84803ff26f492210502c0c78e9dc80556e014f53d0753281df904d1"
+  },
+  "material_slots_unchanged": true,
+  "protected_input_hashes": {
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend": "5c575b1e1c5a298f6b638831a8e9a4a26c26966aad7427a83f1c7cda47abb923",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend": "53aee33d69c01e8115a63fe02de635cf8a0aa6782337a80e166b6d72c0430c75"
+  },
+  "protected_inputs_unchanged": true
+}

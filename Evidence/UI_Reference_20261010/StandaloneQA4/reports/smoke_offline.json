@@ -1,0 +1,30 @@
+{
+    "scenario": "smoke_offline",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 1357.0667898436773,
+    "growth": 10.0,
+    "hp": 100.0,
+    "rootLevel": 1,
+    "leavesLevel": 1,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 17.41651269540307,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Offline atomic OK: WaterDelta=1350,00, GrowthDelta=0,00, Elapsed=3600s",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA4\\screenshots\\smoke_offline_20261010_032624.png",
+    "offlineWaterDelta": 1350.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 3600.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA4\\screenshots\\smoke_offline_20261010_032624.png"
+    ],
+    "steps": [
+        "HOOK_FOCUS automated hidden scenario emulates focused lifecycle; not an OS input test"
+    ]
+}

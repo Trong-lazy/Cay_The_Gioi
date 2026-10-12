@@ -1,0 +1,53 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"043911686e714379bf700c5e080f9594\",\"status\":\"failed\",\"mode\":\"PlayMode\",\"started_unix_ms\":1791386003725,\"finished_unix_ms\":1791386060999,\"last_update_unix_ms\":1791386060999,\"progress\":{\"completed\":63,\"total\":63,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791386060800,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates\",\"last_finished_unix_ms\":1791386060977,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages\",\"message\":\"  Mouse tap on visible surface point #0 (969.91, 439.04) failed in stage 'young_tree'\\r\\n  Expected: 1\\r\\n  But was:  0\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast\",\"message\":\"  Expected: True\\r\\n  But was:  False\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth\",\"message\":\"  Expected: not equal to \\\"f3e191575bea40dd9e5bc5bf691b5150\\\"\\r\\n  But was:  \\\"f3e191575bea40dd9e5bc5bf691b5150\\\"\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "043911686e714379bf700c5e080f9594",
+        "status": "failed",
+        "mode": "PlayMode",
+        "started_unix_ms": 1791386003725,
+        "finished_unix_ms": 1791386060999,
+        "last_update_unix_ms": 1791386060999,
+        "progress": {
+          "completed": 63,
+          "total": 63,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": 1791386060800,
+          "last_finished_test_full_name": "CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates",
+          "last_finished_unix_ms": 1791386060977,
+          "stuck_suspected": false,
+          "editor_is_focused": true,
+          "blocked_reason": null,
+          "failures_so_far": [
+            {
+              "full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages",
+              "message": "  Mouse tap on visible surface point #0 (969.91, 439.04) failed in stage 'young_tree'\r\n  Expected: 1\r\n  But was:  0\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast",
+              "message": "  Expected: True\r\n  But was:  False\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth",
+              "message": "  Expected: not equal to \"f3e191575bea40dd9e5bc5bf691b5150\"\r\n  But was:  \"f3e191575bea40dd9e5bc5bf691b5150\"\r\n"
+            }
+          ],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": null
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

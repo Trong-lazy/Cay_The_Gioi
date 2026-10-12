@@ -1,0 +1,205 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"e525e46fffc44fa69ef2a696dc646611\",\"status\":\"succeeded\",\"mode\":\"PlayMode\",\"started_unix_ms\":1790918832377,\"finished_unix_ms\":1790918844056,\"last_update_unix_ms\":1790918844056,\"progress\":{\"completed\":16,\"total\":16,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1790918843841,\"last_finished_test_full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"last_finished_unix_ms\":1790918844029,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"PlayMode\",\"summary\":{\"total\":16,\"passed\":16,\"failed\":0,\"skipped\":0,\"durationSeconds\":10.5585888,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"MouseTapHoldDragUiAndRightOrbit\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit\",\"state\":\"Passed\",\"durationSeconds\":1.0133363,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"OnlineTickHudPauseAndDead\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead\",\"state\":\"Passed\",\"durationSeconds\":0.5465978,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"state\":\"Passed\",\"durationSeconds\":0.1268864,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"state\":\"Passed\",\"durationSeconds\":0.8342818,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchTapAndMouseDuplicationSuppression\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression\",\"state\":\"Passed\",\"durationSeconds\":0.1647011,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"DisableAndViewFailureReleaseLocksWithoutDuplicatePayment\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment\",\"state\":\"Passed\",\"durationSeconds\":0.1528971,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\\r\\n\"},{\"name\":\"InsufficientDeadAndTransitionBlockUiAndWorldCommands\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands\",\"state\":\"Passed\",\"durationSeconds\":1.0399536,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera\",\"state\":\"Passed\",\"durationSeconds\":2.1450092,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"state\":\"Passed\",\"durationSeconds\":1.2794245,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"state\":\"Passed\",\"durationSeconds\":1.2556487,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MainSceneInitializesWithoutDuplicatingOnReload\",\"fullName\":\"CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload\",\"state\":\"Passed\",\"durationSeconds\":0.2952392,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"CapDeadAndRebindDoNotDuplicateListeners\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners\",\"state\":\"Passed\",\"durationSeconds\":0.2661452,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"state\":\"Passed\",\"durationSeconds\":0.2230805,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"state\":\"Passed\",\"durationSeconds\":0.8036613,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"state\":\"Passed\",\"durationSeconds\":0.1273788,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"state\":\"Passed\",\"durationSeconds\":0.1871777,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "e525e46fffc44fa69ef2a696dc646611",
+          "status": "succeeded",
+          "mode": "PlayMode",
+          "started_unix_ms": 1790918832377,
+          "finished_unix_ms": 1790918844056,
+          "last_update_unix_ms": 1790918844056,
+          "progress": {
+            "completed": 16,
+            "total": 16,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1790918843841,
+            "last_finished_test_full_name": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+            "last_finished_unix_ms": 1790918844029,
+            "stuck_suspected": false,
+            "editor_is_focused": true,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "PlayMode",
+            "summary": {
+              "total": 16,
+              "passed": 16,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 10.5585888,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "MouseTapHoldDragUiAndRightOrbit",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit",
+                "state": "Passed",
+                "durationSeconds": 1.0133363,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "OnlineTickHudPauseAndDead",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead",
+                "state": "Passed",
+                "durationSeconds": 0.5465978,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "state": "Passed",
+                "durationSeconds": 0.1268864,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "state": "Passed",
+                "durationSeconds": 0.8342818,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchTapAndMouseDuplicationSuppression",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression",
+                "state": "Passed",
+                "durationSeconds": 0.1647011,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "DisableAndViewFailureReleaseLocksWithoutDuplicatePayment",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment",
+                "state": "Passed",
+                "durationSeconds": 0.1528971,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\r\n"
+              },
+              {
+                "name": "InsufficientDeadAndTransitionBlockUiAndWorldCommands",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands",
+                "state": "Passed",
+                "durationSeconds": 1.0399536,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+                "state": "Passed",
+                "durationSeconds": 2.1450092,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+                "state": "Passed",
+                "durationSeconds": 1.2794245,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+                "state": "Passed",
+                "durationSeconds": 1.2556487,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MainSceneInitializesWithoutDuplicatingOnReload",
+                "fullName": "CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload",
+                "state": "Passed",
+                "durationSeconds": 0.2952392,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "CapDeadAndRebindDoNotDuplicateListeners",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners",
+                "state": "Passed",
+                "durationSeconds": 0.2661452,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "state": "Passed",
+                "durationSeconds": 0.2230805,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "state": "Passed",
+                "durationSeconds": 0.8036613,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "state": "Passed",
+                "durationSeconds": 0.1273788,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "state": "Passed",
+                "durationSeconds": 0.1871777,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,1 @@
+{"success":true,"message":"Code executed successfully.","data":{"result":{"passed":true,"outcome":"Loaded","savedWater":77.5,"savedBank":250,"runtimeWater":133.84083300465733,"runtimeBank":223.1710319025442,"onlineDeltaMatches":true,"stage":"seedling","taps":17,"counter":8,"orbitLocked":true,"music":false},"compiler":"codedom"}}

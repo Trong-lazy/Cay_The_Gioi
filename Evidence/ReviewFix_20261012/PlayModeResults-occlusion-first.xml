@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4,7760525">
+  <test-suite type="TestSuite" id="1094" name="Cay_The_Gioi" fullname="Cay_The_Gioi" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.776053" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1088" name="CayTheGioi.PlayModeTests.dll" fullname="C:/Users/Asus/foder game 3D/Cay_The_Gioi/Library/ScriptAssemblies/CayTheGioi.PlayModeTests.dll" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.745829" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23736" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1089" name="CayTheGioi" fullname="CayTheGioi" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.738364" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1090" name="Tests" fullname="CayTheGioi.Tests" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.734083" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1022" name="EnvironmentSceneReviewTests" fullname="CayTheGioi.Tests.EnvironmentSceneReviewTests" classname="CayTheGioi.Tests.EnvironmentSceneReviewTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.723867" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1023" name="RealMap_OrbitOcclusionHudAndUpgradeEvidence" fullname="CayTheGioi.Tests.EnvironmentSceneReviewTests.RealMap_OrbitOcclusionHudAndUpgradeEvidence" methodname="RealMap_OrbitOcclusionHudAndUpgradeEvidence" classname="CayTheGioi.Tests.EnvironmentSceneReviewTests" runstate="Runnable" seed="1789038011" result="Failed" start-time="2026-10-12 05:58:34Z" end-time="2026-10-12 05:58:39Z" duration="4.695714" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Environment props hide sampled tree surfaces; see orbit-metrics.txt
+  Expected: not String containing "occluder="
+  But was:  "seedling pitch=16 yaw=0 sampled=100 blocked=0
+seedling pitch=16 yaw=30 sampled=100 blocked=0
+seedling pitch=16 yaw=60 sampled=101 blocked=0
+seedling pitch=16 yaw=90 sampled=100 blocked=0
+seedling pitch=16 yaw=120 sampled=101 blocked=0
+seedling pitch=16 yaw=150 sampled=101 blocked=0
+seedling pitch=16 yaw=180 sampled=100 blocked=0
+seedling pitch=16 yaw=210 sampled=101 blocked=0
+seedling pitch=16 yaw=240 sampled=100 blocked=0
+seedling pitch=16 yaw=270 sampled=100 blocked=0
+seedling pitch=16 yaw=300 sampled=100 blocked=0
+seedling pitch=16 yaw=330 sampled=100 blocked=0
+seedling pitch=10 yaw=0 sampled=100 blocked=0
+seedling pitch=10 yaw=30 sampled=99 blocked=0
+seedling pitch=10 yaw=60 sampled=100 blocked=0
+seedling pitch=10 yaw=90 sampled=101 blocked=0
+seedling pitch=10 yaw=120 sampled=101 blocked=0
+seedling pitch=10 yaw=150 sampled=99 blocked=0
+seedling pitch=10 yaw=180 sampled=100 blocked=0
+seedling pitch=10 yaw=210 sampled=99 blocked=0
+seedling pitch=10 yaw=240 sampled=100 blocked=0
+seedling pitch=10 yaw=270 sampled=100 blocked=0
+seedling pitch=10 yaw=300 sampled=101 blocked=0
+seedling pitch=10 yaw=330 sampled=100 blocked=0
+seedling pitch=70 yaw=0 sampled=100 blocked=0
+seedling pitch=70 yaw=30 sampled=101 blocked=0
+seedling pitch=70 yaw=60 sampled=101 blocked=0
+seedling pitch=70 yaw=90 sampled=101 blocked=0
+seedling pitch=70 yaw=120 sampled=101 blocked=0
+seedling pitch=70 yaw=150 sampled=101 blocked=0
+seedling pitch=70 yaw=180 sampled=101 blocked=0
+seedling pitch=70 yaw=210 sampled=101 blocked=0
+seedling pitch=70 yaw=240 sampled=101 blocked=0
+seedling pitch=70 yaw=270 sampled=101 blocked=0
+seedling pitch=70 yaw=300 sampled=101 blocked=0
+seedling pitch=70 yaw=330 sampled=101 blocked=0
+young_tree pitch=18 yaw=0 sampled=75 blocked=0
+young_tree pitch=18 yaw=30 sampled=74 blocked=0
+young_tree pitch=18 yaw=60 sampled=74 blocked=0
+young_tree pitch=18 yaw=90 sampled=75 blocked=0
+young_tree pitch=18 yaw=120 sampled=75 blocked=0
+young_tree pitch=18 yaw=150 sampled=75 blocked=0
+young_tree pitch=18 yaw=180 sampled=75 blocked=0
+young_tree pitch=18 yaw=210 sampled=74 blocked=0
+young_tree pitch=18 yaw=240 sampled=75 blocked=0
+young_tree pitch=18 yaw=270 sampled=75 blocked=0
+young_tree pitch=18 yaw=300 sampled=75 blocked=0
+young_tree pitch=18 yaw=330 sampled=75 blocked=0
+young_tree pitch=10 yaw=0 sampled=75 blocked=0
+young_tree pitch=10 yaw=30 sampled=75 blocked=0
+young_tree pitch=10 yaw=60 sampled=74 blocked=0
+young_tree pitch=10 yaw=90 sampled=74 blocked=0
+young_tree pitch=10 yaw=120 sampled=75 blocked=0
+young_tree pitch=10 yaw=150 sampled=75 blocked=0
+young_tree pitch=10 yaw=180 sampled=74 blocked=0
+young_tree pitch=10 yaw=210 sampled=74 blocked=0
+young_tree pitch=10 yaw=240 sampled=75 blocked=0
+young_tree pitch=10 yaw=270 sampled=75 blocked=0
+young_tree pitch=10 yaw=300 sampled=75 blocked=0
+young_tree pitch=10 yaw=330 sampled=74 blocked=0
+young_tree pitch=70 yaw=0 sampled=74 blocked=0
+young_tree pitch=70 yaw=30 sampled=74 blocked=0
+young_tree pitch=70 yaw=60 sampled=75 blocked=0
+young_tree pitch=70 yaw=90 sampled=75 blocked=0
+young_tree pitch=70 yaw=120 sampled=75 blocked=0
+young_tree pitch=70 yaw=150 sampled=75 blocked=0
+young_tree pitch=70 yaw=180 sampled=75 blocked=0
+young_tree pitch=70 yaw=210 sampled=75 blocked=0
+young_tree pitch=70 yaw=240 sampled=75 blocked=0
+young_tree pitch=70 yaw=270 sampled=75 blocked=0
+young_tree pitch=70 yaw=300 sampled=75 blocked=0
+young_tree pitch=70 yaw=330 sampled=74 blocked=0
+large_tree pitch=20 yaw=0 sampled=75 blocked=0
+large_tree pitch=20 yaw=30 sampled=75 blocked=0
+large_tree pitch=20 yaw=60 sampled=74 blocked=0
+large_tree pitch=20 yaw=90 sampled=75 blocked=0
+large_tree pitch=20 yaw=120 sampled=75 blocked=0
+large_tree pitch=20 yaw=150 sampled=75 blocked=0
+large_tree pitch=20 yaw=180 sampled=75 blocked=0
+large_tree pitch=20 yaw=210 sampled=75 blocked=0
+large_tree pitch=20 yaw=240 sampled=75 blocked=0
+large_tree pitch=20 yaw=270 sampled=75 blocked=0
+large_tree pitch=20 yaw=300 sampled=75 blocked=0
+large_tree pitch=20 yaw=330 sampled=75 blocked=0
+large_tree pitch=10 yaw=0 sampled=75 blocked=0
+large_tree pitch=10 yaw=30 sampled=75 blocked=0
+large_tree pitch=10 yaw=60 sampled=75 blocked=0
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 occluder=Rock_100 position=(-2.57, -0.12, 0.10)
+large_tree pitch=10 yaw=90 sampled=75 blocked=7
+large_tree pitch=10 yaw=120 sampled=75 blocked=0
+large_tree pitch=10 yaw=150 sampled=75 blocked=0
+large_tree pitch=10 yaw=180 sampled=75 blocked=0
+large_tree pitch=10 yaw=210 sampled=75 blocked=0
+large_tree pitch=10 yaw=240 sampled=75 blocked=0
+large_tree pitch=10 yaw=270 sampled=75 blocked=0
+large_tree pitch=10 yaw=300 sampled=75 blocked=0
+large_tree pitch=10 yaw=330 sampled=75 blocked=0
+large_tree pitch=70 yaw=0 sampled=75 blocked=0
+large_tree pitch=70 yaw=30 sampled=75 blocked=0
+large_tree pitch=70 yaw=60 sampled=75 blocked=0
+large_tree pitch=70 yaw=90 sampled=75 blocked=0
+large_tree pitch=70 yaw=120 sampled=75 blocked=0
+large_tree pitch=70 yaw=150 sampled=75 blocked=0
+large_tree pitch=70 yaw=180 sampled=75 blocked=0
+large_tree pitch=70 yaw=210 sampled=75 blocked=0
+large_tree pitch=70 yaw=240 sampled=75 blocked=0
+large_tree pitch=70 yaw=270 sampled=75 blocked=0
+large_tree pitch=70 yaw=300 sampled=75 blocked=0
+large_tree pitch=70 yaw=330 sampled=75 blocked=0
+"
+]]></message>
+                <stack-trace><![CDATA[at CayTheGioi.Tests.EnvironmentSceneReviewTests+<RealMap_OrbitOcclusionHudAndUpgradeEvidence>d__4.MoveNext () [0x00747] in C:\Users\Asus\foder game 3D\Cay_The_Gioi\Assets\_Project\Tests\PlayMode\EnvironmentSceneReviewTests.cs:112
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@7a3849e09bd0\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=NewGame
+Saving results to: Evidence/ReviewFix_20261012/PlayModeResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,51 @@
+{
+  "scene": "MainScene",
+  "screen": [
+    1920,
+    1080
+  ],
+  "stage": "seedling",
+  "pose": {
+    "distance": 1.4,
+    "pitch": 16,
+    "targetHeight": 0.12,
+    "yaw": 0
+  },
+  "ground": {
+    "renderMesh": "Cylinder",
+    "renderBoundsCenter": [
+      0,
+      -0.12,
+      0
+    ],
+    "renderBoundsExtents": [
+      2.9,
+      0.12,
+      2.9
+    ],
+    "colliderBoundsCenter": [
+      0,
+      -0.1224,
+      0
+    ],
+    "colliderBoundsExtents": [
+      2.9,
+      0.12,
+      2.9
+    ]
+  },
+  "seedShellMaterials": [
+    {
+      "name": "M_SeedShell_Outer",
+      "shader": "Universal Render Pipeline/Lit",
+      "cull": 2
+    },
+    {
+      "name": "M_SeedShell_Inner",
+      "shader": "Universal Render Pipeline/Lit",
+      "cull": 2
+    }
+  ],
+  "physicsQueriesHitBackfaces": true,
+  "saveHashesUnchanged": true
+}

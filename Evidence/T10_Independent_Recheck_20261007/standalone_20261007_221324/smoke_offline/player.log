@@ -1,0 +1,62 @@
+Mono path[0] = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/Managed'
+Mono config path = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.011 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.780900 ms
+[CayTheGioi] T07 initialized: prototype-4, stage=seedling, loadOutcome=Loaded
+[QaBuildRunner] Finished scenario 'smoke_offline' (success=True):
+{
+    "scenario": "smoke_offline",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 1360.7993862334242,
+    "growth": 1801.0491944313699,
+    "hp": 100.0,
+    "rootLevel": 1,
+    "leavesLevel": 1,
+    "trunkLevel": 0,
+    "rebirthPoints": 1,
+    "vitalityBank": 3.1089782052913506,
+    "vitalityTaps": 0,
+    "coin": 30,
+    "equippedCosmetic": "glow_placeholder",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Offline atomic OK: WaterDelta=1350,00, GrowthDelta=1800,00, Elapsed=3600s",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Recheck_20261007\\standalone_20261007_221324\\smoke_offline\\shots\\smoke_offline_20261007_151333.png",
+    "offlineWaterDelta": 1350.0,
+    "offlineGrowthDelta": 1800.0,
+    "offlineElapsed": 3600.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Independent_Recheck_20261007\\standalone_20261007_221324\\smoke_offline\\shots\\smoke_offline_20261007_151333.png"
+    ],
+    "steps": []
+}
+[SaveController] Save OK (QUIT) rev=20
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

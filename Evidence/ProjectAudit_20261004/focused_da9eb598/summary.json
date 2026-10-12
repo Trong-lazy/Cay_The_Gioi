@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04",
+  "scope": "Fresh standalone QA rerun at 1280x720; no Editor validation",
+  "exe": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Builds\\Windows\\CayTheGioi.exe",
+  "results": [
+    {
+      "scenario": "smoke_fresh",
+      "exitCode": 0,
+      "success": true,
+      "details": "Onboarding OK: Root=1, Leaves=1, Water=1,72, Growth=2,25, Bank=17,9s",
+      "error": ""
+    },
+    {
+      "scenario": "smoke_offline",
+      "exitCode": 0,
+      "success": true,
+      "details": "Offline atomic OK: WaterDelta=1350,00, GrowthDelta=1800,00, Elapsed=3600s",
+      "error": ""
+    },
+    {
+      "scenario": "smoke_progression",
+      "exitCode": 0,
+      "success": true,
+      "details": "Full loop OK: RebirthPoints=1, Coin=0, Claimed=2, Equipped=glow_placeholder",
+      "error": ""
+    },
+    {
+      "scenario": "smoke_death_forced_rebirth",
+      "exitCode": 0,
+      "success": true,
+      "details": "Forced Rebirth OK: WasDead=True, Forced=True, Success=True, HP=100, Points=1",
+      "error": ""
+    },
+    {
+      "scenario": "ui_flow",
+      "exitCode": 0,
+      "success": true,
+      "details": "UI flow OK (see steps: UI_CLICK vs HOOK_*)",
+      "error": ""
+    }
+  ],
+  "realSaveUnchanged": true
+}

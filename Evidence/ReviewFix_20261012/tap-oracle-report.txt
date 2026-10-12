@@ -1,0 +1,13 @@
+﻿==========================================================================================
+INDEPENDENT ORACLE TAP PRECISION REPORT (RenderTexture Silhouette Mask)
+Resolution: 1366x768
+Timestamp: 2026-10-12 16:16:47 UTC
+Acceptance Criteria: Tree Hit Rate >= 98.0%, False Positives outside tree AND spherical tap volume = 0
+==========================================================================================
+
+Stage: seedling     | Tree Samples:   409 | Hits:   409 | Hit Rate: 100.00% | Missed: 0
+Stage: seedling     | Tree Samples:   409 | Hits:   409 | Hit Rate: 100.00% | Outside-silhouette hits (includes permitted sphere gaps): 80
+Stage: young_tree   | Tree Samples:   372 | Hits:   372 | Hit Rate: 100.00% | Missed: 0
+Stage: young_tree   | Tree Samples:   372 | Hits:   372 | Hit Rate: 100.00% | Outside-silhouette hits (includes permitted sphere gaps): 106
+Stage: large_tree   | Tree Samples:  6348 | Hits:  6348 | Hit Rate: 100.00% | Missed: 0
+Stage: large_tree   | Tree Samples:  6348 | Hits:  6348 | Hit Rate: 100.00% | Outside-silhouette hits (includes permitted sphere gaps): 153

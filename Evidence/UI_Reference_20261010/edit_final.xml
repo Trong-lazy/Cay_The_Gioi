@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="220" result="Passed" total="220" passed="220" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:32Z" duration="5,3329222">
+  <test-suite type="TestSuite" id="1176" name="Cay_The_Gioi" fullname="Cay_The_Gioi" runstate="Runnable" testcasecount="220" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:32Z" duration="5.332922" total="220" passed="220" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1435" name="CayTheGioi.EditModeTests.dll" fullname="C:/Users/Asus/foder game 3D/Cay_The_Gioi/Library/ScriptAssemblies/CayTheGioi.EditModeTests.dll" runstate="Runnable" testcasecount="220" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:32Z" duration="5.327094" total="220" passed="220" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="12076" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1436" name="CayTheGioi" fullname="CayTheGioi" runstate="Runnable" testcasecount="220" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:32Z" duration="5.223771" total="220" passed="220" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1437" name="Tests" fullname="CayTheGioi.Tests" runstate="Runnable" testcasecount="220" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:32Z" duration="5.124094" total="220" passed="220" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1177" name="AchievementTests" fullname="CayTheGioi.Tests.AchievementTests" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.201959" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1179" name="AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed" fullname="CayTheGioi.Tests.AchievementTests.AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed" methodname="AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1552872883" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.012699" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1184" name="Claim_BeforeUnlocked_FailsAndGrantsNoCoin" fullname="CayTheGioi.Tests.AchievementTests.Claim_BeforeUnlocked_FailsAndGrantsNoCoin" methodname="Claim_BeforeUnlocked_FailsAndGrantsNoCoin" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="898307642" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.004962" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1186" name="Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry" fullname="CayTheGioi.Tests.AchievementTests.Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry" methodname="Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="63208213" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.008277" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1185" name="Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent" fullname="CayTheGioi.Tests.AchievementTests.Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent" methodname="Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1352392690" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.008477" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1189" name="Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost" fullname="CayTheGioi.Tests.AchievementTests.Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost" methodname="Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1291030595" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.007933" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1181" name="MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress" fullname="CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress" methodname="MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1063462493" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.004239" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1182" name="MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress" fullname="CayTheGioi.Tests.AchievementTests.MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress" methodname="MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1126730143" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.008463" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1180" name="MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress" fullname="CayTheGioi.Tests.AchievementTests.MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress" methodname="MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="313667418" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.004886" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1183" name="MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap" fullname="CayTheGioi.Tests.AchievementTests.MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap" methodname="MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="718307331" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.006740" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1187" name="Rebirth_PreservesCoin_AndAchievementProgressAndClaimed" fullname="CayTheGioi.Tests.AchievementTests.Rebirth_PreservesCoin_AndAchievementProgressAndClaimed" methodname="Rebirth_PreservesCoin_AndAchievementProgressAndClaimed" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="1209575804" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.010237" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1178" name="Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget" fullname="CayTheGioi.Tests.AchievementTests.Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget" methodname="Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="833484501" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.004932" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1188" name="SaveLoad_PreservesCoin_AndAchievementsIntegrity" fullname="CayTheGioi.Tests.AchievementTests.SaveLoad_PreservesCoin_AndAchievementsIntegrity" methodname="SaveLoad_PreservesCoin_AndAchievementsIntegrity" classname="CayTheGioi.Tests.AchievementTests" runstate="Runnable" seed="342501387" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.008608" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1190" name="CoreResourcesTests" fullname="CayTheGioi.Tests.CoreResourcesTests" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.408927" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1203" name="BuffDoesNotIncreaseConsumptionOrUnrelatedState" fullname="CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState" methodname="BuffDoesNotIncreaseConsumptionOrUnrelatedState" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="836265082" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000661" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1202" name="CrossingBankBoundaryOnlyBuffsFirstFiveSeconds" fullname="CayTheGioi.Tests.CoreResourcesTests.CrossingBankBoundaryOnlyBuffsFirstFiveSeconds" methodname="CrossingBankBoundaryOnlyBuffsFirstFiveSeconds" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="295919230" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000235" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1204" name="DeadAndBlockedCommandsPreserveStateAndEmitNoChanges" fullname="CayTheGioi.Tests.CoreResourcesTests.DeadAndBlockedCommandsPreserveStateAndEmitNoChanges" methodname="DeadAndBlockedCommandsPreserveStateAndEmitNoChanges" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="2024396138" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000527" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1212" name="DragThresholdUsesDpiWithBoundedScreenFallback" fullname="CayTheGioi.Tests.CoreResourcesTests.DragThresholdUsesDpiWithBoundedScreenFallback" methodname="DragThresholdUsesDpiWithBoundedScreenFallback" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1983209116" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000317" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1216" name="EntireChainAgreesAcrossWaterAndPhotoDepletion" fullname="CayTheGioi.Tests.CoreResourcesTests.EntireChainAgreesAcrossWaterAndPhotoDepletion" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.115953" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1213" name="EntireChainAgreesAcrossWaterAndPhotoDepletion(1)" fullname="CayTheGioi.Tests.CoreResourcesTests.EntireChainAgreesAcrossWaterAndPhotoDepletion(1)" methodname="EntireChainAgreesAcrossWaterAndPhotoDepletion" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="2055604289" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000747" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1214" name="EntireChainAgreesAcrossWaterAndPhotoDepletion(100)" fullname="CayTheGioi.Tests.CoreResourcesTests.EntireChainAgreesAcrossWaterAndPhotoDepletion(100)" methodname="EntireChainAgreesAcrossWaterAndPhotoDepletion" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="567684002" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000318" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1215" name="EntireChainAgreesAcrossWaterAndPhotoDepletion(10000)" fullname="CayTheGioi.Tests.CoreResourcesTests.EntireChainAgreesAcrossWaterAndPhotoDepletion(10000)" methodname="EntireChainAgreesAcrossWaterAndPhotoDepletion" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1653690322" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.017215" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1210" name="EvaluateIsPureAndEventsSeeCommittedSnapshot" fullname="CayTheGioi.Tests.CoreResourcesTests.EvaluateIsPureAndEventsSeeCommittedSnapshot" methodname="EvaluateIsPureAndEventsSeeCommittedSnapshot" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1265278424" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000477" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1200" name="FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield" fullname="CayTheGioi.Tests.CoreResourcesTests.FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield" methodname="FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="538621451" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000312" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1211" name="GestureRejectsHoldDragCancelWrongPointerAndUi" fullname="CayTheGioi.Tests.CoreResourcesTests.GestureRejectsHoldDragCancelWrongPointerAndUi" methodname="GestureRejectsHoldDragCancelWrongPointerAndUi" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="138673663" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000411" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1208" name="InvalidTimeCannotMutate" fullname="CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.082409" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1205" name="InvalidTimeCannotMutate(double.NaN)" fullname="CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.NaN)" methodname="InvalidTimeCannotMutate" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="832245843" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000943" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1206" name="InvalidTimeCannotMutate(double.PositiveInfinity)" fullname="CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.PositiveInfinity)" methodname="InvalidTimeCannotMutate" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="736585539" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000649" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1207" name="InvalidTimeCannotMutate(-1)" fullname="CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(-1)" methodname="InvalidTimeCannotMutate" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1359761080" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1198" name="LeavesStopAtAvailableWater" fullname="CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.100968" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1195" name="LeavesStopAtAvailableWater(1)" fullname="CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1)" methodname="LeavesStopAtAvailableWater" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="647879282" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000749" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1196" name="LeavesStopAtAvailableWater(10)" fullname="CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(10)" methodname="LeavesStopAtAvailableWater" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="54694480" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000346" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1197" name="LeavesStopAtAvailableWater(1000)" fullname="CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1000)" methodname="LeavesStopAtAvailableWater" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="787885688" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.002510" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1217" name="LockedSpiritNeverProducesAndUnlockedSpiritUsesOnlineBuffOnly" fullname="CayTheGioi.Tests.CoreResourcesTests.LockedSpiritNeverProducesAndUnlockedSpiritUsesOnlineBuffOnly" methodname="LockedSpiritNeverProducesAndUnlockedSpiritUsesOnlineBuffOnly" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="963726754" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000475" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1209" name="OverflowInSecondSegmentRollsBackResourcesAndBank" fullname="CayTheGioi.Tests.CoreResourcesTests.OverflowInSecondSegmentRollsBackResourcesAndBank" methodname="OverflowInSecondSegmentRollsBackResourcesAndBank" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="268325496" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000367" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1201" name="RewardClampsAtCapEvenWhenAlreadyFull" fullname="CayTheGioi.Tests.CoreResourcesTests.RewardClampsAtCapEvenWhenAlreadyFull" methodname="RewardClampsAtCapEvenWhenAlreadyFull" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="67649324" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000379" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1194" name="RootProducesTenRegardlessOfPartition" fullname="CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.101564" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1191" name="RootProducesTenRegardlessOfPartition(1)" fullname="CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1)" methodname="RootProducesTenRegardlessOfPartition" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1988187364" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000763" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1192" name="RootProducesTenRegardlessOfPartition(10)" fullname="CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(10)" methodname="RootProducesTenRegardlessOfPartition" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="1644513384" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000323" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1193" name="RootProducesTenRegardlessOfPartition(1000)" fullname="CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1000)" methodname="RootProducesTenRegardlessOfPartition" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="227720489" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.005579" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1199" name="SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions" fullname="CayTheGioi.Tests.CoreResourcesTests.SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions" methodname="SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions" classname="CayTheGioi.Tests.CoreResourcesTests" runstate="Runnable" seed="615016324" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:27Z" duration="0.000811" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1218" name="CosmeticTests" fullname="CayTheGioi.Tests.CosmeticTests" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-10 03:11:27Z" end-time="2026-10-10 03:11:28Z" duration="0.179318" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1229" name="Cosmetic_DoesNotAffectGameplay_RatesHpProtection" fullname="CayTheGioi.Tests.CosmeticTests.Cosmetic_DoesNotAffectGameplay_RatesHpProtection" methodname="Cosmetic_DoesNotAffectGameplay_RatesHpProtection" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="453567618" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.013507" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1223" name="CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned" methodname="CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="371238495" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.014144" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1221" name="CosmeticSystem_Buy_InsufficientCoin_Fails" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_InsufficientCoin_Fails" methodname="CosmeticSystem_Buy_InsufficientCoin_Fails" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="2091311254" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.003395" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1224" name="CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership" methodname="CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="622123631" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.005875" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1222" name="CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip" methodname="CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="1831543820" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.005746" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1225" name="CosmeticSystem_Equip_NotOwned_Fails" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Equip_NotOwned_Fails" methodname="CosmeticSystem_Equip_NotOwned_Fails" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="771136084" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.003424" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1226" name="CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId" methodname="CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="642490763" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.011101" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1220" name="CosmeticSystem_InitialState_NoneEquipped_EmptyOwned" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_InitialState_NoneEquipped_EmptyOwned" methodname="CosmeticSystem_InitialState_NoneEquipped_EmptyOwned" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="1431961256" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.002825" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1227" name="CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped" methodname="CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="458347981" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.010965" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1228" name="CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped" fullname="CayTheGioi.Tests.CosmeticTests.CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped" methodname="CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="168712966" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.011598" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1219" name="Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20" fullname="CayTheGioi.Tests.CosmeticTests.Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20" methodname="Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20" classname="CayTheGioi.Tests.CosmeticTests" runstate="Runnable" seed="570876555" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.003141" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1230" name="EvolutionTests" fullname="CayTheGioi.Tests.EvolutionTests" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.214636" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1232" name="AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition" fullname="CayTheGioi.Tests.EvolutionTests.AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition" methodname="AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1850956600" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000720" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1238" name="DeadInvalidStageAndShrinkingCapsAreRejected" fullname="CayTheGioi.Tests.EvolutionTests.DeadInvalidStageAndShrinkingCapsAreRejected" methodname="DeadInvalidStageAndShrinkingCapsAreRejected" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="209349393" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000269" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1245" name="EvolutionRequiresAllThreeAndPaysBeforeNotification" fullname="CayTheGioi.Tests.EvolutionTests.EvolutionRequiresAllThreeAndPaysBeforeNotification" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.099410" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1242" name="EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;water&quot;)" fullname="CayTheGioi.Tests.EvolutionTests.EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;water&quot;)" methodname="EvolutionRequiresAllThreeAndPaysBeforeNotification" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1613738048" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000826" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1243" name="EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;photosynthesis&quot;)" fullname="CayTheGioi.Tests.EvolutionTests.EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;photosynthesis&quot;)" methodname="EvolutionRequiresAllThreeAndPaysBeforeNotification" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1178326578" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000156" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1244" name="EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;growth&quot;)" fullname="CayTheGioi.Tests.EvolutionTests.EvolutionRequiresAllThreeAndPaysBeforeNotification(&quot;growth&quot;)" methodname="EvolutionRequiresAllThreeAndPaysBeforeNotification" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1600246467" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000114" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1231" name="ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality" fullname="CayTheGioi.Tests.EvolutionTests.ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality" methodname="ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1225324836" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000679" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1237" name="InvalidOrInsufficientBalancesDoNotMutateOrEmit" fullname="CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.100062" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1233" name="InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)" fullname="CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)" methodname="InvalidOrInsufficientBalancesDoNotMutateOrEmit" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="626652871" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000680" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1234" name="InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)" fullname="CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)" methodname="InvalidOrInsufficientBalancesDoNotMutateOrEmit" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1340852745" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000133" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1235" name="InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)" fullname="CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)" methodname="InvalidOrInsufficientBalancesDoNotMutateOrEmit" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1551426389" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000083" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1236" name="InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)" fullname="CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)" methodname="InvalidOrInsufficientBalancesDoNotMutateOrEmit" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1685566876" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000081" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1240" name="NumericPrecisionInvalidCostAndLaterMilestoneAreHandled" fullname="CayTheGioi.Tests.EvolutionTests.NumericPrecisionInvalidCostAndLaterMilestoneAreHandled" methodname="NumericPrecisionInvalidCostAndLaterMilestoneAreHandled" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1876179230" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000242" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1241" name="SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment" fullname="CayTheGioi.Tests.EvolutionTests.SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment" methodname="SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="165253453" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.001315" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1239" name="UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable" fullname="CayTheGioi.Tests.EvolutionTests.UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable" methodname="UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable" classname="CayTheGioi.Tests.EvolutionTests" runstate="Runnable" seed="1017544418" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000404" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1246" name="FoundationTests" fullname="CayTheGioi.Tests.FoundationTests" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.202565" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1257" name="BuildEntryAndEditorSettingsPointToFoundationScene" fullname="CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene" methodname="BuildEntryAndEditorSettingsPointToFoundationScene" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="974612002" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.004246" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1255" name="CreatedConfigHasAllValidPrefabViews" fullname="CayTheGioi.Tests.FoundationTests.CreatedConfigHasAllValidPrefabViews" methodname="CreatedConfigHasAllValidPrefabViews" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="1438466218" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000590" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1247" name="DefaultRulesMatchConfirmedOfflineAndVitalityContracts" fullname="CayTheGioi.Tests.FoundationTests.DefaultRulesMatchConfirmedOfflineAndVitalityContracts" methodname="DefaultRulesMatchConfirmedOfflineAndVitalityContracts" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="1887070962" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000353" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1248" name="DuplicateStageAndUnknownInitialIdAreRejected" fullname="CayTheGioi.Tests.FoundationTests.DuplicateStageAndUnknownInitialIdAreRejected" methodname="DuplicateStageAndUnknownInitialIdAreRejected" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="1549251327" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000562" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1252" name="InvalidEconomyValueCannotInitialize" fullname="CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.095314" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1249" name="InvalidEconomyValueCannotInitialize(-1)" fullname="CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(-1)" methodname="InvalidEconomyValueCannotInitialize" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="72208952" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000912" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1250" name="InvalidEconomyValueCannotInitialize(double.NaN)" fullname="CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.NaN)" methodname="InvalidEconomyValueCannotInitialize" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="549474272" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000215" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1251" name="InvalidEconomyValueCannotInitialize(double.PositiveInfinity)" fullname="CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.PositiveInfinity)" methodname="InvalidEconomyValueCannotInitialize" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="677090782" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000146" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1254" name="NewRunsHaveUniqueIdsAndIndependentMutableData" fullname="CayTheGioi.Tests.FoundationTests.NewRunsHaveUniqueIdsAndIndependentMutableData" methodname="NewRunsHaveUniqueIdsAndIndependentMutableData" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="626305153" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000724" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1256" name="SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences" fullname="CayTheGioi.Tests.FoundationTests.SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences" methodname="SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="1420826845" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.001128" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1253" name="ShrinkingCapAndCyclicStageChainAreRejected" fullname="CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected" methodname="ShrinkingCapAndCyclicStageChainAreRejected" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="283373293" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000309" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1258" name="StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors" fullname="CayTheGioi.Tests.FoundationTests.StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors" methodname="StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors" classname="CayTheGioi.Tests.FoundationTests" runstate="Runnable" seed="1510775468" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.002201" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1259" name="OfflineTests" fullname="CayTheGioi.Tests.OfflineTests" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:29Z" duration="0.493045" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1278" name="CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay" fullname="CayTheGioi.Tests.OfflineTests.CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay" methodname="CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1288580960" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.014809" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1273" name="DeadWeatherStatusPermanentAndSettingsRemainUntouched" fullname="CayTheGioi.Tests.OfflineTests.DeadWeatherStatusPermanentAndSettingsRemainUntouched" methodname="DeadWeatherStatusPermanentAndSettingsRemainUntouched" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1742303378" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.006260" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1277" name="FailureKeepsSourceAndRetryFromOriginalCreditsOnce" fullname="CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.101771" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1275" name="FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)" fullname="CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)" methodname="FailureKeepsSourceAndRetryFromOriginalCreditsOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1994576833" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.013622" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1276" name="FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)" fullname="CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)" methodname="FailureKeepsSourceAndRetryFromOriginalCreditsOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1148369988" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.009582" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1279" name="InvalidOrOverflowCandidateCannotChangeGoodFile" fullname="CayTheGioi.Tests.OfflineTests.InvalidOrOverflowCandidateCannotChangeGoodFile" methodname="InvalidOrOverflowCandidateCannotChangeGoodFile" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1123402751" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.003835" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1267" name="LeavesOnlyConsumeAvailableWaterOnce" fullname="CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.074787" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1264" name="LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)" fullname="CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)" methodname="LeavesOnlyConsumeAvailableWaterOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="2090551303" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.001402" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1265" name="LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)" fullname="CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)" methodname="LeavesOnlyConsumeAvailableWaterOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="2048452313" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000533" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1266" name="LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)" fullname="CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)" methodname="LeavesOnlyConsumeAvailableWaterOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="2136776192" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000398" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1274" name="NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata" fullname="CayTheGioi.Tests.OfflineTests.NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata" methodname="NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="675304923" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000708" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1263" name="RootCapHalfRateAndVitalityFreeze" fullname="CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.097571" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1260" name="RootCapHalfRateAndVitalityFreeze(3600,1800)" fullname="CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(3600,1800)" methodname="RootCapHalfRateAndVitalityFreeze" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1665053670" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.001411" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1261" name="RootCapHalfRateAndVitalityFreeze(86400,43200)" fullname="CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(86400,43200)" methodname="RootCapHalfRateAndVitalityFreeze" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="2048950089" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000252" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1262" name="RootCapHalfRateAndVitalityFreeze(108000,43200)" fullname="CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(108000,43200)" methodname="RootCapHalfRateAndVitalityFreeze" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1781125750" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000211" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1268" name="SimultaneousSupplyDemandUsesEffectiveDurationOnce" fullname="CayTheGioi.Tests.OfflineTests.SimultaneousSupplyDemandUsesEffectiveDurationOnce" methodname="SimultaneousSupplyDemandUsesEffectiveDurationOnce" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="563721621" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:28Z" duration="0.000584" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1272" name="ZeroAndNegativeClockDoNotRewardOrRewind" fullname="CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:28Z" end-time="2026-10-10 03:11:29Z" duration="0.098854" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1269" name="ZeroAndNegativeClockDoNotRewardOrRewind(1000)" fullname="CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(1000)" methodname="ZeroAndNegativeClockDoNotRewardOrRewind" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="2043015403" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:29Z" duration="0.001380" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1270" name="ZeroAndNegativeClockDoNotRewardOrRewind(999)" fullname="CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(999)" methodname="ZeroAndNegativeClockDoNotRewardOrRewind" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1984548560" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:29Z" duration="0.000538" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1271" name="ZeroAndNegativeClockDoNotRewardOrRewind(-1)" fullname="CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(-1)" methodname="ZeroAndNegativeClockDoNotRewardOrRewind" classname="CayTheGioi.Tests.OfflineTests" runstate="Runnable" seed="1205425345" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:29Z" duration="0.000438" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1280" name="ProgressionMetricsTests" fullname="CayTheGioi.Tests.ProgressionMetricsTests" classname="CayTheGioi.Tests.ProgressionMetricsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:30Z" duration="1.598417" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1283" name="OfflineBankMatchesConfirmedRule24HoursAt50Percent" fullname="CayTheGioi.Tests.ProgressionMetricsTests.OfflineBankMatchesConfirmedRule24HoursAt50Percent" methodname="OfflineBankMatchesConfirmedRule24HoursAt50Percent" classname="CayTheGioi.Tests.ProgressionMetricsTests" runstate="Runnable" seed="34956380" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:29Z" duration="0.000798" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1281" name="ProgressionToLargeTreeIsReachableForIdleAndActivePlayers" fullname="CayTheGioi.Tests.ProgressionMetricsTests.ProgressionToLargeTreeIsReachableForIdleAndActivePlayers" methodname="ProgressionToLargeTreeIsReachableForIdleAndActivePlayers" classname="CayTheGioi.Tests.ProgressionMetricsTests" runstate="Runnable" seed="136950610" result="Passed" start-time="2026-10-10 03:11:29Z" end-time="2026-10-10 03:11:30Z" duration="0.889864" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[T09 metrics] {"label":"idle, evolve as soon as affordable","evolveMode":"Asap","tapsPerSecond":0.0,"points":"0/0/0","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":-1.0,"youngSec":36.0,"youngMaxedSec":-1.0,"largeSec":128.0,"largeMaxedSec":-1.0,"purchases":68,"taps":0,"bankAtLarge":0.0,"finalWater":371850.0999999755,"finalGrowth":954707.0,"longestGapSec":13809.0,"longestGapAt":"40062s mature_tree root -> L24","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","16s seedling trunk -> L2","16s seedling root -> L3","19s seedling leaves -> L3","42s young_tree trunk -> L3","45s young_tree root -> L4","45s young_tree leaves -> L4","56s young_tree trunk -> L4","56s young_tree root -> L5","56s young_tree leaves -> L5","72s young_tree trunk -> L5","72s young_tree root -> L6","72s young_tree leaves -> L6","89s young_tree root -> L7","89s young_tree leaves -> L7","128s large_tree trunk -> L6","144s large_tree trunk -> L7","153s large_tree root -> L8","153s large_tree leaves -> L8","237s mature_tree trunk -> L8","272s mature_tree root -> L9","272s mature_tree leaves -> L9","274s mature_tree trunk -> L9","323s mature_tree root -> L10","323s mature_tree leaves -> L10","351s mature_tree trunk -> L10","397s mature_tree root -> L11","397s mature_tree leaves -> L11","461s mature_tree trunk -> L11","503s mature_tree root -> L12","503s mature_tree leaves -> L12","621s mature_tree trunk -> L12","660s mature_tree root -> L13","660s mature_tree leaves -> L13","856s mature_tree trunk -> L13","856s mature_tree root -> L14","856s mature_tree leaves -> L14","1202s mature_tree trunk -> L14","1202s mature_tree root -> L15","1202s mature_tree leaves -> L15","1717s mature_tree trunk -> L15","1717s mature_tree root -> L16","1717s mature_tree leaves -> L16","2486s mature_tree trunk -> L16","2486s mature_tree root -> L17","2486s mature_tree leaves -> L17","3639s mature_tree trunk -> L17","3639s mature_tree root -> L18","3639s mature_tree leaves -> L18","5375s mature_tree trunk -> L18","5375s mature_tree root -> L19","5375s mature_tree leaves -> L19","7998s mature_tree trunk -> L19","7998s mature_tree root -> L20","7998s mature_tree leaves -> L20","11975s mature_tree trunk -> L20","11975s mature_tree root -> L21","11975s mature_tree leaves -> L21","17211s mature_tree root -> L22","17211s mature_tree leaves -> L22","26253s mature_tree root -> L23","26253s mature_tree leaves -> L23","40062s mature_tree root -> L24","40062s mature_tree leaves -> L24"]}
+[T09 metrics] {"label":"active 3 taps/s, evolve as soon as affordable","evolveMode":"Asap","tapsPerSecond":3.0,"points":"0/0/0","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":-1.0,"youngSec":35.0,"youngMaxedSec":-1.0,"largeSec":122.0,"largeMaxedSec":-1.0,"purchases":70,"taps":179133,"bankAtLarge":34.0,"finalWater":51681.34000009025,"finalGrowth":1014406.8999999955,"longestGapSec":19625.0,"longestGapAt":"57265s mature_tree root -> L25","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","16s seedling trunk -> L2","16s seedling root -> L3","19s seedling leaves -> L3","41s young_tree trunk -> L3","43s young_tree root -> L4","43s young_tree leaves -> L4","54s young_tree trunk -> L4","54s young_tree root -> L5","54s young_tree leaves -> L5","70s young_tree trunk -> L5","70s young_tree root -> L6","70s young_tree leaves -> L6","85s young_tree root -> L7","85s young_tree leaves -> L7","122s large_tree trunk -> L6","138s large_tree trunk -> L7","145s large_tree root -> L8","145s large_tree leaves -> L8","224s mature_tree trunk -> L8","257s mature_tree root -> L9","257s mature_tree leaves -> L9","262s mature_tree trunk -> L9","305s mature_tree root -> L10","305s mature_tree leaves -> L10","335s mature_tree trunk -> L10","373s mature_tree root -> L11","373s mature_tree leaves -> L11","440s mature_tree trunk -> L11","473s mature_tree root -> L12","473s mature_tree leaves -> L12","592s mature_tree trunk -> L12","620s mature_tree root -> L13","620s mature_tree leaves -> L13","815s mature_tree trunk -> L13","815s mature_tree root -> L14","815s mature_tree leaves -> L14","1145s mature_tree trunk -> L14","1145s mature_tree root -> L15","1145s mature_tree leaves -> L15","1636s mature_tree trunk -> L15","1636s mature_tree root -> L16","1636s mature_tree leaves -> L16","2368s mature_tree trunk -> L16","2368s mature_tree root -> L17","2368s mature_tree leaves -> L17","3466s mature_tree trunk -> L17","3466s mature_tree root -> L18","3466s mature_tree leaves -> L18","5119s mature_tree trunk -> L18","5119s mature_tree root -> L19","5119s mature_tree leaves -> L19","7618s mature_tree trunk -> L19","7618s mature_tree root -> L20","7618s mature_tree leaves -> L20","11405s mature_tree trunk -> L20","11405s mature_tree root -> L21","11405s mature_tree leaves -> L21","16107s mature_tree root -> L22","16107s mature_tree leaves -> L22","24773s mature_tree root -> L23","24773s mature_tree leaves -> L23","37640s mature_tree root -> L24","37640s mature_tree leaves -> L24","57265s mature_tree root -> L25","57265s mature_tree leaves -> L25"]}
+[T09 metrics] {"label":"idle, max caps before evolving","evolveMode":"AfterCaps","tapsPerSecond":0.0,"points":"0/0/0","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":61.0,"youngSec":66.0,"youngMaxedSec":197.0,"largeSec":224.0,"largeMaxedSec":7288.0,"purchases":50,"taps":0,"bankAtLarge":0.0,"finalWater":31.100000000049477,"finalGrowth":69532.0,"longestGapSec":2414.0,"longestGapAt":"7287s large_tree root -> L20","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","16s seedling trunk -> L2","16s seedling root -> L3","19s seedling leaves -> L3","29s seedling trunk -> L3","29s seedling root -> L4","29s seedling leaves -> L4","43s seedling trunk -> L4","43s seedling root -> L5","43s seedling leaves -> L5","60s seedling trunk -> L5","66s young_tree root -> L6","66s young_tree leaves -> L6","83s young_tree root -> L7","83s young_tree leaves -> L7","109s young_tree root -> L8","109s young_tree leaves -> L8","145s young_tree root -> L9","145s young_tree leaves -> L9","196s young_tree root -> L10","196s young_tree leaves -> L10","224s large_tree trunk -> L6","224s large_tree trunk -> L7","224s large_tree trunk -> L8","259s large_tree trunk -> L9","335s large_tree trunk -> L10","335s large_tree root -> L11","335s large_tree leaves -> L11","406s large_tree root -> L12","406s large_tree leaves -> L12","563s large_tree root -> L13","563s large_tree leaves -> L13","767s large_tree root -> L14","767s large_tree leaves -> L14","1083s large_tree root -> L15","1083s large_tree leaves -> L15","1596s large_tree root -> L16","1596s large_tree leaves -> L16","2364s large_tree root -> L17","2364s large_tree leaves -> L17","3387s large_tree root -> L18","3387s large_tree leaves -> L18","4873s large_tree root -> L19","4873s large_tree leaves -> L19","7287s large_tree root -> L20","7287s large_tree leaves -> L20"]}
+[T09 metrics] {"label":"active 3 taps/s, max caps before evolving","evolveMode":"AfterCaps","tapsPerSecond":3.0,"points":"0/0/0","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":59.0,"youngSec":64.0,"youngMaxedSec":186.0,"largeSec":211.0,"largeMaxedSec":6869.0,"purchases":50,"taps":20607,"bankAtLarge":45.0,"finalWater":30.649999999732245,"finalGrowth":68779.55,"longestGapSec":2270.0,"longestGapAt":"6868s large_tree root -> L20","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","16s seedling trunk -> L2","16s seedling root -> L3","19s seedling leaves -> L3","29s seedling trunk -> L3","29s seedling root -> L4","29s seedling leaves -> L4","42s seedling trunk -> L4","42s seedling root -> L5","42s seedling leaves -> L5","58s seedling trunk -> L5","64s young_tree root -> L6","64s young_tree leaves -> L6","80s young_tree root -> L7","80s young_tree leaves -> L7","104s young_tree root -> L8","104s young_tree leaves -> L8","138s young_tree root -> L9","138s young_tree leaves -> L9","185s young_tree root -> L10","185s young_tree leaves -> L10","211s large_tree trunk -> L6","211s large_tree trunk -> L7","211s large_tree trunk -> L8","246s large_tree trunk -> L9","319s large_tree trunk -> L10","319s large_tree root -> L11","319s large_tree leaves -> L11","383s large_tree root -> L12","383s large_tree leaves -> L12","530s large_tree root -> L13","530s large_tree leaves -> L13","729s large_tree root -> L14","729s large_tree leaves -> L14","1015s large_tree root -> L15","1015s large_tree leaves -> L15","1495s large_tree root -> L16","1495s large_tree leaves -> L16","2216s large_tree root -> L17","2216s large_tree leaves -> L17","3193s large_tree root -> L18","3193s large_tree leaves -> L18","4598s large_tree root -> L19","4598s large_tree leaves -> L19","6868s large_tree root -> L20","6868s large_tree leaves -> L20"]}
+[T09 metrics] {"label":"idle, evolve ASAP, points 3/3/3 (after Rebirths)","evolveMode":"Asap","tapsPerSecond":0.0,"points":"3/3/3","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":-1.0,"youngSec":37.0,"youngMaxedSec":-1.0,"largeSec":121.0,"largeMaxedSec":-1.0,"purchases":70,"taps":0,"bankAtLarge":0.0,"finalWater":210767.61999991277,"finalGrowth":1133906.1499999976,"longestGapSec":13050.0,"longestGapAt":"51064s mature_tree root -> L25","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","14s seedling trunk -> L2","14s seedling root -> L3","19s seedling leaves -> L3","26s seedling trunk -> L3","26s seedling root -> L4","28s seedling leaves -> L4","45s young_tree trunk -> L4","45s young_tree root -> L5","46s young_tree leaves -> L5","60s young_tree trunk -> L5","60s young_tree root -> L6","60s young_tree leaves -> L6","72s young_tree root -> L7","77s young_tree leaves -> L7","93s young_tree root -> L8","121s large_tree trunk -> L6","124s large_tree trunk -> L7","124s large_tree leaves -> L8","191s mature_tree trunk -> L8","220s mature_tree root -> L9","220s mature_tree leaves -> L9","236s mature_tree trunk -> L9","262s mature_tree root -> L10","262s mature_tree leaves -> L10","302s mature_tree trunk -> L10","323s mature_tree root -> L11","323s mature_tree leaves -> L11","398s mature_tree trunk -> L11","412s mature_tree root -> L12","412s mature_tree leaves -> L12","537s mature_tree trunk -> L12","543s mature_tree root -> L13","543s mature_tree leaves -> L13","741s mature_tree trunk -> L13","741s mature_tree root -> L14","741s mature_tree leaves -> L14","1042s mature_tree trunk -> L14","1042s mature_tree root -> L15","1042s mature_tree leaves -> L15","1490s mature_tree trunk -> L15","1490s mature_tree root -> L16","1490s mature_tree leaves -> L16","2158s mature_tree trunk -> L16","2158s mature_tree root -> L17","2163s mature_tree leaves -> L17","3161s mature_tree trunk -> L17","3161s mature_tree root -> L18","3207s mature_tree leaves -> L18","4671s mature_tree trunk -> L18","4671s mature_tree root -> L19","4827s mature_tree leaves -> L19","6952s mature_tree trunk -> L19","6952s mature_tree root -> L20","7207s mature_tree leaves -> L20","10410s mature_tree trunk -> L20","10410s mature_tree root -> L21","10826s mature_tree leaves -> L21","14234s mature_tree root -> L22","16562s mature_tree leaves -> L22","21897s mature_tree root -> L23","25078s mature_tree leaves -> L23","33393s mature_tree root -> L24","38014s mature_tree leaves -> L24","51064s mature_tree root -> L25","57702s mature_tree leaves -> L25"]}
+[T09 metrics] {"label":"idle, max caps first, points 3/3/3 (after Rebirths)","evolveMode":"AfterCaps","tapsPerSecond":0.0,"points":"3/3/3","firstRootSec":1.0,"firstLeavesSec":1.0,"seedlingMaxedSec":53.0,"youngSec":58.0,"youngMaxedSec":166.0,"largeSec":187.0,"largeMaxedSec":6523.0,"purchases":50,"taps":0,"bankAtLarge":0.0,"finalWater":8467.839999998816,"finalGrowth":71698.2,"longestGapSec":1805.0,"longestGapAt":"6131s large_tree root -> L20","purchaseLog":["0s seedling root -> L1","0s seedling leaves -> L1","0s seedling trunk -> L1","4s seedling root -> L2","11s seedling leaves -> L2","14s seedling trunk -> L2","14s seedling root -> L3","19s seedling leaves -> L3","26s seedling trunk -> L3","26s seedling root -> L4","28s seedling leaves -> L4","38s seedling trunk -> L4","38s seedling root -> L5","38s seedling leaves -> L5","52s seedling trunk -> L5","58s young_tree root -> L6","58s young_tree leaves -> L6","71s young_tree root -> L7","76s young_tree leaves -> L7","92s young_tree root -> L8","100s young_tree leaves -> L8","122s young_tree root -> L9","129s young_tree leaves -> L9","164s young_tree root -> L10","165s young_tree leaves -> L10","187s large_tree trunk -> L6","187s large_tree trunk -> L7","187s large_tree trunk -> L8","222s large_tree trunk -> L9","289s large_tree trunk -> L10","289s large_tree root -> L11","289s large_tree leaves -> L11","340s large_tree root -> L12","340s large_tree leaves -> L12","471s large_tree root -> L13","471s large_tree leaves -> L13","663s large_tree root -> L14","663s large_tree leaves -> L14","897s large_tree root -> L15","908s large_tree leaves -> L15","1324s large_tree root -> L16","1324s large_tree leaves -> L16","1965s large_tree root -> L17","1965s large_tree leaves -> L17","2858s large_tree root -> L18","2891s large_tree leaves -> L18","4153s large_tree root -> L19","4326s large_tree leaves -> L19","6131s large_tree root -> L20","6522s large_tree leaves -> L20"]}
+]]></output>
+            </test-case>
+            <test-case id="1282" name="ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible" fullname="CayTheGioi.Tests.ProgressionMetricsTests.ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible" methodname="ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible" classname="CayTheGioi.Tests.ProgressionMetricsTests" runstate="Runnable" seed="949609451" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.602786" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[T09 metrics] {"trunkLevel":0,"runs":200,"protection":0.0,"medianHours":4.402777777777778,"p10Hours":2.286111111111111,"p90Hours":7.830555555555556,"meanStrikes":5.0,"fractionDeadWithin72h":1.0}
+[T09 metrics] {"trunkLevel":5,"runs":200,"protection":0.25,"medianHours":5.35,"p10Hours":2.763888888888889,"p90Hours":10.116666666666667,"meanStrikes":5.0,"fractionDeadWithin72h":1.0}
+[T09 metrics] {"trunkLevel":10,"runs":200,"protection":0.5,"medianHours":6.625,"p10Hours":3.4833333333333334,"p90Hours":11.116666666666667,"meanStrikes":5.0,"fractionDeadWithin72h":1.0}
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1284" name="RebirthTests" fullname="CayTheGioi.Tests.RebirthTests" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="25" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:31Z" duration="0.532728" total="25" passed="25" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1305" name="CloneAliasCannotExposeUncommittedReset" fullname="CayTheGioi.Tests.RebirthTests.CloneAliasCannotExposeUncommittedReset" methodname="CloneAliasCannotExposeUncommittedReset" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1335495939" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.006090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1293" name="CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay" fullname="CayTheGioi.Tests.RebirthTests.CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay" methodname="CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="609362344" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.006645" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1311" name="EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder" fullname="CayTheGioi.Tests.RebirthTests.EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder" methodname="EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="264870768" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.003784" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1292" name="FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce" fullname="CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.016047" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1290" name="FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)" fullname="CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)" methodname="FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="821611779" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.007925" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1291" name="FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)" fullname="CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)" methodname="FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="418304781" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.007162" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1289" name="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation" fullname="CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.106008" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1286" name="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;seedling&quot;)" fullname="CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;seedling&quot;)" methodname="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1920344663" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.007968" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1287" name="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;young_tree&quot;)" fullname="CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;young_tree&quot;)" methodname="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1779919619" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.007511" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1288" name="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;large_tree&quot;)" fullname="CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(&quot;large_tree&quot;)" methodname="ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1081988629" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.006272" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1310" name="InvalidEffectConfigurationIsRejected" fullname="CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.091410" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1306" name="InvalidEffectConfigurationIsRejected(&quot;duplicate&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(&quot;duplicate&quot;)" methodname="InvalidEffectConfigurationIsRejected" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1258379041" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.005751" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1307" name="InvalidEffectConfigurationIsRejected(&quot;missing&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(&quot;missing&quot;)" methodname="InvalidEffectConfigurationIsRejected" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="534746280" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.002738" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1308" name="InvalidEffectConfigurationIsRejected(&quot;target&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(&quot;target&quot;)" methodname="InvalidEffectConfigurationIsRejected" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="694789990" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.002725" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1309" name="InvalidEffectConfigurationIsRejected(&quot;nan&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(&quot;nan&quot;)" methodname="InvalidEffectConfigurationIsRejected" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="903078678" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.002912" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1298" name="InvalidOrLockedCannotCommit" fullname="CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.099479" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1294" name="InvalidOrLockedCannotCommit(&quot;locked&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(&quot;locked&quot;)" methodname="InvalidOrLockedCannotCommit" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="761852954" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.005853" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1295" name="InvalidOrLockedCannotCommit(&quot;overflow&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(&quot;overflow&quot;)" methodname="InvalidOrLockedCannotCommit" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1608752552" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.002939" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1296" name="InvalidOrLockedCannotCommit(&quot;count&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(&quot;count&quot;)" methodname="InvalidOrLockedCannotCommit" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1302038803" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.002796" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1297" name="InvalidOrLockedCannotCommit(&quot;invalid&quot;)" fullname="CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(&quot;invalid&quot;)" methodname="InvalidOrLockedCannotCommit" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1628177040" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.003102" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1315" name="MatureRebirthLocksSpiritAndFundsAllDefaultFirstLevels" fullname="CayTheGioi.Tests.RebirthTests.MatureRebirthLocksSpiritAndFundsAllDefaultFirstLevels" methodname="MatureRebirthLocksSpiritAndFundsAllDefaultFirstLevels" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="2074497036" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.005654" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1299" name="ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked" fullname="CayTheGioi.Tests.RebirthTests.ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked" methodname="ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="121067047" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:30Z" duration="0.006441" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1314" name="OlderConfigMigratesByValidationWithoutResettingWallets" fullname="CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-10 03:11:30Z" end-time="2026-10-10 03:11:31Z" duration="0.081471" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1312" name="OlderConfigMigratesByValidationWithoutResettingWallets(&quot;prototype-1&quot;)" fullname="CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(&quot;prototype-1&quot;)" methodname="OlderConfigMigratesByValidationWithoutResettingWallets" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="313620216" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.005722" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1313" name="OlderConfigMigratesByValidationWithoutResettingWallets(&quot;prototype-2&quot;)" fullname="CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(&quot;prototype-2&quot;)" methodname="OlderConfigMigratesByValidationWithoutResettingWallets" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="536678590" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003418" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1304" name="OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus" fullname="CayTheGioi.Tests.RebirthTests.OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus" methodname="OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="505380628" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003524" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1285" name="PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse" fullname="CayTheGioi.Tests.RebirthTests.PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse" methodname="PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="549658988" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.008012" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1303" name="SeparateEffectsAffectOnlyTheirTarget" fullname="CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.090251" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1300" name="SeparateEffectsAffectOnlyTheirTarget(&quot;seedling&quot;,1.1d,1,0)" fullname="CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(&quot;seedling&quot;,1.1d,1,0)" methodname="SeparateEffectsAffectOnlyTheirTarget" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1791028263" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.006149" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1301" name="SeparateEffectsAffectOnlyTheirTarget(&quot;young_tree&quot;,1,1.1d,0)" fullname="CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(&quot;young_tree&quot;,1,1.1d,0)" methodname="SeparateEffectsAffectOnlyTheirTarget" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1230761992" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.002957" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1302" name="SeparateEffectsAffectOnlyTheirTarget(&quot;large_tree&quot;,1,1,0.04d)" fullname="CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(&quot;large_tree&quot;,1,1,0.04d)" methodname="SeparateEffectsAffectOnlyTheirTarget" classname="CayTheGioi.Tests.RebirthTests" runstate="Runnable" seed="1109228110" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.002865" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1316" name="SaveSafetyTests" fullname="CayTheGioi.Tests.SaveSafetyTests" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.320345" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1323" name="ClockRollbackDoesNotMoveCheckpointBackward" fullname="CayTheGioi.Tests.SaveSafetyTests.ClockRollbackDoesNotMoveCheckpointBackward" methodname="ClockRollbackDoesNotMoveCheckpointBackward" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="881509411" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.008366" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1325" name="CorruptBothPreservedUntilExplicitArchivedReset" fullname="CayTheGioi.Tests.SaveSafetyTests.CorruptBothPreservedUntilExplicitArchivedReset" methodname="CorruptBothPreservedUntilExplicitArchivedReset" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1415791825" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.009043" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1320" name="FailureAfterReplacementAcknowledgesCommittedSnapshot" fullname="CayTheGioi.Tests.SaveSafetyTests.FailureAfterReplacementAcknowledgesCommittedSnapshot" methodname="FailureAfterReplacementAcknowledgesCommittedSnapshot" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="824007123" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.010951" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1319" name="FailureBeforeCommitRetainsMainAndRevision" fullname="CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.088569" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1317" name="FailureBeforeCommitRetainsMainAndRevision(AfterFlush)" fullname="CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(AfterFlush)" methodname="FailureBeforeCommitRetainsMainAndRevision" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="350101186" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.007498" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1318" name="FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)" fullname="CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)" methodname="FailureBeforeCommitRetainsMainAndRevision" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="861498710" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.004953" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1331" name="InvalidRuntimeCannotReplaceGoodSave" fullname="CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.095375" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1327" name="InvalidRuntimeCannotReplaceGoodSave(&quot;life&quot;)" fullname="CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(&quot;life&quot;)" methodname="InvalidRuntimeCannotReplaceGoodSave" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1685197388" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.005648" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1328" name="InvalidRuntimeCannotReplaceGoodSave(&quot;counter&quot;)" fullname="CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(&quot;counter&quot;)" methodname="InvalidRuntimeCannotReplaceGoodSave" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="213969257" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003395" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1329" name="InvalidRuntimeCannotReplaceGoodSave(&quot;points&quot;)" fullname="CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(&quot;points&quot;)" methodname="InvalidRuntimeCannotReplaceGoodSave" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1686995149" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1330" name="InvalidRuntimeCannotReplaceGoodSave(&quot;weather&quot;)" fullname="CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(&quot;weather&quot;)" methodname="InvalidRuntimeCannotReplaceGoodSave" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1113215426" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003543" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1324" name="MissingMainStillOffersBackupAndRequiresAcceptance" fullname="CayTheGioi.Tests.SaveSafetyTests.MissingMainStillOffersBackupAndRequiresAcceptance" methodname="MissingMainStillOffersBackupAndRequiresAcceptance" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="486118171" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.008953" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1322" name="MissingOptionalFieldsDefaultButMissingCoreIsRejected" fullname="CayTheGioi.Tests.SaveSafetyTests.MissingOptionalFieldsDefaultButMissingCoreIsRejected" methodname="MissingOptionalFieldsDefaultButMissingCoreIsRejected" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1097282481" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000879" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1321" name="NewerSchemaAndUnknownConfigCannotBeOverwritten" fullname="CayTheGioi.Tests.SaveSafetyTests.NewerSchemaAndUnknownConfigCannotBeOverwritten" methodname="NewerSchemaAndUnknownConfigCannotBeOverwritten" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="101694570" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.005175" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1332" name="OlderSchemaAndDuplicateJsonKeysAreRejected" fullname="CayTheGioi.Tests.SaveSafetyTests.OlderSchemaAndDuplicateJsonKeysAreRejected" methodname="OlderSchemaAndDuplicateJsonKeysAreRejected" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="1625343858" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003394" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1326" name="SnapshotAndRestoreHaveNoMutableEntryAliases" fullname="CayTheGioi.Tests.SaveSafetyTests.SnapshotAndRestoreHaveNoMutableEntryAliases" methodname="SnapshotAndRestoreHaveNoMutableEntryAliases" classname="CayTheGioi.Tests.SaveSafetyTests" runstate="Runnable" seed="889519946" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000790" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1333" name="SaveSystemTests" fullname="CayTheGioi.Tests.SaveSystemTests" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" testcasecount="30" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.236259" total="30" passed="30" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1363" name="LegacyBootstrapGrantIsNotRepeatedAfterConfigSixSave" fullname="CayTheGioi.Tests.SaveSystemTests.LegacyBootstrapGrantIsNotRepeatedAfterConfigSixSave" methodname="LegacyBootstrapGrantIsNotRepeatedAfterConfigSixSave" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1202825734" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.004938" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1364" name="MatureSpiritRoundtripValidatesStageAndUnlock" fullname="CayTheGioi.Tests.SaveSystemTests.MatureSpiritRoundtripValidatesStageAndUnlock" methodname="MatureSpiritRoundtripValidatesStageAndUnlock" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="821471046" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001475" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1339" name="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" fullname="CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.098947" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1335" name="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-1&quot;)" fullname="CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-1&quot;)" methodname="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="288950010" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.002667" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1336" name="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-2&quot;)" fullname="CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-2&quot;)" methodname="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1311709880" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001215" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1337" name="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-3&quot;)" fullname="CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-3&quot;)" methodname="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1279849320" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000917" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1338" name="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-4&quot;)" fullname="CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(&quot;prototype-4&quot;)" methodname="OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1407414790" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000923" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1341" name="Restore_Roundtrip_PreservesAllFields" fullname="CayTheGioi.Tests.SaveSystemTests.Restore_Roundtrip_PreservesAllFields" methodname="Restore_Roundtrip_PreservesAllFields" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1555544861" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001112" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1357" name="SaveService_CorruptBothFiles_ReturnsCorruptNoBackup" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptBothFiles_ReturnsCorruptNoBackup" methodname="SaveService_CorruptBothFiles_ReturnsCorruptNoBackup" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="516180592" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.008545" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1356" name="SaveService_CorruptMain_LoadsFromBackup" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptMain_LoadsFromBackup" methodname="SaveService_CorruptMain_LoadsFromBackup" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1851903912" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.006818" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1362" name="SaveService_DeleteFiles_ClearsAll" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_DeleteFiles_ClearsAll" methodname="SaveService_DeleteFiles_ClearsAll" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="729072592" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.005781" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1360" name="SaveService_MissingFieldsGetDefaults_AfterRestore" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_MissingFieldsGetDefaults_AfterRestore" methodname="SaveService_MissingFieldsGetDefaults_AfterRestore" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="303565510" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001416" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1361" name="SaveService_MutipleQuickSaves_DoNotDoubleSave" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_MutipleQuickSaves_DoNotDoubleSave" methodname="SaveService_MutipleQuickSaves_DoNotDoubleSave" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1659918166" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.012586" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1353" name="SaveService_NewGame_WhenNoFileExists" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_NewGame_WhenNoFileExists" methodname="SaveService_NewGame_WhenNoFileExists" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1408856868" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001071" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1359" name="SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences" methodname="SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="300851999" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001168" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1355" name="SaveService_RevisionIncrementsEachSave" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_RevisionIncrementsEachSave" methodname="SaveService_RevisionIncrementsEachSave" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1818594564" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.005581" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1354" name="SaveService_Roundtrip_SaveAndLoad" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_Roundtrip_SaveAndLoad" methodname="SaveService_Roundtrip_SaveAndLoad" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="657761811" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003918" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1358" name="SaveService_VersionTooNew_DoesNotAllowLoad" fullname="CayTheGioi.Tests.SaveSystemTests.SaveService_VersionTooNew_DoesNotAllowLoad" methodname="SaveService_VersionTooNew_DoesNotAllowLoad" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1637000727" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.003693" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1342" name="Snapshot_DeepCopiesNestedState_NoSharedReference" fullname="CayTheGioi.Tests.SaveSystemTests.Snapshot_DeepCopiesNestedState_NoSharedReference" methodname="Snapshot_DeepCopiesNestedState_NoSharedReference" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1110434758" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001093" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1340" name="Snapshot_ReturnsDto_WithExpectedSchemaAndFields" fullname="CayTheGioi.Tests.SaveSystemTests.Snapshot_ReturnsDto_WithExpectedSchemaAndFields" methodname="Snapshot_ReturnsDto_WithExpectedSchemaAndFields" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1214764725" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001181" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1334" name="SnapshotAndCloneKeepPhotosynthesisAndSpiritIndependent" fullname="CayTheGioi.Tests.SaveSystemTests.SnapshotAndCloneKeepPhotosynthesisAndSpiritIndependent" methodname="SnapshotAndCloneKeepPhotosynthesisAndSpiritIndependent" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="786360662" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.001168" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1351" name="Validate_BankSecondsOverCap_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_BankSecondsOverCap_ReturnsError" methodname="Validate_BankSecondsOverCap_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="919513816" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000867" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1349" name="Validate_EquippedCosmeticNotOwned_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_EquippedCosmeticNotOwned_ReturnsError" methodname="Validate_EquippedCosmeticNotOwned_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="2105869197" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000861" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1348" name="Validate_LevelExceedsCap_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_LevelExceedsCap_ReturnsError" methodname="Validate_LevelExceedsCap_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1269072501" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000791" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1347" name="Validate_NanGrowth_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_NanGrowth_ReturnsError" methodname="Validate_NanGrowth_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="825994859" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000788" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1346" name="Validate_NegativeWater_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_NegativeWater_ReturnsError" methodname="Validate_NegativeWater_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1858126193" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000845" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1344" name="Validate_NullDto_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_NullDto_ReturnsError" methodname="Validate_NullDto_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1409914462" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000746" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1352" name="Validate_SchemaVersionTooNew_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_SchemaVersionTooNew_ReturnsError" methodname="Validate_SchemaVersionTooNew_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="2073606090" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000835" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1350" name="Validate_TapProgressAtMax_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_TapProgressAtMax_ReturnsError" methodname="Validate_TapProgressAtMax_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="900324501" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000915" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1345" name="Validate_UnknownStageId_ReturnsError" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_UnknownStageId_ReturnsError" methodname="Validate_UnknownStageId_ReturnsError" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="359464722" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000800" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1343" name="Validate_ValidNewGameDto_ReturnsEmpty" fullname="CayTheGioi.Tests.SaveSystemTests.Validate_ValidNewGameDto_ReturnsEmpty" methodname="Validate_ValidNewGameDto_ReturnsEmpty" classname="CayTheGioi.Tests.SaveSystemTests" runstate="Runnable" seed="1978056764" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000773" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1365" name="TutorialSettingsAudioTests" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.086177" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1375" name="AudioController_MusicToggle_MutesAndUnmutesBgm" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_MusicToggle_MutesAndUnmutesBgm" methodname="AudioController_MusicToggle_MutesAndUnmutesBgm" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="652618351" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.028100" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1374" name="AudioController_RateLimiting_RejectsSpamTapSfx" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_RateLimiting_RejectsSpamTapSfx" methodname="AudioController_RateLimiting_RejectsSpamTapSfx" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="2107273615" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.027505" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1376" name="SettingsState_Serialization_PreservesValuesAcrossSaveLoad" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.SettingsState_Serialization_PreservesValuesAcrossSaveLoad" methodname="SettingsState_Serialization_PreservesValuesAcrossSaveLoad" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1359909647" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000520" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1371" name="TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock" methodname="TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="2099400054" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000281" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1370" name="TutorialSystem_DialogueSteps_RequireConfirmation" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DialogueSteps_RequireConfirmation" methodname="TutorialSystem_DialogueSteps_RequireConfirmation" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1368176144" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000444" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1369" name="TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather" methodname="TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="695126462" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000274" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1366" name="TutorialSystem_InitialState_CurrentStepIsVitality" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_InitialState_CurrentStepIsVitality" methodname="TutorialSystem_InitialState_CurrentStepIsVitality" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1946688008" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000165" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1372" name="TutorialSystem_Rebirth_PreservesCompletedSteps" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_Rebirth_PreservesCompletedSteps" methodname="TutorialSystem_Rebirth_PreservesCompletedSteps" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="388954808" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000312" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1373" name="TutorialSystem_SaveFailure_RollsBackStepCompletion" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_SaveFailure_RollsBackStepCompletion" methodname="TutorialSystem_SaveFailure_RollsBackStepCompletion" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1864326678" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000345" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1368" name="TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps" methodname="TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1527268520" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000222" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1367" name="TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot" fullname="CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot" methodname="TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot" classname="CayTheGioi.Tests.TutorialSettingsAudioTests" runstate="Runnable" seed="1397204693" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000194" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1377" name="UpgradeTests" fullname="CayTheGioi.Tests.UpgradeTests" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:32Z" duration="0.447161" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1405" name="AbundantWaterCannotPayAGrowthCost" fullname="CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.004998" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1403" name="AbundantWaterCannotPayAGrowthCost(&quot;leaves&quot;,1)" fullname="CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(&quot;leaves&quot;,1)" methodname="AbundantWaterCannotPayAGrowthCost" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1034461330" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000831" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1404" name="AbundantWaterCannotPayAGrowthCost(&quot;trunk&quot;,0)" fullname="CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(&quot;trunk&quot;,0)" methodname="AbundantWaterCannotPayAGrowthCost" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="96983612" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000189" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1391" name="AllBranchesReachTheirOwnCapWithAbundantResources" fullname="CayTheGioi.Tests.UpgradeTests.AllBranchesReachTheirOwnCapWithAbundantResources" methodname="AllBranchesReachTheirOwnCapWithAbundantResources" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="915023342" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000417" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1408" name="ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected" fullname="CayTheGioi.Tests.UpgradeTests.ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected" methodname="ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1947158030" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000752" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1385" name="CostUsesConfiguredExponentialAndSingleCeiling" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.100186" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1380" name="CostUsesConfiguredExponentialAndSingleCeiling(0,5)" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(0,5)" methodname="CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1695959315" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000973" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1381" name="CostUsesConfiguredExponentialAndSingleCeiling(1,8)" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(1,8)" methodname="CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1782570551" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000313" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1382" name="CostUsesConfiguredExponentialAndSingleCeiling(2,13)" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(2,13)" methodname="CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="208606846" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000207" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1383" name="CostUsesConfiguredExponentialAndSingleCeiling(3,21)" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(3,21)" methodname="CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="547469971" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000185" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1384" name="CostUsesConfiguredExponentialAndSingleCeiling(4,33)" fullname="CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(4,33)" methodname="CostUsesConfiguredExponentialAndSingleCeiling" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="588964908" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000278" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1386" name="CustomCostAndKDisplayStillSpendExactFullValue" fullname="CayTheGioi.Tests.UpgradeTests.CustomCostAndKDisplayStillSpendExactFullValue" methodname="CustomCostAndKDisplayStillSpendExactFullValue" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1831987658" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:31Z" duration="0.000422" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1402" name="EachUpgradeDeductsOnlyItsQuotedCurrency" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-10 03:11:31Z" end-time="2026-10-10 03:11:32Z" duration="0.098459" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1397" name="EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;root&quot;,0,&quot;water&quot;,5)" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;root&quot;,0,&quot;water&quot;,5)" methodname="EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="305772321" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.001707" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1398" name="EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;root&quot;,1,&quot;water&quot;,8)" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;root&quot;,1,&quot;water&quot;,8)" methodname="EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1726655396" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000326" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1399" name="EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;leaves&quot;,0,&quot;photosynthesis&quot;,5)" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;leaves&quot;,0,&quot;photosynthesis&quot;,5)" methodname="EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1202249023" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000184" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1400" name="EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;leaves&quot;,1,&quot;photosynthesis&quot;,8)" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;leaves&quot;,1,&quot;photosynthesis&quot;,8)" methodname="EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1382896085" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000159" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1401" name="EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;trunk&quot;,0,&quot;growth&quot;,10)" fullname="CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(&quot;trunk&quot;,0,&quot;growth&quot;,10)" methodname="EachUpgradeDeductsOnlyItsQuotedCurrency" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1064460490" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000183" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1378" name="ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState" fullname="CayTheGioi.Tests.UpgradeTests.ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState" methodname="ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1428510891" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000665" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1406" name="FreshRunFundsAllDefaultBranchesAndStartsTheWholeChain" fullname="CayTheGioi.Tests.UpgradeTests.FreshRunFundsAllDefaultBranchesAndStartsTheWholeChain" methodname="FreshRunFundsAllDefaultBranchesAndStartsTheWholeChain" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1814499190" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000483" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1407" name="GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels" fullname="CayTheGioi.Tests.UpgradeTests.GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels" methodname="GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1540473599" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000393" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1379" name="InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase" fullname="CayTheGioi.Tests.UpgradeTests.InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase" methodname="InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="312401944" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000348" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1395" name="InvalidBalanceCannotMutate" fullname="CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.095768" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1392" name="InvalidBalanceCannotMutate(double.NaN)" fullname="CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.NaN)" methodname="InvalidBalanceCannotMutate" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1080802587" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000745" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1393" name="InvalidBalanceCannotMutate(double.PositiveInfinity)" fullname="CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.PositiveInfinity)" methodname="InvalidBalanceCannotMutate" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1601437194" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000262" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1394" name="InvalidBalanceCannotMutate(-1)" fullname="CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(-1)" methodname="InvalidBalanceCannotMutate" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1409557612" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000210" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1396" name="InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected" fullname="CayTheGioi.Tests.UpgradeTests.InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected" methodname="InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="784698744" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.002958" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1387" name="LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents" fullname="CayTheGioi.Tests.UpgradeTests.LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents" methodname="LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="939686548" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000816" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1390" name="RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade" fullname="CayTheGioi.Tests.UpgradeTests.RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade" methodname="RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1511337996" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000787" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1413" name="SpiritIsLockedBeforeMatureAndRejectsUnrepresentableUnlock" fullname="CayTheGioi.Tests.UpgradeTests.SpiritIsLockedBeforeMatureAndRejectsUnrepresentableUnlock" methodname="SpiritIsLockedBeforeMatureAndRejectsUnrepresentableUnlock" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="173107982" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000493" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1412" name="SpiritUnlockRequiresEveryWalletAndCommitsOnce" fullname="CayTheGioi.Tests.UpgradeTests.SpiritUnlockRequiresEveryWalletAndCommitsOnce" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.094832" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1409" name="SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;water&quot;)" fullname="CayTheGioi.Tests.UpgradeTests.SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;water&quot;)" methodname="SpiritUnlockRequiresEveryWalletAndCommitsOnce" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1254453883" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.001542" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1410" name="SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;photosynthesis&quot;)" fullname="CayTheGioi.Tests.UpgradeTests.SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;photosynthesis&quot;)" methodname="SpiritUnlockRequiresEveryWalletAndCommitsOnce" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1130130705" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000325" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1411" name="SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;growth&quot;)" fullname="CayTheGioi.Tests.UpgradeTests.SpiritUnlockRequiresEveryWalletAndCommitsOnce(&quot;growth&quot;)" methodname="SpiritUnlockRequiresEveryWalletAndCommitsOnce" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1173596857" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000208" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1388" name="StageCapUnlocksTrunkAndVitalityNeverChangesProtection" fullname="CayTheGioi.Tests.UpgradeTests.StageCapUnlocksTrunkAndVitalityNeverChangesProtection" methodname="StageCapUnlocksTrunkAndVitalityNeverChangesProtection" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="864473436" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000738" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1389" name="UpgradeUpdatesProductionWithOneVitalityMultiplier" fullname="CayTheGioi.Tests.UpgradeTests.UpgradeUpdatesProductionWithOneVitalityMultiplier" methodname="UpgradeUpdatesProductionWithOneVitalityMultiplier" classname="CayTheGioi.Tests.UpgradeTests" runstate="Runnable" seed="1236344379" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000512" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1414" name="WeatherTests" fullname="CayTheGioi.Tests.WeatherTests" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.103820" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1418" name="AfterThunderstorm_MustAlwaysTransitionToCalm" fullname="CayTheGioi.Tests.WeatherTests.AfterThunderstorm_MustAlwaysTransitionToCalm" methodname="AfterThunderstorm_MustAlwaysTransitionToCalm" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="924654151" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000814" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1428" name="Burning_Deals2HpPerSecond_AndExpiresAfterDuration" fullname="CayTheGioi.Tests.WeatherTests.Burning_Deals2HpPerSecond_AndExpiresAfterDuration" methodname="Burning_Deals2HpPerSecond_AndExpiresAfterDuration" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1909078493" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000350" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1429" name="BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot" fullname="CayTheGioi.Tests.WeatherTests.BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot" methodname="BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="963479688" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000283" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1427" name="Cooldown_PreventsImmediateSubsequentStrikes" fullname="CayTheGioi.Tests.WeatherTests.Cooldown_PreventsImmediateSubsequentStrikes" methodname="Cooldown_PreventsImmediateSubsequentStrikes" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="2029606553" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000291" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1431" name="DeadTree_StopsProductionEntirely" fullname="CayTheGioi.Tests.WeatherTests.DeadTree_StopsProductionEntirely" methodname="DeadTree_StopsProductionEntirely" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="912179379" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000296" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1423" name="EarlyStages_ExposureZero_StrikeProbabilityIsZero" fullname="CayTheGioi.Tests.WeatherTests.EarlyStages_ExposureZero_StrikeProbabilityIsZero" methodname="EarlyStages_ExposureZero_StrikeProbabilityIsZero" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1696211976" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000216" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1430" name="HpReachingZero_TriggersDead_AndFiresRunDiedOnce" fullname="CayTheGioi.Tests.WeatherTests.HpReachingZero_TriggersDead_AndFiresRunDiedOnce" methodname="HpReachingZero_TriggersDead_AndFiresRunDiedOnce" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="386545031" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000316" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1417" name="LargeTree_UnlocksThunderstorm" fullname="CayTheGioi.Tests.WeatherTests.LargeTree_UnlocksThunderstorm" methodname="LargeTree_UnlocksThunderstorm" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1944739958" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.001060" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1426" name="LightningStrike_SetsCooldownAndStartsBurning" fullname="CayTheGioi.Tests.WeatherTests.LightningStrike_SetsCooldownAndStartsBurning" methodname="LightningStrike_SetsCooldownAndStartsBurning" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="120897129" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000418" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1419" name="NonCalmWeather_NeverRepeatsTwiceInARow" fullname="CayTheGioi.Tests.WeatherTests.NonCalmWeather_NeverRepeatsTwiceInARow" methodname="NonCalmWeather_NeverRepeatsTwiceInARow" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="531575822" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000393" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1424" name="Protection_DecreasesStrikeProbability" fullname="CayTheGioi.Tests.WeatherTests.Protection_DecreasesStrikeProbability" methodname="Protection_DecreasesStrikeProbability" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1445511291" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000330" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1421" name="RainyWeather_BuffsRootWaterBy20Percent" fullname="CayTheGioi.Tests.WeatherTests.RainyWeather_BuffsRootWaterBy20Percent" methodname="RainyWeather_BuffsRootWaterBy20Percent" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="197801683" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000292" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1433" name="ResetForRebirth_RestoresHpAndCalmStatus" fullname="CayTheGioi.Tests.WeatherTests.ResetForRebirth_RestoresHpAndCalmStatus" methodname="ResetForRebirth_RestoresHpAndCalmStatus" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1586929366" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000387" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1434" name="SaveData_ValidatesAllWeatherIdsAndBurningStatus" fullname="CayTheGioi.Tests.WeatherTests.SaveData_ValidatesAllWeatherIdsAndBurningStatus" methodname="SaveData_ValidatesAllWeatherIdsAndBurningStatus" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="595165714" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.001090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1415" name="Seedling_OnlyHasCalmWeather" fullname="CayTheGioi.Tests.WeatherTests.Seedling_OnlyHasCalmWeather" methodname="Seedling_OnlyHasCalmWeather" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="798988263" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000251" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1425" name="StrikeProbability_IsIndependentOfFrameRate" fullname="CayTheGioi.Tests.WeatherTests.StrikeProbability_IsIndependentOfFrameRate" methodname="StrikeProbability_IsIndependentOfFrameRate" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="488563567" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000206" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1420" name="SunnyWeather_BuffsLeavesGrowthBy20Percent" fullname="CayTheGioi.Tests.WeatherTests.SunnyWeather_BuffsLeavesGrowthBy20Percent" methodname="SunnyWeather_BuffsLeavesGrowthBy20Percent" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1849797719" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000256" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1432" name="TransitionToCalm_ClearsBurning_WithoutHealingHp" fullname="CayTheGioi.Tests.WeatherTests.TransitionToCalm_ClearsBurning_WithoutHealingHp" methodname="TransitionToCalm_ClearsBurning_WithoutHealingHp" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1446559051" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000230" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1422" name="VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting" fullname="CayTheGioi.Tests.WeatherTests.VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting" methodname="VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1588247712" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000251" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1416" name="YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm" fullname="CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm" methodname="YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm" classname="CayTheGioi.Tests.WeatherTests" runstate="Runnable" seed="1090969515" result="Passed" start-time="2026-10-10 03:11:32Z" end-time="2026-10-10 03:11:32Z" duration="0.000506" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/Asus/AppData/LocalLow/DefaultCompany/Cay_The_Gioi\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

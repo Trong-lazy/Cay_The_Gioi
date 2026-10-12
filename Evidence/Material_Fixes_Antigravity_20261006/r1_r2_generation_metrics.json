@@ -1,0 +1,864 @@
+{
+  "r1_leaf_texture_metrics": {
+    "seedling": {
+      "output_texture": "Leaf_Seedling_BaseColor.png",
+      "sha256": "58f3c33f91a79a4f6429416195fc82ecc60ee46fca22d6adbfa7291dc3177b4a",
+      "size": [
+        512,
+        512
+      ],
+      "source_tint_linear": [
+        0.3278,
+        0.5972,
+        0.0908
+      ],
+      "source_mix_factor": 0.699999988079071,
+      "max_linear_abs_error": 0.003141,
+      "mean_linear_abs_error": 0.000971,
+      "max_srgb_abs_error": 0.001938,
+      "max_srgb_lsb_error": 0.4943,
+      "mean_srgb_u8": [
+        136.71,
+        179.01,
+        72.38
+      ],
+      "uv_sample_checks": {
+        "stem_base_(0.50,0.00)": {
+          "uv": [
+            0.5,
+            0.0
+          ],
+          "pixel_xy": [
+            256,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.244643,
+            0.445701,
+            0.063951
+          ],
+          "png_decoded_linear_rgb": [
+            0.246201,
+            0.445201,
+            0.064803
+          ],
+          "linear_abs_error": [
+            0.001558,
+            0.0005,
+            0.000852
+          ],
+          "png_srgb_u8": [
+            136,
+            178,
+            72
+          ],
+          "png_srgb_hex": "#88B248"
+        },
+        "midrib_center_(0.50,0.50)": {
+          "uv": [
+            0.5,
+            0.5
+          ],
+          "pixel_xy": [
+            256,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.315709,
+            0.575172,
+            0.082102
+          ],
+          "png_decoded_linear_rgb": [
+            0.313989,
+            0.577581,
+            0.082283
+          ],
+          "linear_abs_error": [
+            0.00172,
+            0.002409,
+            0.00018
+          ],
+          "png_srgb_u8": [
+            152,
+            200,
+            81
+          ],
+          "png_srgb_hex": "#98C851"
+        },
+        "secondary_vein_(0.30,0.42)": {
+          "uv": [
+            0.3,
+            0.42
+          ],
+          "pixel_xy": [
+            153,
+            215
+          ],
+          "formula_linear_rgb": [
+            0.27285,
+            0.49709,
+            0.071343
+          ],
+          "png_decoded_linear_rgb": [
+            0.274677,
+            0.496933,
+            0.072272
+          ],
+          "linear_abs_error": [
+            0.001827,
+            0.000157,
+            0.000929
+          ],
+          "png_srgb_u8": [
+            143,
+            187,
+            76
+          ],
+          "png_srgb_hex": "#8FBB4C"
+        },
+        "blade_lamina_(0.25,0.50)": {
+          "uv": [
+            0.25,
+            0.5
+          ],
+          "pixel_xy": [
+            128,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.244643,
+            0.445701,
+            0.063951
+          ],
+          "png_decoded_linear_rgb": [
+            0.246201,
+            0.445201,
+            0.064803
+          ],
+          "linear_abs_error": [
+            0.001558,
+            0.0005,
+            0.000852
+          ],
+          "png_srgb_u8": [
+            136,
+            178,
+            72
+          ],
+          "png_srgb_hex": "#88B248"
+        },
+        "leaf_tip_(0.50,0.95)": {
+          "uv": [
+            0.5,
+            0.95
+          ],
+          "pixel_xy": [
+            256,
+            485
+          ],
+          "formula_linear_rgb": [
+            0.311763,
+            0.567984,
+            0.081067
+          ],
+          "png_decoded_linear_rgb": [
+            0.313989,
+            0.571125,
+            0.08022
+          ],
+          "linear_abs_error": [
+            0.002225,
+            0.003141,
+            0.000847
+          ],
+          "png_srgb_u8": [
+            152,
+            199,
+            80
+          ],
+          "png_srgb_hex": "#98C750"
+        },
+        "corner_bg_(0.00,0.00)": {
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "pixel_xy": [
+            0,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.244643,
+            0.445701,
+            0.063951
+          ],
+          "png_decoded_linear_rgb": [
+            0.246201,
+            0.445201,
+            0.064803
+          ],
+          "linear_abs_error": [
+            0.001558,
+            0.0005,
+            0.000852
+          ],
+          "png_srgb_u8": [
+            136,
+            178,
+            72
+          ],
+          "png_srgb_hex": "#88B248"
+        }
+      }
+    },
+    "young": {
+      "output_texture": "Leaf_Young_BaseColor.png",
+      "sha256": "537132d50c7abefae152794da81c992a9b4951f1f9d086cd04701061aca4c1f5",
+      "size": [
+        512,
+        512
+      ],
+      "source_tint_linear": [
+        0.1779,
+        0.402,
+        0.0561
+      ],
+      "source_mix_factor": 0.8500000238418579,
+      "max_linear_abs_error": 0.002435,
+      "mean_linear_abs_error": 0.000695,
+      "max_srgb_abs_error": 0.001939,
+      "max_srgb_lsb_error": 0.4945,
+      "mean_srgb_u8": [
+        98.81,
+        145.02,
+        53.51
+      ],
+      "uv_sample_checks": {
+        "stem_base_(0.50,0.00)": {
+          "uv": [
+            0.5,
+            0.0
+          ],
+          "pixel_xy": [
+            256,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.123099,
+            0.278167,
+            0.035957
+          ],
+          "png_decoded_linear_rgb": [
+            0.122139,
+            0.278894,
+            0.035601
+          ],
+          "linear_abs_error": [
+            0.00096,
+            0.000727,
+            0.000356
+          ],
+          "png_srgb_u8": [
+            98,
+            144,
+            53
+          ],
+          "png_srgb_hex": "#629035"
+        },
+        "midrib_center_(0.50,0.50)": {
+          "uv": [
+            0.5,
+            0.5
+          ],
+          "pixel_xy": [
+            256,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.169932,
+            0.383995,
+            0.049575
+          ],
+          "png_decoded_linear_rgb": [
+            0.171441,
+            0.38643,
+            0.049707
+          ],
+          "linear_abs_error": [
+            0.001509,
+            0.002435,
+            0.000132
+          ],
+          "png_srgb_u8": [
+            115,
+            167,
+            63
+          ],
+          "png_srgb_hex": "#73A73F"
+        },
+        "secondary_vein_(0.30,0.42)": {
+          "uv": [
+            0.3,
+            0.42
+          ],
+          "pixel_xy": [
+            153,
+            215
+          ],
+          "formula_linear_rgb": [
+            0.141688,
+            0.320171,
+            0.041502
+          ],
+          "png_decoded_linear_rgb": [
+            0.141263,
+            0.318547,
+            0.040915
+          ],
+          "linear_abs_error": [
+            0.000424,
+            0.001624,
+            0.000587
+          ],
+          "png_srgb_u8": [
+            105,
+            153,
+            57
+          ],
+          "png_srgb_hex": "#699939"
+        },
+        "blade_lamina_(0.25,0.50)": {
+          "uv": [
+            0.25,
+            0.5
+          ],
+          "pixel_xy": [
+            128,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.123099,
+            0.278167,
+            0.035957
+          ],
+          "png_decoded_linear_rgb": [
+            0.122139,
+            0.278894,
+            0.035601
+          ],
+          "linear_abs_error": [
+            0.00096,
+            0.000727,
+            0.000356
+          ],
+          "png_srgb_u8": [
+            98,
+            144,
+            53
+          ],
+          "png_srgb_hex": "#629035"
+        },
+        "leaf_tip_(0.50,0.95)": {
+          "uv": [
+            0.5,
+            0.95
+          ],
+          "pixel_xy": [
+            256,
+            485
+          ],
+          "formula_linear_rgb": [
+            0.167332,
+            0.378119,
+            0.048798
+          ],
+          "png_decoded_linear_rgb": [
+            0.168269,
+            0.376262,
+            0.048172
+          ],
+          "linear_abs_error": [
+            0.000938,
+            0.001857,
+            0.000626
+          ],
+          "png_srgb_u8": [
+            114,
+            165,
+            62
+          ],
+          "png_srgb_hex": "#72A53E"
+        },
+        "corner_bg_(0.00,0.00)": {
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "pixel_xy": [
+            0,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.123099,
+            0.278167,
+            0.035957
+          ],
+          "png_decoded_linear_rgb": [
+            0.122139,
+            0.278894,
+            0.035601
+          ],
+          "linear_abs_error": [
+            0.00096,
+            0.000727,
+            0.000356
+          ],
+          "png_srgb_u8": [
+            98,
+            144,
+            53
+          ],
+          "png_srgb_hex": "#629035"
+        }
+      }
+    },
+    "large": {
+      "output_texture": "Leaf_Large_BaseColor.png",
+      "sha256": "f13432a6a0955e9b93c98fc4fd06ff4a399c926934f60edcf1da2b99887bb64a",
+      "size": [
+        512,
+        512
+      ],
+      "source_tint_linear": [
+        0.1144,
+        0.305,
+        0.0482
+      ],
+      "source_mix_factor": 1.0,
+      "max_linear_abs_error": 0.002066,
+      "mean_linear_abs_error": 0.000468,
+      "max_srgb_abs_error": 0.00195,
+      "max_srgb_lsb_error": 0.4974,
+      "mean_srgb_u8": [
+        76.81,
+        123.13,
+        46.61
+      ],
+      "uv_sample_checks": {
+        "stem_base_(0.50,0.00)": {
+          "uv": [
+            0.5,
+            0.0
+          ],
+          "pixel_xy": [
+            256,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.072941,
+            0.194467,
+            0.027839
+          ],
+          "png_decoded_linear_rgb": [
+            0.072272,
+            0.194618,
+            0.027321
+          ],
+          "linear_abs_error": [
+            0.000669,
+            0.000151,
+            0.000518
+          ],
+          "png_srgb_u8": [
+            76,
+            122,
+            46
+          ],
+          "png_srgb_hex": "#4C7A2E"
+        },
+        "midrib_center_(0.50,0.50)": {
+          "uv": [
+            0.5,
+            0.5
+          ],
+          "pixel_xy": [
+            256,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.108372,
+            0.288929,
+            0.041604
+          ],
+          "png_decoded_linear_rgb": [
+            0.109462,
+            0.287441,
+            0.040915
+          ],
+          "linear_abs_error": [
+            0.00109,
+            0.001488,
+            0.000689
+          ],
+          "png_srgb_u8": [
+            93,
+            146,
+            57
+          ],
+          "png_srgb_hex": "#5D9239"
+        },
+        "secondary_vein_(0.30,0.42)": {
+          "uv": [
+            0.3,
+            0.42
+          ],
+          "pixel_xy": [
+            153,
+            215
+          ],
+          "formula_linear_rgb": [
+            0.087004,
+            0.23196,
+            0.033445
+          ],
+          "png_decoded_linear_rgb": [
+            0.0865,
+            0.23074,
+            0.033105
+          ],
+          "linear_abs_error": [
+            0.000504,
+            0.00122,
+            0.00034
+          ],
+          "png_srgb_u8": [
+            83,
+            132,
+            51
+          ],
+          "png_srgb_hex": "#538433"
+        },
+        "blade_lamina_(0.25,0.50)": {
+          "uv": [
+            0.25,
+            0.5
+          ],
+          "pixel_xy": [
+            128,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.072941,
+            0.194467,
+            0.027839
+          ],
+          "png_decoded_linear_rgb": [
+            0.072272,
+            0.194618,
+            0.027321
+          ],
+          "linear_abs_error": [
+            0.000669,
+            0.000151,
+            0.000518
+          ],
+          "png_srgb_u8": [
+            76,
+            122,
+            46
+          ],
+          "png_srgb_hex": "#4C7A2E"
+        },
+        "leaf_tip_(0.50,0.95)": {
+          "uv": [
+            0.5,
+            0.95
+          ],
+          "pixel_xy": [
+            256,
+            485
+          ],
+          "formula_linear_rgb": [
+            0.106405,
+            0.283684,
+            0.040819
+          ],
+          "png_decoded_linear_rgb": [
+            0.107023,
+            0.283149,
+            0.040915
+          ],
+          "linear_abs_error": [
+            0.000618,
+            0.000535,
+            9.6e-05
+          ],
+          "png_srgb_u8": [
+            92,
+            145,
+            57
+          ],
+          "png_srgb_hex": "#5C9139"
+        },
+        "corner_bg_(0.00,0.00)": {
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "pixel_xy": [
+            0,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.072941,
+            0.194467,
+            0.027839
+          ],
+          "png_decoded_linear_rgb": [
+            0.072272,
+            0.194618,
+            0.027321
+          ],
+          "linear_abs_error": [
+            0.000669,
+            0.000151,
+            0.000518
+          ],
+          "png_srgb_u8": [
+            76,
+            122,
+            46
+          ],
+          "png_srgb_hex": "#4C7A2E"
+        }
+      }
+    },
+    "ancient": {
+      "output_texture": "Leaf_Ancient_BaseColor.png",
+      "sha256": "ce0f3028fa3c6dc173b0c6059a8ad719dc39534887edef142d81ca109e4d7c9f",
+      "size": [
+        512,
+        512
+      ],
+      "source_tint_linear": [
+        0.0802,
+        0.2016,
+        0.0395
+      ],
+      "source_mix_factor": 1.0,
+      "max_linear_abs_error": 0.001418,
+      "mean_linear_abs_error": 0.000513,
+      "max_srgb_abs_error": 0.001951,
+      "max_srgb_lsb_error": 0.4976,
+      "mean_srgb_u8": [
+        64.64,
+        101.01,
+        42.44
+      ],
+      "uv_sample_checks": {
+        "stem_base_(0.50,0.00)": {
+          "uv": [
+            0.5,
+            0.0
+          ],
+          "pixel_xy": [
+            256,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.051135,
+            0.12854,
+            0.022814
+          ],
+          "png_decoded_linear_rgb": [
+            0.051269,
+            0.127438,
+            0.023153
+          ],
+          "linear_abs_error": [
+            0.000134,
+            0.001102,
+            0.000339
+          ],
+          "png_srgb_u8": [
+            64,
+            100,
+            42
+          ],
+          "png_srgb_hex": "#40642A"
+        },
+        "midrib_center_(0.50,0.50)": {
+          "uv": [
+            0.5,
+            0.5
+          ],
+          "pixel_xy": [
+            256,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.075974,
+            0.190977,
+            0.034095
+          ],
+          "png_decoded_linear_rgb": [
+            0.076185,
+            0.191202,
+            0.03434
+          ],
+          "linear_abs_error": [
+            0.000211,
+            0.000225,
+            0.000245
+          ],
+          "png_srgb_u8": [
+            78,
+            121,
+            52
+          ],
+          "png_srgb_hex": "#4E7934"
+        },
+        "secondary_vein_(0.30,0.42)": {
+          "uv": [
+            0.3,
+            0.42
+          ],
+          "pixel_xy": [
+            153,
+            215
+          ],
+          "formula_linear_rgb": [
+            0.060994,
+            0.153322,
+            0.027408
+          ],
+          "png_decoded_linear_rgb": [
+            0.061246,
+            0.152926,
+            0.027321
+          ],
+          "linear_abs_error": [
+            0.000252,
+            0.000396,
+            8.7e-05
+          ],
+          "png_srgb_u8": [
+            70,
+            109,
+            46
+          ],
+          "png_srgb_hex": "#466D2E"
+        },
+        "blade_lamina_(0.25,0.50)": {
+          "uv": [
+            0.25,
+            0.5
+          ],
+          "pixel_xy": [
+            128,
+            256
+          ],
+          "formula_linear_rgb": [
+            0.051135,
+            0.12854,
+            0.022814
+          ],
+          "png_decoded_linear_rgb": [
+            0.051269,
+            0.127438,
+            0.023153
+          ],
+          "linear_abs_error": [
+            0.000134,
+            0.001102,
+            0.000339
+          ],
+          "png_srgb_u8": [
+            64,
+            100,
+            42
+          ],
+          "png_srgb_hex": "#40642A"
+        },
+        "leaf_tip_(0.50,0.95)": {
+          "uv": [
+            0.5,
+            0.95
+          ],
+          "pixel_xy": [
+            256,
+            485
+          ],
+          "formula_linear_rgb": [
+            0.074595,
+            0.18751,
+            0.033452
+          ],
+          "png_decoded_linear_rgb": [
+            0.074214,
+            0.187821,
+            0.033105
+          ],
+          "linear_abs_error": [
+            0.000381,
+            0.00031,
+            0.000347
+          ],
+          "png_srgb_u8": [
+            77,
+            120,
+            51
+          ],
+          "png_srgb_hex": "#4D7833"
+        },
+        "corner_bg_(0.00,0.00)": {
+          "uv": [
+            0.0,
+            0.0
+          ],
+          "pixel_xy": [
+            0,
+            0
+          ],
+          "formula_linear_rgb": [
+            0.051135,
+            0.12854,
+            0.022814
+          ],
+          "png_decoded_linear_rgb": [
+            0.051269,
+            0.127438,
+            0.023153
+          ],
+          "linear_abs_error": [
+            0.000134,
+            0.001102,
+            0.000339
+          ],
+          "png_srgb_u8": [
+            64,
+            100,
+            42
+          ],
+          "png_srgb_hex": "#40642A"
+        }
+      }
+    }
+  },
+  "r2_ancient_bark_texture_hashes": {
+    "Ancient_Bark_BaseColor.png": "35666154a226cfb8d22d1a1c9e4c30f631a752b6b1874546121f3d5ef684b8e6",
+    "Ancient_Bark_Normal.png": "1c0436e6d324a7c1d62aa9bc283deae01f5e2887b8fd51a2209a23e6439fd4c6"
+  },
+  "r2_ancient_uv_stats": {
+    "Trunk_Branches": {
+      "tubes": 39,
+      "pos_det_faces": 18864,
+      "neg_det_faces": 0
+    },
+    "Roots": {
+      "tubes": 16,
+      "pos_det_faces": 8928,
+      "neg_det_faces": 0
+    }
+  }
+}

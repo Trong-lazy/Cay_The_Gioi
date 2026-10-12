@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Screenshot requested to 'Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png'.\",\"data\":{\"path\":\"Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png\",\"fullPath\":\"C:/Users/Asus/foder game 3D/Cay_The_Gioi/Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png\",\"superSize\":1,\"isAsync\":true,\"captureSource\":\"game_view\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Screenshot requested to 'Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png'.",
+      "data": {
+        "path": "Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png",
+        "fullPath": "C:/Users/Asus/foder game 3D/Cay_The_Gioi/Evidence/UpgradeCurrency_20261009/economy_v6_before_ui.png",
+        "superSize": 1,
+        "isAsync": true,
+        "captureSource": "game_view"
+      }
+    },
+    "isError": false
+  }
+}

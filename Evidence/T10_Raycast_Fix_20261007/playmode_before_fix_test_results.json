@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "fastmcp": {
+      "wrap_result": true
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"69dba0e771da4a698272d61f8f51e72e\",\"status\":\"failed\",\"mode\":\"PlayMode\",\"started_unix_ms\":1791383258931,\"finished_unix_ms\":1791383266332,\"last_update_unix_ms\":1791383266332,\"progress\":{\"completed\":4,\"total\":4,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791383263844,\"last_finished_test_full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast\",\"last_finished_unix_ms\":1791383266302,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.AllStagePrefabsHaveCleanRootTransformTypedAnchorsAndUrpMaterials\",\"message\":\"  Stage 'seedling' must use non-convex MeshColliders matching actual visible meshes.\\r\\n  Expected: greater than or equal to 3\\r\\n  But was:  0\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.RaycastAccurateAcrossYawAnglesElevatedPitchAspectRatiosAndFrontOccluder\",\"message\":\"  Mouse visible tap failed at yaw step 0\\r\\n  Expected: 1\\r\\n  But was:  0\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.ArtPipelineSceneTests.RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages\",\"message\":\"  Mouse tap on visible surface point #0 (1128.47, 603.07) failed in stage 'seedling'\\r\\n  Expected: 1\\r\\n  But was:  0\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "69dba0e771da4a698272d61f8f51e72e",
+        "status": "failed",
+        "mode": "PlayMode",
+        "started_unix_ms": 1791383258931,
+        "finished_unix_ms": 1791383266332,
+        "last_update_unix_ms": 1791383266332,
+        "progress": {
+          "completed": 4,
+          "total": 4,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": 1791383263844,
+          "last_finished_test_full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.WeatherAndCosmeticAnchorsFollowStageTransitionsWithoutBlockingRaycast",
+          "last_finished_unix_ms": 1791383266302,
+          "stuck_suspected": false,
+          "editor_is_focused": true,
+          "blocked_reason": null,
+          "failures_so_far": [
+            {
+              "full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.AllStagePrefabsHaveCleanRootTransformTypedAnchorsAndUrpMaterials",
+              "message": "  Stage 'seedling' must use non-convex MeshColliders matching actual visible meshes.\r\n  Expected: greater than or equal to 3\r\n  But was:  0\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.RaycastAccurateAcrossYawAnglesElevatedPitchAspectRatiosAndFrontOccluder",
+              "message": "  Mouse visible tap failed at yaw step 0\r\n  Expected: 1\r\n  But was:  0\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.ArtPipelineSceneTests.RaycastTapHitsTrunkAndCanopyAndMissesEmptySpaceAcrossAllThreeStages",
+              "message": "  Mouse tap on visible surface point #0 (1128.47, 603.07) failed in stage 'seedling'\r\n  Expected: 1\r\n  But was:  0\r\n"
+            }
+          ],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": null
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

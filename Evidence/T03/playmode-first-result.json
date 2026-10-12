@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":false,\"message\":null,\"error\":\"Unity plugin session 90e9f957-9efe-4aa1-b168-064709854e41 disconnected while awaiting command_result\",\"data\":null,\"hint\":\"retry\"}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": false,
+        "message": null,
+        "error": "Unity plugin session 90e9f957-9efe-4aa1-b168-064709854e41 disconnected while awaiting command_result",
+        "data": null,
+        "hint": "retry"
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "all_protected_files_matched_initial": true,
+  "mismatches": [],
+  "unity_editor_state": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "unityVersion": "6000.6.1f1",
+        "activeScene": "Assets/_Project/Scenes/MainScene.unity",
+        "isDirty": false,
+        "isPlaying": false,
+        "enterPlayModeOptionsEnabled": false,
+        "validationDirectory": null,
+        "validationClockIsNull": true,
+        "queriesHitBackfaces": true
+      },
+      "compiler": "codedom"
+    }
+  },
+  "unity_console_errors": {
+    "success": true,
+    "message": "Retrieved 0 log entries.",
+    "data": []
+  },
+  "protected_files": {
+    "save_main": {
+      "exists": true,
+      "path": "C:\\Users\\Asus\\AppData\\LocalLow\\DefaultCompany\\Cay_The_Gioi\\world_tree_save.json",
+      "size": 1491,
+      "sha256": "91B3491C4D3B1F989B2BD82C8040C055F04BF91CAF7EB082CB2B3B83401DBC2F",
+      "expected_sha256": "91B3491C4D3B1F989B2BD82C8040C055F04BF91CAF7EB082CB2B3B83401DBC2F",
+      "match": true
+    },
+    "save_backup": {
+      "exists": true,
+      "path": "C:\\Users\\Asus\\AppData\\LocalLow\\DefaultCompany\\Cay_The_Gioi\\world_tree_save.backup.json",
+      "size": 1490,
+      "sha256": "9242975C6C2CA998EC3A26046E060D30A3F527532FEE0975C18E62E7B686CE65",
+      "expected_sha256": "9242975C6C2CA998EC3A26046E060D30A3F527532FEE0975C18E62E7B686CE65",
+      "match": true
+    },
+    "bonsai_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend",
+      "size": 1866843,
+      "sha256": "B99A966A42BD2A44591C7BA007A3BB896482A013DC6A0F4C5F979A1A12C3FC66",
+      "expected_sha256": "B99A966A42BD2A44591C7BA007A3BB896482A013DC6A0F4C5F979A1A12C3FC66",
+      "match": true
+    },
+    "bonsai_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx",
+      "size": 2558444,
+      "sha256": "802610722100C52F810E198C9DCF43A23267D31D30CF7AF38747ED6A3BF68644",
+      "expected_sha256": "802610722100C52F810E198C9DCF43A23267D31D30CF7AF38747ED6A3BF68644",
+      "match": true
+    },
+    "src_seedling_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+      "size": 146655,
+      "sha256": "8781507C59608F546229EB4BD0FA0DA8B4B6218416FB5E9A0127E2D5C2918938",
+      "expected_sha256": "8781507C59608F546229EB4BD0FA0DA8B4B6218416FB5E9A0127E2D5C2918938",
+      "match": true
+    },
+    "src_young_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+      "size": 182897,
+      "sha256": "A862D973F63ADAD5FBAA44713D1948928FEFE45988864249DBD1B7BCD4F3E315",
+      "expected_sha256": "A862D973F63ADAD5FBAA44713D1948928FEFE45988864249DBD1B7BCD4F3E315",
+      "match": true
+    },
+    "src_large_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+      "size": 662935,
+      "sha256": "5CBB554D09A88BECC38EAEC33EFEC6ACB56E7417BAD5AD0AD804E8CE633BA70B",
+      "expected_sha256": "5CBB554D09A88BECC38EAEC33EFEC6ACB56E7417BAD5AD0AD804E8CE633BA70B",
+      "match": true
+    },
+    "src_ancient_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+      "size": 2064916,
+      "sha256": "B1C1A1504E24FD397A9555AFD0382D40032FDB44E850E9E6BACD1D0D57BDC95B",
+      "expected_sha256": "B1C1A1504E24FD397A9555AFD0382D40032FDB44E850E9E6BACD1D0D57BDC95B",
+      "match": true
+    },
+    "src_mature_blend": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\WT_MatureTree.blend",
+      "size": 1488761,
+      "sha256": "2EC327FB54AEDD288DCC2784BA8E803750F96BD2AAC5A4CDD4C944A63DA48329",
+      "expected_sha256": "2EC327FB54AEDD288DCC2784BA8E803750F96BD2AAC5A4CDD4C944A63DA48329",
+      "match": true
+    },
+    "exp_seedling_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Seedling_Simple_v01.fbx",
+      "size": 89436,
+      "sha256": "6FC4AA5A5A11D3A0DBA9DC903891CD59D2F6845FF891520432D43E19CB6D60E6",
+      "expected_sha256": "6FC4AA5A5A11D3A0DBA9DC903891CD59D2F6845FF891520432D43E19CB6D60E6",
+      "match": true
+    },
+    "exp_young_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Young_Simple_v01.fbx",
+      "size": 132268,
+      "sha256": "2F3BFB2C354C91C89EA5CDD96E862F90C60265FB06A304DA60615E9F8AC71FA9",
+      "expected_sha256": "2F3BFB2C354C91C89EA5CDD96E862F90C60265FB06A304DA60615E9F8AC71FA9",
+      "match": true
+    },
+    "exp_large_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Large.fbx",
+      "size": 919276,
+      "sha256": "1D0B4B383865D51F8F5C39AC0A72CC2EBA2A1DD35919229CE7896A0DCF229154",
+      "expected_sha256": "1D0B4B383865D51F8F5C39AC0A72CC2EBA2A1DD35919229CE7896A0DCF229154",
+      "match": true
+    },
+    "unity_seedling_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Models\\Tree_Seedling_Simple_v01.fbx",
+      "size": 89436,
+      "sha256": "6FC4AA5A5A11D3A0DBA9DC903891CD59D2F6845FF891520432D43E19CB6D60E6",
+      "expected_sha256": "6FC4AA5A5A11D3A0DBA9DC903891CD59D2F6845FF891520432D43E19CB6D60E6",
+      "match": true
+    },
+    "unity_young_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Models\\Tree_Young_Simple_v01.fbx",
+      "size": 132268,
+      "sha256": "2F3BFB2C354C91C89EA5CDD96E862F90C60265FB06A304DA60615E9F8AC71FA9",
+      "expected_sha256": "2F3BFB2C354C91C89EA5CDD96E862F90C60265FB06A304DA60615E9F8AC71FA9",
+      "match": true
+    },
+    "unity_large_fbx": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Models\\Tree_Large.fbx",
+      "size": 919276,
+      "sha256": "1D0B4B383865D51F8F5C39AC0A72CC2EBA2A1DD35919229CE7896A0DCF229154",
+      "expected_sha256": "1D0B4B383865D51F8F5C39AC0A72CC2EBA2A1DD35919229CE7896A0DCF229154",
+      "match": true
+    }
+  },
+  "builds": {
+    "windows_t09_exe": {
+      "exists": false
+    },
+    "windows_t10_prev_exe": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Builds\\Windows_T10\\Cay_The_Gioi.exe",
+      "size": 667136,
+      "sha256": "07534CC5839D2C89C4FE45EC272C91B046FF3D64F14AB3F0A32221121E0FFFF2"
+    },
+    "windows_t10_20261007_exe": {
+      "exists": true,
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Builds\\Windows_T10_20261007\\Cay_The_Gioi.exe",
+      "size": 667136,
+      "sha256": "07534CC5839D2C89C4FE45EC272C91B046FF3D64F14AB3F0A32221121E0FFFF2"
+    }
+  }
+}

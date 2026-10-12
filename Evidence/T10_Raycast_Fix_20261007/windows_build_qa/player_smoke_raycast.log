@@ -1,0 +1,96 @@
+Mono path[0] = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/Managed'
+Mono config path = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.011 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 1.622300 ms
+[CayTheGioi] T07 initialized: prototype-4, stage=seedling, loadOutcome=NewGame
+[QaBuildRunner] Finished scenario 'smoke_raycast' (success=True):
+{
+    "scenario": "smoke_raycast",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 0.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 0.0,
+    "vitalityTaps": 8,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Raycast audit OK across seedling/young_tree/large_tree (0 falsePos, 0 falseNeg, vitalityTaps=8)",
+    "screenshot": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_raycast\\smoke_raycast_large_tree_20261007_144337.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_raycast\\smoke_raycast_seedling_20261007_144335.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_raycast\\smoke_raycast_young_tree_20261007_144335.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_raycast\\smoke_raycast_large_tree_20261007_144337.png"
+    ],
+    "steps": [
+        "CHECK_OK seedling root SphereCollider disabled",
+        "CHECK_OK seedling has >=3 non-convex MeshColliders",
+        "PROBE seedling: checked=625, meshHits=45, physicsTreeHits=40, falsePositiveEmpty=0, falseNegativeVisible=0",
+        "CHECK_OK seedling falsePositiveEmpty == 0 (was 0)",
+        "CHECK_OK seedling falseNegativeVisible == 0 (was 0)",
+        "CHECK_OK seedling Mouse visible tap increments tapProgress",
+        "CHECK_OK seedling Touch visible tap increments tapProgress",
+        "CHECK_OK seedling Mouse empty tap does not increment tapProgress",
+        "CHECK_OK seedling Touch empty tap does not increment tapProgress",
+        "CHECK_OK young_tree root SphereCollider disabled",
+        "CHECK_OK young_tree has >=3 non-convex MeshColliders",
+        "PROBE young_tree: checked=613, meshHits=53, physicsTreeHits=41, falsePositiveEmpty=0, falseNegativeVisible=0",
+        "CHECK_OK young_tree falsePositiveEmpty == 0 (was 0)",
+        "CHECK_OK young_tree falseNegativeVisible == 0 (was 0)",
+        "CHECK_OK young_tree Mouse visible tap increments tapProgress",
+        "CHECK_OK young_tree Touch visible tap increments tapProgress",
+        "CHECK_OK young_tree Mouse empty tap does not increment tapProgress",
+        "CHECK_OK young_tree Touch empty tap does not increment tapProgress",
+        "CHECK_OK large_tree root SphereCollider disabled",
+        "CHECK_OK large_tree has >=3 non-convex MeshColliders",
+        "PROBE large_tree: checked=580, meshHits=187, physicsTreeHits=175, falsePositiveEmpty=0, falseNegativeVisible=0",
+        "CHECK_OK large_tree falsePositiveEmpty == 0 (was 0)",
+        "CHECK_OK large_tree falseNegativeVisible == 0 (was 0)",
+        "CHECK_OK large_tree Mouse visible tap increments tapProgress",
+        "CHECK_OK large_tree Touch visible tap increments tapProgress",
+        "CHECK_OK large_tree Mouse empty tap does not increment tapProgress",
+        "CHECK_OK large_tree Touch empty tap does not increment tapProgress",
+        "CHECK_OK large_tree reviewEmpty (611.49, 629.62) Mouse -> 0 delta",
+        "CHECK_OK large_tree reviewEmpty (611.49, 629.62) Touch -> 0 delta",
+        "CHECK_OK large_tree reviewModel (573.30, 412.33) Mouse -> +1 delta",
+        "CHECK_OK large_tree reviewModel (573.30, 412.33) Touch -> +1 delta"
+    ]
+}
+[SaveController] Save OK (QUIT) rev=1
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

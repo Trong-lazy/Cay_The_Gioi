@@ -1,0 +1,275 @@
+{
+  "blender": "5.2.2 LTS",
+  "saved": {
+    "Roots": {
+      "vertices": 374,
+      "triangles": 634,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 94,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -0.6925340294837952,
+          -0.5489616990089417,
+          -0.26431599259376526
+        ],
+        "max": [
+          0.9276635646820068,
+          0.49483805894851685,
+          0.09177142381668091
+        ]
+      }
+    },
+    "Trunk_Branches": {
+      "vertices": 858,
+      "triangles": 1408,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 244,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -1.0503826141357422,
+          -0.37918341159820557,
+          -0.02500000037252903
+        ],
+        "max": [
+          1.0241161584854126,
+          0.6096388697624207,
+          2.0881450176239014
+        ]
+      }
+    },
+    "Foliage": {
+      "vertices": 15400,
+      "triangles": 24640,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Foliage"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -1.683823823928833,
+          -0.9527472257614136,
+          0.6869006156921387
+        ],
+        "max": [
+          1.6381416320800781,
+          1.156751036643982,
+          2.3528895378112793
+        ]
+      }
+    }
+  },
+  "imported": {
+    "Foliage": {
+      "vertices": 15400,
+      "triangles": 24640,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Foliage"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -1.683823823928833,
+          -0.9527470469474792,
+          0.6869004964828491
+        ],
+        "max": [
+          1.6381416320800781,
+          1.156751275062561,
+          2.3528895378112793
+        ]
+      }
+    },
+    "Roots": {
+      "vertices": 374,
+      "triangles": 634,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 94,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -0.6925340294837952,
+          -0.5489617586135864,
+          -0.2643159329891205
+        ],
+        "max": [
+          0.9276635646820068,
+          0.49483802914619446,
+          0.0917714387178421
+        ]
+      }
+    },
+    "Trunk_Branches": {
+      "vertices": 858,
+      "triangles": 1408,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "non_manifold_edges": 244,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "bounds": {
+        "min": [
+          -1.0503826141357422,
+          -0.37918320298194885,
+          -0.025000030174851418
+        ],
+        "max": [
+          1.0241161584854126,
+          0.6096391081809998,
+          2.0881450176239014
+        ]
+      }
+    }
+  },
+  "roundtrip": {
+    "Roots": {
+      "world_vertex_max_error": 1.0745380052412656e-07,
+      "triangles": 634,
+      "vertex_count_match": true,
+      "material_slots_match": true,
+      "uv_layers_match": true
+    },
+    "Trunk_Branches": {
+      "world_vertex_max_error": 3.427267074584961e-07,
+      "triangles": 1408,
+      "vertex_count_match": true,
+      "material_slots_match": true,
+      "uv_layers_match": true
+    },
+    "Foliage": {
+      "world_vertex_max_error": 4.2981520209650625e-07,
+      "triangles": 24640,
+      "vertex_count_match": true,
+      "material_slots_match": true,
+      "uv_layers_match": true
+    }
+  },
+  "total_triangles": 26682,
+  "inputs_unchanged": true,
+  "protected_models_unchanged": true,
+  "unity_editor_validation": "NOT_RUN",
+  "blender_gui_validation": "NOT_RUN"
+}

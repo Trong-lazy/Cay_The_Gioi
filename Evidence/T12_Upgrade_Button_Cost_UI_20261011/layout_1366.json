@@ -1,0 +1,21 @@
+{
+  "width": 1366,
+  "height": 768,
+  "labels": [
+    {
+      "id": "root",
+      "text": "13\nWater",
+      "fontUsed": 22
+    },
+    {
+      "id": "leaves",
+      "text": "13\nQuang hợp",
+      "fontUsed": 19
+    },
+    {
+      "id": "trunk",
+      "text": "26\nGrowth",
+      "fontUsed": 22
+    }
+  ]
+}

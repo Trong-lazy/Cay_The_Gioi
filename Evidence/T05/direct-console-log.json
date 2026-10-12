@@ -1,0 +1,54 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 5 log entries.\",\"data\":[{\"type\":\"Log\",\"message\":\"[CayTheGioi] T05 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=7\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":118,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (OFFLINE_RESUME) rev=7\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":118,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=8\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":118,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (QUIT) rev=9\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":118,\"stackTrace\":null}]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 5 log entries.",
+      "data": [
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T05 initialized: prototype-2, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=7",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 118,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (OFFLINE_RESUME) rev=7",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 118,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=8",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 118,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (QUIT) rev=9",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 118,
+          "stackTrace": null
+        }
+      ]
+    },
+    "isError": false
+  }
+}

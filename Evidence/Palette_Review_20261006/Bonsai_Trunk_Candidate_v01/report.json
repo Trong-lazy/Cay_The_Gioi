@@ -1,0 +1,263 @@
+{
+  "source": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+  "sha256_before": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        6.2130866050720215,
+        3.6678295135498047,
+        3.7320308685302734
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 19332,
+      "faces": 18864,
+      "evaluated_triangles": 37728,
+      "boundary_edges": 936,
+      "non_manifold_edges": 936,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 75456,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        4.0,
+        -4.0,
+        6.0
+      ],
+      "rotation_euler": [
+        0.6503279805183411,
+        0.055217113345861435,
+        1.8663908243179321
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        0.0,
+        -9.5,
+        3.0
+      ],
+      "rotation_euler": [
+        1.4451459646224976,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        6.854331016540527,
+        5.704259872436523,
+        1.271528959274292
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 9120,
+      "faces": 8928,
+      "evaluated_triangles": 17856,
+      "boundary_edges": 384,
+      "non_manifold_edges": 384,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 35712,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        8.209527015686035,
+        5.054014205932617,
+        3.297238349914551
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 22880,
+      "faces": 18304,
+      "evaluated_triangles": 18304,
+      "boundary_edges": 18304,
+      "non_manifold_edges": 18304,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 54912,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    }
+  ],
+  "total_evaluated_triangles": 73888,
+  "empty_objects": [],
+  "world_bounds": {
+    "min": [
+      -4.462429046630859,
+      -2.7517833709716797,
+      -0.019257239997386932
+    ],
+    "max": [
+      3.747097969055176,
+      2.9524765014648438,
+      4.28749418258667
+    ],
+    "size": [
+      8.209527015686035,
+      5.704259872436523,
+      4.306751251220703
+    ]
+  },
+  "review_renders": [
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Bonsai_Trunk_Candidate_v01\\front.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Bonsai_Trunk_Candidate_v01\\back.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Bonsai_Trunk_Candidate_v01\\right.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Bonsai_Trunk_Candidate_v01\\perspective.png"
+  ],
+  "sha256_after": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+  "source_unchanged": true
+}

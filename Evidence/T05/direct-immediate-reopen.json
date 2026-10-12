@@ -1,0 +1,1 @@
+{"success":true,"message":"Code executed successfully.","data":{"result":{"initialized":true,"reportWater":0,"considered":0,"committedWater":1806.7464873969554,"committedBank":593.5747739076614,"checkpoint":2000003600,"popup":false,"runtimeWater":1812.2870371878148},"compiler":"codedom"}}

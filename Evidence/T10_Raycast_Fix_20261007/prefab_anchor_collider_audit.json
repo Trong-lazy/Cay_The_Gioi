@@ -1,0 +1,275 @@
+{
+  "mainSceneTreeSphereCollider": {
+    "enabled": false,
+    "center": [
+      0.0,
+      0.14,
+      0.0
+    ],
+    "radius": 0.14
+  },
+  "queriesHitBackfaces": true,
+  "stages": [
+    {
+      "stageId": "seedling",
+      "prefabPath": "Assets/_Project/Prefabs/Trees/seedling.prefab",
+      "prefabGuid": "0f9f4b7c4c98be74fb9434b3e4962af8",
+      "cameraDistance": 1.4,
+      "cameraPitch": 16.0,
+      "cameraTargetHeight": 0.12,
+      "tapColliderCenter": [
+        0.0,
+        0.14,
+        0.0
+      ],
+      "tapColliderRadius": 0.14,
+      "rootAnchorPos": [
+        0.0,
+        0.02,
+        0.0
+      ],
+      "rootAnchorScale": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "trunkAuraPos": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "trunkAuraScale": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "leavesCenterPos": [
+        0.0,
+        0.19,
+        0.0
+      ],
+      "leavesCenterScale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "lightningTargetPos": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "lightningTargetScale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "hitCollidersCount": 4,
+      "colliders": [
+        {
+          "type": "MeshCollider",
+          "name": "Foliage",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Foliage",
+          "vertexCount": 808,
+          "triangles": 1172
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Roots",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Roots",
+          "vertexCount": 170,
+          "triangles": 316
+        },
+        {
+          "type": "MeshCollider",
+          "name": "SeedShell",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "SeedShell",
+          "vertexCount": 516,
+          "triangles": 1024
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Trunk_Branches",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Trunk_Branches",
+          "vertexCount": 150,
+          "triangles": 258
+        }
+      ]
+    },
+    {
+      "stageId": "young_tree",
+      "prefabPath": "Assets/_Project/Prefabs/Trees/young_tree.prefab",
+      "prefabGuid": "71802b4846f1f0045ba8add282f6dc2a",
+      "cameraDistance": 2.8,
+      "cameraPitch": 18.0,
+      "cameraTargetHeight": 0.42,
+      "tapColliderCenter": [
+        0.0,
+        0.42,
+        0.0
+      ],
+      "tapColliderRadius": 0.24,
+      "rootAnchorPos": [
+        0.0,
+        0.04,
+        0.0
+      ],
+      "rootAnchorScale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "trunkAuraPos": [
+        0.0,
+        0.36,
+        0.0
+      ],
+      "trunkAuraScale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "leavesCenterPos": [
+        0.0,
+        0.52,
+        -0.03
+      ],
+      "leavesCenterScale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "lightningTargetPos": [
+        0.0,
+        0.8,
+        -0.02
+      ],
+      "lightningTargetScale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "hitCollidersCount": 3,
+      "colliders": [
+        {
+          "type": "MeshCollider",
+          "name": "Foliage",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Foliage",
+          "vertexCount": 2189,
+          "triangles": 3224
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Roots",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Roots",
+          "vertexCount": 436,
+          "triangles": 760
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Trunk_Branches",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Trunk_Branches",
+          "vertexCount": 346,
+          "triangles": 590
+        }
+      ]
+    },
+    {
+      "stageId": "large_tree",
+      "prefabPath": "Assets/_Project/Prefabs/Trees/large_tree.prefab",
+      "prefabGuid": "37dc3f7f57f2bca4baaedb64db2936a3",
+      "cameraDistance": 6.2,
+      "cameraPitch": 20.0,
+      "cameraTargetHeight": 1.18,
+      "tapColliderCenter": [
+        0.0,
+        1.15,
+        -0.02
+      ],
+      "tapColliderRadius": 1.02,
+      "rootAnchorPos": [
+        0.0,
+        0.08,
+        0.0
+      ],
+      "rootAnchorScale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "trunkAuraPos": [
+        0.0,
+        0.72,
+        -0.02
+      ],
+      "trunkAuraScale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "leavesCenterPos": [
+        0.02,
+        1.52,
+        -0.1
+      ],
+      "leavesCenterScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lightningTargetPos": [
+        0.02,
+        2.22,
+        -0.08
+      ],
+      "lightningTargetScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hitCollidersCount": 3,
+      "colliders": [
+        {
+          "type": "MeshCollider",
+          "name": "Foliage",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Foliage",
+          "vertexCount": 41480,
+          "triangles": 24640
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Roots",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Roots",
+          "vertexCount": 539,
+          "triangles": 634
+        },
+        {
+          "type": "MeshCollider",
+          "name": "Trunk_Branches",
+          "enabled": true,
+          "convex": false,
+          "sharedMesh": "Trunk_Branches",
+          "vertexCount": 1890,
+          "triangles": 1408
+        }
+      ]
+    }
+  ]
+}

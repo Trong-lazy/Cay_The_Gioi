@@ -1,0 +1,397 @@
+Mono path[0] = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/Cay_The_Gioi_Data/Managed'
+Mono config path = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Found 2 interfaces on host : 0) 10.24.12.195 1) 192.168.137.1
+Player connection [17304]  Target information:
+
+Player connection [17304]  * "[IP] 10.24.12.195 [Port] 55000 [Flags] 2 [Guid] 3210071813 [EditorId] 2286832546 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-QB9A413S) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Cay_The_Gioi" 
+
+Player connection [17304]  * "[IP] 192.168.137.1 [Port] 55000 [Flags] 2 [Guid] 3210071813 [EditorId] 2286832546 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-QB9A413S) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Cay_The_Gioi" 
+
+Player connection [17304] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.010 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.330600 ms
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:135)
+CayTheGioi.Bootstrap.GameBootstrapper:TryInitialize (string&) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:253)
+CayTheGioi.Bootstrap.GameBootstrapper:Awake () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:71)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 135)
+
+[SaveController] Save OK (BACKGROUND) rev=33
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:SetLifecycle (bool,bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:71)
+CayTheGioi.Bootstrap.SaveController:OnApplicationFocus (bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:53)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (OFFLINE_RESUME) rev=34
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:RetryOffline () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:93)
+CayTheGioi.Bootstrap.SaveController:SetLifecycle (bool,bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:75)
+CayTheGioi.Bootstrap.SaveController:OnApplicationFocus (bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:53)
+UnityEngine.Component:SendMessage (string,object,UnityEngine.SendMessageOptions)
+UnityEngine.Component:SendMessage (string,object) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Component.bindings.cs:255)
+CayTheGioi.Bootstrap.QaBuildRunner:Update () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:62)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (SETTINGS_MUSIC) rev=35
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__11 (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:202)
+CayTheGioi.Presentation.SettingsView:ToggleMusic () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/SettingsView.cs:150)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:228)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (SETTINGS_MUSIC) rev=36
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__11 (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:202)
+CayTheGioi.Presentation.SettingsView:ToggleMusic () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/SettingsView.cs:150)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:231)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (TUTORIAL_STEP) rev=37
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__12 () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:207)
+CayTheGioi.Domain.TutorialSystem:TryCompleteStep (string,System.Func`1<bool>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/TutorialSystem.cs:156)
+CayTheGioi.Domain.TutorialSystem:OnUpgradeCompleted (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/TutorialSystem.cs:182)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__15 (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:230)
+CayTheGioi.Domain.UpgradeSystem:TryUpgrade (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/UpgradeSystem.cs:118)
+CayTheGioi.Presentation.UpgradePanelView:RequestUpgrade (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/UpgradePanelView.cs:91)
+CayTheGioi.Presentation.UpgradePanelView/<>c__DisplayClass17_0:<Bind>b__0 () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/UpgradePanelView.cs:39)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClickBuyRow (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,int) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:199)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:241)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=38
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__10 (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:192)
+CayTheGioi.Domain.EvolutionSystem:TryEvolve () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/EvolutionSystem.cs:67)
+CayTheGioi.Presentation.EvolutionPanelView:RequestEvolution () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/EvolutionPanelView.cs:26)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:255)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=39
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__10 (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:192)
+CayTheGioi.Domain.EvolutionSystem:TryEvolve () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/EvolutionSystem.cs:67)
+CayTheGioi.Presentation.EvolutionPanelView:RequestEvolution () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/EvolutionPanelView.cs:26)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:268)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=40
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.GameBootstrapper/<>c__DisplayClass117_0:<TryInitialize>b__7 () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:159)
+CayTheGioi.Domain.AchievementSystem:TryClaim (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/AchievementSystem.cs:170)
+CayTheGioi.Presentation.AchievementView:OnClaimClicked (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/AchievementView.cs:173)
+CayTheGioi.Presentation.AchievementView/<>c__DisplayClass20_0:<Bind>b__0 () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/AchievementView.cs:103)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:284)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Rebirth COMMITTED rev=41
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:CommitCandidate (CayTheGioi.Domain.GameState,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:123)
+CayTheGioi.Domain.RebirthSystem:TryRebirth (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Domain/RebirthSystem.cs:53)
+CayTheGioi.Presentation.RebirthView:Confirm () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Presentation/RebirthView.cs:76)
+UnityEngine.Events.InvokableCall:Invoke () (at C:/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:181)
+UnityEngine.Events.UnityEvent:Invoke () (at C:/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:59)
+UnityEngine.UI.Button:Press () (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:71)
+UnityEngine.UI.Button:OnPointerClick (UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/UI/Core/Button.cs:115)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IPointerClickHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IPointerClickHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>) (at ./Library/PackageCache/com.unity.ugui@fa62679cc16a/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+CayTheGioi.Bootstrap.QaBuildRunner:UiClick (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:560)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:332)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (UI_FLOW_COMMIT) rev=42
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:ForceSave (string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:111)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:340)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[QaBuildRunner] Finished scenario 'ui_flow' (success=True):
+{
+    "scenario": "ui_flow",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 10.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 3,
+    "vitalityBank": 21.276679188697017,
+    "vitalityTaps": 0,
+    "coin": 40,
+    "equippedCosmetic": "glow_placeholder",
+    "achievementsClaimed": 1,
+    "error": "",
+    "details": "UI flow OK (see steps: UI_CLICK vs HOOK_*)",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_11_after_rebirth_20261010_032439.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_00_hud_tutorial_20261010_032425.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_01_settings_20261010_032425.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_02_upgrade_open_20261010_032427.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_03_upgrade_bought_20261010_032428.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_04_young_tree_20261010_032431.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_05_large_tree_20261010_032434.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_06_achievements_20261010_032435.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_07_achievements_claimed_20261010_032436.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_08_shop_20261010_032436.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_09_shop_equipped_20261010_032436.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_10_rebirth_modal_20261010_032437.png",
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\ui_flow_11_after_rebirth_20261010_032439.png"
+    ],
+    "steps": [
+        "HOOK_FOCUS automated hidden scenario emulates focused lifecycle; not an OS input test",
+        "HOOK_TAP vitality.TryTap x50",
+        "CHECK_OK vitality bank > 0 after 50 taps",
+        "CHECK_OK tutorial step_vitality done",
+        "UI_CLICK SettingsOpen",
+        "CHECK_OK SettingsOpen clickable",
+        "UI_CLICK MusicToggleBtn",
+        "CHECK_OK MusicToggleBtn clickable",
+        "CHECK_OK music setting toggled",
+        "UI_CLICK MusicToggleBtn",
+        "CHECK_OK music setting restored",
+        "UI_CLICK ContinueBtn",
+        "CHECK_OK ContinueBtn closes settings",
+        "UI_CLICK UpgradeOpen",
+        "CHECK_OK UpgradeOpen clickable",
+        "UI_CLICK Buy[row 0]",
+        "CHECK_OK Buy root via UI",
+        "CHECK_OK root level 1",
+        "UI_CLICK Buy[row 1]",
+        "CHECK_OK Buy leaves via UI",
+        "CHECK_OK leaves level 1",
+        "CHECK_OK tutorial upgrade steps done",
+        "HOOK_FUND water/growth for Evolution (young_tree)",
+        "UI_CLICK Evolve",
+        "CHECK_OK Evolve button (to young_tree)",
+        "CHECK_OK stage young_tree",
+        "HOOK_FUND water/growth for Trunk and Evolution (large_tree)",
+        "UI_CLICK Buy[row 2]",
+        "CHECK_OK Buy trunk via UI",
+        "CHECK_OK trunk level 1",
+        "UI_CLICK Evolve",
+        "CHECK_OK Evolve button (to large_tree)",
+        "CHECK_OK stage large_tree",
+        "UI_CLICK Close",
+        "UI_CLICK AchievementOpen",
+        "CHECK_OK AchievementOpen clickable",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK_MISSING ClaimBtn",
+        "CHECK_OK achievements claimed via UI (total >= 4)",
+        "UI_CLICK CloseBtn",
+        "UI_CLICK ShopOpen",
+        "CHECK_OK ShopOpen clickable",
+        "CHECK_OK cosmetic equipped",
+        "UI_CLICK CloseBtn",
+        "UI_CLICK RebirthOpen",
+        "CHECK_OK RebirthOpen clickable",
+        "UI_CLICK RebirthBegin",
+        "CHECK_OK RebirthBegin clickable",
+        "CHECK_OK preview did not reset run",
+        "UI_CLICK RebirthConfirm",
+        "CHECK_OK RebirthConfirm clickable",
+        "CHECK_OK run reset to seedling",
+        "CHECK_OK rebirth point awarded",
+        "CHECK_OK vitality bank kept",
+        "CHECK_OK ForceSave ok"
+    ]
+}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.QaBuildRunner:Finish (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:760)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunUiFlow>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:347)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[SaveController] Save OK (QUIT) rev=43
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:OnApplicationQuit () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:59)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791602679469,"processId":27188,"allocatedMemory":40204,"memoryLabels":[{"Default":3832},{"Manager":9396},{"GfxDevice":72},{"Serialization":17000},{"Input":2440},{"BaseObject":2256},{"String":492},{"PoolAlloc":192},{"ScriptManager":5688},{"CodeReload":440},{"CloudService":144},{"VR":1928},{"Video":144},{"NativeArray":372},{"Subsystems":96},{"CoreBusinessMetrics":128}]}

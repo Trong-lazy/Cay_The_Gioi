@@ -1,0 +1,24 @@
+seedling calm pinnedVertices=176 maxFlutterMetres=0.00181388075
+seedling calm camera=1,4 anchor=(0.00, 0.25, 0.00)
+seedling sunny pinnedVertices=176 maxFlutterMetres=0.00119226309
+seedling sunny camera=1,4 anchor=(0.00, 0.25, 0.00)
+seedling rainy pinnedVertices=176 maxFlutterMetres=0.001694403
+seedling rainy camera=1,4 anchor=(0.00, 0.25, 0.00)
+seedling thunderstorm pinnedVertices=176 maxFlutterMetres=0.00315903872
+seedling thunderstorm camera=1,4 anchor=(0.00, 0.25, 0.00)
+young_tree calm pinnedVertices=472 maxFlutterMetres=0.002874502
+young_tree calm camera=2,8 anchor=(0.00, 0.80, -0.02)
+young_tree sunny pinnedVertices=472 maxFlutterMetres=0.002673511
+young_tree sunny camera=2,8 anchor=(0.00, 0.80, -0.02)
+young_tree rainy pinnedVertices=472 maxFlutterMetres=0.002612551
+young_tree rainy camera=2,8 anchor=(0.00, 0.80, -0.02)
+young_tree thunderstorm pinnedVertices=472 maxFlutterMetres=0.005449839
+young_tree thunderstorm camera=2,8 anchor=(0.01, 0.80, -0.02)
+large_tree calm pinnedVertices=31298 maxFlutterMetres=0.00388179766
+large_tree calm camera=6,2 anchor=(0.02, 2.22, -0.08)
+large_tree sunny pinnedVertices=31298 maxFlutterMetres=0.00374057028
+large_tree sunny camera=6,2 anchor=(0.02, 2.22, -0.08)
+large_tree rainy pinnedVertices=31298 maxFlutterMetres=0.00434640562
+large_tree rainy camera=6,2 anchor=(0.02, 2.22, -0.08)
+large_tree thunderstorm pinnedVertices=31298 maxFlutterMetres=0.009044642
+large_tree thunderstorm camera=6,2 anchor=(0.08, 2.22, -0.08)

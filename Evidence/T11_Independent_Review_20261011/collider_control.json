@@ -1,0 +1,21 @@
+{
+  "stage": "large_tree",
+  "scale": "(100.00, 100.00, 100.00)",
+  "maxWorldLeafMovement": 3.66778779,
+  "comparisons": [
+    {
+      "pass": "original_runtime",
+      "total": 301,
+      "miss": 301,
+      "offset": 0,
+      "maxError": 0.0
+    },
+    {
+      "pass": "diagnostic_recook_only",
+      "total": 301,
+      "miss": 0,
+      "offset": 155,
+      "maxError": 0.009994051
+    }
+  ]
+}

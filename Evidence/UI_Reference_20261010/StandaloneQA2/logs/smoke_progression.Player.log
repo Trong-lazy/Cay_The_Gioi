@@ -1,0 +1,110 @@
+Mono path[0] = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/Cay_The_Gioi_Data/Managed'
+Mono config path = 'C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Found 2 interfaces on host : 0) 10.24.12.195 1) 192.168.137.1
+Player connection [28344]  Target information:
+
+Player connection [28344]  * "[IP] 10.24.12.195 [Port] 55000 [Flags] 2 [Guid] 2223791302 [EditorId] 2286832546 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-QB9A413S) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Cay_The_Gioi" 
+
+Player connection [28344]  * "[IP] 192.168.137.1 [Port] 55000 [Flags] 2 [Guid] 2223791302 [EditorId] 2286832546 [Version] 1048832 [Id] WindowsPlayer(2,LAPTOP-QB9A413S) [Debug] 0 [PackageName] WindowsPlayer [ProjectName] Cay_The_Gioi" 
+
+Player connection [28344] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_UI_Reference_20261010/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.009 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.008300 ms
+[CayTheGioi] T07 initialized: prototype-6, stage=seedling, loadOutcome=Loaded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:66)
+UnityEngine.Debug:Log (object,UnityEngine.Object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:135)
+CayTheGioi.Bootstrap.GameBootstrapper:TryInitialize (string&) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:253)
+CayTheGioi.Bootstrap.GameBootstrapper:Awake () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs:71)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 135)
+
+[SaveController] Save OK (BACKGROUND) rev=5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.SaveController:SetResult (CayTheGioi.Infrastructure.SaveResult,string) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:138)
+CayTheGioi.Bootstrap.SaveController:DoSave (string,System.Nullable`1<long>) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:133)
+CayTheGioi.Bootstrap.SaveController:SetLifecycle (bool,bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:71)
+CayTheGioi.Bootstrap.SaveController:OnApplicationFocus (bool) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/SaveController.cs:53)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[QaBuildRunner] Finished scenario 'smoke_progression' (success=False):
+{
+    "scenario": "smoke_progression",
+    "success": false,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 2000.0,
+    "growth": 2000.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 0.0,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Full loop OK: RebirthPoints=0, Coin=0, Claimed=0, Equipped=none",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA2\\screenshots\\smoke_progression_20261010_032222.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA2\\screenshots\\smoke_progression_20261010_032222.png"
+    ],
+    "steps": []
+}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at C:/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at C:/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at C:/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:130)
+CayTheGioi.Bootstrap.QaBuildRunner:Finish (CayTheGioi.Bootstrap.QaBuildRunner/ScenarioReport) (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:750)
+CayTheGioi.Bootstrap.QaBuildRunner/<RunFullLoopAndRebirth>d__9:MoveNext () (at C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Scripts/Bootstrap/QaBuildRunner.cs:402)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: C:/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 130)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791602542905,"processId":13112,"allocatedMemory":40204,"memoryLabels":[{"Default":3832},{"Manager":9396},{"GfxDevice":72},{"Serialization":17000},{"Input":2440},{"BaseObject":2256},{"String":492},{"PoolAlloc":192},{"ScriptManager":5688},{"CodeReload":440},{"CloudService":144},{"VR":1928},{"Video":144},{"NativeArray":372},{"Subsystems":96},{"CoreBusinessMetrics":128}]}

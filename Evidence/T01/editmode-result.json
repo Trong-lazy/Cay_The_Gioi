@@ -1,0 +1,322 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"54a14ebee884488dac5121de225dc87a\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1790912072963,\"finished_unix_ms\":1790912078364,\"last_update_unix_ms\":1790912078364,\"progress\":{\"completed\":29,\"total\":29,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1790912078141,\"last_finished_test_full_name\":\"CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected\",\"last_finished_unix_ms\":1790912078141,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":29,\"passed\":29,\"failed\":0,\"skipped\":0,\"durationSeconds\":1.0100281,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"BuffDoesNotIncreaseConsumptionOrUnrelatedState\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState\",\"state\":\"Passed\",\"durationSeconds\":0.0264061,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CrossingBankBoundaryOnlyBuffsFirstFiveSeconds\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.CrossingBankBoundaryOnlyBuffsFirstFiveSeconds\",\"state\":\"Passed\",\"durationSeconds\":0.0011746,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DeadAndBlockedCommandsPreserveStateAndEmitNoChanges\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.DeadAndBlockedCommandsPreserveStateAndEmitNoChanges\",\"state\":\"Passed\",\"durationSeconds\":0.002002,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DragThresholdUsesDpiWithBoundedScreenFallback\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.DragThresholdUsesDpiWithBoundedScreenFallback\",\"state\":\"Passed\",\"durationSeconds\":0.0021773,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EvaluateIsPureAndEventsSeeCommittedSnapshot\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.EvaluateIsPureAndEventsSeeCommittedSnapshot\",\"state\":\"Passed\",\"durationSeconds\":0.0007525,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield\",\"state\":\"Passed\",\"durationSeconds\":0.0008198,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"GestureRejectsHoldDragCancelWrongPointerAndUi\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.GestureRejectsHoldDragCancelWrongPointerAndUi\",\"state\":\"Passed\",\"durationSeconds\":0.0021366,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(double.NaN)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.NaN)\",\"state\":\"Passed\",\"durationSeconds\":0.0015727,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0005334,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(-1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0009124,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1)\",\"state\":\"Passed\",\"durationSeconds\":0.00152,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(10)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(10)\",\"state\":\"Passed\",\"durationSeconds\":0.0003631,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(1000)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1000)\",\"state\":\"Passed\",\"durationSeconds\":0.0011061,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OverflowInSecondSegmentRollsBackResourcesAndBank\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.OverflowInSecondSegmentRollsBackResourcesAndBank\",\"state\":\"Passed\",\"durationSeconds\":0.0011526,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RewardClampsAtCapEvenWhenAlreadyFull\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RewardClampsAtCapEvenWhenAlreadyFull\",\"state\":\"Passed\",\"durationSeconds\":0.0009964,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1)\",\"state\":\"Passed\",\"durationSeconds\":0.0006036,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(10)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(10)\",\"state\":\"Passed\",\"durationSeconds\":0.0002104,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(1000)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1000)\",\"state\":\"Passed\",\"durationSeconds\":0.0011874,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions\",\"state\":\"Passed\",\"durationSeconds\":0.0014325,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"BuildEntryAndEditorSettingsPointToFoundationScene\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene\",\"state\":\"Passed\",\"durationSeconds\":0.0040555,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CreatedConfigHasAllValidPrefabViews\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.CreatedConfigHasAllValidPrefabViews\",\"state\":\"Passed\",\"durationSeconds\":0.0036392,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DefaultRulesMatchConfirmedOfflineAndVitalityContracts\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.DefaultRulesMatchConfirmedOfflineAndVitalityContracts\",\"state\":\"Passed\",\"durationSeconds\":0.0004564,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DuplicateStageAndUnknownInitialIdAreRejected\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.DuplicateStageAndUnknownInitialIdAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.00215,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(-1)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0005657,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(double.NaN)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.NaN)\",\"state\":\"Passed\",\"durationSeconds\":0.0001293,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0000953,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NewRunsHaveUniqueIdsAndIndependentMutableData\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.NewRunsHaveUniqueIdsAndIndependentMutableData\",\"state\":\"Passed\",\"durationSeconds\":0.0005406,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences\",\"state\":\"Passed\",\"durationSeconds\":0.0009022,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ShrinkingCapAndCyclicStageChainAreRejected\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0010247,\"message\":null,\"stackTrace\":null,\"output\":\"\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "54a14ebee884488dac5121de225dc87a",
+          "status": "succeeded",
+          "mode": "EditMode",
+          "started_unix_ms": 1790912072963,
+          "finished_unix_ms": 1790912078364,
+          "last_update_unix_ms": 1790912078364,
+          "progress": {
+            "completed": 29,
+            "total": 29,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1790912078141,
+            "last_finished_test_full_name": "CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected",
+            "last_finished_unix_ms": 1790912078141,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "EditMode",
+            "summary": {
+              "total": 29,
+              "passed": 29,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 1.0100281,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "BuffDoesNotIncreaseConsumptionOrUnrelatedState",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState",
+                "state": "Passed",
+                "durationSeconds": 0.0264061,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CrossingBankBoundaryOnlyBuffsFirstFiveSeconds",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.CrossingBankBoundaryOnlyBuffsFirstFiveSeconds",
+                "state": "Passed",
+                "durationSeconds": 0.0011746,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DeadAndBlockedCommandsPreserveStateAndEmitNoChanges",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.DeadAndBlockedCommandsPreserveStateAndEmitNoChanges",
+                "state": "Passed",
+                "durationSeconds": 0.002002,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DragThresholdUsesDpiWithBoundedScreenFallback",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.DragThresholdUsesDpiWithBoundedScreenFallback",
+                "state": "Passed",
+                "durationSeconds": 0.0021773,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EvaluateIsPureAndEventsSeeCommittedSnapshot",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.EvaluateIsPureAndEventsSeeCommittedSnapshot",
+                "state": "Passed",
+                "durationSeconds": 0.0007525,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield",
+                "state": "Passed",
+                "durationSeconds": 0.0008198,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "GestureRejectsHoldDragCancelWrongPointerAndUi",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.GestureRejectsHoldDragCancelWrongPointerAndUi",
+                "state": "Passed",
+                "durationSeconds": 0.0021366,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(double.NaN)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.NaN)",
+                "state": "Passed",
+                "durationSeconds": 0.0015727,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 0.0005334,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(-1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(-1)",
+                "state": "Passed",
+                "durationSeconds": 0.0009124,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1)",
+                "state": "Passed",
+                "durationSeconds": 0.00152,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(10)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(10)",
+                "state": "Passed",
+                "durationSeconds": 0.0003631,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(1000)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1000)",
+                "state": "Passed",
+                "durationSeconds": 0.0011061,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OverflowInSecondSegmentRollsBackResourcesAndBank",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.OverflowInSecondSegmentRollsBackResourcesAndBank",
+                "state": "Passed",
+                "durationSeconds": 0.0011526,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RewardClampsAtCapEvenWhenAlreadyFull",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RewardClampsAtCapEvenWhenAlreadyFull",
+                "state": "Passed",
+                "durationSeconds": 0.0009964,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1)",
+                "state": "Passed",
+                "durationSeconds": 0.0006036,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(10)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(10)",
+                "state": "Passed",
+                "durationSeconds": 0.0002104,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(1000)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1000)",
+                "state": "Passed",
+                "durationSeconds": 0.0011874,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions",
+                "state": "Passed",
+                "durationSeconds": 0.0014325,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "BuildEntryAndEditorSettingsPointToFoundationScene",
+                "fullName": "CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene",
+                "state": "Passed",
+                "durationSeconds": 0.0040555,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CreatedConfigHasAllValidPrefabViews",
+                "fullName": "CayTheGioi.Tests.FoundationTests.CreatedConfigHasAllValidPrefabViews",
+                "state": "Passed",
+                "durationSeconds": 0.0036392,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DefaultRulesMatchConfirmedOfflineAndVitalityContracts",
+                "fullName": "CayTheGioi.Tests.FoundationTests.DefaultRulesMatchConfirmedOfflineAndVitalityContracts",
+                "state": "Passed",
+                "durationSeconds": 0.0004564,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DuplicateStageAndUnknownInitialIdAreRejected",
+                "fullName": "CayTheGioi.Tests.FoundationTests.DuplicateStageAndUnknownInitialIdAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.00215,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(-1)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(-1)",
+                "state": "Passed",
+                "durationSeconds": 0.0005657,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(double.NaN)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.NaN)",
+                "state": "Passed",
+                "durationSeconds": 0.0001293,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 9.53e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NewRunsHaveUniqueIdsAndIndependentMutableData",
+                "fullName": "CayTheGioi.Tests.FoundationTests.NewRunsHaveUniqueIdsAndIndependentMutableData",
+                "state": "Passed",
+                "durationSeconds": 0.0005406,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences",
+                "fullName": "CayTheGioi.Tests.FoundationTests.SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences",
+                "state": "Passed",
+                "durationSeconds": 0.0009022,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ShrinkingCapAndCyclicStageChainAreRejected",
+                "fullName": "CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0010247,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

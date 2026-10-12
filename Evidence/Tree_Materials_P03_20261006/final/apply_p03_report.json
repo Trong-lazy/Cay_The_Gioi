@@ -1,0 +1,70 @@
+{
+  "task": "T10",
+  "prompt": "P03",
+  "target_model": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+  "initial_sha256": "0ee025bad5b29b82fe928791132ce7f6c2a65369c00aedbac8f5952abae89d19",
+  "saved_sha256": "e19a5c06c7d4a8ece000ee1ada30d01e5d6a40c7468cec7597767a3d59d914e1",
+  "total_vertices": 16632,
+  "total_triangles": 26682,
+  "total_edges": 32936,
+  "total_polygons": 19426,
+  "mesh_stats": {
+    "Roots": {
+      "vertices": 374,
+      "triangles": 634,
+      "polygons": 290,
+      "edges": 654,
+      "uv_layer": "Float2",
+      "material_slot": "M_Bark"
+    },
+    "Trunk_Branches": {
+      "vertices": 858,
+      "triangles": 1408,
+      "polygons": 656,
+      "edges": 1482,
+      "uv_layer": "Float2",
+      "material_slot": "M_Bark"
+    },
+    "Foliage": {
+      "vertices": 15400,
+      "triangles": 24640,
+      "polygons": 18480,
+      "edges": 30800,
+      "uv_layer": "Float2",
+      "material_slot": "M_Foliage"
+    }
+  },
+  "material_settings": {
+    "name": "M_Bark",
+    "base_color_map": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png",
+    "normal_map": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png",
+    "normal_convention": "OpenGL (+Y up, Tangent Space)",
+    "normal_strength": 0.85,
+    "roughness": 0.85,
+    "metallic": 0.0,
+    "emission": 0.0,
+    "tiling_scale": [
+      2.5,
+      2.5,
+      1.0
+    ]
+  },
+  "renders": {
+    "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\perspective.png",
+    "front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\front.png",
+    "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\back.png",
+    "left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\left.png",
+    "right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\right.png",
+    "closeup_fork": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\closeup_fork.png",
+    "oblique_light": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\oblique_light.png",
+    "distance_view": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P03_20261006\\final\\distance_view.png"
+  },
+  "protected_assets_verified": true,
+  "protected_hashes": {
+    "Seedling": "0497709bb53f906e7aa2abedf832d59d1f3b0c57c4144cdc3aa96e74f4f461ff",
+    "Young": "004480f34facc7077b1e7b24671cb414faf3a7c76c1af9d6f8b024eb319f4a9a",
+    "Ancient": "e1e9227534be3c281b4bb0870c043f963827a277f533b955bbb93771e9e4961e",
+    "Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644"
+  }
+}

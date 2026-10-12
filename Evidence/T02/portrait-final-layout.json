@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"safeWidth\":1000.0,\"panelWidth\":944.0,\"textPreferredHeight\":102.0,\"textHeight\":110.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "safeWidth": 1000.0,
+          "panelWidth": 944.0,
+          "textPreferredHeight": 102.0,
+          "textHeight": 110.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,1079 @@
+{
+  "timestamp": "2026-10-12T11:47:00Z",
+  "probe_B04_terrain": {
+    "meshName": "Spherical_Planet_Terrain_Mesh",
+    "vertexCount": 4610,
+    "triangleCount": 9216,
+    "totalEdges": 13824,
+    "boundaryEdges": 0,
+    "isClosedManifold": true,
+    "minY": -13.7732306,
+    "maxY": 0.05829811
+  },
+  "probe_B02_water_boundary": {
+    "totalEdgeVertices": 40,
+    "hangingVerticesCount": 0,
+    "deeplyBuriedVerticesCount": 8,
+    "hasNoHangingEdges": true,
+    "samples": [
+      {
+        "index": 1,
+        "pos": {
+          "x": -1.67199993,
+          "y": -0.256442726,
+          "z": -1.9
+        },
+        "terrainY": -0.214785174,
+        "waterMinusTerrain": -0.0416575521
+      },
+      {
+        "index": 2,
+        "pos": {
+          "x": -1.66284335,
+          "y": -0.226447761,
+          "z": -1.64069986
+        },
+        "terrainY": -0.181502819,
+        "waterMinusTerrain": -0.044944942
+      },
+      {
+        "index": 3,
+        "pos": {
+          "x": -1.70157516,
+          "y": -0.2057578,
+          "z": -1.38064027
+        },
+        "terrainY": -0.158557624,
+        "waterMinusTerrain": -0.0472001731
+      },
+      {
+        "index": 4,
+        "pos": {
+          "x": -1.79213333,
+          "y": -0.1960122,
+          "z": -1.1317035
+        },
+        "terrainY": -0.147783071,
+        "waterMinusTerrain": -0.0482291281
+      },
+      {
+        "index": 5,
+        "pos": {
+          "x": -1.93281555,
+          "y": -0.198072135,
+          "z": -0.9066824
+        },
+        "terrainY": -0.09049091,
+        "waterMinusTerrain": -0.107581228
+      },
+      {
+        "index": 6,
+        "pos": {
+          "x": -2.11627,
+          "y": -0.211756408,
+          "z": -0.7162702
+        },
+        "terrainY": -0.0204918534,
+        "waterMinusTerrain": -0.191264555
+      },
+      {
+        "index": 7,
+        "pos": {
+          "x": -2.33125758,
+          "y": -0.235892951,
+          "z": -0.5666403
+        },
+        "terrainY": 0.017702654,
+        "waterMinusTerrain": -0.2535956
+      },
+      {
+        "index": 8,
+        "pos": {
+          "x": -2.56552815,
+          "y": -0.268682182,
+          "z": -0.458518028
+        },
+        "terrainY": 0.0242839754,
+        "waterMinusTerrain": -0.292966157
+      },
+      {
+        "index": 9,
+        "pos": {
+          "x": -2.80874848,
+          "y": -0.308243454,
+          "z": -0.388083071
+        },
+        "terrainY": 0.0017837584,
+        "waterMinusTerrain": -0.3100272
+      },
+      {
+        "index": 10,
+        "pos": {
+          "x": -3.0544014,
+          "y": -0.3531348,
+          "z": -0.349351317
+        },
+        "terrainY": -0.0463041365,
+        "waterMinusTerrain": -0.306830674
+      },
+      {
+        "index": 11,
+        "pos": {
+          "x": -3.3,
+          "y": -0.402641,
+          "z": -0.337119937
+        },
+        "terrainY": -0.117251635,
+        "waterMinusTerrain": -0.285389364
+      },
+      {
+        "index": 12,
+        "pos": {
+          "x": -3.54559875,
+          "y": -0.4567086,
+          "z": -0.349351436
+        },
+        "terrainY": -0.21025008,
+        "waterMinusTerrain": -0.24645853
+      },
+      {
+        "index": 13,
+        "pos": {
+          "x": -3.79125166,
+          "y": -0.515508354,
+          "z": -0.38808316
+        },
+        "terrainY": -0.326238751,
+        "waterMinusTerrain": -0.1892696
+      },
+      {
+        "index": 14,
+        "pos": {
+          "x": -4.034472,
+          "y": -0.57879895,
+          "z": -0.458518147
+        },
+        "terrainY": -0.466377884,
+        "waterMinusTerrain": -0.112421066
+      },
+      {
+        "index": 15,
+        "pos": {
+          "x": -4.268742,
+          "y": -0.6453683,
+          "z": -0.5666403
+        },
+        "terrainY": -0.6014242,
+        "waterMinusTerrain": -0.04394406
+      },
+      {
+        "index": 16,
+        "pos": {
+          "x": -4.48373,
+          "y": -0.7127997,
+          "z": -0.7162702
+        },
+        "terrainY": -0.66621834,
+        "waterMinusTerrain": -0.0465813875
+      },
+      {
+        "index": 17,
+        "pos": {
+          "x": -4.66718435,
+          "y": -0.777718246,
+          "z": -0.9066825
+        },
+        "terrainY": -0.729694247,
+        "waterMinusTerrain": -0.048024
+      },
+      {
+        "index": 18,
+        "pos": {
+          "x": -4.80786657,
+          "y": -0.836469352,
+          "z": -1.13170373
+        },
+        "terrainY": -0.788240254,
+        "waterMinusTerrain": -0.0482291
+      },
+      {
+        "index": 19,
+        "pos": {
+          "x": -4.89842463,
+          "y": -0.8859765,
+          "z": -1.38064063
+        },
+        "terrainY": -0.83877635,
+        "waterMinusTerrain": -0.0472001433
+      },
+      {
+        "index": 20,
+        "pos": {
+          "x": -4.93715668,
+          "y": -0.924482048,
+          "z": -1.64069986
+        },
+        "terrainY": -0.8795371,
+        "waterMinusTerrain": -0.044944942
+      },
+      {
+        "index": 21,
+        "pos": {
+          "x": -4.928,
+          "y": -0.9518611,
+          "z": -1.9000001
+        },
+        "terrainY": -0.9102035,
+        "waterMinusTerrain": -0.041657567
+      },
+      {
+        "index": 22,
+        "pos": {
+          "x": -4.87875652,
+          "y": -0.9694106,
+          "z": -2.15005064
+        },
+        "terrainY": -0.931485653,
+        "waterMinusTerrain": -0.0379249454
+      },
+      {
+        "index": 23,
+        "pos": {
+          "x": -4.798215,
+          "y": -0.979181,
+          "z": -2.3868
+        },
+        "terrainY": -0.9444791,
+        "waterMinusTerrain": -0.0347018838
+      },
+      {
+        "index": 24,
+        "pos": {
+          "x": -4.69325066,
+          "y": -0.9831111,
+          "z": -2.60989666
+        },
+        "terrainY": -0.950130463,
+        "waterMinusTerrain": -0.03298062
+      },
+      {
+        "index": 25,
+        "pos": {
+          "x": -4.56697464,
+          "y": -0.98226136,
+          "z": -2.82051134
+        },
+        "terrainY": -0.948922455,
+        "waterMinusTerrain": -0.0333389044
+      },
+      {
+        "index": 26,
+        "pos": {
+          "x": -4.41860962,
+          "y": -0.9764096,
+          "z": -3.01861
+        },
+        "terrainY": -0.940755546,
+        "waterMinusTerrain": -0.035654068
+      },
+      {
+        "index": 27,
+        "pos": {
+          "x": -4.245086,
+          "y": -0.964137733,
+          "z": -3.2008
+        },
+        "terrainY": -0.924972951,
+        "waterMinusTerrain": -0.03916478
+      },
+      {
+        "index": 28,
+        "pos": {
+          "x": -4.04372072,
+          "y": -0.943376243,
+          "z": -3.35963559
+        },
+        "terrainY": -0.9005352,
+        "waterMinusTerrain": -0.0428410172
+      },
+      {
+        "index": 29,
+        "pos": {
+          "x": -3.81490779,
+          "y": -0.91223973,
+          "z": -3.484723
+        },
+        "terrainY": -0.8664121,
+        "waterMinusTerrain": -0.0458276272
+      },
+      {
+        "index": 30,
+        "pos": {
+          "x": -3.56375217,
+          "y": -0.8698575,
+          "z": -3.56526446
+        },
+        "terrainY": -0.822176337,
+        "waterMinusTerrain": -0.0476811528
+      },
+      {
+        "index": 31,
+        "pos": {
+          "x": -3.3,
+          "y": -0.816906631,
+          "z": -3.59312
+        },
+        "terrainY": -0.7686092,
+        "waterMinusTerrain": -0.0482974052
+      },
+      {
+        "index": 32,
+        "pos": {
+          "x": -3.03624773,
+          "y": -0.7556512,
+          "z": -3.56526446
+        },
+        "terrainY": -0.70797,
+        "waterMinusTerrain": -0.0476811528
+      },
+      {
+        "index": 33,
+        "pos": {
+          "x": -2.78509188,
+          "y": -0.689454734,
+          "z": -3.484723
+        },
+        "terrainY": -0.6436271,
+        "waterMinusTerrain": -0.0458276272
+      },
+      {
+        "index": 34,
+        "pos": {
+          "x": -2.55627823,
+          "y": -0.6219737,
+          "z": -3.359635
+        },
+        "terrainY": -0.5791327,
+        "waterMinusTerrain": -0.0428410172
+      },
+      {
+        "index": 35,
+        "pos": {
+          "x": -2.35491323,
+          "y": -0.5563142,
+          "z": -3.20079923
+        },
+        "terrainY": -0.517149448,
+        "waterMinusTerrain": -0.039164722
+      },
+      {
+        "index": 36,
+        "pos": {
+          "x": -2.18138981,
+          "y": -0.494488418,
+          "z": -3.01860929
+        },
+        "terrainY": -0.45883435,
+        "waterMinusTerrain": -0.035654068
+      },
+      {
+        "index": 37,
+        "pos": {
+          "x": -2.03302455,
+          "y": -0.4373328,
+          "z": -2.82051063
+        },
+        "terrainY": -0.4039939,
+        "waterMinusTerrain": -0.0333389044
+      },
+      {
+        "index": 38,
+        "pos": {
+          "x": -1.90674937,
+          "y": -0.3848769,
+          "z": -2.60989666
+        },
+        "terrainY": -0.3518963,
+        "waterMinusTerrain": -0.03298062
+      },
+      {
+        "index": 39,
+        "pos": {
+          "x": -1.80178463,
+          "y": -0.3369605,
+          "z": -2.38679957
+        },
+        "terrainY": -0.302258581,
+        "waterMinusTerrain": -0.0347019136
+      },
+      {
+        "index": 40,
+        "pos": {
+          "x": -1.72124314,
+          "y": -0.2938258,
+          "z": -2.1500504
+        },
+        "terrainY": -0.2559008,
+        "waterMinusTerrain": -0.037925005
+      }
+    ]
+  },
+  "probe_B06_waterfall": {
+    "vertexCount": 8,
+    "triangleCount": 6,
+    "minNormalMagnitude": 1.0,
+    "maxNormalMagnitude": 1.00000012,
+    "hasValidNormals": true,
+    "firstNormal": "(0.28, -0.90, 0.33)"
+  },
+  "probe_B05_flower_contact": {
+    "meshName": "Coral_Flower_Mesh",
+    "vertexCount": 55,
+    "minY": -0.05,
+    "maxY": 0.210000008,
+    "hasGroundContact": true
+  },
+  "probe_B07_mushroom_naming": {
+    "totalMushrooms": 10,
+    "uniqueMeshCount": 10,
+    "noMeshOverwrites": true,
+    "meshes": [
+      {
+        "goName": "Shroom_301_0",
+        "meshName": "Glow_Mushroom_Mesh_301_0",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_301_1",
+        "meshName": "Glow_Mushroom_Mesh_301_1",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_301_2",
+        "meshName": "Glow_Mushroom_Mesh_301_2",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_301_3",
+        "meshName": "Glow_Mushroom_Mesh_301_3",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_302_0",
+        "meshName": "Glow_Mushroom_Mesh_302_0",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_302_1",
+        "meshName": "Glow_Mushroom_Mesh_302_1",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_302_2",
+        "meshName": "Glow_Mushroom_Mesh_302_2",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_303_0",
+        "meshName": "Glow_Mushroom_Mesh_303_0",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_303_1",
+        "meshName": "Glow_Mushroom_Mesh_303_1",
+        "vertexCount": 73
+      },
+      {
+        "goName": "Shroom_303_2",
+        "meshName": "Glow_Mushroom_Mesh_303_2",
+        "vertexCount": 73
+      }
+    ]
+  },
+  "probe_B03_camera_corridor_360": [
+    {
+      "stage": "seedling",
+      "distance": 1.4,
+      "pitch": 16.0,
+      "targetHeight": 0.12,
+      "totalCheckedAngles": 12,
+      "clearViewAngles": 12,
+      "occludedAngles": 0,
+      "isFullyClear360": true,
+      "samples": [
+        {
+          "orbitAngle": 0.0,
+          "cameraPos": {
+            "x": 0.0,
+            "y": 0.5058923,
+            "z": -1.34576631
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 30.0,
+          "cameraPos": {
+            "x": -0.672883153,
+            "y": 0.5058923,
+            "z": -1.16546786
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 60.0,
+          "cameraPos": {
+            "x": -1.16546786,
+            "y": 0.5058923,
+            "z": -0.6728832
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 90.0,
+          "cameraPos": {
+            "x": -1.34576619,
+            "y": 0.5058922,
+            "z": -1.3038516e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 120.0,
+          "cameraPos": {
+            "x": -1.16546786,
+            "y": 0.505892336,
+            "z": 0.6728834
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 150.0,
+          "cameraPos": {
+            "x": -0.6728832,
+            "y": 0.5058923,
+            "z": 1.16546762
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 180.0,
+          "cameraPos": {
+            "x": 1.17650629e-07,
+            "y": 0.5058923,
+            "z": 1.34576631
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 210.0,
+          "cameraPos": {
+            "x": 0.672883153,
+            "y": 0.5058923,
+            "z": 1.16546762
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 240.0,
+          "cameraPos": {
+            "x": 1.165468,
+            "y": 0.505892336,
+            "z": 0.6728831
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 270.0,
+          "cameraPos": {
+            "x": 1.34576619,
+            "y": 0.5058922,
+            "z": -1.3038516e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 300.0,
+          "cameraPos": {
+            "x": 1.165468,
+            "y": 0.505892336,
+            "z": -0.672883034
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 330.0,
+          "cameraPos": {
+            "x": 0.6728834,
+            "y": 0.5058923,
+            "z": -1.16546774
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.12,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        }
+      ]
+    },
+    {
+      "stage": "young_tree",
+      "distance": 2.8,
+      "pitch": 18.0,
+      "targetHeight": 0.42,
+      "totalCheckedAngles": 12,
+      "clearViewAngles": 12,
+      "occludedAngles": 0,
+      "isFullyClear360": true,
+      "samples": [
+        {
+          "orbitAngle": 0.0,
+          "cameraPos": {
+            "x": 0.0,
+            "y": 1.28524768,
+            "z": -2.66295815
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 30.0,
+          "cameraPos": {
+            "x": -1.33147907,
+            "y": 1.28524756,
+            "z": -2.30618954
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 60.0,
+          "cameraPos": {
+            "x": -2.3061893,
+            "y": 1.28524768,
+            "z": -1.33147907
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 90.0,
+          "cameraPos": {
+            "x": -2.66295838,
+            "y": 1.28524768,
+            "z": 2.92062765e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 120.0,
+          "cameraPos": {
+            "x": -2.30618954,
+            "y": 1.28524768,
+            "z": 1.33147967
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 150.0,
+          "cameraPos": {
+            "x": -1.33147919,
+            "y": 1.28524756,
+            "z": 2.30618954
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 180.0,
+          "cameraPos": {
+            "x": 2.32803217e-07,
+            "y": 1.28524768,
+            "z": 2.66295838
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 210.0,
+          "cameraPos": {
+            "x": 1.33147907,
+            "y": 1.28524756,
+            "z": 2.30618954
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 240.0,
+          "cameraPos": {
+            "x": 2.30618978,
+            "y": 1.28524768,
+            "z": 1.33147907
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 270.0,
+          "cameraPos": {
+            "x": 2.66295838,
+            "y": 1.28524768,
+            "z": 2.92062765e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 300.0,
+          "cameraPos": {
+            "x": 2.30618978,
+            "y": 1.28524768,
+            "z": -1.33147871
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        },
+        {
+          "orbitAngle": 330.0,
+          "cameraPos": {
+            "x": 1.33147955,
+            "y": 1.28524756,
+            "z": -2.3061893
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 0.42,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "none"
+        }
+      ]
+    },
+    {
+      "stage": "large_tree",
+      "distance": 6.2,
+      "pitch": 20.0,
+      "targetHeight": 1.18,
+      "totalCheckedAngles": 12,
+      "clearViewAngles": 12,
+      "occludedAngles": 0,
+      "isFullyClear360": true,
+      "samples": [
+        {
+          "orbitAngle": 0.0,
+          "cameraPos": {
+            "x": 0.0,
+            "y": 3.30052471,
+            "z": -5.826094
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 30.0,
+          "cameraPos": {
+            "x": -2.9130466,
+            "y": 3.30052471,
+            "z": -5.04554558
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 60.0,
+          "cameraPos": {
+            "x": -5.045545,
+            "y": 3.30052471,
+            "z": -2.91304731
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 90.0,
+          "cameraPos": {
+            "x": -5.82609367,
+            "y": 3.30052471,
+            "z": -3.8109718e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 120.0,
+          "cameraPos": {
+            "x": -5.045545,
+            "y": 3.30052471,
+            "z": 2.913047
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 150.0,
+          "cameraPos": {
+            "x": -2.913047,
+            "y": 3.30052471,
+            "z": 5.04554462
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 180.0,
+          "cameraPos": {
+            "x": 5.093333e-07,
+            "y": 3.30052471,
+            "z": 5.826093
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 210.0,
+          "cameraPos": {
+            "x": 2.9130466,
+            "y": 3.30052471,
+            "z": 5.04554462
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 240.0,
+          "cameraPos": {
+            "x": 5.04554558,
+            "y": 3.30052471,
+            "z": 2.91304636
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 270.0,
+          "cameraPos": {
+            "x": 5.82609367,
+            "y": 3.30052471,
+            "z": -3.8109718e-07
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 300.0,
+          "cameraPos": {
+            "x": 5.04554558,
+            "y": 3.30052471,
+            "z": -2.9130466
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        },
+        {
+          "orbitAngle": 330.0,
+          "cameraPos": {
+            "x": 2.91304779,
+            "y": 3.30052471,
+            "z": -5.045545
+          },
+          "targetPos": {
+            "x": 0.0,
+            "y": 1.18,
+            "z": 0.0
+          },
+          "isClear": true,
+          "hitObject": "Foliage"
+        }
+      ]
+    }
+  ],
+  "probe_UI01_spirit_card": {
+    "spiritAbsorptionUnlocked": false,
+    "rateString": "Cây Trưởng Thành",
+    "fontSize": 14,
+    "horizontalOverflow": "Overflow",
+    "rectWidth": 126.0,
+    "isFullyVisible": true
+  }
+}

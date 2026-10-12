@@ -1,0 +1,322 @@
+{
+  "source": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend",
+    "sha256": "18BB67FC27BEA34137777EC00ACD0AD12B4FDF408537F3DA2E833CE48095BEF3",
+    "unchanged": true
+  },
+  "source_fbx": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx",
+    "sha256": "52B63D9F9F555BBBC85302DA9BA3AA0E6F1BF82F4E193E070F5B1B8981D0B7D5",
+    "unchanged": true
+  },
+  "candidate": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+    "sha256": "39DEDA1C6A7483CCFE54C2F1352B554E578DAC5F3AD9501B5D255179321FBB64",
+    "version": "v01"
+  },
+  "mesh_stats": {
+    "total_evaluated_triangles": 73888,
+    "objects": {
+      "Roots": {
+        "name": "Roots",
+        "vertex_count": 9120,
+        "face_count": 8928,
+        "evaluated_triangles": 17856,
+        "boundary_edges": 384,
+        "non_manifold_edges": 384,
+        "loose_vertices": 0,
+        "degenerate_faces": 0,
+        "positions_digest": "c39e1e9c6d07f69f4300fd5382a7d38536abb28619346b0c2ba621049ef824d2",
+        "topology_digest": "404356ed10cdacea936c9b2ca1eb491f8b59c915ca86b3d3e619fd172d586fdd",
+        "uv_digest": "357100004154a3f7f6f63b3417945f52eb7331c11dfd14d574cee6df4aa41313",
+        "corner_normals_digest": "e82b972d98b8bd6be18ecee4638a24496325c6d319de24ddcf5237aeef128523",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": [],
+        "vertex_groups": []
+      },
+      "Trunk_Branches": {
+        "name": "Trunk_Branches",
+        "vertex_count": 19332,
+        "face_count": 18864,
+        "evaluated_triangles": 37728,
+        "boundary_edges": 936,
+        "non_manifold_edges": 936,
+        "loose_vertices": 0,
+        "degenerate_faces": 0,
+        "positions_digest": "53190cd432b9eaefe16679bd0ee49577220bc07a82c66809f7e8d6cfe7923201",
+        "topology_digest": "f0dd26366f3ff3db922cce1a6a19813edd378a66ca83d91fa73898d00cc49cd1",
+        "uv_digest": "6502939714d9758320b90aca885e3d0c539d338c1fa14234134b9b7460327cd4",
+        "corner_normals_digest": "4bdecdf4290d26575c423522cc5b63442d1da99fc719c1a3857d58ca01a761ab",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": [],
+        "vertex_groups": []
+      },
+      "Foliage": {
+        "name": "Foliage",
+        "vertex_count": 22880,
+        "face_count": 18304,
+        "evaluated_triangles": 18304,
+        "boundary_edges": 18304,
+        "non_manifold_edges": 18304,
+        "loose_vertices": 0,
+        "degenerate_faces": 0,
+        "positions_digest": "cd32b302eb02b563ac9111f5946a7248289583f2b41519fdd97c26befc6cf37b",
+        "topology_digest": "b63c3380a0fdd51063b2ce2af12546e1e0b505d972d671637653850b7fc6fe12",
+        "uv_digest": "6ff094a2d381791aaf0424d32fec4adafe434e8cfaaa4e306e7358cbc32ba220",
+        "corner_normals_digest": "dee6f42ce3e8b5d1cfd5f48e66a5c6a3d2eed48b4fc3dc50ad2148ff195cb3bc",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": [],
+        "vertex_groups": []
+      }
+    }
+  },
+  "candidate_fingerprints": {
+    "Roots": {
+      "name": "Roots",
+      "vertex_count": 9120,
+      "face_count": 8928,
+      "evaluated_triangles": 17856,
+      "boundary_edges": 384,
+      "non_manifold_edges": 384,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "positions_digest": "c39e1e9c6d07f69f4300fd5382a7d38536abb28619346b0c2ba621049ef824d2",
+      "topology_digest": "404356ed10cdacea936c9b2ca1eb491f8b59c915ca86b3d3e619fd172d586fdd",
+      "uv_digest": "357100004154a3f7f6f63b3417945f52eb7331c11dfd14d574cee6df4aa41313",
+      "corner_normals_digest": "e82b972d98b8bd6be18ecee4638a24496325c6d319de24ddcf5237aeef128523",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "modifiers": [],
+      "vertex_groups": []
+    },
+    "Trunk_Branches": {
+      "name": "Trunk_Branches",
+      "vertex_count": 19332,
+      "face_count": 18864,
+      "evaluated_triangles": 37728,
+      "boundary_edges": 936,
+      "non_manifold_edges": 936,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "positions_digest": "53190cd432b9eaefe16679bd0ee49577220bc07a82c66809f7e8d6cfe7923201",
+      "topology_digest": "f0dd26366f3ff3db922cce1a6a19813edd378a66ca83d91fa73898d00cc49cd1",
+      "uv_digest": "6502939714d9758320b90aca885e3d0c539d338c1fa14234134b9b7460327cd4",
+      "corner_normals_digest": "4bdecdf4290d26575c423522cc5b63442d1da99fc719c1a3857d58ca01a761ab",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "modifiers": [],
+      "vertex_groups": [
+        "Trunk_Editable_Mask"
+      ]
+    },
+    "Foliage": {
+      "name": "Foliage",
+      "vertex_count": 22880,
+      "face_count": 18304,
+      "evaluated_triangles": 18304,
+      "boundary_edges": 18304,
+      "non_manifold_edges": 18304,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "positions_digest": "cd32b302eb02b563ac9111f5946a7248289583f2b41519fdd97c26befc6cf37b",
+      "topology_digest": "b63c3380a0fdd51063b2ce2af12546e1e0b505d972d671637653850b7fc6fe12",
+      "uv_digest": "6ff094a2d381791aaf0424d32fec4adafe434e8cfaaa4e306e7358cbc32ba220",
+      "corner_normals_digest": "dee6f42ce3e8b5d1cfd5f48e66a5c6a3d2eed48b4fc3dc50ad2148ff195cb3bc",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "materials": [],
+      "modifiers": [],
+      "vertex_groups": []
+    }
+  },
+  "mask_stats": {
+    "total_vertices": 19332,
+    "locked_count": 12257,
+    "transition_count": 1223,
+    "editable_count": 5852,
+    "classes": {
+      "LOCKED_DISTAL_BRANCH": 2164,
+      "LOCKED_ROOT_JUNCTION": 111,
+      "TRANSITION_BRANCH_COLLAR": 1054,
+      "LOCKED_FOLIAGE_PROXIMITY": 9058,
+      "TRANSITION_APEX_SPLIT": 51,
+      "LOCKED_BRANCH_TIP": 924,
+      "TRANSITION_ROOT_FLARE": 118,
+      "EDITABLE_TRUNK": 5852
+    }
+  },
+  "reference_image": {
+    "path": "C:\\Users\\Asus\\Downloads\\pexels-quang-nguyen-vinh-222549-14771841.jpg",
+    "exists": true
+  },
+  "rendered_files": {
+    "baseline_front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_front.png",
+    "baseline_back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_back.png",
+    "baseline_left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_left.png",
+    "baseline_right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_right.png",
+    "baseline_perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_perspective.png",
+    "baseline_closeup_trunk": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_closeup_trunk.png",
+    "baseline_closeup_branch_collar": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_closeup_branch_collar.png",
+    "baseline_closeup_root_junction": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\baseline_closeup_root_junction.png",
+    "mask_front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_front.png",
+    "mask_back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_back.png",
+    "mask_left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_left.png",
+    "mask_right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_right.png",
+    "mask_perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_perspective.png",
+    "mask_closeup_trunk": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_closeup_trunk.png",
+    "mask_closeup_branch_collar": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_closeup_branch_collar.png",
+    "mask_closeup_root_junction": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\mask_closeup_root_junction.png"
+  }
+}

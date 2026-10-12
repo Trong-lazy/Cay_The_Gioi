@@ -1,0 +1,1 @@
+{"name": "execute_code", "arguments": {"action": "execute", "code": "UnityEngine.Canvas.ForceUpdateCanvases(); return new {w=UnityEngine.Screen.width,h=UnityEngine.Screen.height};"}}

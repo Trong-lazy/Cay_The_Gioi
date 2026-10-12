@@ -1,0 +1,361 @@
+{
+  "source": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+  "sha256_before": "5c575b1e1c5a298f6b638831a8e9a4a26c26966aad7427a83f1c7cda47abb923",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.13755618035793304,
+        0.034780681133270264,
+        0.21004869043827057
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 170,
+      "faces": 148,
+      "evaluated_triangles": 316,
+      "boundary_edges": 16,
+      "non_manifold_edges": 16,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [],
+      "materials": [
+        "M_Roots"
+      ],
+      "uv_statistics": []
+    },
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.04545513540506363,
+        0.015216905623674393,
+        0.20499999821186066
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 150,
+      "faces": 120,
+      "evaluated_triangles": 258,
+      "boundary_edges": 34,
+      "non_manifold_edges": 34,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [],
+      "materials": [
+        "M_Stem"
+      ],
+      "uv_statistics": []
+    },
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.2933270335197449,
+        0.07430556416511536,
+        0.11486682295799255
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 600,
+      "faces": 590,
+      "evaluated_triangles": 1180,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 58,
+      "uv_layers": [],
+      "materials": [
+        "M_Leaves"
+      ],
+      "uv_statistics": []
+    },
+    {
+      "name": "SeedShell",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.13711071014404297,
+        0.06533122062683105,
+        0.05722614377737045
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 516,
+      "faces": 544,
+      "evaluated_triangles": 1024,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [],
+      "materials": [
+        "M_SeedShell_Outer",
+        "M_SeedShell_Inner"
+      ],
+      "uv_statistics": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Leaves",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.41999998688697815,
+            0.7400000095367432,
+            0.18000000715255737,
+            1.0
+          ],
+          "roughness": 0.3799999952316284,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_Roots",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.9399999976158142,
+            0.8999999761581421,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.550000011920929,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_SeedShell_Inner",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.6800000071525574,
+            0.41999998688697815,
+            0.2199999988079071,
+            1.0
+          ],
+          "roughness": 0.5799999833106995,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_SeedShell_Outer",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.5,
+            0.25,
+            0.10000000149011612,
+            1.0
+          ],
+          "roughness": 0.6499999761581421,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_Stem",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.3799999952316284,
+            0.6800000071525574,
+            0.15000000596046448,
+            1.0
+          ],
+          "roughness": 0.44999998807907104,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    }
+  ],
+  "total_evaluated_triangles": 2778,
+  "empty_objects": [],
+  "world_bounds": {
+    "min": [
+      -0.15158604085445404,
+      -0.046562522649765015,
+      -0.1980486959218979
+    ],
+    "max": [
+      0.14174100756645203,
+      0.041779909282922745,
+      0.2580000162124634
+    ],
+    "size": [
+      0.2933270335197449,
+      0.08834242820739746,
+      0.45604872703552246
+    ]
+  },
+  "review_renders": [
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Seedling_Simple_v01\\front.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Seedling_Simple_v01\\back.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Seedling_Simple_v01\\right.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Seedling_Simple_v01\\perspective.png"
+  ],
+  "sha256_after": "5c575b1e1c5a298f6b638831a8e9a4a26c26966aad7427a83f1c7cda47abb923",
+  "source_unchanged": true
+}

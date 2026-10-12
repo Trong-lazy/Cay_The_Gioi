@@ -1,0 +1,53 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"type\":\"UnityEditor.GameView\",\"selected\":\"3\",\"screen\":{\"width\":1920,\"height\":1080},\"methods\":[\"Int32 get_selectedSizeIndex()\",\"Void set_selectedSizeIndex(Int32)\",\"Void SetTargetDisplay(Int32)\",\"UnityEditor.GameViewSize get_currentGameViewSize()\",\"UnityEngine.Vector2 get_targetRenderSize()\",\"UnityEngine.Rect get_deviceFlippedTargetInView()\",\"Void EnsureSelectedSizeAreValid()\",\"Void SizeSelectionCallback(Int32, System.Object)\",\"Void ClearTargetTexture()\",\"Single ScaleThatFitsTargetInView(UnityEngine.Vector2, UnityEngine.Vector2)\",\"Single DefaultScaleForTargetInView(UnityEngine.Vector2, UnityEngine.Vector2)\",\"UnityEngine.Vector2 get_targetSize()\",\"Void set_targetSize(UnityEngine.Vector2)\",\"UnityEngine.Vector2 GetPlayModeViewSize()\",\"Single GetGameViewDpiForPhysicalSize()\",\"UnityEngine.Vector2 get_minSize()\",\"Void set_minSize(UnityEngine.Vector2)\",\"UnityEngine.Vector2 get_maxSize()\",\"Void set_maxSize(UnityEngine.Vector2)\",\"Void SetPlayModeViewSize(UnityEngine.Vector2)\",\"Void SetMainPlayModeViewSize(UnityEngine.Vector2)\",\"Void SetDisplayViewSize(Int32, UnityEngine.Vector2)\",\"UnityEngine.Vector2 GetDisplayViewSize(Int32)\"]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "type": "UnityEditor.GameView",
+          "selected": "3",
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "methods": [
+            "Int32 get_selectedSizeIndex()",
+            "Void set_selectedSizeIndex(Int32)",
+            "Void SetTargetDisplay(Int32)",
+            "UnityEditor.GameViewSize get_currentGameViewSize()",
+            "UnityEngine.Vector2 get_targetRenderSize()",
+            "UnityEngine.Rect get_deviceFlippedTargetInView()",
+            "Void EnsureSelectedSizeAreValid()",
+            "Void SizeSelectionCallback(Int32, System.Object)",
+            "Void ClearTargetTexture()",
+            "Single ScaleThatFitsTargetInView(UnityEngine.Vector2, UnityEngine.Vector2)",
+            "Single DefaultScaleForTargetInView(UnityEngine.Vector2, UnityEngine.Vector2)",
+            "UnityEngine.Vector2 get_targetSize()",
+            "Void set_targetSize(UnityEngine.Vector2)",
+            "UnityEngine.Vector2 GetPlayModeViewSize()",
+            "Single GetGameViewDpiForPhysicalSize()",
+            "UnityEngine.Vector2 get_minSize()",
+            "Void set_minSize(UnityEngine.Vector2)",
+            "UnityEngine.Vector2 get_maxSize()",
+            "Void set_maxSize(UnityEngine.Vector2)",
+            "Void SetPlayModeViewSize(UnityEngine.Vector2)",
+            "Void SetMainPlayModeViewSize(UnityEngine.Vector2)",
+            "Void SetDisplayViewSize(Int32, UnityEngine.Vector2)",
+            "UnityEngine.Vector2 GetDisplayViewSize(Int32)"
+          ]
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

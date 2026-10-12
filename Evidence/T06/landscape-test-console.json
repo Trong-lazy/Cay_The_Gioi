@@ -1,0 +1,1097 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 154 log entries.\",\"data\":[{\"type\":\"Log\",\"message\":\"<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Applied No Throttling for test run.\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@045e809812a8/Editor/Helpers/McpLog.cs\",\"line\":40,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Error\",\"message\":\"[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\",\"file\":\"Assets/_Project/Scripts/Presentation/EvolutionTransition.cs\",\"line\":40,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EXPLICIT) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":64,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=LoadedFromBackup\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (OFFLINE_RESUME) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (OFFLINE_RESUME) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (OFFLINE_RESUME) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=4\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=4\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=7\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T05_SEED) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] Load blocked: OFFLINE_SAVE_FAILED: IO_ERROR: Sharing violation on path C:\\\\Users\\\\Asus\\\\AppData\\\\Local\\\\Temp\\\\DefaultCompany\\\\Cay_The_Gioi\\\\T04_PlayTests_6dfde7ca204a4babaa6de5c2f95bfbea\\\\world_tree_save.json.tmp\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":64,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (DEAD) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=5\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth FAILED rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (EXPLICIT) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (OFFLINE_RESUME) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=4\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=5\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (POINTS) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[T06 Test] viewport=1920x1080\",\"file\":\"Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs\",\"line\":23,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T06_SEED) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Rebirth COMMITTED rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":123,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T1) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (T2) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":64,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=LoadedFromBackup\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EXPLICIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=large_tree, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (TEST) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (BACKGROUND) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (OFFLINE_RESUME) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (AUTOSAVE) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (SEEDLING) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (VITALITY_TEST) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (TEST_ROUNDTRIP) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EXPLICIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (EXPLICIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (UI_RETRY) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save FAILED (EXPLICIT) rev=2\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (UI_RETRY) rev=3\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[SaveController] Save OK (EXPLICIT) rev=1\",\"file\":\"Assets/_Project/Scripts/Bootstrap/SaveController.cs\",\"line\":138,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] Load blocked: VERSION_TOO_NEW\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":64,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame\",\"file\":\"Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs\",\"line\":144,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.\",\"file\":\"./Library/PackageCache/com.coplaydev.unity-mcp@045e809812a8/Editor/Helpers/McpLog.cs\",\"line\":40,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"Saving results to: C:/Users/Asus/AppData/LocalLow/DefaultCompany/Cay_The_Gioi\\\\TestResults.xml\\n\",\"file\":\"C:\\\\build\\\\output\\\\unity\\\\unity\\\\Runtime\\\\Export\\\\Debug\\\\Debug.bindings.h\",\"line\":39,\"stackTrace\":null},{\"type\":\"Log\",\"message\":\"Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.\",\"file\":\"./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs\",\"line\":48,\"stackTrace\":null}]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 154 log entries.",
+      "data": [
+        {
+          "type": "Log",
+          "message": "<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Applied No Throttling for test run.",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@045e809812a8/Editor/Helpers/McpLog.cs",
+          "line": 40,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Error",
+          "message": "[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.",
+          "file": "Assets/_Project/Scripts/Presentation/EvolutionTransition.cs",
+          "line": 40,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EXPLICIT) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 64,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=LoadedFromBackup",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (OFFLINE_RESUME) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (OFFLINE_RESUME) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (OFFLINE_RESUME) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=4",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=4",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=7",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T05_SEED) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] Load blocked: OFFLINE_SAVE_FAILED: IO_ERROR: Sharing violation on path C:\\Users\\Asus\\AppData\\Local\\Temp\\DefaultCompany\\Cay_The_Gioi\\T04_PlayTests_6dfde7ca204a4babaa6de5c2f95bfbea\\world_tree_save.json.tmp",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 64,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (DEAD) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=5",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth FAILED rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (EXPLICIT) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (OFFLINE_RESUME) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=4",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=5",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (POINTS) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[T06 Test] viewport=1920x1080",
+          "file": "Assets/_Project/Tests/PlayMode/RebirthSceneTests.cs",
+          "line": 23,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T06_SEED) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Rebirth COMMITTED rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 123,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T1) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (T2) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 64,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=LoadedFromBackup",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EVOLUTION_COMMIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=young_tree, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EXPLICIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=large_tree, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (TEST) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (BACKGROUND) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (OFFLINE_RESUME) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (AUTOSAVE) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (SEEDLING) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (VITALITY_TEST) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (TEST_ROUNDTRIP) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=Loaded",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EXPLICIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (EXPLICIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (UI_RETRY) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save FAILED (EXPLICIT) rev=2",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (UI_RETRY) rev=3",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[SaveController] Save OK (EXPLICIT) rev=1",
+          "file": "Assets/_Project/Scripts/Bootstrap/SaveController.cs",
+          "line": 138,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] Load blocked: VERSION_TOO_NEW",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 64,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "[CayTheGioi] T06 initialized: prototype-3, stage=seedling, loadOutcome=NewGame",
+          "file": "Assets/_Project/Scripts/Bootstrap/GameBootstrapper.cs",
+          "line": 144,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.",
+          "file": "./Library/PackageCache/com.coplaydev.unity-mcp@045e809812a8/Editor/Helpers/McpLog.cs",
+          "line": 40,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "Saving results to: C:/Users/Asus/AppData/LocalLow/DefaultCompany/Cay_The_Gioi\\TestResults.xml\n",
+          "file": "C:\\build\\output\\unity\\unity\\Runtime\\Export\\Debug\\Debug.bindings.h",
+          "line": 39,
+          "stackTrace": null
+        },
+        {
+          "type": "Log",
+          "message": "Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.",
+          "file": "./Library/PackageCache/com.unity.test-framework@7a3849e09bd0/UnityEditor.TestRunner/TestRun/Tasks/BuildActionTaskBase.cs",
+          "line": 48,
+          "stackTrace": null
+        }
+      ]
+    },
+    "isError": false
+  }
+}

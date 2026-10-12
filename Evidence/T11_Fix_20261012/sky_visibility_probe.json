@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "seedling",
+    "conservativeSkyBoltBoundsIntersectingCamera": 0,
+    "samples": 1000
+  },
+  {
+    "stage": "young_tree",
+    "conservativeSkyBoltBoundsIntersectingCamera": 0,
+    "samples": 1000
+  },
+  {
+    "stage": "large_tree",
+    "conservativeSkyBoltBoundsIntersectingCamera": 0,
+    "samples": 1000
+  }
+]

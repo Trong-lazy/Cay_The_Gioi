@@ -1,0 +1,30 @@
+{
+  "tickComparisons": [
+    {
+      "dt": 0.1,
+      "hp": 79.999999999999673,
+      "strikes": 1,
+      "weather": "calm"
+    },
+    {
+      "dt": 1.0,
+      "hp": 80.0,
+      "strikes": 1,
+      "weather": "calm"
+    },
+    {
+      "dt": 10.0,
+      "hp": 80.0,
+      "strikes": 1,
+      "weather": "calm"
+    },
+    {
+      "dt": 60.0,
+      "hp": 100.0,
+      "strikes": 0,
+      "weather": "calm"
+    }
+  ],
+  "nanDelayAccepted": true,
+  "decodeReason": ""
+}

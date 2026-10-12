@@ -1,0 +1,27 @@
+var b=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>();
+var tree=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Presentation.TreeView>();
+var rig=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Presentation.OrbitCameraRig>();
+var all=new System.Collections.Generic.List<object>();
+foreach(var id in new[]{"seedling","young_tree","large_tree"}) {
+var visual=b.Config.FindVisual(id); tree.ShowStage(visual); rig.SetStagePose(visual.cameraDistance,visual.cameraPitch,visual.cameraTargetHeight); UnityEngine.Physics.SyncTransforms();
+var triangles=new System.Collections.Generic.List<UnityEngine.Vector3[]>(); float minX=99999,minY=99999,maxX=-99999,maxY=-99999;
+foreach(var mf in tree.ModelSlot.GetComponentsInChildren<UnityEngine.MeshFilter>()) {
+var mesh=mf.sharedMesh; var vertices=mesh.vertices; var indices=mesh.triangles;
+for(int k=0;k<vertices.Length;k++) {vertices[k]=mf.transform.TransformPoint(vertices[k]); var p=rig.SceneCamera.WorldToScreenPoint(vertices[k]); minX=UnityEngine.Mathf.Min(minX,p.x); minY=UnityEngine.Mathf.Min(minY,p.y);maxX=UnityEngine.Mathf.Max(maxX,p.x);maxY=UnityEngine.Mathf.Max(maxY,p.y);}
+for(int k=0;k<indices.Length;k+=3) triangles.Add(new[]{vertices[indices[k]],vertices[indices[k+1]],vertices[indices[k+2]]});
+}
+int falsePos=0,falseNeg=0,hitMesh=0,hitTree=0,checkedPoints=0,hiddenGround=0;var buried=new System.Collections.Generic.List<object>();var examples=new System.Collections.Generic.List<object>();var missed=new System.Collections.Generic.List<object>();
+for(int ix=0;ix<=24;ix++)for(int iy=0;iy<=24;iy++) {
+var point=new UnityEngine.Vector2(UnityEngine.Mathf.Lerp(minX-40,maxX+40,ix/24f),UnityEngine.Mathf.Lerp(minY-40,maxY+40,iy/24f));if(b.Input.IsOverUi(point))continue;checkedPoints++;
+var ray=rig.SceneCamera.ScreenPointToRay(point);float meshDistance=float.PositiveInfinity;
+foreach(var tri in triangles) {
+var e1=tri[1]-tri[0];var e2=tri[2]-tri[0];var h=UnityEngine.Vector3.Cross(ray.direction,e2);float det=UnityEngine.Vector3.Dot(e1,h);if(det<1e-9f)continue;float inv=1f/det;
+var s=ray.origin-tri[0];float u=inv*UnityEngine.Vector3.Dot(s,h);if(u<0||u>1)continue;var q=UnityEngine.Vector3.Cross(s,e1);float v=inv*UnityEngine.Vector3.Dot(ray.direction,q);if(v<0||u+v>1)continue;float d=inv*UnityEngine.Vector3.Dot(e2,q);if(d>0&&d<meshDistance)meshDistance=d;
+}
+UnityEngine.RaycastHit hit;bool physics=UnityEngine.Physics.Raycast(ray,out hit);bool isTree=physics&&hit.collider.GetComponentInParent<CayTheGioi.Presentation.TreeView>()==tree;bool meshHit=!float.IsPositiveInfinity(meshDistance);if(meshHit)hitMesh++;if(isTree)hitTree++;
+if(isTree&&hit.point.y < -0.00001f && hit.point.x*hit.point.x+hit.point.z*hit.point.z<8.4f){hiddenGround++; if(buried.Count<8)buried.Add(new{screenX=point.x,screenY=point.y,point=hit.point.ToString("F6"),part=hit.collider.name});}
+if(isTree&&!meshHit){falsePos++;if(examples.Count<8)examples.Add(new{screenX=point.x,screenY=point.y,collider=hit.collider.GetType().Name,hitObject=hit.collider.name});}
+if(meshHit&&!isTree&&(!physics||hit.distance>=meshDistance-0.002f)){falseNeg++;if(missed.Count<8)missed.Add(new{screenX=point.x,screenY=point.y,meshDistance=meshDistance,hitObject=physics?hit.collider.name:"none",physicsDistance=physics?hit.distance:0});}
+}
+all.Add(new{stage=id,screenWidth=UnityEngine.Screen.width,screenHeight=UnityEngine.Screen.height,checkedPoints=checkedPoints,meshHits=hitMesh,physicsTreeHits=hitTree,falsePositiveEmpty= falsePos,falseNegativeVisible=falseNeg,examples=examples,missed=missed,hiddenBehindGround=hiddenGround,buriedExamples=buried});
+}return all;

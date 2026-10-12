@@ -1,0 +1,14 @@
+{
+  "date_local": "2026-10-07",
+  "method": "Unity MCP resources and read-only execute_code",
+  "projectRoot": "C:/Users/Asus/foder game 3D/Cay_The_Gioi",
+  "unityVersion": "6000.6.1f1",
+  "scene": "Assets/_Project/Scenes/MainScene.unity",
+  "isPlaying": false,
+  "isCompiling": false,
+  "sceneDirty": false,
+  "consoleQuery": {"types": ["error", "warning"], "count": 5, "returnedEntries": []},
+  "sceneMeshes": ["Ground:Cylinder", "LeafRight:Sphere", "LeafLeft:Sphere", "Stem:Cylinder"],
+  "playModeValidation": "NOT_RUN",
+  "matureArtUnityValidation": "NOT_RUN"
+}

@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"version\":\"prototype-5\",\"root\":\"water\",\"leavesFirst\":\"water\",\"leaves\":\"growth\",\"trunk\":\"growth\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "version": "prototype-5",
+          "root": "water",
+          "leavesFirst": "water",
+          "leaves": "growth",
+          "trunk": "growth"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

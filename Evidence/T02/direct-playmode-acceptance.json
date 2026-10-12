@@ -1,0 +1,44 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"first\":true,\"firstWater\":0.0,\"firstLevel\":1,\"shortage\":\"INSUFFICIENT_RESOURCE\",\"locked\":\"LOCKED\",\"repeats\":{\"level\":2,\"water\":7.0},\"loop\":{\"water\":7.5,\"growth\":10.0},\"rootSupply\":2.1,\"growthRate\":1.05,\"consumption\":0.25,\"protection\":0.05,\"bank\":20.0,\"capped\":\"CAP_REACHED\",\"dead\":\"DEAD\",\"bootstrapCount\":1,\"viewCount\":1},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "first": true,
+          "firstWater": 0.0,
+          "firstLevel": 1,
+          "shortage": "INSUFFICIENT_RESOURCE",
+          "locked": "LOCKED",
+          "repeats": {
+            "level": 2,
+            "water": 7.0
+          },
+          "loop": {
+            "water": 7.5,
+            "growth": 10.0
+          },
+          "rootSupply": 2.1,
+          "growthRate": 1.05,
+          "consumption": 0.25,
+          "protection": 0.05,
+          "bank": 20.0,
+          "capped": "CAP_REACHED",
+          "dead": "DEAD",
+          "bootstrapCount": 1,
+          "viewCount": 1
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,39 @@
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF8E0868CCD (Unity) ``anonymous namespace'::ParallelFilterChangedInstancesAndCreateScriptingArray'::`2'::FilterInstancesAndCollectScriptingObjectsJobData::ExecuteJob_NoScriptingArray
+0x00007FF8E0CB6F7A (Unity) ujob_execute_job
+0x00007FF8E0CB970E (Unity) ujob_wait_for
+0x00007FF8E0CBD3A7 (Unity) CompleteFenceInternal
+0x00007FF8E086D992 (Unity) `anonymous namespace'::ParallelFilterChangedInstancesAndCreateScriptingArray
+0x00007FF8E0867B3C (Unity) ObjectDispatcher::DispatchTypeChangesAndClear
+0x00007FF8E00E023A (Unity) ObjectDispatcher_CUSTOM_DispatchTypeChangesAndClear
+0x000001C372FA3285 (UnityEngine.CoreModule) (wrapper managed-to-native) UnityEngine.ObjectDispatcher:DispatchTypeChangesAndClear (intptr,System.Type,System.Action`6<UnityEngine.Object[], intptr, intptr, int, int, System.Action`1<UnityEngine.TypeDispatchData>>,bool,bool,System.Action`1<UnityEngine.TypeDispatchData>)
+0x000001C372FA31A3 (UnityEngine.CoreModule) UnityEngine.ObjectDispatcher:DispatchTypeChangesAndClear (System.Type,System.Action`1<UnityEngine.TypeDispatchData>,bool,bool)
+0x000001C372FA306B (UnityEngine.CoreModule) UnityEngine.ObjectDispatcher:GetTypeChangesAndClear (System.Type,Unity.Collections.Allocator,bool,bool)
+0x000001C372FA2FA3 (UnityEngine.CoreModule) UnityEngine.ObjectDispatcher:GetTypeChangesAndClear<T_REF> (Unity.Collections.Allocator,bool,bool)
+0x000001C372FA05A3 (Unity.RenderPipelines.GPUDriven.Runtime) [.\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e\Runtime\GPUDriven\SceneProcessors\WorldProcessor.cs:177] UnityEngine.Rendering.WorldProcessor:Update () 
+0x000001C372F9E7EB (Unity.RenderPipelines.GPUDriven.Runtime) [.\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e\Runtime\GPUDriven\GPUResidentDrawer.cs:748] UnityEngine.Rendering.GPUResidentDrawer:PostPostLateUpdate () 
+0x000001C372F9E72B (Unity.RenderPipelines.GPUDriven.Runtime) [.\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e\Runtime\GPUDriven\GPUResidentDrawer.cs:606] UnityEngine.Rendering.GPUResidentDrawer:PostPostLateUpdateStatic () 
+0x000001C312D3D298 (mscorlib) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007FF8EA2878AE (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\mini\mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007FF8EA1C9104 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3068] do_runtime_invoke 
+0x00007FF8EA1C91F0 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3115] mono_runtime_invoke 
+0x00007FF8E0CCFB1A (Unity) scripting_method_invoke
+0x00007FF8E0CD381E (Unity) ScriptingInvocation::Invoke
+0x00007FF8E0868EBC (Unity) ExecutePlayerLoop
+0x00007FF8E0868F2A (Unity) ExecutePlayerLoop
+0x00007FF8E086E038 (Unity) PlayerLoop
+0x00007FF8DEC7D92A (Unity) EditorPlayerLoop::Execute
+0x00007FF8DEC769AC (Unity) PlayerLoopController::InternalUpdateScene
+0x00007FF8DEC78CBA (Unity) PlayerLoopController::UpdateSceneIfNeededFromMainLoop
+0x00007FF8DEC90C8F (Unity) Application::TickTimer
+0x00007FF8DE55C9DC (Unity) MainMessageLoop
+0x00007FF8DE565581 (Unity) UnityMain
+0x00007FF64C2D260A (Unity) __scrt_common_main_seh
+0x00007FF9C436CD87 (KERNEL32) BaseThreadInitThunk
+0x00007FF9C560CAEC (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Asus/AppData/Local/Temp/Unity/Editor/Crashes

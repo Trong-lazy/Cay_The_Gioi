@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "message": "Code executed successfully.",
+  "data": {
+    "result": "initialized=True;load=Loaded;root=1;water=25,5836675526108;bank=0,396507092751563;tutorial=step_upgrade_leaves;save=C:/Users/Asus/AppData/Local/Temp/DefaultCompany/Cay_The_Gioi\\Console_Smoke_90715a727dda42ed895bcf0ce95aeafd\\world_tree_save.json",
+    "compiler": "codedom"
+  }
+}

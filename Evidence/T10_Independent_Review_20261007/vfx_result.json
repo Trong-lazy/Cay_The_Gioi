@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "message": "Code executed successfully.",
+  "data": {
+    "result": {
+      "buy": true,
+      "equip": true,
+      "glowParentMatches": true,
+      "glowDelta": 0,
+      "regions": [
+        {
+          "region": "root",
+          "burningParentMatches": true,
+          "burningDelta": 0,
+          "boltDelta": 0
+        },
+        {
+          "region": "trunk",
+          "burningParentMatches": true,
+          "burningDelta": 0,
+          "boltDelta": 0
+        },
+        {
+          "region": "leaves",
+          "burningParentMatches": true,
+          "burningDelta": 0,
+          "boltDelta": 0
+        }
+      ]
+    },
+    "compiler": "codedom"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"stage\":\"large_tree\",\"view\":\"large_tree\",\"models\":1,\"distance\":10.5,\"pitch\":28.0,\"height\":1.9,\"input\":true,\"busy\":false,\"finalReason\":\"FINAL_STAGE\",\"weather\":true,\"highest\":\"large_tree\",\"points\":[0,0,0]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "stage": "large_tree",
+          "view": "large_tree",
+          "models": 1,
+          "distance": 10.5,
+          "pitch": 28.0,
+          "height": 1.9,
+          "input": true,
+          "busy": false,
+          "finalReason": "FINAL_STAGE",
+          "weather": true,
+          "highest": "large_tree",
+          "points": [
+            0,
+            0,
+            0
+          ]
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

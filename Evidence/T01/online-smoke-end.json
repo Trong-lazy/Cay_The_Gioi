@@ -1,0 +1,28 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"started\":46.34535,\"now\":75.33293,\"elapsed\":28.9875832,\"water\":28.98758457833901,\"growth\":0.0,\"bank\":0.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "started": 46.34535,
+          "now": 75.33293,
+          "elapsed": 28.9875832,
+          "water": 28.98758457833901,
+          "growth": 0.0,
+          "bank": 0.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

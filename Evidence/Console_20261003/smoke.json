@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "message": "Code executed successfully.",
+  "data": {
+    "result": "initialized=True;config=prototype-4;stage=seedling;save=C:/Users/Asus/AppData/Local/Temp/DefaultCompany/Cay_The_Gioi\\Console_Smoke_90715a727dda42ed895bcf0ce95aeafd\\world_tree_save.json\nsettings opened=True\nsettings closed=True\ntap50:bank=20;tapProgress=0;tutorial=step_upgrade_root\nroot upgrade=True;water=7,1;hp=100\nsave=True;reason=",
+    "compiler": "codedom"
+  }
+}

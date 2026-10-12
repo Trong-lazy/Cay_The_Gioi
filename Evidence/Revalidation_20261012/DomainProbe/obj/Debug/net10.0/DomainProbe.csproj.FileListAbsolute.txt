@@ -1,0 +1,14 @@
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.AssemblyInfoInputs.cache
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.AssemblyInfo.cs
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.csproj.CoreCompileInputs.cache
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\bin\Debug\net10.0\DomainProbe.exe
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\bin\Debug\net10.0\DomainProbe.deps.json
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\bin\Debug\net10.0\DomainProbe.runtimeconfig.json
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\bin\Debug\net10.0\DomainProbe.dll
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\bin\Debug\net10.0\DomainProbe.pdb
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.dll
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\refint\DomainProbe.dll
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.pdb
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\DomainProbe.genruntimeconfig.cache
+C:\Users\Asus\foder game 3D\Cay_The_Gioi\Evidence\Revalidation_20261012\DomainProbe\obj\Debug\net10.0\ref\DomainProbe.dll

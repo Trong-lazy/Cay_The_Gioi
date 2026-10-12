@@ -1,0 +1,65 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"saved\":{\"runId\":\"e74e2e9ccdd54ef9892822bc37aef584\",\"life\":\"ALIVE\",\"stageId\":\"mature_tree\",\"water\":82.0,\"photosynthesis\":452.0,\"growth\":1061.0,\"spirit\":0.0,\"spiritAbsorptionUnlocked\":true,\"levels\":{\"root\":1,\"leaves\":1,\"trunk\":1,\"spiritAbsorption\":2},\"hp\":100.0,\"weather\":{\"weatherId\":\"calm\",\"remainingOnlineSeconds\":93.050911067985,\"badStreak\":0,\"recentWeatherIds\":[],\"incidentCooldownOnlineSeconds\":0.0},\"status\":{\"statusId\":\"none\",\"remainingOnlineSeconds\":0.0,\"impactRegionId\":\"none\"},\"runCounters\":[]},\"rebirthStage\":\"seedling\",\"water\":5.0,\"photosynthesis\":0.0,\"growth\":0.0,\"spirit\":0.0,\"unlocked\":false,\"levels\":{\"root\":1,\"leaves\":1,\"trunk\":1,\"spiritAbsorption\":0},\"maturePoints\":1},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "saved": {
+            "runId": "e74e2e9ccdd54ef9892822bc37aef584",
+            "life": "ALIVE",
+            "stageId": "mature_tree",
+            "water": 82.0,
+            "photosynthesis": 452.0,
+            "growth": 1061.0,
+            "spirit": 0.0,
+            "spiritAbsorptionUnlocked": true,
+            "levels": {
+              "root": 1,
+              "leaves": 1,
+              "trunk": 1,
+              "spiritAbsorption": 2
+            },
+            "hp": 100.0,
+            "weather": {
+              "weatherId": "calm",
+              "remainingOnlineSeconds": 93.050911067985,
+              "badStreak": 0,
+              "recentWeatherIds": [],
+              "incidentCooldownOnlineSeconds": 0.0
+            },
+            "status": {
+              "statusId": "none",
+              "remainingOnlineSeconds": 0.0,
+              "impactRegionId": "none"
+            },
+            "runCounters": []
+          },
+          "rebirthStage": "seedling",
+          "water": 5.0,
+          "photosynthesis": 0.0,
+          "growth": 0.0,
+          "spirit": 0.0,
+          "unlocked": false,
+          "levels": {
+            "root": 1,
+            "leaves": 1,
+            "trunk": 1,
+            "spiritAbsorption": 0
+          },
+          "maturePoints": 1
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

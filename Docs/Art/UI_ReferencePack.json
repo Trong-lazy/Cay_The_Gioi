@@ -1,0 +1,724 @@
+{
+  "source_directory": "C:\\Users\\Asus\\Documents\\Codex\\2026-10-07\\files-mentioned-by-the-user-screenshot\\outputs\\ui_assets",
+  "source_thread": "Tách UI assets từ ảnh tham chiếu",
+  "selected": [
+    {
+      "name": "button_continue_bg",
+      "file": "production/buttons/button_continue_bg.png",
+      "group": "buttons",
+      "source": "Screenshot 2026-10-06 213135.png",
+      "source_rect": [
+        112,
+        636,
+        485,
+        725
+      ],
+      "canvas_size": [
+        369,
+        86
+      ],
+      "source_canvas_size": [
+        373,
+        89
+      ],
+      "offset": [
+        2,
+        1
+      ],
+      "global_offset": [
+        114,
+        637
+      ],
+      "variant": "normal",
+      "batch": 2,
+      "status": "production",
+      "reconstruction_regions": [
+        [
+          82,
+          17,
+          284,
+          69
+        ]
+      ],
+      "reconstruction_method": "row_material_interpolation",
+      "nine_slice_ltrb": [
+        24,
+        21,
+        24,
+        21
+      ],
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 3968,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": true,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "reconstruction_mask": "review/batch_02/button_continue_bg_repair_mask.png",
+      "reconstruction_mask_bounds": [
+        82,
+        17,
+        284,
+        69
+      ],
+      "sha256": "3f3caf855253db7dbe1ac0a4803eeffc1952ccd6ebe6d65a2204e28c115fe806"
+    },
+    {
+      "name": "card_settings_camera_bg",
+      "file": "production/cards/card_settings_camera_bg.png",
+      "group": "cards",
+      "source": "Screenshot 2026-10-06 213135.png",
+      "source_rect": [
+        58,
+        356,
+        542,
+        476
+      ],
+      "canvas_size": [
+        487,
+        123
+      ],
+      "source_canvas_size": [
+        484,
+        120
+      ],
+      "offset": [
+        -2,
+        -2
+      ],
+      "global_offset": [
+        56,
+        354
+      ],
+      "variant": "normal",
+      "batch": 3,
+      "status": "production",
+      "reconstruction_regions": [
+        [
+          25,
+          23,
+          416,
+          89
+        ],
+        [
+          365,
+          29,
+          469,
+          92
+        ]
+      ],
+      "reconstruction_method": "polynomial_paper_gradient_from_visible_material",
+      "nine_slice_ltrb": [
+        25,
+        24,
+        25,
+        24
+      ],
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 6543,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": true,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "Individual rounded card outline rasterized at native coverage; low-contrast alpha ambiguity corrected without shrinking the card.",
+      "font": "not identified; engine text recommended",
+      "reconstruction_mask": "review/batch_03/card_settings_camera_bg_repair_mask.png",
+      "reconstruction_mask_bounds": [
+        25,
+        23,
+        469,
+        92
+      ],
+      "sha256": "40f3aa392d9f46e3c3fe2732394d5f12ad90de6107f67124846d59ed72732b9a"
+    },
+    {
+      "name": "icon_coin_leaf",
+      "file": "production/icons/icon_coin_leaf.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213241.png",
+      "source_rect": [
+        540,
+        21,
+        601,
+        80
+      ],
+      "canvas_size": [
+        53,
+        52
+      ],
+      "source_canvas_size": [
+        61,
+        59
+      ],
+      "offset": [
+        3,
+        3
+      ],
+      "global_offset": [
+        543,
+        24
+      ],
+      "variant": "leaf_emblem",
+      "batch": 4,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "none",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 1213,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "sha256": "074b7713f1af02b8866f35405cf679fa86dea8eb43eadaf12ddd5633ab3d6037"
+    },
+    {
+      "name": "icon_sun_hud",
+      "file": "production/icons/icon_sun_hud.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213241.png",
+      "source_rect": [
+        1324,
+        27,
+        1395,
+        102
+      ],
+      "canvas_size": [
+        71,
+        67
+      ],
+      "source_canvas_size": [
+        71,
+        75
+      ],
+      "offset": [
+        0,
+        3
+      ],
+      "global_offset": [
+        1324,
+        30
+      ],
+      "variant": "normal",
+      "batch": 4,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "none",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 3018,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "sha256": "737c407dbca2deea1027bd6d8263b1537688fce077579896aa8d2485a2ba3756"
+    },
+    {
+      "name": "icon_resource_leaf",
+      "file": "production/icons/icon_resource_leaf.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213224.png",
+      "source_rect": [
+        1070,
+        377,
+        1142,
+        465
+      ],
+      "canvas_size": [
+        61,
+        77
+      ],
+      "source_canvas_size": [
+        72,
+        88
+      ],
+      "offset": [
+        4,
+        3
+      ],
+      "global_offset": [
+        1074,
+        380
+      ],
+      "variant": "normal",
+      "batch": 5,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "none",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 2368,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "sha256": "91164aca5a8a6e2e9fe69916706e499cfdb4eb94e8a6fd7120f103d4fb672bb3"
+    },
+    {
+      "name": "icon_resource_water",
+      "file": "production/icons/icon_resource_water.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213224.png",
+      "source_rect": [
+        1071,
+        213,
+        1139,
+        299
+      ],
+      "canvas_size": [
+        56,
+        77
+      ],
+      "source_canvas_size": [
+        68,
+        86
+      ],
+      "offset": [
+        4,
+        3
+      ],
+      "global_offset": [
+        1075,
+        216
+      ],
+      "variant": "normal",
+      "batch": 5,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "none",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 2071,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "sha256": "cdd7dcfa0aee29a8e75286e3736f4493f9eb74046f65b52ac1a97f4971096818"
+    },
+    {
+      "name": "icon_resource_wood_cube",
+      "file": "production/icons/icon_resource_wood_cube.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213224.png",
+      "source_rect": [
+        1166,
+        590,
+        1196,
+        620
+      ],
+      "canvas_size": [
+        27,
+        29
+      ],
+      "source_canvas_size": [
+        30,
+        30
+      ],
+      "offset": [
+        1,
+        1
+      ],
+      "global_offset": [
+        1167,
+        591
+      ],
+      "variant": "normal",
+      "batch": 5,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "none",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 454,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "sha256": "ae47519d7ccb0f5cae9a7426b9ba276721e0610b025494ab5f8b9fcd8d6bc36f"
+    },
+    {
+      "name": "button_rebirth_bg",
+      "file": "production/buttons/button_rebirth_bg.png",
+      "group": "buttons",
+      "source": "Screenshot 2026-10-06 213054.png",
+      "source_rect": [
+        239,
+        769,
+        595,
+        844
+      ],
+      "canvas_size": [
+        354,
+        73
+      ],
+      "source_canvas_size": [
+        356,
+        75
+      ],
+      "offset": [
+        1,
+        1
+      ],
+      "global_offset": [
+        240,
+        770
+      ],
+      "variant": "normal",
+      "batch": 6,
+      "status": "production",
+      "reconstruction_regions": [
+        [
+          81,
+          15,
+          289,
+          58
+        ]
+      ],
+      "reconstruction_method": "row_material_interpolation",
+      "nine_slice_ltrb": [
+        21,
+        20,
+        21,
+        20
+      ],
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 3885,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": true,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "",
+      "font": "not identified; engine text recommended",
+      "reconstruction_mask": "review/batch_06/button_rebirth_bg_repair_mask.png",
+      "reconstruction_mask_bounds": [
+        81,
+        15,
+        289,
+        58
+      ],
+      "sha256": "e0c1d1e70e3343fe0a03addb1791479e874741be9b211a38526859bfad917f65"
+    },
+    {
+      "name": "icon_category_vfx",
+      "file": "production/icons/icon_category_vfx.png",
+      "group": "icons",
+      "source": "Screenshot 2026-10-06 213207.png",
+      "source_rect": [
+        1163,
+        224,
+        1205,
+        266
+      ],
+      "canvas_size": [
+        36,
+        37
+      ],
+      "source_canvas_size": [
+        42,
+        42
+      ],
+      "offset": [
+        4,
+        3
+      ],
+      "global_offset": [
+        1167,
+        227
+      ],
+      "variant": "normal",
+      "batch": 8,
+      "status": "production",
+      "reconstruction_regions": [],
+      "reconstruction_method": "per_icon_native_backdrop_fit; foreground_RGB_alpha_unmix",
+      "nine_slice_ltrb": null,
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 881,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": false,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_after_local_correction",
+        "method": "Final native five-color views and 300% nearest detail; individual source comparison. Frame: full native views plus perimeter details.",
+        "five_backgrounds_100pct_full_inspected": true,
+        "300pct_full_icon_or_frame_edge_detail_inspected": true,
+        "source_comparison_inspected": true
+      },
+      "limitations": [],
+      "notes": "No redraw or resizing. Native opaque foreground colors retained; known smooth backdrop removed including interior gaps.",
+      "font": "not identified; engine text recommended",
+      "resolved_issues": [
+        "Backdrop sampled and fitted for this specific icon; finer shadow/outline compared against native source."
+      ],
+      "sha256": "09a0859ca1ecad13e46ef39976251eafc4fd7377d84480ff87643a13bef9b278"
+    },
+    {
+      "name": "row_upgrade_bg",
+      "file": "production/cards/row_upgrade_bg.png",
+      "group": "cards",
+      "source": "Screenshot 2026-10-06 213224.png",
+      "source_rect": [
+        1037,
+        198,
+        1552,
+        359
+      ],
+      "canvas_size": [
+        516,
+        162
+      ],
+      "source_canvas_size": [
+        515,
+        161
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "global_offset": [
+        1037,
+        196
+      ],
+      "variant": "normal",
+      "batch": 9,
+      "status": "production",
+      "reconstruction_regions": [
+        [
+          8,
+          8,
+          507,
+          154
+        ]
+      ],
+      "reconstruction_method": "continuous_material_gradient_from_vetted_same_surface",
+      "nine_slice_ltrb": [
+        27,
+        25,
+        27,
+        25
+      ],
+      "fixed_size": false,
+      "format_checks": {
+        "mode": "RGBA",
+        "real_alpha": true,
+        "alpha_zero_pixels": 7323,
+        "edge_padding_clear": true,
+        "enclosed_transparent_regions": [],
+        "opaque_surface_expected": true,
+        "unexpected_holes": false
+      },
+      "visual_checks": {
+        "native_contact_inspected": true,
+        "native_contact_scale": 1,
+        "five_backgrounds_rendered": [
+          "white",
+          "black",
+          "gray",
+          "magenta",
+          "blue"
+        ],
+        "nearest_neighbor_300pct_rendered": true,
+        "300pct_focus_inspected": true,
+        "inspection_result": "accepted_for_production",
+        "method": "Native contact preview plus enlarged full small icon/corner detail. Full five-background native/300% PNGs retained for further review; no claim of original-alpha recovery."
+      },
+      "limitations": [],
+      "notes": "Interior UI and its shadows removed together. Exposed paper/glass strips determine the continuous color field; original outer bevel remains. Hidden fine material is locally reconstructed, not claimed as an exact original layer.",
+      "font": "not identified; engine text recommended",
+      "reconstruction_mask": "review/batch_09/row_upgrade_bg_repair_mask.png",
+      "reconstruction_mask_bounds": [
+        8,
+        8,
+        507,
+        154
+      ],
+      "sha256": "7cc804012045d0d37eb0255f34befe1a1456bb892099865967090ed827f08543"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"visible\":true,\"text\":\"Xác nhận Rebirth\\nCây Non → Mầm · +1 point Cây Non (0 → 1)\\nEffect riêng: +5% Trunk Growth; cap không tăng.\\nReset: Water 10, Quang hợp 5, Growth 10, Linh khí 0 (khóa), level0, Mầm, HP100, status, Weather Bình yên, thống kê run.\\nGiữ: point, Coin, Achievement/claim, cosmetic/equip, tutorial, settings, mốc đạt; Sức sống và tap dở.\\nVí: Mầm 0 · Cây Non 0 · Cây Lớn 0 · Trưởng Thành 0\\n\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "visible": true,
+          "text": "Xác nhận Rebirth\nCây Non → Mầm · +1 point Cây Non (0 → 1)\nEffect riêng: +5% Trunk Growth; cap không tăng.\nReset: Water 10, Quang hợp 5, Growth 10, Linh khí 0 (khóa), level0, Mầm, HP100, status, Weather Bình yên, thống kê run.\nGiữ: point, Coin, Achievement/claim, cosmetic/equip, tutorial, settings, mốc đạt; Sức sống và tap dở.\nVí: Mầm 0 · Cây Non 0 · Cây Lớn 0 · Trưởng Thành 0\n"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

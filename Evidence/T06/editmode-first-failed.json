@@ -1,0 +1,54 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"153584eaaa18442eb265a506ef3df871\",\"status\":\"failed\",\"mode\":\"EditMode\",\"started_unix_ms\":1790984629569,\"finished_unix_ms\":1790984636867,\"last_update_unix_ms\":1790984636867,\"progress\":{\"completed\":127,\"total\":127,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1790984636622,\"last_finished_test_full_name\":\"CayTheGioi.Tests.UpgradeTests.UpgradeUpdatesProductionWithOneVitalityMultiplier\",\"last_finished_unix_ms\":1790984636624,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene\",\"message\":\"  Expected: False\\r\\n  But was:  True\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "153584eaaa18442eb265a506ef3df871",
+          "status": "failed",
+          "mode": "EditMode",
+          "started_unix_ms": 1790984629569,
+          "finished_unix_ms": 1790984636867,
+          "last_update_unix_ms": 1790984636867,
+          "progress": {
+            "completed": 127,
+            "total": 127,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1790984636622,
+            "last_finished_test_full_name": "CayTheGioi.Tests.UpgradeTests.UpgradeUpdatesProductionWithOneVitalityMultiplier",
+            "last_finished_unix_ms": 1790984636624,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [
+              {
+                "full_name": "CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene",
+                "message": "  Expected: False\r\n  But was:  True\r\n"
+              }
+            ],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": null
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

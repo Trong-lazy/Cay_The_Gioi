@@ -1,0 +1,30 @@
+{
+    "scenario": "smoke_fresh",
+    "success": false,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 6.614167998684575,
+    "growth": 10.0,
+    "hp": 100.0,
+    "rootLevel": 1,
+    "leavesLevel": 1,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 17.982290001644287,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Onboarding OK: Root=1, Leaves=1, Water=6,61, Growth=10,00, Bank=18,0s",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\smoke_fresh_20261010_032405.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\smoke_fresh_20261010_032405.png"
+    ],
+    "steps": [
+        "HOOK_FOCUS automated hidden scenario emulates focused lifecycle; not an OS input test"
+    ]
+}

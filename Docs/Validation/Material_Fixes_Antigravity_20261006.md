@@ -1,0 +1,120 @@
+# Báo cáo nghiệm thu khắc phục lỗi Material R1, R2, R3 (Antigravity Material Fixes)
+
+Ghi chú review độc lập tiếp theo ngày 06/10/2026: `Docs/Validation/Current_Models_GDD_Review_20261006.md` xác nhận màu lá FBX đã sửa và UV vỏ Cổ Thụ cải thiện, nhưng phát hiện mapping vỏ Cây Lớn POINT/TEXTURE không tương đương khi reimport; nguồn Non/Lớn đã lưu sau hash dưới đây và một số bảng counts/node/sai số chưa khớp hiện hành. Giữ kết quả lịch sử bên dưới, không dùng PASS đó như nghiệm thu toàn bộ bộ art hiện tại hoặc Unity. Review mới không sửa asset/manifest.
+
+- **Ngày thực hiện**: 06/10/2026
+- **Task**: `T10` (`IN_PROGRESS`) — [10_Art_Pipeline_Blender.md](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Docs/Tasks/10_Art_Pipeline_Blender.md)
+- **Lệnh triển khai**: [Antigravity_Material_Fixes_20261006.md](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Docs/Art/Antigravity_Material_Fixes_20261006.md)
+- **Báo cáo review đầu vào**: [Materials_Independent_Review_20261006.md](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Docs/Validation/Materials_Independent_Review_20261006.md)
+- **Công cụ kiểm chứng**: Blender `5.2.2 LTS` (hash `d13f752e3b9c`, chạy độc lập ở chế độ `--background --factory-startup --disable-autoexec`)
+- **Thư mục bằng chứng**: [Evidence/Material_Fixes_Antigravity_20261006/](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006)
+- **Kết luận nghiệm thu phạm vi Blender / FBX / Manifest (R1–R3)**: **`PASS`**
+- **Trạng thái kiểm chứng trong Unity Editor**: **`NOT_TESTED`** (Chưa đồng bộ sang `Assets/` theo đúng quy tắc phạm vi chuẩn bị art; giữ `T10` ở `IN_PROGRESS` theo `AGENTS.md`).
+
+---
+
+## 1. Tóm tắt kết quả xử lý R1, R2, R3
+
+| Mã lỗi | Vấn đề trong Review độc lập | Giải pháp kỹ thuật đã thực hiện | Kết quả kiểm chứng dữ liệu & render |
+| :--- | :--- | :--- | :--- |
+| **R1** (High) | Cả 4 file `.fbx` mất texture `Base Color` của lá khi xuất vì exporter FBX của Blender bỏ qua nhánh `Image Texture -> ShaderNodeMix (MULTIPLY) -> Principled BSDF.Base Color`, làm lá khi reimport FBX bị xám `(0.8, 0.8, 0.8)`. | Giữ nguyên `Leaf_Common_BaseColor.png` và `Leaf_Common_Normal.png`. Tạo 4 texture lá 512×512 sRGB đã bake sẵn theo đúng công thức tuyến tính $C_{\text{lin}} = T \cdot ((1-f) + f \cdot B_{\text{lin}})$: `Leaf_Seedling_BaseColor.png`, `Leaf_Young_BaseColor.png`, `Leaf_Large_BaseColor.png`, `Leaf_Ancient_BaseColor.png`. Bỏ `ShaderNodeMix`, nối trực tiếp từng ảnh vào `Principled BSDF.Base Color` với `Base Color = (1,1,1,1)` và `diffuse_color = (1,1,1,1)`. | **PASS**: Sai số lượng tử tối đa trên toàn ảnh $\le 0.003141$ ($\le 0.498\text{ LSB}$). Khi reimport cả 4 file `.fbx` vào scene Blender sạch (chưa chỉnh tay), cả 4 cây đều tự giữ link `Leaf_<Stage>_BaseColor.png` vào `Base Color` và render đúng sắc xanh lá của `.blend` nguồn. |
+| **R2** (High) | Vỏ Cổ Thụ (`Bonsai_Trunk_Candidate_v01`) có vệt ngang/xoáy như vân đá tầng do: (1) 100% ống thân/rễ từ curve có `uv.x` chạy dọc chiều dài còn `uv.y` chạy quanh chu vi 12 cạnh khiến texture vỏ bị xoay ngang $90^\circ$ và lộn dấu (`neg_det = 18,288/18,864` ở thân, `8,928/8,928` ở rễ); (2) một số vòng đỉnh bị kéo lệch ngang trong không gian 3D (như `Ring 3` của `Tube 3` tại `Face 3768`/`3780`) làm UV theo chỉ số vòng bị gấp khúc chữ `<`; (3) texture P04 dùng sóng `0.04*sin(2*pi*V)` toàn ảnh và `cos` song song đều. | (1) Trích xuất 39 ống thân (`18,864` mặt) và 16 ống rễ (`8,928` mặt) thuần túy từ topology BMesh 12 cạnh; làm mượt đường tâm 3D và dựng khung vận chuyển song song **Bishop Frame** $(\mathbf{T}_k, \mathbf{N}_{1,k}, \mathbf{N}_{2,k})$ không xoắn; chiếu góc chu vi 3D thực $\theta(v)$ để bù trừ hoàn toàn độ lệch ngang của đỉnh 3D và tham số hóa $V$ theo độ dài cung 3D từ gốc lên ngọn (`100%` positive UV determinant, `0` degenerate UV triangles, bake sẵn tiling `1.0, 1.0`). (2) Tạo lại `Ancient_Bark_BaseColor.png` và `Ancient_Bark_Normal.png` (1024×1024) từ cùng trường độ cao gồm mảng vỏ dọc Voronoi 2 tầng biến dạng cục bộ 2D, rãnh nứt dọc đa tần số và vết nứt ngang phụ ngắn. | **PASS**: `pos_det = 18,864/18,864` trên `Trunk_Branches` và `8,928/8,928` trên `Roots`. Render đa góc và closeup (`bark_trunk`, `bark_fork`, `bark_roots`, `bark_trunk_normal_disabled`) xác nhận thớ vỏ chạy dọc theo thân, chạc cành và từng nhánh rễ, không còn vệt ngang/xoáy vân đá hay gấp khúc chữ `<`. |
+| **R3** (Medium) | Manifest `Tree_Materials_Manifest_20261006.md` thiếu thông tin thực tế: mô tả sai màu nền `Leaf_Common_BaseColor.png` là `#C4D8A0`, thiếu `Tiling = (2.5, 2.5)` của vỏ cây Lớn, thiếu mô tả 4 mesh / 5 material / 2 slot `SeedShell` của Mầm, chưa tách bạch phần FBX tự giữ và phần cần gán tay trong Unity URP. | Cập nhật tại chỗ [Tree_Materials_Manifest_20261006.md](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Docs/Art/Tree_Materials_Manifest_20261006.md) với đầy đủ 10 file PNG (kèm SHA256 và số đo pixel thực `#D1D1C8`), bảng 4 model chi tiết (Runtime Color Tint `#FFFFFF`, Tint tham chiếu, Smoothness, Tiling `(2.5, 2.5)` vs `(1.0, 1.0)`, Render Face `Both`), và bảng phân định rõ FBX auto-preserved vs URP manual setup. | **PASS**: Mọi thông số trong Manifest khớp 100% với dữ liệu thực đo trong `verification_after_fixes.json`. |
+
+---
+
+## 2. Bảng đối chiếu SHA256 trước và sau khi sửa
+
+| Phân loại | Đường dẫn file | SHA256 Trước khi sửa (`baseline_before_fixes.json`) | SHA256 Sau khi sửa (`verification_after_fixes.json`) | Trạng thái |
+| :--- | :--- | :--- | :--- | :--- |
+| **Model nguồn** | `ArtSource/Models/Tree_Seedling_Simple_v01.blend` | `39617953f796848fea4ee400087cd13643b7df0b77b8e33882806b72a885c393` | `8781507c59608f546229eb4bd0fa0da8b4b6218416fb5e9a0127e2d5c2918938` | Đã cập nhật (R1) |
+| **Model nguồn** | `ArtSource/Models/Tree_Young_Simple_v01.blend` | `51da343016b387e7ec350cabbd93a781530636cb90a1f51a7f846af60bfabbbc` | `6559097d0dc945a40569047b3a9f942b3fe48da4d8ea7610434cf232a2afa81c` | Đã cập nhật (R1) |
+| **Model nguồn** | `ArtSource/Models/Tree_Large.blend` | `170568cd734453dc1f31f94ca44931132608b824b334e942a789f751613decbb` | `c1246a102c102ed8c24fb095501f2dc4348d7164a863fb76bf080a5244906bce` | Đã cập nhật (R1) |
+| **Model nguồn** | `ArtSource/Models/Bonsai_Trunk_Candidate_v01.blend` | `75a1fa22f1b6ecd35d276c6b63701d303e81c42834f963f8f75d952a441158a6` | `b1c1a1504e24fd397a9555afd0382d40032fdb44e850e9e6bacd1d0d57bdc95b` | Đã cập nhật (R1, R2) |
+| **FBX chuẩn** | `ArtSource/Exports/Tree_Seedling_Simple_v01.fbx` | `f6de821abfa99d3b9ffbfdb8f88c5e512d6be1abdd3d398f12101134655c6018` | `6fc4aa5a5a11d3a0dba9dc903891cd59d2f6845ff891520432d43e19cb6d60e6` | Đã xuất lại (R1) |
+| **FBX chuẩn** | `ArtSource/Exports/Tree_Young_Simple_v01.fbx` | `46fa1e1312881fb6fa6202dc117cd29f05e11c333b3b9719fa3700e95dc72c2a` | `2f3bfb2c354c91c89ea5cdd96e862f90c60265fb06a304da60615e9f8ac71fa9` | Đã xuất lại (R1) |
+| **FBX chuẩn** | `ArtSource/Exports/Tree_Large.fbx` | `c682ab0e52328561bf055615ab178a94df25e49d6106b98468808867fc9e9b0a` | `3378393c60a8eefa904df49251bcd43619de68bbc7d29adc3a9c247277c9cd6e` | Đã xuất lại (R1) |
+| **FBX chuẩn** | `ArtSource/Exports/Bonsai_Trunk_Candidate_v01.fbx` | `677f2021a7033b85b35714c33622bdffec3d4d810a28f0917e645fd41748deca` | `2efb2b489ccf2d08e3a4c9fa2f058f9145181fb7e45ab4cfa28c01f0099d1ba4` | Đã xuất lại (R1, R2) |
+| **Texture giữ nguyên** | `ArtSource/Textures/Tree_Common/Leaf_Common_BaseColor.png` | `582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69` | `582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69` | **Giữ nguyên 100%** |
+| **Texture giữ nguyên** | `ArtSource/Textures/Tree_Common/Leaf_Common_Normal.png` | `b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a` | `b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a` | **Giữ nguyên 100%** |
+| **Texture giữ nguyên** | `ArtSource/Textures/Tree_Common/Large_Bark_BaseColor.png` | `9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4` | `9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4` | **Giữ nguyên 100%** |
+| **Texture giữ nguyên** | `ArtSource/Textures/Tree_Common/Large_Bark_Normal.png` | `7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159` | `7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159` | **Giữ nguyên 100%** |
+| **Texture mới (R1)** | `ArtSource/Textures/Tree_Common/Leaf_Seedling_BaseColor.png` | *(Chưa có)* | `58f3c33f91a79a4f6429416195fc82ecc60ee46fca22d6adbfa7291dc3177b4a` | Tạo mới (R1) |
+| **Texture mới (R1)** | `ArtSource/Textures/Tree_Common/Leaf_Young_BaseColor.png` | *(Chưa có)* | `537132d50c7abefae152794da81c992a9b4951f1f9d086cd04701061aca4c1f5` | Tạo mới (R1) |
+| **Texture mới (R1)** | `ArtSource/Textures/Tree_Common/Leaf_Large_BaseColor.png` | *(Chưa có)* | `f13432a6a0955e9b93c98fc4fd06ff4a399c926934f60edcf1da2b99887bb64a` | Tạo mới (R1) |
+| **Texture mới (R1)** | `ArtSource/Textures/Tree_Common/Leaf_Ancient_BaseColor.png` | *(Chưa có)* | `ce0f3028fa3c6dc173b0c6059a8ad719dc39534887edef142d81ca109e4d7c9f` | Tạo mới (R1) |
+| **Texture cập nhật (R2)** | `ArtSource/Textures/Tree_Common/Ancient_Bark_BaseColor.png` | `07a19a66b200bfba973342ce99aa117d200d5195e8220f17e1345c4de742c398` | `35666154a226cfb8d22d1a1c9e4c30f631a752b6b1874546121f3d5ef684b8e6` | Tạo lại (R2) |
+| **Texture cập nhật (R2)** | `ArtSource/Textures/Tree_Common/Ancient_Bark_Normal.png` | `ff1996ab0306b2fb3b8d92761689fffa1ba396b2749da24e333a929e7999c72b` | `1c0436e6d324a7c1d62aa9bc283deae01f5e2887b8fd51a2209a23e6439fd4c6` | Tạo lại (R2) |
+| **File bảo vệ** | `Assets/_Project/Art/Bonsai_Tree.blend` | `b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66` | `b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66` | **Không chạm 100%** |
+| **File bảo vệ** | `Assets/_Project/Art/Bonsai_Tree.fbx` | `802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644` | `802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644` | **Không chạm 100%** |
+
+---
+
+## 3. Chi tiết kiểm chứng định lượng R1 (Màu lá & FBX Roundtrip)
+
+### 3.1. Độ chính xác màu của 4 texture lá bake sẵn so với công thức ShaderNodeMix gốc
+Công thức của node `Mix (MULTIPLY, Color)` trong Blender (không gian màu tuyến tính):
+$$C_{\text{lin}}(u,v) = T_{\text{lin}} \cdot \Big((1 - f) + f \cdot B_{\text{lin}}(u,v)\Big)$$
+
+Bảng sai số thực đo trên toàn bộ $512 \times 512 = 262,144$ pixel và tại các điểm UV đại diện (trích từ [r1_r2_generation_metrics.json](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/r1_r2_generation_metrics.json)):
+
+| Mốc cây | Texture đầu ra | $T_{\text{lin}}$ & Factor $f$ | Sai số tuyến tính tối đa (`max_linear_abs_error`) | Sai số lượng tử sRGB 8-bit tối đa (`max_srgb_lsb_error`) | Mẫu góc/nền `(0,0)` (Linear công thức vs PNG decode / Hex) | Mẫu gân giữa `(0.5, 0.5)` (Linear công thức vs PNG decode / Hex) | Mẫu gân phụ `(0.30, 0.42)` (Linear công thức vs PNG decode / Hex) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Mầm** | `Leaf_Seedling_BaseColor.png` | `(0.3278, 0.5972, 0.0908)`, $f=0.70$ | `0.003141` | `0.4943 LSB` | `(0.2446, 0.4457, 0.0640)` vs `(0.2462, 0.4452, 0.0648)` **`#88B248`** | `(0.3157, 0.5752, 0.0821)` vs `(0.3140, 0.5776, 0.0823)` **`#98C851`** | `(0.2729, 0.4971, 0.0713)` vs `(0.2747, 0.4969, 0.0723)` **`#8FBB4C`** |
+| **Non** | `Leaf_Young_BaseColor.png` | `(0.1779, 0.4020, 0.0561)`, $f=0.85$ | `0.002435` | `0.4945 LSB` | `(0.1231, 0.2782, 0.0360)` vs `(0.1221, 0.2789, 0.0356)` **`#629035`** | `(0.1699, 0.3840, 0.0496)` vs `(0.1714, 0.3864, 0.0497)` **`#73A73F`** | `(0.1417, 0.3202, 0.0415)` vs `(0.1413, 0.3185, 0.0409)` **`#699939`** |
+| **Lớn** | `Leaf_Large_BaseColor.png` | `(0.1144, 0.3050, 0.0482)`, $f=1.00$ | `0.002066` | `0.4974 LSB` | `(0.0729, 0.1945, 0.0278)` vs `(0.0723, 0.1946, 0.0273)` **`#4C7A2E`** | `(0.1084, 0.2889, 0.0416)` vs `(0.1095, 0.2874, 0.0409)` **`#5D9239`** | `(0.0870, 0.2320, 0.0334)` vs `(0.0865, 0.2307, 0.0331)` **`#538433`** |
+| **Cổ Thụ** | `Leaf_Ancient_BaseColor.png` | `(0.0802, 0.2016, 0.0395)`, $f=1.00$ | `0.001418` | `0.4976 LSB` | `(0.0511, 0.1285, 0.0228)` vs `(0.0513, 0.1274, 0.0232)` **`#40642A`** | `(0.0760, 0.1910, 0.0341)` vs `(0.0762, 0.1912, 0.0343)` **`#4E7934`** | `(0.0610, 0.1533, 0.0274)` vs `(0.0612, 0.1529, 0.0273)` **`#466D2E`** |
+
+> Mọi sai số đều nhỏ hơn nửa bước lượng tử 8-bit ($0.5\text{ LSB} = 1/510 \approx 0.00196\text{ sRGB}$), nghĩa là 4 file PNG lưu giá trị 8-bit chính xác tuyệt đối tới từng mức nguyên $0\dots 255$.
+
+---
+
+## 4. Chi tiết kiểm chứng R2 (UV & Texture Vỏ Cổ Thụ)
+
+1. **Tham số hóa UV theo khung vận chuyển song song 3D (Bishop Frame)**:
+   - `Trunk_Branches`: `39` ống hình trụ 12 cạnh (`18,864` mặt tứ giác). Trước khi sửa: `pos_det = 576`, `neg_det = 18,288`, hướng thớ vỏ chạy ngang quanh chu vi ống và có điểm gấp khúc chữ `<` tại `Face 3768`/`3780` do đỉnh `Ring 3` của `Tube 3` bị kéo lệch ngang $24^\circ$ trong không gian 3D. Sau khi sửa bằng góc chu vi khung Bishop 3D: **`pos_det = 18,864 / 18,864` (`100%`), `neg_det = 0`, `degenerate_uv_triangles = 0`**, thớ vỏ chạy thẳng dọc theo trục phát triển 3D của thân và cành.
+   - `Roots`: `16` ống hình trụ 12 cạnh (`8,928` mặt tứ giác). Trước khi sửa: `pos_det = 0`, `neg_det = 8,928`. Sau khi sửa: **`pos_det = 8,928 / 8,928` (`100%`), `neg_det = 0`, `degenerate_uv_triangles = 0`**, thớ vỏ chạy dọc theo từng nhánh rễ từ cổ rễ ra chóp rễ.
+2. **Chất lượng Texture `Ancient_Bark_BaseColor.png` & `Ancient_Bark_Normal.png`**:
+   - Kích thước `1024 × 1024`, liền mạch tuần hoàn (periodic tileable) theo cả $U$ và $V$.
+   - Đã loại bỏ hoàn toàn hàm uốn sóng toàn ảnh `0.040 * sin(2*pi*V)` và các dải `cos` song song của P04.
+   - Vector pháp tuyến của `Ancient_Bark_Normal.png` hợp lệ trên toàn ảnh: $\|n\|_{\min} = 0.993721$, $\|n\|_{\text{mean}} = 1.000038$, $\|n\|_{\max} = 1.006148$, $n_{z,\min} = 0.294118 > 0$.
+   - Ảnh kiểm tra bật/tắt normal map trong bộ nhớ (`after/ancient_source/bark_trunk.png` vs `after/ancient_source/bark_trunk_normal_disabled.png`) xác nhận `BaseColor` và `Normal` khớp 100% vị trí mảng vỏ và rãnh nứt dọc.
+
+---
+
+## 5. Bảng kiểm chứng khóa Hình học (Geometry Lock) & FBX Roundtrip
+
+Toàn bộ 13 mesh object trên 4 model đã được kiểm tra đối chiếu giữa baseline trước khi sửa (`baseline_before_fixes.json`), file `.blend` sau khi lưu trên đĩa và file `.fbx` khi reimport vào scene sạch (`verification_after_fixes.json`):
+
+| Model | Mesh Object | Vertices | Triangles | `position_hash` (Trước = Sau) | `topology_hash` (Trước = Sau) | `normal_hash` (Trước = Sau) | `uv_hashes` (`.blend` == `.fbx`) | Sai số đỉnh FBX (`max_world_vertex_error`) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Seedling** | `Foliage` | 482 | 892 | `bc3f55b3656f61d3...` (**Khớp**) | `ff704dda43432cbc...` (**Khớp**) | `817cc50299b4aea1...` (**Khớp**) | `e223e7b193d1099e...` (**Không đổi**) | $4.19 \times 10^{-8}\text{m}$ |
+| **Seedling** | `Trunk_Branches` | 212 | 420 | `39b3f5732227e021...` (**Khớp**) | `2040d8fd73fc1834...` (**Khớp**) | `e38ae4742cc8ce88...` (**Khớp**) | `{}` (**Không đổi**) | $3.26 \times 10^{-8}\text{m}$ |
+| **Seedling** | `Roots` | 278 | 548 | `5910b516913cfee6...` (**Khớp**) | `91f787a1cb13b1bd...` (**Khớp**) | `25aa9108ca8efdb0...` (**Khớp**) | `{}` (**Không đổi**) | $3.24 \times 10^{-8}\text{m}$ |
+| **Seedling** | `SeedShell` | 464 | 918 | `a7f2ee283d8278c6...` (**Khớp**) | `31559ec67b8756a8...` (**Khớp**) | `3e7d538e73a32042...` (**Khớp**) | `{}` (**Không đổi**) | $1.05 \times 10^{-8}\text{m}$ |
+| **Young** | `Foliage` | 1,440 | 2,640 | `76765f17e1ca5a4a...` (**Khớp**) | `29f15db3fbdb2217...` (**Khớp**) | `95fb89fc14fa1e86...` (**Khớp**) | `8772f2a29a6ff36c...` (**Không đổi**) | $5.29 \times 10^{-8}\text{m}$ |
+| **Young** | `Trunk_Branches` | 482 | 952 | `b1dc4ca0fd557678...` (**Khớp**) | `d18fc12a6b60d143...` (**Khớp**) | `94c935a45c36d231...` (**Khớp**) | `{}` (**Không đổi**) | $6.06 \times 10^{-8}\text{m}$ |
+| **Young** | `Roots` | 498 | 982 | `06fb0224bb0b3d3c...` (**Khớp**) | `4ff0073ce0335484...` (**Khớp**) | `c1be745a15e38a5e...` (**Khớp**) | `{}` (**Không đổi**) | $3.43 \times 10^{-8}\text{m}$ |
+| **Large** | `Foliage` | 14,520 | 22,528 | `88fc3416845ff7c0...` (**Khớp**) | `b2fb4bd81bf939fa...` (**Khớp**) | `22a1b6891ef0fa40...` (**Khớp**) | `7b7ceafe107eb594...` (**Không đổi**) | $3.06 \times 10^{-7}\text{m}$ |
+| **Large** | `Trunk_Branches` | 1,454 | 2,868 | `159387ff16dc2ba1...` (**Khớp**) | `a3ebca5bd267cb3e...` (**Khớp**) | `dc3172ef6ee0ca7c...` (**Khớp**) | `a88beec84933d815...` (**Không đổi**) | $2.58 \times 10^{-7}\text{m}$ |
+| **Large** | `Roots` | 658 | 1,286 | `ab8c980894f632e1...` (**Khớp**) | `b3fb635c47006ca2...` (**Khớp**) | `53f8bb8f8ecbc87c...` (**Khớp**) | `2013a447263562a7...` (**Không đổi**) | $1.12 \times 10^{-7}\text{m}$ |
+| **Ancient** | `Foliage` | 22,880 | 18,304 | `3182315f384fd860...` (**Khớp**) | `b3ddfb7cb265db0a...` (**Khớp**) | `be11ecac4b96ef11...` (**Khớp**) | `58193205769cda95...` (**Không đổi**) | $5.92 \times 10^{-7}\text{m}$ |
+| **Ancient** | `Trunk_Branches` | 19,332 | 37,728 | `7a3d8017aa1f5185...` (**Khớp**) | `7067bc06f6cb75e7...` (**Khớp**) | `9debb847ef16db66...` (**Khớp**) | `c13501cf55a825e8...` (**Đã sửa R2 & Khớp FBX**) | $5.29 \times 10^{-7}\text{m}$ |
+| **Ancient** | `Roots` | 9,120 | 17,856 | `0f89a0c89db1bd29...` (**Khớp**) | `5bb8a54a66d2bd40...` (**Khớp**) | `b73c95b7ee26ef34...` (**Khớp**) | `55765f40c2adfbe3...` (**Đã sửa R2 & Khớp FBX**) | $2.62 \times 10^{-7}\text{m}$ |
+
+---
+
+## 6. Danh mục bằng chứng hình ảnh & dữ liệu (`Evidence/Material_Fixes_Antigravity_20261006/`)
+
+- **Dữ liệu JSON**:
+  - [baseline_before_fixes.json](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/baseline_before_fixes.json) — Dữ liệu chụp trạng thái trước khi sửa.
+  - [r1_r2_generation_metrics.json](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/r1_r2_generation_metrics.json) — Số đo sai số tuyến tính/sRGB của 4 map lá R1 và thống kê UV R2.
+  - [verification_after_fixes.json](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/verification_after_fixes.json) — Kết quả kiểm chứng độc lập toàn bộ `.blend`, `.fbx` reimport và 10 file `.png`.
+- **Ảnh Render Trước khi sửa (`before/`)**:
+  - Nguồn `.blend`: [seedling_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/seedling_source/perspective.png), [young_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/young_source/perspective.png), [large_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/large_source/perspective.png), [ancient_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/ancient_source/perspective.png), [ancient_source/bark_trunk.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/ancient_source/bark_trunk.png), [ancient_source/bark_fork.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/ancient_source/bark_fork.png), [ancient_source/bark_roots.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/ancient_source/bark_roots.png).
+  - FBX Reimport thô (lá bị xám trước khi sửa R1): [seedling_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/seedling_fbx_raw/perspective.png), [young_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/young_fbx_raw/perspective.png), [large_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/large_fbx_raw/perspective.png), [ancient_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/before/ancient_fbx_raw/perspective.png).
+- **Ảnh Render Sau khi sửa (`after/`)**:
+  - Nguồn `.blend`: [seedling_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/seedling_source/perspective.png), [young_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/young_source/perspective.png), [large_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/large_source/perspective.png), [ancient_source/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/perspective.png).
+  - Cổ Thụ đa góc & closeup vỏ: [front.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/front.png), [back.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/back.png), [left.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/left.png), [right.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/right.png), [perspective_3_4_front.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/perspective_3_4_front.png), [perspective_3_4_back.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/perspective_3_4_back.png), [bark_trunk.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/bark_trunk.png), [bark_fork.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/bark_fork.png), [bark_roots.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/bark_roots.png), [bark_trunk_normal_disabled.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/bark_trunk_normal_disabled.png), [bark_fork_normal_disabled.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_source/bark_fork_normal_disabled.png).
+  - FBX Reimport thô (giữ nguyên màu lá xanh & vỏ đúng hướng sau khi sửa R1/R2): [seedling_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/seedling_fbx_raw/perspective.png), [young_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/young_fbx_raw/perspective.png), [large_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/large_fbx_raw/perspective.png), [ancient_fbx_raw/perspective.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_fbx_raw/perspective.png), [ancient_fbx_raw/bark_trunk.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_fbx_raw/bark_trunk.png), [ancient_fbx_raw/bark_fork.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/ancient_fbx_raw/bark_fork.png).
+  - Lineup 4 cây đầy đủ không cắt ngọn/tán/rễ: [lineup_all_4_trees.png](file:///c:/Users/Asus/foder%20game%203D/Cay_The_Gioi/Evidence/Material_Fixes_Antigravity_20261006/after/lineup_all_4_trees.png).

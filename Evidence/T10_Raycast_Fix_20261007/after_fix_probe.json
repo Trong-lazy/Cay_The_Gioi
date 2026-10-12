@@ -1,0 +1,54 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":[{\"stage\":\"seedling\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":625,\"meshHits\":45,\"physicsTreeHits\":40,\"falsePositiveEmpty\":0,\"falseNegativeVisible\":0,\"examples\":[],\"missed\":[]},{\"stage\":\"young_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":613,\"meshHits\":53,\"physicsTreeHits\":41,\"falsePositiveEmpty\":0,\"falseNegativeVisible\":0,\"examples\":[],\"missed\":[]},{\"stage\":\"large_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":580,\"meshHits\":187,\"physicsTreeHits\":175,\"falsePositiveEmpty\":0,\"falseNegativeVisible\":0,\"examples\":[],\"missed\":[]}],\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": [
+        {
+          "stage": "seedling",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 625,
+          "meshHits": 45,
+          "physicsTreeHits": 40,
+          "falsePositiveEmpty": 0,
+          "falseNegativeVisible": 0,
+          "examples": [],
+          "missed": []
+        },
+        {
+          "stage": "young_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 613,
+          "meshHits": 53,
+          "physicsTreeHits": 41,
+          "falsePositiveEmpty": 0,
+          "falseNegativeVisible": 0,
+          "examples": [],
+          "missed": []
+        },
+        {
+          "stage": "large_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 580,
+          "meshHits": 187,
+          "physicsTreeHits": 175,
+          "falsePositiveEmpty": 0,
+          "falseNegativeVisible": 0,
+          "examples": [],
+          "missed": []
+        }
+      ],
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

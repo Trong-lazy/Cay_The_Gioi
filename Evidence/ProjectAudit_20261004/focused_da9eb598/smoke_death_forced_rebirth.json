@@ -1,0 +1,28 @@
+{
+    "scenario": "smoke_death_forced_rebirth",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 0.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 1,
+    "vitalityBank": 0.0,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Forced Rebirth OK: WasDead=True, Forced=True, Success=True, HP=100, Points=1",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\ProjectAudit_20261004\\focused_da9eb598\\screenshots\\smoke_death_forced_rebirth_20261004_144002.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\ProjectAudit_20261004\\focused_da9eb598\\screenshots\\smoke_death_forced_rebirth_20261004_144002.png"
+    ],
+    "steps": []
+}

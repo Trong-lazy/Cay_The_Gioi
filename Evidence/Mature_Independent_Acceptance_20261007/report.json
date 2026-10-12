@@ -1,0 +1,6323 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "input_hashes": {
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend": "b1c1a1504e24fd397a9555afd0382d40032fdb44e850e9e6bacd1d0d57bdc95b",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend": "5cbb554d09a88becc38eaec33efec6acb56e7417bad5ad0ad804e8ce633ba70b",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend": "8781507c59608f546229eb4bd0fa0da8b4b6218416fb5e9a0127e2d5c2918938",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend": "a862d973f63adad5fbaa44713d1948928fefe45988864249dbd1b7bcd4f3e315",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\WT_MatureTree.blend": "2ec327fb54aedd288dcc2784ba8e803750f96bd2aac5a4cdd4c944a63da48329",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Bonsai_Trunk_Candidate_v01.fbx": "2efb2b489ccf2d08e3a4c9fa2f058f9145181fb7e45ab4cfa28c01f0099d1ba4",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Large.fbx": "1d0b4b383865d51f8f5c39ac0a72cc2eba2a1dd35919229ce7896a0dcf229154",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Seedling_Simple_v01.fbx": "6fc4aa5a5a11d3a0dba9dc903891cd59d2f6845ff891520432d43e19cb6d60e6",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Young_Simple_v01.fbx": "2f3bfb2c354c91c89ea5cdd96e862f90c60265fb06a304da60615e9f8ac71fa9",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\WT_MatureTree_LOD0.fbx": "10a09b4ebbf5f54209678fe1e7dcfae57b233e19f7e7f107b01282cfb9b86c37",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\WT_MatureTree_LOD1.fbx": "956668c7e9f6df7b10e5d1935cefb4f101f077186235df03362f4b22b7177bb2",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\WT_MatureTree_LOD2.fbx": "f0f9810e0ffadceb23f702b169d44c60bd3370e835881e3921d07a59da739ac6",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png": "35666154a226cfb8d22d1a1c9e4c30f631a752b6b1874546121f3d5ef684b8e6",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_Normal.png": "1c0436e6d324a7c1d62aa9bc283deae01f5e2887b8fd51a2209a23e6439fd4c6",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png": "9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png": "7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png": "ce0f3028fa3c6dc173b0c6059a8ad719dc39534887edef142d81ca109e4d7c9f",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_BaseColor.png": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png": "f13432a6a0955e9b93c98fc4fd06ff4a399c926934f60edcf1da2b99887bb64a",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png": "58f3c33f91a79a4f6429416195fc82ecc60ee46fca22d6adbfa7291dc3177b4a",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png": "537132d50c7abefae152794da81c992a9b4951f1f9d086cd04701061aca4c1f5",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Bark_BaseColor.png": "27f23aeabb5a2f9ab318b41922707c24ac3a021fa41272f7cdf75e59b6306e0e",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Bark_Normal.png": "11142f271da7e18499c8a66d6ea23b90eade18ca58ee5bf278527f03cce3bc76",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Leaves_Dark_BaseColor.png": "d820fee21feb38497acb2be5135337b9d0e1e28ac1943823eb88ee0103e139c5",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Leaves_Light_BaseColor.png": "7243d781d6e19f303754ca3a7c552d1fc6ab65c40a2ea7dd2477c6529fb096d5",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png": "458cc4a8b1bac96f1a50e09532e831842c68b7edefaf74588742c8e1dc50ff39",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend.meta": "1399648ac4cd324e435dcfed29cb51f4fe54088daa344688fd5186d0499e08c6",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend1": "c8383937b751ca3564ebf3e3e7f8714675ffbdddf476d9f9872b554ed588bbf2",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend1.meta": "e4d6b44a56f41d75bad5b10610a7d7623d374f05392de49ef8dbb22eb6d2c11b",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx.meta": "06d738dec724b8e53945f1f05f045c8bdc7ccb20c05fbe5cb39476d336233f79"
+  },
+  "protected_inputs_match_previous_review": {
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Bonsai_Trunk_Candidate_v01.fbx": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Large.fbx": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Seedling_Simple_v01.fbx": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Young_Simple_v01.fbx": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Ancient_Bark_Normal.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Large_Bark_Normal.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Ancient_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Common_Normal.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Seedling_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\Leaf_Young_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Bark_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Bark_Normal.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Leaves_Dark_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_Leaves_Light_BaseColor.png": true,
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png": true
+  },
+  "backup_matches_previous_review": true,
+  "lods": {
+    "0": {
+      "source": {
+        "WT_MatureTree_Roots": {
+          "vertices": 1050,
+          "triangles": 1864,
+          "position_hash": "81522e4a08ac289a09099dd810a1ac287228e4cbcfd3a93e769a1f8a91853c8d",
+          "topology_hash": "21e37727d7f5386a5d35754a201a6f2c54d7da8afca884ad7546fc6778ccd988",
+          "normal_hash": "0f5a53ac5576ee7fa9b3aea4d71b3ba4dfd26b01ef5f0732e23d036c848665eb",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "40a6fc6bf57c26cb1a4c8d42fc01b7ba64bf1ef87b293a41269f0d2eff5a192b"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark",
+            "M_WT_RootAccent"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.489699125289917,
+              -2.9933481216430664,
+              -0.04123644903302193
+            ],
+            "max": [
+              3.2590301036834717,
+              3.029942512512207,
+              0.4749999940395355
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches": {
+          "vertices": 2251,
+          "triangles": 4178,
+          "position_hash": "fce9f9490c98dc623734965f2dbb0b3f83ef9598d39c8d739b58b10282e9e289",
+          "topology_hash": "4c36336b4b4e7779c3cc98754e65af7b0084a2e0146e63a4111ed53b016aa05a",
+          "normal_hash": "01d9573662e34d9ece6580bd71a51f9810f3b8b334eb85eedec1dc0d72fdf535",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "f357286e177f8fcc3a4d3a8050fffc05b2c8217b3de2e305b895aca308f9a5f0"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.4551024436950684,
+              -2.382821559906006,
+              0.4749999940395355
+            ],
+            "max": [
+              3.0555906295776367,
+              2.580251932144165,
+              8.590498924255371
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Foliage": {
+          "vertices": 19360,
+          "triangles": 30976,
+          "position_hash": "6980db8b14609ef4e5f99a37ffbe45465d2e9e74dba864a0224e8b32df736116",
+          "topology_hash": "99fc512475cd98f9d4066933f38930739a7b8b1b7cb2bf551df69945c0c54cf0",
+          "normal_hash": "a6734bd1af4634a6b228ab591828e3d525747b50146d0a07218bf02325691a4e",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "e1c8ef0234841dfecbc280088892aff0ab7fdb4d6b960333a704ac866d62a353"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.863125801086426,
+              -3.8189902305603027,
+              1.4355885982513428
+            ],
+            "max": [
+              4.453193187713623,
+              4.135556221008301,
+              9.152517318725586
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "wood_surface": {
+        "new_to_old_surface_max_m": 6.664001972467304e-08,
+        "old_to_new_surface_max_m": 0.0
+      },
+      "leaf_sprigs": 484,
+      "best_source_template_fit_max_normalized_m": 3.3656312128685606e-07,
+      "source_template_fit_bad_count_1e_5": 0,
+      "fbx": {
+        "WT_MatureTree_Foliage": {
+          "vertices": 19360,
+          "triangles": 30976,
+          "position_hash": "6980db8b14609ef4e5f99a37ffbe45465d2e9e74dba864a0224e8b32df736116",
+          "topology_hash": "b030d72f26bf84f0e0f3ecd0a1e9f8885236994cbe83d674ee2acf9fae6586d1",
+          "normal_hash": "14d4313b064732db0df3d72ef5da53fe1dc3bf1bda11ea80d5d0c5812be9037d",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "e1c8ef0234841dfecbc280088892aff0ab7fdb4d6b960333a704ac866d62a353"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.863125801086426,
+              -3.8189892768859863,
+              1.4355887174606323
+            ],
+            "max": [
+              4.453193187713623,
+              4.135557174682617,
+              9.152517318725586
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Roots": {
+          "vertices": 1050,
+          "triangles": 1864,
+          "position_hash": "81522e4a08ac289a09099dd810a1ac287228e4cbcfd3a93e769a1f8a91853c8d",
+          "topology_hash": "f17385cff4cc1274bef6c1285c7e6c875cf07c11a93e7cb8df725a2495794c79",
+          "normal_hash": "f8cf3c9997354587bb46a72682ff72baec804c5685288829f25a7d781c285174",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "40a6fc6bf57c26cb1a4c8d42fc01b7ba64bf1ef87b293a41269f0d2eff5a192b"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark",
+            "M_WT_RootAccent"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.489699125289917,
+              -2.9933481216430664,
+              -0.0412360318005085
+            ],
+            "max": [
+              3.2590301036834717,
+              3.029942512512207,
+              0.47500017285346985
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches": {
+          "vertices": 2251,
+          "triangles": 4178,
+          "position_hash": "fce9f9490c98dc623734965f2dbb0b3f83ef9598d39c8d739b58b10282e9e289",
+          "topology_hash": "11e54b6065a14071772944217c2eda1128ce53c833f9cab9d5d5bd98f54a87f7",
+          "normal_hash": "88e02e65dbf3a00a9bc9facd5b972898f39706db3bfac840bf42d91caebe4ea3",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "f357286e177f8fcc3a4d3a8050fffc05b2c8217b3de2e305b895aca308f9a5f0"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.4551024436950684,
+              -2.3828206062316895,
+              0.4749997854232788
+            ],
+            "max": [
+              3.0555906295776367,
+              2.5802528858184814,
+              8.590498924255371
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "roundtrip": {
+        "WT_MatureTree_Roots": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 4.936009645462036e-07
+        },
+        "WT_MatureTree_Trunk_Branches": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.3988465070724487e-06
+        },
+        "WT_MatureTree_Foliage": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.4901161193847656e-06
+        }
+      },
+      "fbx_materials": {
+        "M_Foliage": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.7200000286102295,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.20000000298023224,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Common_Normal.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        },
+        "M_WT_RootAccent": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.8399999737739563,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.550000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_RootAccent_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_RootAccent_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        },
+        "M_WT_Bark": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.800000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.550000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        }
+      },
+      "fbx_object_types": [
+        "MESH",
+        "MESH",
+        "MESH"
+      ]
+    },
+    "1": {
+      "source": {
+        "WT_MatureTree_Roots_LOD1": {
+          "vertices": 467,
+          "triangles": 771,
+          "position_hash": "cd85509acf30c495aa8be253dcc7d37f49822b85dd2fbc29435073679d536cb5",
+          "topology_hash": "3baa18c0b8161bc1e125e704e2edb31083df7e9f409b9b2fe3b1a2ea41b80b3f",
+          "normal_hash": "9b6564d292be4de2bd91eadb523e126b0871f837ea32ad1d876a38aeafbdf590",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "0ecd8ce22e017957c9394101d2bcdc8da53fe13ed24c85b280e1b02afc61c670"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark",
+            "M_WT_RootAccent"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.489391565322876,
+              -2.992236614227295,
+              -0.041310135275125504
+            ],
+            "max": [
+              3.258312702178955,
+              3.0293004512786865,
+              0.4749999940395355
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches_LOD1": {
+          "vertices": 1119,
+          "triangles": 1995,
+          "position_hash": "54749606a33354d25e4fd2c122281624da63203b3d3a07d82da2ceec579175fe",
+          "topology_hash": "f4cd7762f88ddb6569f5f364291759cac59120bc30da69d0959edd7c7538fb79",
+          "normal_hash": "ffcb9078f25e2cc2188aaa7d8e204a44847a6ca7a5e53444fd1638df792758e2",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "dce3316e2805fd88912eb6d616aee6ad4be94e73720fd7fe70047ecc13e9bfcf"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.4509830474853516,
+              -2.384026050567627,
+              0.4749999940395355
+            ],
+            "max": [
+              3.051743268966675,
+              2.5797836780548096,
+              8.590498924255371
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Foliage_LOD1": {
+          "vertices": 10920,
+          "triangles": 17472,
+          "position_hash": "2f8ef9654bfa8519403c2d5f74efd2c6bdc2fc6ed46700e4e5208f14b855089c",
+          "topology_hash": "87f8cea246705a2f67488efe0739f05ff29874331c41789775236127a0b893c9",
+          "normal_hash": "8181d7a3cc598a09ea2285b7d22029db01884412719a24842c3d9a220e65cecc",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "ccfdb45d742b1187472ce90b16ae1bdf5b95cb1ece691f1e99a7b92d85acd341"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.989964485168457,
+              -4.011328220367432,
+              1.4075349569320679
+            ],
+            "max": [
+              4.520356178283691,
+              4.185331344604492,
+              9.368049621582031
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "wood_surface": {
+        "new_to_old_surface_max_m": 6.828570064953965e-08,
+        "old_to_new_surface_max_m": 0.0
+      },
+      "leaf_sprigs": 273,
+      "best_source_template_fit_max_normalized_m": 2.8084615327541176e-07,
+      "source_template_fit_bad_count_1e_5": 0,
+      "fbx": {
+        "WT_MatureTree_Foliage_LOD1": {
+          "vertices": 10920,
+          "triangles": 17472,
+          "position_hash": "2f8ef9654bfa8519403c2d5f74efd2c6bdc2fc6ed46700e4e5208f14b855089c",
+          "topology_hash": "6fe4c0814612c6d88206c8395032073a8253eb7ee8a8f91dc327683b6231c5b5",
+          "normal_hash": "3c6ff3fd710c2af9f7eb06c86b1488e5e1614b90f830be0a9806394d3ae87bad",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "ccfdb45d742b1187472ce90b16ae1bdf5b95cb1ece691f1e99a7b92d85acd341"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.989964485168457,
+              -4.011327266693115,
+              1.4075350761413574
+            ],
+            "max": [
+              4.520356178283691,
+              4.185332298278809,
+              9.368049621582031
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Roots_LOD1": {
+          "vertices": 467,
+          "triangles": 771,
+          "position_hash": "cd85509acf30c495aa8be253dcc7d37f49822b85dd2fbc29435073679d536cb5",
+          "topology_hash": "8c1054a2d9c745b2e2738275ab09af2cd4635fe86e20160e67d38ae18f5138dc",
+          "normal_hash": "6bd7b432a00f1b164a216758aeba8b8e5ddbc25c17170d378a39418c81ac145f",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "0ecd8ce22e017957c9394101d2bcdc8da53fe13ed24c85b280e1b02afc61c670"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark",
+            "M_WT_RootAccent"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.489391565322876,
+              -2.992236614227295,
+              -0.04130982980132103
+            ],
+            "max": [
+              3.258312702178955,
+              3.0293004512786865,
+              0.47500017285346985
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches_LOD1": {
+          "vertices": 1119,
+          "triangles": 1995,
+          "position_hash": "54749606a33354d25e4fd2c122281624da63203b3d3a07d82da2ceec579175fe",
+          "topology_hash": "2967eb553bb40191b2046f78f49a7510c13db9c85b7a84e8e036b9e7d7264451",
+          "normal_hash": "ea44afff3cc0cfeacc5c6a8263028095327d473402dd4c548018b82919dc010c",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "dce3316e2805fd88912eb6d616aee6ad4be94e73720fd7fe70047ecc13e9bfcf"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.4509830474853516,
+              -2.3840250968933105,
+              0.4749997854232788
+            ],
+            "max": [
+              3.051743268966675,
+              2.579784631729126,
+              8.590498924255371
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "roundtrip": {
+        "WT_MatureTree_Roots_LOD1": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 4.936009645462036e-07
+        },
+        "WT_MatureTree_Trunk_Branches_LOD1": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.3988465070724487e-06
+        },
+        "WT_MatureTree_Foliage_LOD1": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.5497207641601562e-06
+        }
+      },
+      "fbx_materials": {
+        "M_Foliage": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.7200000286102295,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.20000000298023224,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Common_Normal.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        },
+        "M_WT_RootAccent": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.8399999737739563,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.550000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_RootAccent_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_RootAccent_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        },
+        "M_WT_Bark": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.800000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.550000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        }
+      },
+      "fbx_object_types": [
+        "MESH",
+        "MESH",
+        "MESH"
+      ]
+    },
+    "2": {
+      "source": {
+        "WT_MatureTree_Roots_LOD2": {
+          "vertices": 126,
+          "triangles": 181,
+          "position_hash": "0b74f4029427c99f5598ab5977f69ea18644e329ae991a09e39f2a28400e37e4",
+          "topology_hash": "0fb1af76a20ce0880baa155809f84c106c609d27ae17bd2169a2cc2da225bbd8",
+          "normal_hash": "bb97ac79c4d3cc873119a83f22dabfb6013f4a2c1cc76641d23dcaf0672fd74f",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "10a415dfcf169e993af3a246b5ffdac5debdccd0e3d538e1c1bbf4d667641778"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.488492250442505,
+              -2.9300971031188965,
+              -0.04112764447927475
+            ],
+            "max": [
+              2.6973154544830322,
+              2.4676992893218994,
+              0.4749999940395355
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches_LOD2": {
+          "vertices": 511,
+          "triangles": 899,
+          "position_hash": "691ad061c95a3f280500f67f27799740040992f325d70f39a468daf77945400c",
+          "topology_hash": "5d9d3b85fd6ea9ee4e81b56ad9688c9507a58813835f3ad75b60998260aee765",
+          "normal_hash": "06f3bccc14c575e79a1bfd47508655247268d66f95c070b423b58aa9dd963694",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "750c71fe7e1134201108192003ef35191ab9519503e6f9c7b089b73e6d7577af"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.451859474182129,
+              -2.383100986480713,
+              0.4749999940395355
+            ],
+            "max": [
+              3.0541133880615234,
+              2.576063394546509,
+              8.167499542236328
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Foliage_LOD2": {
+          "vertices": 4640,
+          "triangles": 7424,
+          "position_hash": "14a0b59f84abce7f3c93d065e1e4344871caea7d1b97e34a4e55e2434b0b4a97",
+          "topology_hash": "21f09b5d335bb532f8e0e47b2c68d2e59d86464e8d8bcdec10e965a1c96aa000",
+          "normal_hash": "e4fd023666de58b0849ba34076c632e2d8866180926629a7c03a6f31fa3fe221",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "8a469908fe0315603d77ee1c71a388824554edfa2fd7d16cd3409d5866fd1f2b"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.666982173919678,
+              -4.253999710083008,
+              2.985884428024292
+            ],
+            "max": [
+              4.981380462646484,
+              4.256126403808594,
+              9.130158424377441
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "wood_surface": {
+        "new_to_old_surface_max_m": 1.365714012990793e-07,
+        "old_to_new_surface_max_m": 0.0
+      },
+      "leaf_sprigs": 116,
+      "best_source_template_fit_max_normalized_m": 2.204406273645707e-07,
+      "source_template_fit_bad_count_1e_5": 0,
+      "fbx": {
+        "WT_MatureTree_Foliage_LOD2": {
+          "vertices": 4640,
+          "triangles": 7424,
+          "position_hash": "14a0b59f84abce7f3c93d065e1e4344871caea7d1b97e34a4e55e2434b0b4a97",
+          "topology_hash": "8faa6c7e0ed2e8e995ed7cf3c6f8525a372eb21c73674fe4f6e749697714da36",
+          "normal_hash": "bf1b6a094a80b0ce0d8e92c3f2fde79bc433b6e23a14ded07323400aaaff7a42",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "8a469908fe0315603d77ee1c71a388824554edfa2fd7d16cd3409d5866fd1f2b"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.666982173919678,
+              -4.253998756408691,
+              2.985883951187134
+            ],
+            "max": [
+              4.981380462646484,
+              4.25612735748291,
+              9.130158424377441
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Roots_LOD2": {
+          "vertices": 126,
+          "triangles": 181,
+          "position_hash": "0b74f4029427c99f5598ab5977f69ea18644e329ae991a09e39f2a28400e37e4",
+          "topology_hash": "b3bc9b4b0f946e87fee792067a72a1fdc9537194ddfed79e59eabab21ea557f9",
+          "normal_hash": "69e0949ea36f5c149073b9d894c27a2babdcf1799fba4353a097675e16cd1516",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "10a415dfcf169e993af3a246b5ffdac5debdccd0e3d538e1c1bbf4d667641778"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.488492250442505,
+              -2.9300971031188965,
+              -0.04112749174237251
+            ],
+            "max": [
+              2.6973154544830322,
+              2.4676992893218994,
+              0.47500020265579224
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "WT_MatureTree_Trunk_Branches_LOD2": {
+          "vertices": 511,
+          "triangles": 899,
+          "position_hash": "691ad061c95a3f280500f67f27799740040992f325d70f39a468daf77945400c",
+          "topology_hash": "fded26bc8079e2e7f74626eabdc1d28d8bd262ba2b4be32ab852da96daec138f",
+          "normal_hash": "9dcb0bc06a0df340b874f1a3b1c10e39d5ddf93c05307af8293f977539b5c4c2",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              1.6292068494294654e-07,
+              0.0
+            ],
+            [
+              0.0,
+              -1.6292068494294654e-07,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "750c71fe7e1134201108192003ef35191ab9519503e6f9c7b089b73e6d7577af"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_WT_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.451859474182129,
+              -2.3831000328063965,
+              0.4749998152256012
+            ],
+            "max": [
+              3.0541133880615234,
+              2.576064348220825,
+              8.167499542236328
+            ]
+          },
+          "zero_area_faces": 0,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -1.6292068494294654e-07,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "roundtrip": {
+        "WT_MatureTree_Roots_LOD2": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 4.76837158203125e-07
+        },
+        "WT_MatureTree_Trunk_Branches_LOD2": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.3306562323123217e-06
+        },
+        "WT_MatureTree_Foliage_LOD2": {
+          "tris_match": true,
+          "verts_match": true,
+          "uv_match": true,
+          "slots_match": true,
+          "max_world_vertex_error_m": 1.4901161193847656e-06
+        }
+      },
+      "fbx_materials": {
+        "M_Foliage": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.7200000286102295,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.20000000298023224,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Common_Normal.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "Leaf_Large_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        },
+        "M_WT_Bark": {
+          "diffuse_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "backface_culling": false,
+          "nodes": [
+            {
+              "name": "Principled BSDF",
+              "type": "BSDF_PRINCIPLED",
+              "inputs": [
+                {
+                  "name": "Base Color",
+                  "identifier": "Base Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Metallic",
+                  "identifier": "Metallic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Roughness",
+                  "identifier": "Roughness",
+                  "value": 0.800000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "IOR",
+                  "identifier": "IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Alpha",
+                  "identifier": "Alpha",
+                  "value": 1.0,
+                  "linked": true
+                },
+                {
+                  "name": "Thin Wall",
+                  "identifier": "Thin Wall",
+                  "value": false,
+                  "linked": false
+                },
+                {
+                  "name": "Normal",
+                  "identifier": "Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": true
+                },
+                {
+                  "name": "Weight",
+                  "identifier": "Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Diffuse Roughness",
+                  "identifier": "Diffuse Roughness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Weight",
+                  "identifier": "Subsurface Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Radius",
+                  "identifier": "Subsurface Radius",
+                  "value": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Scale",
+                  "identifier": "Subsurface Scale",
+                  "value": 0.004999999888241291,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface IOR",
+                  "identifier": "Subsurface IOR",
+                  "value": 1.399999976158142,
+                  "linked": false
+                },
+                {
+                  "name": "Subsurface Anisotropy",
+                  "identifier": "Subsurface Anisotropy",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Specular IOR Level",
+                  "identifier": "Specular IOR Level",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Specular Tint",
+                  "identifier": "Specular Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic",
+                  "identifier": "Anisotropic",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Anisotropic Rotation",
+                  "identifier": "Anisotropic Rotation",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Tangent",
+                  "identifier": "Tangent",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Transmission Weight",
+                  "identifier": "Transmission Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Weight",
+                  "identifier": "Coat Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Roughness",
+                  "identifier": "Coat Roughness",
+                  "value": 0.029999999329447746,
+                  "linked": false
+                },
+                {
+                  "name": "Coat IOR",
+                  "identifier": "Coat IOR",
+                  "value": 1.5,
+                  "linked": false
+                },
+                {
+                  "name": "Coat Tint",
+                  "identifier": "Coat Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Coat Normal",
+                  "identifier": "Coat Normal",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Weight",
+                  "identifier": "Sheen Weight",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Roughness",
+                  "identifier": "Sheen Roughness",
+                  "value": 0.5,
+                  "linked": false
+                },
+                {
+                  "name": "Sheen Tint",
+                  "identifier": "Sheen Tint",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Color",
+                  "identifier": "Emission Color",
+                  "value": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Emission Strength",
+                  "identifier": "Emission Strength",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film Thickness",
+                  "identifier": "Thin Film Thickness",
+                  "value": 0.0,
+                  "linked": false
+                },
+                {
+                  "name": "Thin Film IOR",
+                  "identifier": "Thin Film IOR",
+                  "value": 1.3300000429153442,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Material Output",
+              "type": "OUTPUT_MATERIAL",
+              "inputs": [
+                {
+                  "name": "Displacement",
+                  "identifier": "Displacement",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                },
+                {
+                  "name": "Thickness",
+                  "identifier": "Thickness",
+                  "value": 0.0,
+                  "linked": false
+                }
+              ]
+            },
+            {
+              "name": "Normal Map",
+              "type": "NORMAL_MAP",
+              "inputs": [
+                {
+                  "name": "Strength",
+                  "identifier": "Strength",
+                  "value": 0.550000011920929,
+                  "linked": false
+                },
+                {
+                  "name": "Color",
+                  "identifier": "Color",
+                  "value": [
+                    0.5,
+                    0.5,
+                    1.0,
+                    1.0
+                  ],
+                  "linked": true
+                }
+              ],
+              "space": "TANGENT",
+              "uv_map": ""
+            },
+            {
+              "name": "Image Texture",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "sRGB",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.001",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_Normal.png",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            },
+            {
+              "name": "Image Texture.002",
+              "type": "TEX_IMAGE",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "identifier": "Vector",
+                  "value": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "linked": false
+                }
+              ],
+              "image": "WT_Bark_BaseColor.png.001",
+              "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+              "exists": true,
+              "size": [
+                512,
+                512
+              ],
+              "colorspace": "Non-Color",
+              "interpolation": "Linear",
+              "extension": "REPEAT"
+            }
+          ],
+          "links": [
+            [
+              "Principled BSDF",
+              "BSDF",
+              "Material Output",
+              "Surface"
+            ],
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ],
+            [
+              "Image Texture",
+              "Color",
+              "Principled BSDF",
+              "Base Color"
+            ],
+            [
+              "Image Texture.001",
+              "Color",
+              "Normal Map",
+              "Color"
+            ],
+            [
+              "Image Texture.002",
+              "Alpha",
+              "Principled BSDF",
+              "Alpha"
+            ]
+          ]
+        }
+      },
+      "fbx_object_types": [
+        "MESH",
+        "MESH",
+        "MESH"
+      ]
+    }
+  },
+  "reference_material": {
+    "diffuse_color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "backface_culling": false,
+    "nodes": [
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL",
+        "inputs": [
+          {
+            "name": "Displacement",
+            "identifier": "Displacement",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Thickness",
+            "identifier": "Thickness",
+            "value": 0.0,
+            "linked": false
+          }
+        ]
+      },
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED",
+        "inputs": [
+          {
+            "name": "Base Color",
+            "identifier": "Base Color",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "linked": true
+          },
+          {
+            "name": "Metallic",
+            "identifier": "Metallic",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Roughness",
+            "identifier": "Roughness",
+            "value": 0.7200000286102295,
+            "linked": false
+          },
+          {
+            "name": "IOR",
+            "identifier": "IOR",
+            "value": 1.5,
+            "linked": false
+          },
+          {
+            "name": "Alpha",
+            "identifier": "Alpha",
+            "value": 1.0,
+            "linked": false
+          },
+          {
+            "name": "Thin Wall",
+            "identifier": "Thin Wall",
+            "value": false,
+            "linked": false
+          },
+          {
+            "name": "Normal",
+            "identifier": "Normal",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": true
+          },
+          {
+            "name": "Weight",
+            "identifier": "Weight",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Diffuse Roughness",
+            "identifier": "Diffuse Roughness",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Subsurface Weight",
+            "identifier": "Subsurface Weight",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Subsurface Radius",
+            "identifier": "Subsurface Radius",
+            "value": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "linked": false
+          },
+          {
+            "name": "Subsurface Scale",
+            "identifier": "Subsurface Scale",
+            "value": 0.004999999888241291,
+            "linked": false
+          },
+          {
+            "name": "Subsurface IOR",
+            "identifier": "Subsurface IOR",
+            "value": 1.399999976158142,
+            "linked": false
+          },
+          {
+            "name": "Subsurface Anisotropy",
+            "identifier": "Subsurface Anisotropy",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Specular IOR Level",
+            "identifier": "Specular IOR Level",
+            "value": 0.5,
+            "linked": false
+          },
+          {
+            "name": "Specular Tint",
+            "identifier": "Specular Tint",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Anisotropic",
+            "identifier": "Anisotropic",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Anisotropic Rotation",
+            "identifier": "Anisotropic Rotation",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Tangent",
+            "identifier": "Tangent",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Transmission Weight",
+            "identifier": "Transmission Weight",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Coat Weight",
+            "identifier": "Coat Weight",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Coat Roughness",
+            "identifier": "Coat Roughness",
+            "value": 0.029999999329447746,
+            "linked": false
+          },
+          {
+            "name": "Coat IOR",
+            "identifier": "Coat IOR",
+            "value": 1.5,
+            "linked": false
+          },
+          {
+            "name": "Coat Tint",
+            "identifier": "Coat Tint",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Coat Normal",
+            "identifier": "Coat Normal",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Sheen Weight",
+            "identifier": "Sheen Weight",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Sheen Roughness",
+            "identifier": "Sheen Roughness",
+            "value": 0.5,
+            "linked": false
+          },
+          {
+            "name": "Sheen Tint",
+            "identifier": "Sheen Tint",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Emission Color",
+            "identifier": "Emission Color",
+            "value": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "linked": false
+          },
+          {
+            "name": "Emission Strength",
+            "identifier": "Emission Strength",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Thin Film Thickness",
+            "identifier": "Thin Film Thickness",
+            "value": 0.0,
+            "linked": false
+          },
+          {
+            "name": "Thin Film IOR",
+            "identifier": "Thin Film IOR",
+            "value": 1.3300000429153442,
+            "linked": false
+          }
+        ]
+      },
+      {
+        "name": "Image Texture",
+        "type": "TEX_IMAGE",
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": false
+          }
+        ],
+        "image": "Leaf_Large_BaseColor.png",
+        "filepath": "//..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+        "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+        "exists": true,
+        "size": [
+          512,
+          512
+        ],
+        "colorspace": "sRGB",
+        "interpolation": "Linear",
+        "extension": "REPEAT"
+      },
+      {
+        "name": "Image Texture.001",
+        "type": "TEX_IMAGE",
+        "inputs": [
+          {
+            "name": "Vector",
+            "identifier": "Vector",
+            "value": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "linked": false
+          }
+        ],
+        "image": "Leaf_Common_Normal.png",
+        "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+        "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+        "exists": true,
+        "size": [
+          512,
+          512
+        ],
+        "colorspace": "Non-Color",
+        "interpolation": "Linear",
+        "extension": "REPEAT"
+      },
+      {
+        "name": "Normal Map",
+        "type": "NORMAL_MAP",
+        "inputs": [
+          {
+            "name": "Strength",
+            "identifier": "Strength",
+            "value": 0.20000000298023224,
+            "linked": false
+          },
+          {
+            "name": "Color",
+            "identifier": "Color",
+            "value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ],
+            "linked": true
+          }
+        ],
+        "space": "TANGENT",
+        "uv_map": "Float2"
+      }
+    ],
+    "links": [
+      [
+        "Image Texture",
+        "Color",
+        "Principled BSDF",
+        "Base Color"
+      ],
+      [
+        "Image Texture.001",
+        "Color",
+        "Normal Map",
+        "Color"
+      ],
+      [
+        "Normal Map",
+        "Normal",
+        "Principled BSDF",
+        "Normal"
+      ],
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ]
+    ]
+  },
+  "source_materials": {
+    "M_Foliage": {
+      "diffuse_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "backface_culling": false,
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "inputs": [
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "value": 0.0,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "value": 0.7200000286102295,
+              "linked": false
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "value": 1.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Wall",
+              "identifier": "Thin Wall",
+              "value": false,
+              "linked": false
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "value": [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ],
+              "linked": false
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "value": 0.004999999888241291,
+              "linked": false
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "value": 1.399999976158142,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "value": 0.029999999329447746,
+              "linked": false
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "value": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "value": 1.3300000429153442,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "Leaf_Large_BaseColor.png",
+          "filepath": "//..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\Leaf_Large_BaseColor.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "sRGB",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "Leaf_Common_Normal.png.001",
+          "filepath": "//..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\Leaf_Common_Normal.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "Non-Color",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "inputs": [
+            {
+              "name": "Strength",
+              "identifier": "Strength",
+              "value": 0.20000000298023224,
+              "linked": false
+            },
+            {
+              "name": "Color",
+              "identifier": "Color",
+              "value": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            }
+          ],
+          "space": "TANGENT",
+          "uv_map": "Float2"
+        }
+      ],
+      "links": [
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "M_WT_RootAccent": {
+      "diffuse_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "backface_culling": false,
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "inputs": [
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "value": 0.0,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "value": 0.8399999737739563,
+              "linked": false
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "value": 1.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Wall",
+              "identifier": "Thin Wall",
+              "value": false,
+              "linked": false
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "value": [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ],
+              "linked": false
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "value": 0.004999999888241291,
+              "linked": false
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "value": 1.399999976158142,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "value": 0.029999999329447746,
+              "linked": false
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "value": 1.3300000429153442,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "WT_RootAccent_BaseColor.png",
+          "filepath": "//..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\WT_RootAccent_BaseColor.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "sRGB",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "WT_Bark_Normal.png",
+          "filepath": "//..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "Non-Color",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "inputs": [
+            {
+              "name": "Strength",
+              "identifier": "Strength",
+              "value": 0.550000011920929,
+              "linked": false
+            },
+            {
+              "name": "Color",
+              "identifier": "Color",
+              "value": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            }
+          ],
+          "space": "TANGENT",
+          "uv_map": "Float2"
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ]
+      ]
+    },
+    "M_WT_Bark": {
+      "diffuse_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "backface_culling": false,
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "inputs": [
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "value": 0.0,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "value": 0.800000011920929,
+              "linked": false
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "value": 1.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Wall",
+              "identifier": "Thin Wall",
+              "value": false,
+              "linked": false
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": true
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "value": [
+                1.0,
+                0.20000000298023224,
+                0.10000000149011612
+              ],
+              "linked": false
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "value": 0.004999999888241291,
+              "linked": false
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "value": 1.399999976158142,
+              "linked": false
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "value": 0.029999999329447746,
+              "linked": false
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "value": 1.5,
+              "linked": false
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "value": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "linked": false
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "value": 0.0,
+              "linked": false
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "value": 1.3300000429153442,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "WT_Bark_BaseColor.png",
+          "filepath": "//..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\WT_Bark_BaseColor.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "sRGB",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false
+            }
+          ],
+          "image": "WT_Bark_Normal.png",
+          "filepath": "//..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+          "resolved_path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\..\\Textures\\Tree_Common\\WT_Bark_Normal.png",
+          "exists": true,
+          "size": [
+            512,
+            512
+          ],
+          "colorspace": "Non-Color",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP",
+          "inputs": [
+            {
+              "name": "Strength",
+              "identifier": "Strength",
+              "value": 0.550000011920929,
+              "linked": false
+            },
+            {
+              "name": "Color",
+              "identifier": "Color",
+              "value": [
+                0.5,
+                0.5,
+                1.0,
+                1.0
+              ],
+              "linked": true
+            }
+          ],
+          "space": "TANGENT",
+          "uv_map": "Float2"
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ]
+      ]
+    }
+  },
+  "empty_anchors": [],
+  "all_review_inputs_unchanged": true
+}

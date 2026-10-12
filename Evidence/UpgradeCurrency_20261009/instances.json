@@ -1,0 +1,11 @@
+{
+  "method": "notifications/message",
+  "params": {
+    "level": "info",
+    "data": {
+      "msg": "Listing Unity instances",
+      "extra": null
+    }
+  },
+  "jsonrpc": "2.0"
+}

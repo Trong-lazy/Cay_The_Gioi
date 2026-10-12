@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"success\":true,\"reason\":\"\",\"stage\":\"young_tree\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "success": true,
+          "reason": "",
+          "stage": "young_tree"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

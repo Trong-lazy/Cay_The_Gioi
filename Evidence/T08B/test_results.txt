@@ -1,0 +1,28 @@
+=== T08B SHOP VÀ COSMETIC TEST RESULTS ===
+Date: 2026-10-03
+Unity Version: 6000.6.1f1 Personal
+Target Platforms: PC Windows & Mobile (Portrait + Landscape)
+
+--- EditMode Tests (Total: 176, Passed: 176, Failed: 0) ---
+- CayTheGioi.Tests.CosmeticTests.Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_InitialState_NoneEquipped_EmptyOwned: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_InsufficientCoin_Fails: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Equip_NotOwned_Fails: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped: Passed
+- CayTheGioi.Tests.CosmeticTests.CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped: Passed
+- CayTheGioi.Tests.CosmeticTests.Cosmetic_DoesNotAffectGameplay_RatesHpProtection: Passed
+- Regression Tests: T00-T08A (165 tests): ALL PASSED.
+
+--- PlayMode Tests (Total: 54, Passed: 54, Failed: 0) ---
+- CayTheGioi.Tests.CosmeticSceneTests.ShopView_OpenAndClose_LocksAndUnlocksInput: Passed
+- CayTheGioi.Tests.CosmeticSceneTests.Preview_DoesNotDeductCoin_AndDoesNotMutateSavedEquip_AndRestoresOnClose: Passed
+- CayTheGioi.Tests.CosmeticSceneTests.BuyAndEquipInScene_DeductsCoin_PersistsAcrossReload: Passed
+- CayTheGioi.Tests.CosmeticSceneTests.DeadOrRebirth_CancelsPreview: Passed
+- Regression Tests: T00-T08A (50 tests): ALL PASSED.
+
+--- Diagnostics ---
+Unity Console Clean: 0 Errors, 0 Warnings.

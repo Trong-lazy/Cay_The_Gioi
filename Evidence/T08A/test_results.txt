@@ -1,0 +1,28 @@
+=== T08A ACHIEVEMENT VÀ COIN TEST RESULTS ===
+Date: 2026-10-03
+Unity Version: 6000.6.1f1 Personal
+Target Platforms: PC Windows & Mobile (Portrait + Landscape)
+
+--- EditMode Tests (Total: 165, Passed: 165, Failed: 0) ---
+- CayTheGioi.Tests.AchievementTests.Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget: Passed
+- CayTheGioi.Tests.AchievementTests.AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed: Passed
+- CayTheGioi.Tests.AchievementTests.MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress: Passed
+- CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress: Passed
+- CayTheGioi.Tests.AchievementTests.MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress: Passed
+- CayTheGioi.Tests.AchievementTests.MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap: Passed
+- CayTheGioi.Tests.AchievementTests.Claim_BeforeUnlocked_FailsAndGrantsNoCoin: Passed
+- CayTheGioi.Tests.AchievementTests.Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent: Passed
+- CayTheGioi.Tests.AchievementTests.Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry: Passed
+- CayTheGioi.Tests.AchievementTests.Rebirth_PreservesCoin_AndAchievementProgressAndClaimed: Passed
+- CayTheGioi.Tests.AchievementTests.SaveLoad_PreservesCoin_AndAchievementsIntegrity: Passed
+- CayTheGioi.Tests.AchievementTests.Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost: Passed
+- Regression Tests: CoreResources (18), Upgrade (19), Evolution (21), SaveSafety (20), SaveSystem (15), Offline (17), Rebirth (18), Weather (25): ALL PASSED.
+
+--- PlayMode Tests (Total: 50, Passed: 50, Failed: 0) ---
+- CayTheGioi.Tests.AchievementSceneTests.AchievementView_OpensAndCloses_LocksAndUnlocksInput: Passed
+- CayTheGioi.Tests.AchievementSceneTests.MilestoneInScene_UpgradeAndClaimCoin_SavesAndPersistsAcrossReload: Passed
+- CayTheGioi.Tests.AchievementSceneTests.RebirthInScene_PreservesAchievementsAndCoin: Passed
+- Regression Tests: Foundation (1), CoreResources (5), Upgrade (5), Evolution (6), Rebirth (6), Save (8), Offline (7), Weather (9): ALL PASSED.
+
+--- Console Diagnostics ---
+Unity Console Clean: 0 Errors, 0 Warnings.

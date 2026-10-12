@@ -1,0 +1,33 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"before\":\"seedling\",\"success\":true,\"stage\":\"young_tree\",\"waterAfterPayment\":0.0,\"growthAfterPayment\":0.0,\"repeated\":\"BUSY\",\"upgrade\":\"BUSY\",\"input\":false,\"waterAfterTick\":4.75,\"growthAfterTick\":2.1,\"bank\":19.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "before": "seedling",
+          "success": true,
+          "stage": "young_tree",
+          "waterAfterPayment": 0.0,
+          "growthAfterPayment": 0.0,
+          "repeated": "BUSY",
+          "upgrade": "BUSY",
+          "input": false,
+          "waterAfterTick": 4.75,
+          "growthAfterTick": 2.1,
+          "bank": 19.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

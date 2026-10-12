@@ -1,0 +1,1 @@
+{"name": "execute_code", "arguments": {"action": "execute", "code": "var b=UnityEngine.Object.FindFirstObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>(); var u=UnityEngine.Object.FindFirstObjectByType<CayTheGioi.Presentation.UpgradePanelView>(); u.Toggle(); return new {ready=b.IsInitialized, stage=b.State.run.stageId, panel=u.IsOpen};"}}

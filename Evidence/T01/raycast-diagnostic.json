@@ -1,0 +1,37 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"origin\":\"(0.00, 2.02, -2.95)\",\"dir\":\"(0.00, -0.43, 0.90)\",\"camera\":\"(0.00, 2.04, -2.99)\",\"hits\":[{\"name\":\"Ground\",\"distance\":0.7579911,\"bounds\":\"Center: (0.00, -0.12, 0.00), Extents: (2.90, 2.90, 2.90)\"},{\"name\":\"Tree\",\"distance\":2.62143469,\"bounds\":\"Center: (0.00, 0.60, 0.00), Extents: (0.65, 0.65, 0.65)\"}]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "origin": "(0.00, 2.02, -2.95)",
+          "dir": "(0.00, -0.43, 0.90)",
+          "camera": "(0.00, 2.04, -2.99)",
+          "hits": [
+            {
+              "name": "Ground",
+              "distance": 0.7579911,
+              "bounds": "Center: (0.00, -0.12, 0.00), Extents: (2.90, 2.90, 2.90)"
+            },
+            {
+              "name": "Tree",
+              "distance": 2.62143469,
+              "bounds": "Center: (0.00, 0.60, 0.00), Extents: (0.65, 0.65, 0.65)"
+            }
+          ]
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

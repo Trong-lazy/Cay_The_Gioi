@@ -1,0 +1,70 @@
+Mono path[0] = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/Managed'
+Mono config path = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.030 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.904900 ms
+[CayTheGioi] T07 initialized: prototype-4, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=1
+[SaveController] Save OK (TUTORIAL_STEP) rev=2
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=3
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=4
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=5
+[SaveController] Save OK (COSMETIC_COMMIT) rev=6
+[SaveController] Save OK (COSMETIC_COMMIT) rev=7
+[SaveController] Rebirth COMMITTED rev=8
+[QaBuildRunner] Finished scenario 'smoke_progression' (success=True):
+{
+    "scenario": "smoke_progression",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 0.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 1,
+    "vitalityBank": 0.0,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "glow_placeholder",
+    "achievementsClaimed": 2,
+    "error": "",
+    "details": "Full loop OK: RebirthPoints=1, Coin=0, Claimed=2, Equipped=glow_placeholder",
+    "screenshot": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_progression\\smoke_progression_20261007_144305.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_smoke_progression\\smoke_progression_20261007_144305.png"
+    ],
+    "steps": []
+}
+[SaveController] Save OK (QUIT) rev=9
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

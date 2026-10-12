@@ -1,0 +1,73 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"f3c7e879fca04609825b5a6699a344bf\",\"status\":\"failed\",\"mode\":\"PlayMode\",\"started_unix_ms\":1791601055372,\"finished_unix_ms\":1791601099135,\"last_update_unix_ms\":1791601099135,\"progress\":{\"completed\":65,\"total\":65,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791601098849,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates\",\"last_finished_unix_ms\":1791601099064,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera\",\"message\":\"  The new stage collider must remain tappable after transition.\\r\\n  Expected: 1\\r\\n  But was:  0\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"message\":\"  Expected: not equal to (0.00, 1.29, -2.66)\\r\\n  But was:  (0.00, 1.29, -2.66)\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"message\":\"  Expected: False\\r\\n  But was:  True\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth\",\"message\":\"  Expected: not equal to \\\"bf7888ae198442579dcf1dcf622dc32a\\\"\\r\\n  But was:  \\\"bf7888ae198442579dcf1dcf622dc32a\\\"\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.RebirthSceneTests.MousePreviewCancelConfirmPersistsBeforeEventRestoresModelHudCapsAndReopen\",\"message\":\"  Expected: False\\r\\n  But was:  True\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce\",\"message\":\"  Expected: 2\\r\\n  But was:  1\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"message\":\"  Expected: greater than or equal to 128\\r\\n  But was:  -128.0f\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"message\":\"  Expected: 1\\r\\n  But was:  0\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "success": true,
+      "message": "Test job status retrieved.",
+      "error": null,
+      "data": {
+        "job_id": "f3c7e879fca04609825b5a6699a344bf",
+        "status": "failed",
+        "mode": "PlayMode",
+        "started_unix_ms": 1791601055372,
+        "finished_unix_ms": 1791601099135,
+        "last_update_unix_ms": 1791601099135,
+        "progress": {
+          "completed": 65,
+          "total": 65,
+          "current_test_full_name": null,
+          "current_test_started_unix_ms": 1791601098849,
+          "last_finished_test_full_name": "CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates",
+          "last_finished_unix_ms": 1791601099064,
+          "stuck_suspected": false,
+          "editor_is_focused": false,
+          "blocked_reason": null,
+          "failures_so_far": [
+            {
+              "full_name": "CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+              "message": "  The new stage collider must remain tappable after transition.\r\n  Expected: 1\r\n  But was:  0\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+              "message": "  Expected: not equal to (0.00, 1.29, -2.66)\r\n  But was:  (0.00, 1.29, -2.66)\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+              "message": "  Expected: False\r\n  But was:  True\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.RebirthSceneTests.DeadModalOverridesOtherPanelsCannotCancelFreezesAcrossSaveLoadThenForcedTouchRebirth",
+              "message": "  Expected: not equal to \"bf7888ae198442579dcf1dcf622dc32a\"\r\n  But was:  \"bf7888ae198442579dcf1dcf622dc32a\"\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.RebirthSceneTests.MousePreviewCancelConfirmPersistsBeforeEventRestoresModelHudCapsAndReopen",
+              "message": "  Expected: False\r\n  But was:  True\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce",
+              "message": "  Expected: 2\r\n  But was:  1\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+              "message": "  Expected: greater than or equal to 128\r\n  But was:  -128.0f\r\n"
+            },
+            {
+              "full_name": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+              "message": "  Expected: 1\r\n  But was:  0\r\n"
+            }
+          ],
+          "failures_capped": false
+        },
+        "error": null,
+        "result": null
+      },
+      "hint": null
+    }
+  },
+  "isError": false
+}

@@ -1,0 +1,1906 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"dd2895a0a0a0477ea3042eae6c34703d\",\"status\":\"succeeded\",\"mode\":\"EditMode\",\"started_unix_ms\":1791536313401,\"finished_unix_ms\":1791536322459,\"last_update_unix_ms\":1791536322459,\"progress\":{\"completed\":205,\"total\":205,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791536322218,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm\",\"last_finished_unix_ms\":1791536322218,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"EditMode\",\"summary\":{\"total\":205,\"passed\":205,\"failed\":0,\"skipped\":0,\"durationSeconds\":4.8190462,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed\",\"state\":\"Passed\",\"durationSeconds\":0.0665122,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Claim_BeforeUnlocked_FailsAndGrantsNoCoin\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Claim_BeforeUnlocked_FailsAndGrantsNoCoin\",\"state\":\"Passed\",\"durationSeconds\":0.007659,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry\",\"state\":\"Passed\",\"durationSeconds\":0.0209312,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent\",\"state\":\"Passed\",\"durationSeconds\":0.0117214,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost\",\"state\":\"Passed\",\"durationSeconds\":0.0149567,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress\",\"state\":\"Passed\",\"durationSeconds\":0.0081418,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress\",\"state\":\"Passed\",\"durationSeconds\":0.0188371,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress\",\"state\":\"Passed\",\"durationSeconds\":0.007935,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap\",\"state\":\"Passed\",\"durationSeconds\":0.0083691,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Rebirth_PreservesCoin_AndAchievementProgressAndClaimed\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Rebirth_PreservesCoin_AndAchievementProgressAndClaimed\",\"state\":\"Passed\",\"durationSeconds\":0.019544,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget\",\"state\":\"Passed\",\"durationSeconds\":0.0133867,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveLoad_PreservesCoin_AndAchievementsIntegrity\",\"fullName\":\"CayTheGioi.Tests.AchievementTests.SaveLoad_PreservesCoin_AndAchievementsIntegrity\",\"state\":\"Passed\",\"durationSeconds\":0.0198578,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"BuffDoesNotIncreaseConsumptionOrUnrelatedState\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState\",\"state\":\"Passed\",\"durationSeconds\":0.0033031,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CrossingBankBoundaryOnlyBuffsFirstFiveSeconds\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.CrossingBankBoundaryOnlyBuffsFirstFiveSeconds\",\"state\":\"Passed\",\"durationSeconds\":0.000624,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DeadAndBlockedCommandsPreserveStateAndEmitNoChanges\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.DeadAndBlockedCommandsPreserveStateAndEmitNoChanges\",\"state\":\"Passed\",\"durationSeconds\":0.0007465,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DragThresholdUsesDpiWithBoundedScreenFallback\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.DragThresholdUsesDpiWithBoundedScreenFallback\",\"state\":\"Passed\",\"durationSeconds\":0.0021315,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EvaluateIsPureAndEventsSeeCommittedSnapshot\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.EvaluateIsPureAndEventsSeeCommittedSnapshot\",\"state\":\"Passed\",\"durationSeconds\":0.0005186,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield\",\"state\":\"Passed\",\"durationSeconds\":0.0003087,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"GestureRejectsHoldDragCancelWrongPointerAndUi\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.GestureRejectsHoldDragCancelWrongPointerAndUi\",\"state\":\"Passed\",\"durationSeconds\":0.0005925,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(double.NaN)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.NaN)\",\"state\":\"Passed\",\"durationSeconds\":0.0003927,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0000721,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidTimeCannotMutate(-1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0000339,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1)\",\"state\":\"Passed\",\"durationSeconds\":0.0004156,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(10)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(10)\",\"state\":\"Passed\",\"durationSeconds\":0.0000721,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesStopAtAvailableWater(1000)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1000)\",\"state\":\"Passed\",\"durationSeconds\":0.0010622,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OverflowInSecondSegmentRollsBackResourcesAndBank\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.OverflowInSecondSegmentRollsBackResourcesAndBank\",\"state\":\"Passed\",\"durationSeconds\":0.0005682,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RewardClampsAtCapEvenWhenAlreadyFull\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RewardClampsAtCapEvenWhenAlreadyFull\",\"state\":\"Passed\",\"durationSeconds\":0.0004534,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(1)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1)\",\"state\":\"Passed\",\"durationSeconds\":0.0005348,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(10)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(10)\",\"state\":\"Passed\",\"durationSeconds\":0.0001643,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootProducesTenRegardlessOfPartition(1000)\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1000)\",\"state\":\"Passed\",\"durationSeconds\":0.0087462,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesTests.SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions\",\"state\":\"Passed\",\"durationSeconds\":0.0015489,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Cosmetic_DoesNotAffectGameplay_RatesHpProtection\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.Cosmetic_DoesNotAffectGameplay_RatesHpProtection\",\"state\":\"Passed\",\"durationSeconds\":0.01598,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned\",\"state\":\"Passed\",\"durationSeconds\":0.0253509,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Buy_InsufficientCoin_Fails\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_InsufficientCoin_Fails\",\"state\":\"Passed\",\"durationSeconds\":0.0088806,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership\",\"state\":\"Passed\",\"durationSeconds\":0.0208284,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip\",\"state\":\"Passed\",\"durationSeconds\":0.0186641,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Equip_NotOwned_Fails\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Equip_NotOwned_Fails\",\"state\":\"Passed\",\"durationSeconds\":0.0059439,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId\",\"state\":\"Passed\",\"durationSeconds\":0.0237054,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_InitialState_NoneEquipped_EmptyOwned\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_InitialState_NoneEquipped_EmptyOwned\",\"state\":\"Passed\",\"durationSeconds\":0.0063483,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped\",\"state\":\"Passed\",\"durationSeconds\":0.0280093,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped\",\"state\":\"Passed\",\"durationSeconds\":0.0323299,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20\",\"fullName\":\"CayTheGioi.Tests.CosmeticTests.Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20\",\"state\":\"Passed\",\"durationSeconds\":0.0108286,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition\",\"state\":\"Passed\",\"durationSeconds\":0.0010772,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DeadInvalidStageAndShrinkingCapsAreRejected\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.DeadInvalidStageAndShrinkingCapsAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0005588,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality\",\"state\":\"Passed\",\"durationSeconds\":0.0008036,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)\",\"state\":\"Passed\",\"durationSeconds\":0.0005866,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)\",\"state\":\"Passed\",\"durationSeconds\":0.0000839,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)\",\"state\":\"Passed\",\"durationSeconds\":0.0000532,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0000562,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NumericPrecisionInvalidCostAndLaterMilestoneAreHandled\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.NumericPrecisionInvalidCostAndLaterMilestoneAreHandled\",\"state\":\"Passed\",\"durationSeconds\":0.0002607,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment\",\"state\":\"Passed\",\"durationSeconds\":0.0013276,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable\",\"fullName\":\"CayTheGioi.Tests.EvolutionTests.UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable\",\"state\":\"Passed\",\"durationSeconds\":0.0004358,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"BuildEntryAndEditorSettingsPointToFoundationScene\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene\",\"state\":\"Passed\",\"durationSeconds\":0.001576,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CreatedConfigHasAllValidPrefabViews\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.CreatedConfigHasAllValidPrefabViews\",\"state\":\"Passed\",\"durationSeconds\":0.001598,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DefaultRulesMatchConfirmedOfflineAndVitalityContracts\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.DefaultRulesMatchConfirmedOfflineAndVitalityContracts\",\"state\":\"Passed\",\"durationSeconds\":0.0003003,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DuplicateStageAndUnknownInitialIdAreRejected\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.DuplicateStageAndUnknownInitialIdAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0004542,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(-1)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0003886,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(double.NaN)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.NaN)\",\"state\":\"Passed\",\"durationSeconds\":0.0000581,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEconomyValueCannotInitialize(double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0000361,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NewRunsHaveUniqueIdsAndIndependentMutableData\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.NewRunsHaveUniqueIdsAndIndependentMutableData\",\"state\":\"Passed\",\"durationSeconds\":0.0003396,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences\",\"state\":\"Passed\",\"durationSeconds\":0.0004567,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ShrinkingCapAndCyclicStageChainAreRejected\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0001459,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors\",\"fullName\":\"CayTheGioi.Tests.FoundationTests.StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors\",\"state\":\"Passed\",\"durationSeconds\":0.0039482,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay\",\"state\":\"Passed\",\"durationSeconds\":0.0158132,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DeadWeatherStatusPermanentAndSettingsRemainUntouched\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.DeadWeatherStatusPermanentAndSettingsRemainUntouched\",\"state\":\"Passed\",\"durationSeconds\":0.0091086,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)\",\"state\":\"Passed\",\"durationSeconds\":0.0113826,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)\",\"state\":\"Passed\",\"durationSeconds\":0.0133312,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrOverflowCandidateCannotChangeGoodFile\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.InvalidOrOverflowCandidateCannotChangeGoodFile\",\"state\":\"Passed\",\"durationSeconds\":0.0044333,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)\",\"state\":\"Passed\",\"durationSeconds\":0.000656,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)\",\"state\":\"Passed\",\"durationSeconds\":0.0001622,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)\",\"state\":\"Passed\",\"durationSeconds\":0.0001135,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata\",\"state\":\"Passed\",\"durationSeconds\":0.000301,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootCapHalfRateAndVitalityFreeze(3600,1800)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(3600,1800)\",\"state\":\"Passed\",\"durationSeconds\":0.0011006,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootCapHalfRateAndVitalityFreeze(86400,43200)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(86400,43200)\",\"state\":\"Passed\",\"durationSeconds\":0.0001945,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RootCapHalfRateAndVitalityFreeze(108000,43200)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(108000,43200)\",\"state\":\"Passed\",\"durationSeconds\":0.0001343,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SimultaneousSupplyDemandUsesEffectiveDurationOnce\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.SimultaneousSupplyDemandUsesEffectiveDurationOnce\",\"state\":\"Passed\",\"durationSeconds\":0.0003482,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ZeroAndNegativeClockDoNotRewardOrRewind(1000)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(1000)\",\"state\":\"Passed\",\"durationSeconds\":0.0005963,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ZeroAndNegativeClockDoNotRewardOrRewind(999)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(999)\",\"state\":\"Passed\",\"durationSeconds\":0.0001674,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ZeroAndNegativeClockDoNotRewardOrRewind(-1)\",\"fullName\":\"CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0001563,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OfflineBankMatchesConfirmedRule24HoursAt50Percent\",\"fullName\":\"CayTheGioi.Tests.ProgressionMetricsTests.OfflineBankMatchesConfirmedRule24HoursAt50Percent\",\"state\":\"Passed\",\"durationSeconds\":0.0005483,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ProgressionToLargeTreeIsReachableForIdleAndActivePlayers\",\"fullName\":\"CayTheGioi.Tests.ProgressionMetricsTests.ProgressionToLargeTreeIsReachableForIdleAndActivePlayers\",\"state\":\"Passed\",\"durationSeconds\":0.1715886,\"message\":null,\"stackTrace\":null,\"output\":\"[T09 metrics] {\\\"label\\\":\\\"idle, evolve as soon as affordable\\\",\\\"evolveMode\\\":\\\"Asap\\\",\\\"tapsPerSecond\\\":0.0,\\\"points\\\":\\\"0/0/0\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":-1.0,\\\"youngSec\\\":43.0,\\\"youngMaxedSec\\\":-1.0,\\\"largeSec\\\":120.0,\\\"largeMaxedSec\\\":7326.0,\\\"purchases\\\":50,\\\"taps\\\":0,\\\"bankAtLarge\\\":0.0,\\\"finalWater\\\":34.40000000010332,\\\"finalGrowth\\\":27712.600000000653,\\\"longestGapSec\\\":2414.0,\\\"longestGapAt\\\":\\\"7325s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"11s seedling root -> L2\\\",\\\"11s seedling leaves -> L2\\\",\\\"20s seedling root -> L3\\\",\\\"20s seedling leaves -> L3\\\",\\\"52s young_tree root -> L4\\\",\\\"52s young_tree leaves -> L4\\\",\\\"130s large_tree root -> L5\\\",\\\"130s large_tree trunk -> L1\\\",\\\"130s large_tree trunk -> L2\\\",\\\"130s large_tree trunk -> L3\\\",\\\"130s large_tree trunk -> L4\\\",\\\"130s large_tree leaves -> L5\\\",\\\"130s large_tree trunk -> L5\\\",\\\"144s large_tree root -> L6\\\",\\\"144s large_tree leaves -> L6\\\",\\\"144s large_tree trunk -> L6\\\",\\\"163s large_tree root -> L7\\\",\\\"163s large_tree leaves -> L7\\\",\\\"176s large_tree trunk -> L7\\\",\\\"188s large_tree root -> L8\\\",\\\"192s large_tree leaves -> L8\\\",\\\"220s large_tree trunk -> L8\\\",\\\"224s large_tree root -> L9\\\",\\\"242s large_tree leaves -> L9\\\",\\\"282s large_tree trunk -> L9\\\",\\\"282s large_tree root -> L10\\\",\\\"314s large_tree leaves -> L10\\\",\\\"371s large_tree trunk -> L10\\\",\\\"371s large_tree root -> L11\\\",\\\"417s large_tree leaves -> L11\\\",\\\"455s large_tree root -> L12\\\",\\\"484s large_tree leaves -> L12\\\",\\\"611s large_tree root -> L13\\\",\\\"611s large_tree leaves -> L13\\\",\\\"805s large_tree root -> L14\\\",\\\"805s large_tree leaves -> L14\\\",\\\"1131s large_tree root -> L15\\\",\\\"1131s large_tree leaves -> L15\\\",\\\"1644s large_tree root -> L16\\\",\\\"1644s large_tree leaves -> L16\\\",\\\"2412s large_tree root -> L17\\\",\\\"2412s large_tree leaves -> L17\\\",\\\"3424s large_tree root -> L18\\\",\\\"3424s large_tree leaves -> L18\\\",\\\"4911s large_tree root -> L19\\\",\\\"4911s large_tree leaves -> L19\\\",\\\"7325s large_tree root -> L20\\\",\\\"7325s large_tree leaves -> L20\\\"]}\\r\\n[T09 metrics] {\\\"label\\\":\\\"active 3 taps/s, evolve as soon as affordable\\\",\\\"evolveMode\\\":\\\"Asap\\\",\\\"tapsPerSecond\\\":3.0,\\\"points\\\":\\\"0/0/0\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":-1.0,\\\"youngSec\\\":42.0,\\\"youngMaxedSec\\\":-1.0,\\\"largeSec\\\":146.0,\\\"largeMaxedSec\\\":6883.0,\\\"purchases\\\":50,\\\"taps\\\":20649,\\\"bankAtLarge\\\":30.0,\\\"finalWater\\\":17.379999999662687,\\\"finalGrowth\\\":26405.15999999853,\\\"longestGapSec\\\":2269.0,\\\"longestGapAt\\\":\\\"6882s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"11s seedling root -> L2\\\",\\\"11s seedling leaves -> L2\\\",\\\"20s seedling root -> L3\\\",\\\"20s seedling leaves -> L3\\\",\\\"50s young_tree root -> L4\\\",\\\"50s young_tree leaves -> L4\\\",\\\"60s young_tree root -> L5\\\",\\\"60s young_tree trunk -> L1\\\",\\\"60s young_tree trunk -> L2\\\",\\\"60s young_tree trunk -> L3\\\",\\\"60s young_tree trunk -> L4\\\",\\\"67s young_tree leaves -> L5\\\",\\\"80s young_tree trunk -> L5\\\",\\\"80s young_tree root -> L6\\\",\\\"90s young_tree leaves -> L6\\\",\\\"91s young_tree root -> L7\\\",\\\"103s young_tree leaves -> L7\\\",\\\"115s young_tree root -> L8\\\",\\\"146s large_tree trunk -> L6\\\",\\\"148s large_tree trunk -> L7\\\",\\\"164s large_tree leaves -> L8\\\",\\\"190s large_tree trunk -> L8\\\",\\\"190s large_tree root -> L9\\\",\\\"212s large_tree leaves -> L9\\\",\\\"250s large_tree trunk -> L9\\\",\\\"250s large_tree root -> L10\\\",\\\"280s large_tree leaves -> L10\\\",\\\"335s large_tree trunk -> L10\\\",\\\"335s large_tree root -> L11\\\",\\\"378s large_tree leaves -> L11\\\",\\\"399s large_tree root -> L12\\\",\\\"442s large_tree leaves -> L12\\\",\\\"544s large_tree root -> L13\\\",\\\"544s large_tree leaves -> L13\\\",\\\"741s large_tree root -> L14\\\",\\\"741s large_tree leaves -> L14\\\",\\\"1030s large_tree root -> L15\\\",\\\"1030s large_tree leaves -> L15\\\",\\\"1510s large_tree root -> L16\\\",\\\"1510s large_tree leaves -> L16\\\",\\\"2231s large_tree root -> L17\\\",\\\"2231s large_tree leaves -> L17\\\",\\\"3208s large_tree root -> L18\\\",\\\"3208s large_tree leaves -> L18\\\",\\\"4613s large_tree root -> L19\\\",\\\"4613s large_tree leaves -> L19\\\",\\\"6882s large_tree root -> L20\\\",\\\"6882s large_tree leaves -> L20\\\"]}\\r\\n[T09 metrics] {\\\"label\\\":\\\"idle, max caps before evolving\\\",\\\"evolveMode\\\":\\\"AfterCaps\\\",\\\"tapsPerSecond\\\":0.0,\\\"points\\\":\\\"0/0/0\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":41.0,\\\"youngSec\\\":55.0,\\\"youngMaxedSec\\\":200.0,\\\"largeSec\\\":227.0,\\\"largeMaxedSec\\\":7287.0,\\\"purchases\\\":50,\\\"taps\\\":0,\\\"bankAtLarge\\\":0.0,\\\"finalWater\\\":23.700000000040745,\\\"finalGrowth\\\":28028.200000000594,\\\"longestGapSec\\\":2413.0,\\\"longestGapAt\\\":\\\"7286s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"11s seedling root -> L2\\\",\\\"11s seedling leaves -> L2\\\",\\\"20s seedling root -> L3\\\",\\\"20s seedling leaves -> L3\\\",\\\"29s seedling root -> L4\\\",\\\"29s seedling leaves -> L4\\\",\\\"40s seedling root -> L5\\\",\\\"40s seedling leaves -> L5\\\",\\\"55s young_tree trunk -> L1\\\",\\\"55s young_tree trunk -> L2\\\",\\\"55s young_tree trunk -> L3\\\",\\\"59s young_tree trunk -> L4\\\",\\\"72s young_tree trunk -> L5\\\",\\\"72s young_tree root -> L6\\\",\\\"83s young_tree leaves -> L6\\\",\\\"87s young_tree root -> L7\\\",\\\"97s young_tree leaves -> L7\\\",\\\"112s young_tree root -> L8\\\",\\\"116s young_tree leaves -> L8\\\",\\\"148s young_tree root -> L9\\\",\\\"148s young_tree leaves -> L9\\\",\\\"199s young_tree root -> L10\\\",\\\"199s young_tree leaves -> L10\\\",\\\"227s large_tree trunk -> L6\\\",\\\"227s large_tree trunk -> L7\\\",\\\"228s large_tree trunk -> L8\\\",\\\"264s large_tree trunk -> L9\\\",\\\"322s large_tree trunk -> L10\\\",\\\"322s large_tree root -> L11\\\",\\\"367s large_tree leaves -> L11\\\",\\\"406s large_tree root -> L12\\\",\\\"434s large_tree leaves -> L12\\\",\\\"562s large_tree root -> L13\\\",\\\"562s large_tree leaves -> L13\\\",\\\"766s large_tree root -> L14\\\",\\\"766s large_tree leaves -> L14\\\",\\\"1082s large_tree root -> L15\\\",\\\"1082s large_tree leaves -> L15\\\",\\\"1595s large_tree root -> L16\\\",\\\"1595s large_tree leaves -> L16\\\",\\\"2364s large_tree root -> L17\\\",\\\"2364s large_tree leaves -> L17\\\",\\\"3386s large_tree root -> L18\\\",\\\"3386s large_tree leaves -> L18\\\",\\\"4873s large_tree root -> L19\\\",\\\"4873s large_tree leaves -> L19\\\",\\\"7286s large_tree root -> L20\\\",\\\"7286s large_tree leaves -> L20\\\"]}\\r\\n[T09 metrics] {\\\"label\\\":\\\"active 3 taps/s, max caps before evolving\\\",\\\"evolveMode\\\":\\\"AfterCaps\\\",\\\"tapsPerSecond\\\":3.0,\\\"points\\\":\\\"0/0/0\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":40.0,\\\"youngSec\\\":53.0,\\\"youngMaxedSec\\\":189.0,\\\"largeSec\\\":214.0,\\\"largeMaxedSec\\\":6868.0,\\\"purchases\\\":50,\\\"taps\\\":20604,\\\"bankAtLarge\\\":42.0,\\\"finalWater\\\":27.149999999732245,\\\"finalGrowth\\\":26576.09999999856,\\\"longestGapSec\\\":2270.0,\\\"longestGapAt\\\":\\\"6867s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"11s seedling root -> L2\\\",\\\"11s seedling leaves -> L2\\\",\\\"20s seedling root -> L3\\\",\\\"20s seedling leaves -> L3\\\",\\\"29s seedling root -> L4\\\",\\\"29s seedling leaves -> L4\\\",\\\"39s seedling root -> L5\\\",\\\"39s seedling leaves -> L5\\\",\\\"53s young_tree trunk -> L1\\\",\\\"53s young_tree trunk -> L2\\\",\\\"53s young_tree trunk -> L3\\\",\\\"57s young_tree trunk -> L4\\\",\\\"70s young_tree trunk -> L5\\\",\\\"70s young_tree root -> L6\\\",\\\"80s young_tree leaves -> L6\\\",\\\"83s young_tree root -> L7\\\",\\\"93s young_tree leaves -> L7\\\",\\\"107s young_tree root -> L8\\\",\\\"112s young_tree leaves -> L8\\\",\\\"140s young_tree root -> L9\\\",\\\"140s young_tree leaves -> L9\\\",\\\"188s young_tree root -> L10\\\",\\\"188s young_tree leaves -> L10\\\",\\\"214s large_tree trunk -> L6\\\",\\\"214s large_tree trunk -> L7\\\",\\\"219s large_tree trunk -> L8\\\",\\\"253s large_tree trunk -> L9\\\",\\\"307s large_tree trunk -> L10\\\",\\\"307s large_tree root -> L11\\\",\\\"351s large_tree leaves -> L11\\\",\\\"383s large_tree root -> L12\\\",\\\"415s large_tree leaves -> L12\\\",\\\"529s large_tree root -> L13\\\",\\\"529s large_tree leaves -> L13\\\",\\\"729s large_tree root -> L14\\\",\\\"729s large_tree leaves -> L14\\\",\\\"1014s large_tree root -> L15\\\",\\\"1014s large_tree leaves -> L15\\\",\\\"1495s large_tree root -> L16\\\",\\\"1495s large_tree leaves -> L16\\\",\\\"2215s large_tree root -> L17\\\",\\\"2215s large_tree leaves -> L17\\\",\\\"3192s large_tree root -> L18\\\",\\\"3192s large_tree leaves -> L18\\\",\\\"4597s large_tree root -> L19\\\",\\\"4597s large_tree leaves -> L19\\\",\\\"6867s large_tree root -> L20\\\",\\\"6867s large_tree leaves -> L20\\\"]}\\r\\n[T09 metrics] {\\\"label\\\":\\\"idle, evolve ASAP, points 3/3/3 (after Rebirths)\\\",\\\"evolveMode\\\":\\\"Asap\\\",\\\"tapsPerSecond\\\":0.0,\\\"points\\\":\\\"3/3/3\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":-1.0,\\\"youngSec\\\":36.0,\\\"youngMaxedSec\\\":-1.0,\\\"largeSec\\\":129.0,\\\"largeMaxedSec\\\":6149.0,\\\"purchases\\\":50,\\\"taps\\\":0,\\\"bankAtLarge\\\":0.0,\\\"finalWater\\\":20.159999998722924,\\\"finalGrowth\\\":23166.25999999707,\\\"longestGapSec\\\":1979.0,\\\"longestGapAt\\\":\\\"6148s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"9s seedling root -> L2\\\",\\\"9s seedling leaves -> L2\\\",\\\"17s seedling root -> L3\\\",\\\"17s seedling leaves -> L3\\\",\\\"43s young_tree root -> L4\\\",\\\"43s young_tree leaves -> L4\\\",\\\"52s young_tree root -> L5\\\",\\\"52s young_tree trunk -> L1\\\",\\\"52s young_tree trunk -> L2\\\",\\\"52s young_tree trunk -> L3\\\",\\\"53s young_tree trunk -> L4\\\",\\\"60s young_tree leaves -> L5\\\",\\\"71s young_tree trunk -> L5\\\",\\\"71s young_tree root -> L6\\\",\\\"81s young_tree leaves -> L6\\\",\\\"81s young_tree root -> L7\\\",\\\"93s young_tree leaves -> L7\\\",\\\"101s young_tree root -> L8\\\",\\\"129s large_tree trunk -> L6\\\",\\\"136s large_tree trunk -> L7\\\",\\\"150s large_tree leaves -> L8\\\",\\\"174s large_tree trunk -> L8\\\",\\\"174s large_tree root -> L9\\\",\\\"194s large_tree leaves -> L9\\\",\\\"229s large_tree trunk -> L9\\\",\\\"229s large_tree root -> L10\\\",\\\"256s large_tree leaves -> L10\\\",\\\"306s large_tree trunk -> L10\\\",\\\"306s large_tree root -> L11\\\",\\\"346s large_tree leaves -> L11\\\",\\\"356s large_tree root -> L12\\\",\\\"404s large_tree leaves -> L12\\\",\\\"485s large_tree root -> L13\\\",\\\"489s large_tree leaves -> L13\\\",\\\"675s large_tree root -> L14\\\",\\\"675s large_tree leaves -> L14\\\",\\\"912s large_tree root -> L15\\\",\\\"912s large_tree leaves -> L15\\\",\\\"1339s large_tree root -> L16\\\",\\\"1339s large_tree leaves -> L16\\\",\\\"1980s large_tree root -> L17\\\",\\\"1980s large_tree leaves -> L17\\\",\\\"2869s large_tree root -> L18\\\",\\\"2869s large_tree leaves -> L18\\\",\\\"4169s large_tree root -> L19\\\",\\\"4169s large_tree leaves -> L19\\\",\\\"6148s large_tree root -> L20\\\",\\\"6148s large_tree leaves -> L20\\\"]}\\r\\n[T09 metrics] {\\\"label\\\":\\\"idle, max caps first, points 3/3/3 (after Rebirths)\\\",\\\"evolveMode\\\":\\\"AfterCaps\\\",\\\"tapsPerSecond\\\":0.0,\\\"points\\\":\\\"3/3/3\\\",\\\"firstRootSec\\\":1.0,\\\"firstLeavesSec\\\":1.0,\\\"seedlingMaxedSec\\\":35.0,\\\"youngSec\\\":46.0,\\\"youngMaxedSec\\\":167.0,\\\"largeSec\\\":190.0,\\\"largeMaxedSec\\\":6134.0,\\\"purchases\\\":50,\\\"taps\\\":0,\\\"bankAtLarge\\\":0.0,\\\"finalWater\\\":23.9699999987497,\\\"finalGrowth\\\":23400.169999997073,\\\"longestGapSec\\\":1979.0,\\\"longestGapAt\\\":\\\"6133s large_tree root -> L20\\\",\\\"purchaseLog\\\":[\\\"0s seedling root -> L1\\\",\\\"0s seedling leaves -> L1\\\",\\\"9s seedling root -> L2\\\",\\\"9s seedling leaves -> L2\\\",\\\"17s seedling root -> L3\\\",\\\"17s seedling leaves -> L3\\\",\\\"25s seedling root -> L4\\\",\\\"25s seedling leaves -> L4\\\",\\\"34s seedling root -> L5\\\",\\\"34s seedling leaves -> L5\\\",\\\"46s young_tree trunk -> L1\\\",\\\"46s young_tree trunk -> L2\\\",\\\"46s young_tree trunk -> L3\\\",\\\"51s young_tree trunk -> L4\\\",\\\"63s young_tree trunk -> L5\\\",\\\"63s young_tree root -> L6\\\",\\\"72s young_tree leaves -> L6\\\",\\\"73s young_tree root -> L7\\\",\\\"84s young_tree leaves -> L7\\\",\\\"94s young_tree root -> L8\\\",\\\"101s young_tree leaves -> L8\\\",\\\"124s young_tree root -> L9\\\",\\\"124s young_tree leaves -> L9\\\",\\\"166s young_tree root -> L10\\\",\\\"166s young_tree leaves -> L10\\\",\\\"190s large_tree trunk -> L6\\\",\\\"190s large_tree trunk -> L7\\\",\\\"199s large_tree trunk -> L8\\\",\\\"231s large_tree trunk -> L9\\\",\\\"280s large_tree trunk -> L10\\\",\\\"280s large_tree root -> L11\\\",\\\"320s large_tree leaves -> L11\\\",\\\"340s large_tree root -> L12\\\",\\\"378s large_tree leaves -> L12\\\",\\\"470s large_tree root -> L13\\\",\\\"470s large_tree leaves -> L13\\\",\\\"662s large_tree root -> L14\\\",\\\"662s large_tree leaves -> L14\\\",\\\"897s large_tree root -> L15\\\",\\\"897s large_tree leaves -> L15\\\",\\\"1324s large_tree root -> L16\\\",\\\"1324s large_tree leaves -> L16\\\",\\\"1964s large_tree root -> L17\\\",\\\"1964s large_tree leaves -> L17\\\",\\\"2857s large_tree root -> L18\\\",\\\"2857s large_tree leaves -> L18\\\",\\\"4154s large_tree root -> L19\\\",\\\"4154s large_tree leaves -> L19\\\",\\\"6133s large_tree root -> L20\\\",\\\"6133s large_tree leaves -> L20\\\"]}\\r\\n\"},{\"name\":\"ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible\",\"fullName\":\"CayTheGioi.Tests.ProgressionMetricsTests.ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible\",\"state\":\"Passed\",\"durationSeconds\":0.389152,\"message\":null,\"stackTrace\":null,\"output\":\"[T09 metrics] {\\\"trunkLevel\\\":0,\\\"runs\\\":200,\\\"protection\\\":0.0,\\\"medianHours\\\":4.402777777777778,\\\"p10Hours\\\":2.286111111111111,\\\"p90Hours\\\":7.830555555555556,\\\"meanStrikes\\\":5.0,\\\"fractionDeadWithin72h\\\":1.0}\\r\\n[T09 metrics] {\\\"trunkLevel\\\":5,\\\"runs\\\":200,\\\"protection\\\":0.25,\\\"medianHours\\\":5.35,\\\"p10Hours\\\":2.763888888888889,\\\"p90Hours\\\":10.116666666666667,\\\"meanStrikes\\\":5.0,\\\"fractionDeadWithin72h\\\":1.0}\\r\\n[T09 metrics] {\\\"trunkLevel\\\":10,\\\"runs\\\":200,\\\"protection\\\":0.5,\\\"medianHours\\\":6.625,\\\"p10Hours\\\":3.4833333333333334,\\\"p90Hours\\\":11.116666666666667,\\\"meanStrikes\\\":5.0,\\\"fractionDeadWithin72h\\\":1.0}\\r\\n\"},{\"name\":\"CloneAliasCannotExposeUncommittedReset\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.CloneAliasCannotExposeUncommittedReset\",\"state\":\"Passed\",\"durationSeconds\":0.0079733,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay\",\"state\":\"Passed\",\"durationSeconds\":0.0084095,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder\",\"state\":\"Passed\",\"durationSeconds\":0.0042774,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)\",\"state\":\"Passed\",\"durationSeconds\":0.0094774,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)\",\"state\":\"Passed\",\"durationSeconds\":0.008556,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"seedling\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"seedling\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0089868,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"young_tree\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"young_tree\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0076357,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"large_tree\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\\\"large_tree\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0081681,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEffectConfigurationIsRejected(\\\"duplicate\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\\\"duplicate\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0048538,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEffectConfigurationIsRejected(\\\"missing\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\\\"missing\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0025636,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEffectConfigurationIsRejected(\\\"target\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\\\"target\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.003137,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidEffectConfigurationIsRejected(\\\"nan\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\\\"nan\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0029111,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrLockedCannotCommit(\\\"locked\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\\\"locked\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0062539,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrLockedCannotCommit(\\\"overflow\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\\\"overflow\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0036399,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrLockedCannotCommit(\\\"count\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\\\"count\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0042451,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidOrLockedCannotCommit(\\\"invalid\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\\\"invalid\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0031762,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked\",\"state\":\"Passed\",\"durationSeconds\":0.0090422,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OlderConfigMigratesByValidationWithoutResettingWallets(\\\"prototype-1\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(\\\"prototype-1\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0064756,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OlderConfigMigratesByValidationWithoutResettingWallets(\\\"prototype-2\\\")\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(\\\"prototype-2\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0040917,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus\",\"state\":\"Passed\",\"durationSeconds\":0.0044213,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse\",\"state\":\"Passed\",\"durationSeconds\":0.010394,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SeparateEffectsAffectOnlyTheirTarget(\\\"seedling\\\",1.1d,1,0)\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\\\"seedling\\\",1.1d,1,0)\",\"state\":\"Passed\",\"durationSeconds\":0.0050016,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SeparateEffectsAffectOnlyTheirTarget(\\\"young_tree\\\",1,1.1d,0)\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\\\"young_tree\\\",1,1.1d,0)\",\"state\":\"Passed\",\"durationSeconds\":0.0037215,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SeparateEffectsAffectOnlyTheirTarget(\\\"large_tree\\\",1,1,0.04d)\",\"fullName\":\"CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\\\"large_tree\\\",1,1,0.04d)\",\"state\":\"Passed\",\"durationSeconds\":0.0028209,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ClockRollbackDoesNotMoveCheckpointBackward\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.ClockRollbackDoesNotMoveCheckpointBackward\",\"state\":\"Passed\",\"durationSeconds\":0.0086953,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CorruptBothPreservedUntilExplicitArchivedReset\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.CorruptBothPreservedUntilExplicitArchivedReset\",\"state\":\"Passed\",\"durationSeconds\":0.0135354,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailureAfterReplacementAcknowledgesCommittedSnapshot\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.FailureAfterReplacementAcknowledgesCommittedSnapshot\",\"state\":\"Passed\",\"durationSeconds\":0.0094134,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailureBeforeCommitRetainsMainAndRevision(AfterFlush)\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(AfterFlush)\",\"state\":\"Passed\",\"durationSeconds\":0.0077036,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)\",\"state\":\"Passed\",\"durationSeconds\":0.0069465,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidRuntimeCannotReplaceGoodSave(\\\"life\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\\\"life\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0047594,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidRuntimeCannotReplaceGoodSave(\\\"counter\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\\\"counter\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0042224,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidRuntimeCannotReplaceGoodSave(\\\"points\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\\\"points\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0041535,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidRuntimeCannotReplaceGoodSave(\\\"weather\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\\\"weather\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0042909,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MissingMainStillOffersBackupAndRequiresAcceptance\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.MissingMainStillOffersBackupAndRequiresAcceptance\",\"state\":\"Passed\",\"durationSeconds\":0.0135311,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"MissingOptionalFieldsDefaultButMissingCoreIsRejected\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.MissingOptionalFieldsDefaultButMissingCoreIsRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0006735,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NewerSchemaAndUnknownConfigCannotBeOverwritten\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.NewerSchemaAndUnknownConfigCannotBeOverwritten\",\"state\":\"Passed\",\"durationSeconds\":0.006397,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OlderSchemaAndDuplicateJsonKeysAreRejected\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.OlderSchemaAndDuplicateJsonKeysAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0056302,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SnapshotAndRestoreHaveNoMutableEntryAliases\",\"fullName\":\"CayTheGioi.Tests.SaveSafetyTests.SnapshotAndRestoreHaveNoMutableEntryAliases\",\"state\":\"Passed\",\"durationSeconds\":0.0006744,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-1\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-1\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0022182,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-2\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-2\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0008782,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-3\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-3\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0009065,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-4\\\")\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\\\"prototype-4\\\")\",\"state\":\"Passed\",\"durationSeconds\":0.0008644,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Restore_Roundtrip_PreservesAllFields\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Restore_Roundtrip_PreservesAllFields\",\"state\":\"Passed\",\"durationSeconds\":0.0010237,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_CorruptBothFiles_ReturnsCorruptNoBackup\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptBothFiles_ReturnsCorruptNoBackup\",\"state\":\"Passed\",\"durationSeconds\":0.0070631,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_CorruptMain_LoadsFromBackup\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptMain_LoadsFromBackup\",\"state\":\"Passed\",\"durationSeconds\":0.0073536,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_DeleteFiles_ClearsAll\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_DeleteFiles_ClearsAll\",\"state\":\"Passed\",\"durationSeconds\":0.0113266,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_MissingFieldsGetDefaults_AfterRestore\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_MissingFieldsGetDefaults_AfterRestore\",\"state\":\"Passed\",\"durationSeconds\":0.0020337,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_MutipleQuickSaves_DoNotDoubleSave\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_MutipleQuickSaves_DoNotDoubleSave\",\"state\":\"Passed\",\"durationSeconds\":0.0183944,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_NewGame_WhenNoFileExists\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_NewGame_WhenNoFileExists\",\"state\":\"Passed\",\"durationSeconds\":0.0012354,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences\",\"state\":\"Passed\",\"durationSeconds\":0.0014595,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_RevisionIncrementsEachSave\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_RevisionIncrementsEachSave\",\"state\":\"Passed\",\"durationSeconds\":0.0137925,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_Roundtrip_SaveAndLoad\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_Roundtrip_SaveAndLoad\",\"state\":\"Passed\",\"durationSeconds\":0.0051513,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveService_VersionTooNew_DoesNotAllowLoad\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.SaveService_VersionTooNew_DoesNotAllowLoad\",\"state\":\"Passed\",\"durationSeconds\":0.0044375,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Snapshot_DeepCopiesNestedState_NoSharedReference\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Snapshot_DeepCopiesNestedState_NoSharedReference\",\"state\":\"Passed\",\"durationSeconds\":0.000835,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Snapshot_ReturnsDto_WithExpectedSchemaAndFields\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Snapshot_ReturnsDto_WithExpectedSchemaAndFields\",\"state\":\"Passed\",\"durationSeconds\":0.0008407,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_BankSecondsOverCap_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_BankSecondsOverCap_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0010367,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_EquippedCosmeticNotOwned_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_EquippedCosmeticNotOwned_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0007362,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_LevelExceedsCap_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_LevelExceedsCap_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0011004,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_NanGrowth_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_NanGrowth_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0008995,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_NegativeWater_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_NegativeWater_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0006941,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_NullDto_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_NullDto_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0010726,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_SchemaVersionTooNew_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_SchemaVersionTooNew_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0014467,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_TapProgressAtMax_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_TapProgressAtMax_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0010156,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_UnknownStageId_ReturnsError\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_UnknownStageId_ReturnsError\",\"state\":\"Passed\",\"durationSeconds\":0.0009774,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Validate_ValidNewGameDto_ReturnsEmpty\",\"fullName\":\"CayTheGioi.Tests.SaveSystemTests.Validate_ValidNewGameDto_ReturnsEmpty\",\"state\":\"Passed\",\"durationSeconds\":0.0008207,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AudioController_MusicToggle_MutesAndUnmutesBgm\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_MusicToggle_MutesAndUnmutesBgm\",\"state\":\"Passed\",\"durationSeconds\":0.4354558,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AudioController_RateLimiting_RejectsSpamTapSfx\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_RateLimiting_RejectsSpamTapSfx\",\"state\":\"Passed\",\"durationSeconds\":0.0289585,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SettingsState_Serialization_PreservesValuesAcrossSaveLoad\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.SettingsState_Serialization_PreservesValuesAcrossSaveLoad\",\"state\":\"Passed\",\"durationSeconds\":0.0003853,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock\",\"state\":\"Passed\",\"durationSeconds\":0.0004054,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_DialogueSteps_RequireConfirmation\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DialogueSteps_RequireConfirmation\",\"state\":\"Passed\",\"durationSeconds\":0.0006963,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather\",\"state\":\"Passed\",\"durationSeconds\":0.0003223,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_InitialState_CurrentStepIsVitality\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_InitialState_CurrentStepIsVitality\",\"state\":\"Passed\",\"durationSeconds\":0.0001197,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_Rebirth_PreservesCompletedSteps\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_Rebirth_PreservesCompletedSteps\",\"state\":\"Passed\",\"durationSeconds\":0.0002825,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_SaveFailure_RollsBackStepCompletion\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_SaveFailure_RollsBackStepCompletion\",\"state\":\"Passed\",\"durationSeconds\":0.0004253,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps\",\"state\":\"Passed\",\"durationSeconds\":0.0002742,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot\",\"fullName\":\"CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot\",\"state\":\"Passed\",\"durationSeconds\":0.0002317,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AbundantWaterCannotPayAGrowthCost(\\\"leaves\\\",1)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(\\\"leaves\\\",1)\",\"state\":\"Passed\",\"durationSeconds\":0.0006116,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AbundantWaterCannotPayAGrowthCost(\\\"trunk\\\",0)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(\\\"trunk\\\",0)\",\"state\":\"Passed\",\"durationSeconds\":0.000074,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AllBranchesReachTheirOwnCapWithAbundantResources\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.AllBranchesReachTheirOwnCapWithAbundantResources\",\"state\":\"Passed\",\"durationSeconds\":0.0002978,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0007317,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CostUsesConfiguredExponentialAndSingleCeiling(0,5)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(0,5)\",\"state\":\"Passed\",\"durationSeconds\":0.0004746,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CostUsesConfiguredExponentialAndSingleCeiling(1,8)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(1,8)\",\"state\":\"Passed\",\"durationSeconds\":0.0001327,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CostUsesConfiguredExponentialAndSingleCeiling(2,13)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(2,13)\",\"state\":\"Passed\",\"durationSeconds\":0.0000915,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CostUsesConfiguredExponentialAndSingleCeiling(3,21)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(3,21)\",\"state\":\"Passed\",\"durationSeconds\":0.000074,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CostUsesConfiguredExponentialAndSingleCeiling(4,33)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(4,33)\",\"state\":\"Passed\",\"durationSeconds\":0.0000648,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"CustomCostAndKDisplayStillSpendExactFullValue\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.CustomCostAndKDisplayStillSpendExactFullValue\",\"state\":\"Passed\",\"durationSeconds\":0.0004922,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"root\\\",0,\\\"water\\\",5)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"root\\\",0,\\\"water\\\",5)\",\"state\":\"Passed\",\"durationSeconds\":0.000668,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"root\\\",1,\\\"water\\\",8)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"root\\\",1,\\\"water\\\",8)\",\"state\":\"Passed\",\"durationSeconds\":0.0000773,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"leaves\\\",0,\\\"water\\\",5)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"leaves\\\",0,\\\"water\\\",5)\",\"state\":\"Passed\",\"durationSeconds\":0.0000437,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"leaves\\\",1,\\\"growth\\\",8)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"leaves\\\",1,\\\"growth\\\",8)\",\"state\":\"Passed\",\"durationSeconds\":0.0000447,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"trunk\\\",0,\\\"growth\\\",10)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\\\"trunk\\\",0,\\\"growth\\\",10)\",\"state\":\"Passed\",\"durationSeconds\":0.0000392,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState\",\"state\":\"Passed\",\"durationSeconds\":0.0007281,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"FreshRunBootstrapsAndRequotesLeavesAfterFirstPurchase\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.FreshRunBootstrapsAndRequotesLeavesAfterFirstPurchase\",\"state\":\"Passed\",\"durationSeconds\":0.0006445,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels\",\"state\":\"Passed\",\"durationSeconds\":0.0004762,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase\",\"state\":\"Passed\",\"durationSeconds\":0.000438,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidBalanceCannotMutate(double.NaN)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.NaN)\",\"state\":\"Passed\",\"durationSeconds\":0.0003268,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidBalanceCannotMutate(double.PositiveInfinity)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.PositiveInfinity)\",\"state\":\"Passed\",\"durationSeconds\":0.0000564,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidBalanceCannotMutate(-1)\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(-1)\",\"state\":\"Passed\",\"durationSeconds\":0.0000334,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected\",\"state\":\"Passed\",\"durationSeconds\":0.0002832,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents\",\"state\":\"Passed\",\"durationSeconds\":0.0003318,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade\",\"state\":\"Passed\",\"durationSeconds\":0.0003415,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"StageCapUnlocksTrunkAndVitalityNeverChangesProtection\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.StageCapUnlocksTrunkAndVitalityNeverChangesProtection\",\"state\":\"Passed\",\"durationSeconds\":0.0002517,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"UpgradeUpdatesProductionWithOneVitalityMultiplier\",\"fullName\":\"CayTheGioi.Tests.UpgradeTests.UpgradeUpdatesProductionWithOneVitalityMultiplier\",\"state\":\"Passed\",\"durationSeconds\":0.0002115,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"AfterThunderstorm_MustAlwaysTransitionToCalm\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.AfterThunderstorm_MustAlwaysTransitionToCalm\",\"state\":\"Passed\",\"durationSeconds\":0.0013792,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Burning_Deals2HpPerSecond_AndExpiresAfterDuration\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.Burning_Deals2HpPerSecond_AndExpiresAfterDuration\",\"state\":\"Passed\",\"durationSeconds\":0.0003871,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot\",\"state\":\"Passed\",\"durationSeconds\":0.0002279,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Cooldown_PreventsImmediateSubsequentStrikes\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.Cooldown_PreventsImmediateSubsequentStrikes\",\"state\":\"Passed\",\"durationSeconds\":0.0002296,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"DeadTree_StopsProductionEntirely\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.DeadTree_StopsProductionEntirely\",\"state\":\"Passed\",\"durationSeconds\":0.000197,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"EarlyStages_ExposureZero_StrikeProbabilityIsZero\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.EarlyStages_ExposureZero_StrikeProbabilityIsZero\",\"state\":\"Passed\",\"durationSeconds\":0.0001595,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"HpReachingZero_TriggersDead_AndFiresRunDiedOnce\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.HpReachingZero_TriggersDead_AndFiresRunDiedOnce\",\"state\":\"Passed\",\"durationSeconds\":0.0003486,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LargeTree_UnlocksThunderstorm\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.LargeTree_UnlocksThunderstorm\",\"state\":\"Passed\",\"durationSeconds\":0.0007769,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"LightningStrike_SetsCooldownAndStartsBurning\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.LightningStrike_SetsCooldownAndStartsBurning\",\"state\":\"Passed\",\"durationSeconds\":0.0002863,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"NonCalmWeather_NeverRepeatsTwiceInARow\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.NonCalmWeather_NeverRepeatsTwiceInARow\",\"state\":\"Passed\",\"durationSeconds\":0.000335,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Protection_DecreasesStrikeProbability\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.Protection_DecreasesStrikeProbability\",\"state\":\"Passed\",\"durationSeconds\":0.0002182,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"RainyWeather_BuffsRootWaterBy20Percent\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.RainyWeather_BuffsRootWaterBy20Percent\",\"state\":\"Passed\",\"durationSeconds\":0.0001985,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"ResetForRebirth_RestoresHpAndCalmStatus\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.ResetForRebirth_RestoresHpAndCalmStatus\",\"state\":\"Passed\",\"durationSeconds\":0.0004406,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SaveData_ValidatesAllWeatherIdsAndBurningStatus\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.SaveData_ValidatesAllWeatherIdsAndBurningStatus\",\"state\":\"Passed\",\"durationSeconds\":0.0009512,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"Seedling_OnlyHasCalmWeather\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.Seedling_OnlyHasCalmWeather\",\"state\":\"Passed\",\"durationSeconds\":0.0002214,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"StrikeProbability_IsIndependentOfFrameRate\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.StrikeProbability_IsIndependentOfFrameRate\",\"state\":\"Passed\",\"durationSeconds\":0.0001631,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"SunnyWeather_BuffsLeavesGrowthBy20Percent\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.SunnyWeather_BuffsLeavesGrowthBy20Percent\",\"state\":\"Passed\",\"durationSeconds\":0.000214,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"TransitionToCalm_ClearsBurning_WithoutHealingHp\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.TransitionToCalm_ClearsBurning_WithoutHealingHp\",\"state\":\"Passed\",\"durationSeconds\":0.0001811,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting\",\"state\":\"Passed\",\"durationSeconds\":0.0001473,\"message\":null,\"stackTrace\":null,\"output\":\"\"},{\"name\":\"YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm\",\"fullName\":\"CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm\",\"state\":\"Passed\",\"durationSeconds\":0.0007011,\"message\":null,\"stackTrace\":null,\"output\":\"\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "dd2895a0a0a0477ea3042eae6c34703d",
+          "status": "succeeded",
+          "mode": "EditMode",
+          "started_unix_ms": 1791536313401,
+          "finished_unix_ms": 1791536322459,
+          "last_update_unix_ms": 1791536322459,
+          "progress": {
+            "completed": 205,
+            "total": 205,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1791536322218,
+            "last_finished_test_full_name": "CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm",
+            "last_finished_unix_ms": 1791536322218,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "EditMode",
+            "summary": {
+              "total": 205,
+              "passed": 205,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 4.8190462,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed",
+                "fullName": "CayTheGioi.Tests.AchievementTests.AchievementSystem_EnsureEntries_InitializesAllSixAchievementsWithZeroProgressAndUnclaimed",
+                "state": "Passed",
+                "durationSeconds": 0.0665122,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Claim_BeforeUnlocked_FailsAndGrantsNoCoin",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Claim_BeforeUnlocked_FailsAndGrantsNoCoin",
+                "state": "Passed",
+                "durationSeconds": 0.007659,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Claim_RollbackOnSaveFailure_DoesNotDuplicateCoinOnRetry",
+                "state": "Passed",
+                "durationSeconds": 0.0209312,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Claim_WhenUnlocked_Grants10Coin_AndIsIdempotent",
+                "state": "Passed",
+                "durationSeconds": 0.0117214,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Coin_NotBuffedByVitalityMultiplier_AndNotUsedForUpgradeCost",
+                "state": "Passed",
+                "durationSeconds": 0.0149567,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress",
+                "fullName": "CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress",
+                "state": "Passed",
+                "durationSeconds": 0.0081418,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress",
+                "fullName": "CayTheGioi.Tests.AchievementTests.MilestoneDetection_Rebirth_UpdatesFirstRebirthProgress",
+                "state": "Passed",
+                "durationSeconds": 0.0188371,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress",
+                "fullName": "CayTheGioi.Tests.AchievementTests.MilestoneDetection_UpgradeRootAndLeaves_UpdatesProgress",
+                "state": "Passed",
+                "durationSeconds": 0.007935,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap",
+                "fullName": "CayTheGioi.Tests.AchievementTests.MilestoneDetection_VitalityReward_RequiresRewardEarnedNotSingleTap",
+                "state": "Passed",
+                "durationSeconds": 0.0083691,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Rebirth_PreservesCoin_AndAchievementProgressAndClaimed",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Rebirth_PreservesCoin_AndAchievementProgressAndClaimed",
+                "state": "Passed",
+                "durationSeconds": 0.019544,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget",
+                "fullName": "CayTheGioi.Tests.AchievementTests.Rules_ContainsSixDefaultAchievements_WithValidRewardAndTarget",
+                "state": "Passed",
+                "durationSeconds": 0.0133867,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveLoad_PreservesCoin_AndAchievementsIntegrity",
+                "fullName": "CayTheGioi.Tests.AchievementTests.SaveLoad_PreservesCoin_AndAchievementsIntegrity",
+                "state": "Passed",
+                "durationSeconds": 0.0198578,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "BuffDoesNotIncreaseConsumptionOrUnrelatedState",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState",
+                "state": "Passed",
+                "durationSeconds": 0.0033031,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CrossingBankBoundaryOnlyBuffsFirstFiveSeconds",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.CrossingBankBoundaryOnlyBuffsFirstFiveSeconds",
+                "state": "Passed",
+                "durationSeconds": 0.000624,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DeadAndBlockedCommandsPreserveStateAndEmitNoChanges",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.DeadAndBlockedCommandsPreserveStateAndEmitNoChanges",
+                "state": "Passed",
+                "durationSeconds": 0.0007465,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DragThresholdUsesDpiWithBoundedScreenFallback",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.DragThresholdUsesDpiWithBoundedScreenFallback",
+                "state": "Passed",
+                "durationSeconds": 0.0021315,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EvaluateIsPureAndEventsSeeCommittedSnapshot",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.EvaluateIsPureAndEventsSeeCommittedSnapshot",
+                "state": "Passed",
+                "durationSeconds": 0.0005186,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.FiftyAndHundredTapsBankTimeWithoutStackingOrWaterYield",
+                "state": "Passed",
+                "durationSeconds": 0.0003087,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "GestureRejectsHoldDragCancelWrongPointerAndUi",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.GestureRejectsHoldDragCancelWrongPointerAndUi",
+                "state": "Passed",
+                "durationSeconds": 0.0005925,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(double.NaN)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.NaN)",
+                "state": "Passed",
+                "durationSeconds": 0.0003927,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 7.21e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidTimeCannotMutate(-1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.InvalidTimeCannotMutate(-1)",
+                "state": "Passed",
+                "durationSeconds": 3.39e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1)",
+                "state": "Passed",
+                "durationSeconds": 0.0004156,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(10)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(10)",
+                "state": "Passed",
+                "durationSeconds": 7.21e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesStopAtAvailableWater(1000)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.LeavesStopAtAvailableWater(1000)",
+                "state": "Passed",
+                "durationSeconds": 0.0010622,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OverflowInSecondSegmentRollsBackResourcesAndBank",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.OverflowInSecondSegmentRollsBackResourcesAndBank",
+                "state": "Passed",
+                "durationSeconds": 0.0005682,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RewardClampsAtCapEvenWhenAlreadyFull",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RewardClampsAtCapEvenWhenAlreadyFull",
+                "state": "Passed",
+                "durationSeconds": 0.0004534,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(1)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1)",
+                "state": "Passed",
+                "durationSeconds": 0.0005348,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(10)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(10)",
+                "state": "Passed",
+                "durationSeconds": 0.0001643,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootProducesTenRegardlessOfPartition(1000)",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.RootProducesTenRegardlessOfPartition(1000)",
+                "state": "Passed",
+                "durationSeconds": 0.0087462,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions",
+                "fullName": "CayTheGioi.Tests.CoreResourcesTests.SimultaneousSupplyAndShortageAgreeAcrossIrregularPartitions",
+                "state": "Passed",
+                "durationSeconds": 0.0015489,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Cosmetic_DoesNotAffectGameplay_RatesHpProtection",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.Cosmetic_DoesNotAffectGameplay_RatesHpProtection",
+                "state": "Passed",
+                "durationSeconds": 0.01598,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_DoublePurchase_RejectedAsAlreadyOwned",
+                "state": "Passed",
+                "durationSeconds": 0.0253509,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Buy_InsufficientCoin_Fails",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_InsufficientCoin_Fails",
+                "state": "Passed",
+                "durationSeconds": 0.0088806,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_RollbackOnSaveFailure_DoesNotLoseCoinOrCorruptOwnership",
+                "state": "Passed",
+                "durationSeconds": 0.0208284,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Buy_SufficientCoin_DeductsCoin_AddsToOwned_DoesNotAutoEquip",
+                "state": "Passed",
+                "durationSeconds": 0.0186641,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Equip_NotOwned_Fails",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Equip_NotOwned_Fails",
+                "state": "Passed",
+                "durationSeconds": 0.0059439,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_EquipAndUnequip_WhenOwned_UpdatesEquippedCosmeticId",
+                "state": "Passed",
+                "durationSeconds": 0.0237054,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_InitialState_NoneEquipped_EmptyOwned",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_InitialState_NoneEquipped_EmptyOwned",
+                "state": "Passed",
+                "durationSeconds": 0.0063483,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_Rebirth_PreservesOwnershipAndEquipped",
+                "state": "Passed",
+                "durationSeconds": 0.0280093,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.CosmeticSystem_SaveLoad_PreservesOwnershipAndEquipped",
+                "state": "Passed",
+                "durationSeconds": 0.0323299,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20",
+                "fullName": "CayTheGioi.Tests.CosmeticTests.Rules_ContainsDefaultCosmetic_GlowPlaceholder_WithPrice20",
+                "state": "Passed",
+                "durationSeconds": 0.0108286,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.AbundantResourcesNeverAutoEvolveAndTwoCommandsSpendOncePerTransition",
+                "state": "Passed",
+                "durationSeconds": 0.0010772,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DeadInvalidStageAndShrinkingCapsAreRejected",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.DeadInvalidStageAndShrinkingCapsAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0005588,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.ExactCostCommitsBeforeEventsAndRetainsRunMetaAndVitality",
+                "state": "Passed",
+                "durationSeconds": 0.0008036,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(49.999d,25)",
+                "state": "Passed",
+                "durationSeconds": 0.0005866,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,24.999d)",
+                "state": "Passed",
+                "durationSeconds": 8.39e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(double.NaN,25)",
+                "state": "Passed",
+                "durationSeconds": 5.32e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.InvalidOrInsufficientBalancesDoNotMutateOrEmit(50,double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 5.62e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NumericPrecisionInvalidCostAndLaterMilestoneAreHandled",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.NumericPrecisionInvalidCostAndLaterMilestoneAreHandled",
+                "state": "Passed",
+                "durationSeconds": 0.0002607,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.SubscriberFailureReleasesTransientGuardWithoutRepeatingCommittedPayment",
+                "state": "Passed",
+                "durationSeconds": 0.0013276,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable",
+                "fullName": "CayTheGioi.Tests.EvolutionTests.UpgradeBlockedDuringEvolutionThenNewCapAndUnlockBecomeAvailable",
+                "state": "Passed",
+                "durationSeconds": 0.0004358,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "BuildEntryAndEditorSettingsPointToFoundationScene",
+                "fullName": "CayTheGioi.Tests.FoundationTests.BuildEntryAndEditorSettingsPointToFoundationScene",
+                "state": "Passed",
+                "durationSeconds": 0.001576,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CreatedConfigHasAllValidPrefabViews",
+                "fullName": "CayTheGioi.Tests.FoundationTests.CreatedConfigHasAllValidPrefabViews",
+                "state": "Passed",
+                "durationSeconds": 0.001598,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DefaultRulesMatchConfirmedOfflineAndVitalityContracts",
+                "fullName": "CayTheGioi.Tests.FoundationTests.DefaultRulesMatchConfirmedOfflineAndVitalityContracts",
+                "state": "Passed",
+                "durationSeconds": 0.0003003,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DuplicateStageAndUnknownInitialIdAreRejected",
+                "fullName": "CayTheGioi.Tests.FoundationTests.DuplicateStageAndUnknownInitialIdAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0004542,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(-1)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(-1)",
+                "state": "Passed",
+                "durationSeconds": 0.0003886,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(double.NaN)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.NaN)",
+                "state": "Passed",
+                "durationSeconds": 5.81e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEconomyValueCannotInitialize(double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.FoundationTests.InvalidEconomyValueCannotInitialize(double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 3.61e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NewRunsHaveUniqueIdsAndIndependentMutableData",
+                "fullName": "CayTheGioi.Tests.FoundationTests.NewRunsHaveUniqueIdsAndIndependentMutableData",
+                "state": "Passed",
+                "durationSeconds": 0.0003396,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences",
+                "fullName": "CayTheGioi.Tests.FoundationTests.SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences",
+                "state": "Passed",
+                "durationSeconds": 0.0004567,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ShrinkingCapAndCyclicStageChainAreRejected",
+                "fullName": "CayTheGioi.Tests.FoundationTests.ShrinkingCapAndCyclicStageChainAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0001459,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors",
+                "fullName": "CayTheGioi.Tests.FoundationTests.StagePrefabsUseImportedBlenderModelsUrpMaterialsAndTypedAnchors",
+                "state": "Passed",
+                "durationSeconds": 0.0039482,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay",
+                "fullName": "CayTheGioi.Tests.OfflineTests.CrashBeforeCommitReloadsOldSnapshotAndAfterCommitDoesNotReplay",
+                "state": "Passed",
+                "durationSeconds": 0.0158132,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DeadWeatherStatusPermanentAndSettingsRemainUntouched",
+                "fullName": "CayTheGioi.Tests.OfflineTests.DeadWeatherStatusPermanentAndSettingsRemainUntouched",
+                "state": "Passed",
+                "durationSeconds": 0.0091086,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(AfterFlush)",
+                "state": "Passed",
+                "durationSeconds": 0.0113826,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.FailureKeepsSourceAndRetryFromOriginalCreditsOnce(BeforeReplace)",
+                "state": "Passed",
+                "durationSeconds": 0.0133312,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrOverflowCandidateCannotChangeGoodFile",
+                "fullName": "CayTheGioi.Tests.OfflineTests.InvalidOrOverflowCandidateCannotChangeGoodFile",
+                "state": "Passed",
+                "durationSeconds": 0.0044333,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(0,3600,0,0)",
+                "state": "Passed",
+                "durationSeconds": 0.000656,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(10,3600,0,40)",
+                "state": "Passed",
+                "durationSeconds": 0.0001622,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.LeavesOnlyConsumeAvailableWaterOnce(1000,100,987.5d,50)",
+                "state": "Passed",
+                "durationSeconds": 0.0001135,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata",
+                "fullName": "CayTheGioi.Tests.OfflineTests.NeutralProductionKeepsConfiguredBranchRatesAndFreezeMetadata",
+                "state": "Passed",
+                "durationSeconds": 0.000301,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootCapHalfRateAndVitalityFreeze(3600,1800)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(3600,1800)",
+                "state": "Passed",
+                "durationSeconds": 0.0011006,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootCapHalfRateAndVitalityFreeze(86400,43200)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(86400,43200)",
+                "state": "Passed",
+                "durationSeconds": 0.0001945,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RootCapHalfRateAndVitalityFreeze(108000,43200)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.RootCapHalfRateAndVitalityFreeze(108000,43200)",
+                "state": "Passed",
+                "durationSeconds": 0.0001343,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SimultaneousSupplyDemandUsesEffectiveDurationOnce",
+                "fullName": "CayTheGioi.Tests.OfflineTests.SimultaneousSupplyDemandUsesEffectiveDurationOnce",
+                "state": "Passed",
+                "durationSeconds": 0.0003482,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ZeroAndNegativeClockDoNotRewardOrRewind(1000)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(1000)",
+                "state": "Passed",
+                "durationSeconds": 0.0005963,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ZeroAndNegativeClockDoNotRewardOrRewind(999)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(999)",
+                "state": "Passed",
+                "durationSeconds": 0.0001674,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ZeroAndNegativeClockDoNotRewardOrRewind(-1)",
+                "fullName": "CayTheGioi.Tests.OfflineTests.ZeroAndNegativeClockDoNotRewardOrRewind(-1)",
+                "state": "Passed",
+                "durationSeconds": 0.0001563,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OfflineBankMatchesConfirmedRule24HoursAt50Percent",
+                "fullName": "CayTheGioi.Tests.ProgressionMetricsTests.OfflineBankMatchesConfirmedRule24HoursAt50Percent",
+                "state": "Passed",
+                "durationSeconds": 0.0005483,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ProgressionToLargeTreeIsReachableForIdleAndActivePlayers",
+                "fullName": "CayTheGioi.Tests.ProgressionMetricsTests.ProgressionToLargeTreeIsReachableForIdleAndActivePlayers",
+                "state": "Passed",
+                "durationSeconds": 0.1715886,
+                "message": null,
+                "stackTrace": null,
+                "output": "[T09 metrics] {\"label\":\"idle, evolve as soon as affordable\",\"evolveMode\":\"Asap\",\"tapsPerSecond\":0.0,\"points\":\"0/0/0\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":-1.0,\"youngSec\":43.0,\"youngMaxedSec\":-1.0,\"largeSec\":120.0,\"largeMaxedSec\":7326.0,\"purchases\":50,\"taps\":0,\"bankAtLarge\":0.0,\"finalWater\":34.40000000010332,\"finalGrowth\":27712.600000000653,\"longestGapSec\":2414.0,\"longestGapAt\":\"7325s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"11s seedling root -> L2\",\"11s seedling leaves -> L2\",\"20s seedling root -> L3\",\"20s seedling leaves -> L3\",\"52s young_tree root -> L4\",\"52s young_tree leaves -> L4\",\"130s large_tree root -> L5\",\"130s large_tree trunk -> L1\",\"130s large_tree trunk -> L2\",\"130s large_tree trunk -> L3\",\"130s large_tree trunk -> L4\",\"130s large_tree leaves -> L5\",\"130s large_tree trunk -> L5\",\"144s large_tree root -> L6\",\"144s large_tree leaves -> L6\",\"144s large_tree trunk -> L6\",\"163s large_tree root -> L7\",\"163s large_tree leaves -> L7\",\"176s large_tree trunk -> L7\",\"188s large_tree root -> L8\",\"192s large_tree leaves -> L8\",\"220s large_tree trunk -> L8\",\"224s large_tree root -> L9\",\"242s large_tree leaves -> L9\",\"282s large_tree trunk -> L9\",\"282s large_tree root -> L10\",\"314s large_tree leaves -> L10\",\"371s large_tree trunk -> L10\",\"371s large_tree root -> L11\",\"417s large_tree leaves -> L11\",\"455s large_tree root -> L12\",\"484s large_tree leaves -> L12\",\"611s large_tree root -> L13\",\"611s large_tree leaves -> L13\",\"805s large_tree root -> L14\",\"805s large_tree leaves -> L14\",\"1131s large_tree root -> L15\",\"1131s large_tree leaves -> L15\",\"1644s large_tree root -> L16\",\"1644s large_tree leaves -> L16\",\"2412s large_tree root -> L17\",\"2412s large_tree leaves -> L17\",\"3424s large_tree root -> L18\",\"3424s large_tree leaves -> L18\",\"4911s large_tree root -> L19\",\"4911s large_tree leaves -> L19\",\"7325s large_tree root -> L20\",\"7325s large_tree leaves -> L20\"]}\r\n[T09 metrics] {\"label\":\"active 3 taps/s, evolve as soon as affordable\",\"evolveMode\":\"Asap\",\"tapsPerSecond\":3.0,\"points\":\"0/0/0\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":-1.0,\"youngSec\":42.0,\"youngMaxedSec\":-1.0,\"largeSec\":146.0,\"largeMaxedSec\":6883.0,\"purchases\":50,\"taps\":20649,\"bankAtLarge\":30.0,\"finalWater\":17.379999999662687,\"finalGrowth\":26405.15999999853,\"longestGapSec\":2269.0,\"longestGapAt\":\"6882s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"11s seedling root -> L2\",\"11s seedling leaves -> L2\",\"20s seedling root -> L3\",\"20s seedling leaves -> L3\",\"50s young_tree root -> L4\",\"50s young_tree leaves -> L4\",\"60s young_tree root -> L5\",\"60s young_tree trunk -> L1\",\"60s young_tree trunk -> L2\",\"60s young_tree trunk -> L3\",\"60s young_tree trunk -> L4\",\"67s young_tree leaves -> L5\",\"80s young_tree trunk -> L5\",\"80s young_tree root -> L6\",\"90s young_tree leaves -> L6\",\"91s young_tree root -> L7\",\"103s young_tree leaves -> L7\",\"115s young_tree root -> L8\",\"146s large_tree trunk -> L6\",\"148s large_tree trunk -> L7\",\"164s large_tree leaves -> L8\",\"190s large_tree trunk -> L8\",\"190s large_tree root -> L9\",\"212s large_tree leaves -> L9\",\"250s large_tree trunk -> L9\",\"250s large_tree root -> L10\",\"280s large_tree leaves -> L10\",\"335s large_tree trunk -> L10\",\"335s large_tree root -> L11\",\"378s large_tree leaves -> L11\",\"399s large_tree root -> L12\",\"442s large_tree leaves -> L12\",\"544s large_tree root -> L13\",\"544s large_tree leaves -> L13\",\"741s large_tree root -> L14\",\"741s large_tree leaves -> L14\",\"1030s large_tree root -> L15\",\"1030s large_tree leaves -> L15\",\"1510s large_tree root -> L16\",\"1510s large_tree leaves -> L16\",\"2231s large_tree root -> L17\",\"2231s large_tree leaves -> L17\",\"3208s large_tree root -> L18\",\"3208s large_tree leaves -> L18\",\"4613s large_tree root -> L19\",\"4613s large_tree leaves -> L19\",\"6882s large_tree root -> L20\",\"6882s large_tree leaves -> L20\"]}\r\n[T09 metrics] {\"label\":\"idle, max caps before evolving\",\"evolveMode\":\"AfterCaps\",\"tapsPerSecond\":0.0,\"points\":\"0/0/0\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":41.0,\"youngSec\":55.0,\"youngMaxedSec\":200.0,\"largeSec\":227.0,\"largeMaxedSec\":7287.0,\"purchases\":50,\"taps\":0,\"bankAtLarge\":0.0,\"finalWater\":23.700000000040745,\"finalGrowth\":28028.200000000594,\"longestGapSec\":2413.0,\"longestGapAt\":\"7286s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"11s seedling root -> L2\",\"11s seedling leaves -> L2\",\"20s seedling root -> L3\",\"20s seedling leaves -> L3\",\"29s seedling root -> L4\",\"29s seedling leaves -> L4\",\"40s seedling root -> L5\",\"40s seedling leaves -> L5\",\"55s young_tree trunk -> L1\",\"55s young_tree trunk -> L2\",\"55s young_tree trunk -> L3\",\"59s young_tree trunk -> L4\",\"72s young_tree trunk -> L5\",\"72s young_tree root -> L6\",\"83s young_tree leaves -> L6\",\"87s young_tree root -> L7\",\"97s young_tree leaves -> L7\",\"112s young_tree root -> L8\",\"116s young_tree leaves -> L8\",\"148s young_tree root -> L9\",\"148s young_tree leaves -> L9\",\"199s young_tree root -> L10\",\"199s young_tree leaves -> L10\",\"227s large_tree trunk -> L6\",\"227s large_tree trunk -> L7\",\"228s large_tree trunk -> L8\",\"264s large_tree trunk -> L9\",\"322s large_tree trunk -> L10\",\"322s large_tree root -> L11\",\"367s large_tree leaves -> L11\",\"406s large_tree root -> L12\",\"434s large_tree leaves -> L12\",\"562s large_tree root -> L13\",\"562s large_tree leaves -> L13\",\"766s large_tree root -> L14\",\"766s large_tree leaves -> L14\",\"1082s large_tree root -> L15\",\"1082s large_tree leaves -> L15\",\"1595s large_tree root -> L16\",\"1595s large_tree leaves -> L16\",\"2364s large_tree root -> L17\",\"2364s large_tree leaves -> L17\",\"3386s large_tree root -> L18\",\"3386s large_tree leaves -> L18\",\"4873s large_tree root -> L19\",\"4873s large_tree leaves -> L19\",\"7286s large_tree root -> L20\",\"7286s large_tree leaves -> L20\"]}\r\n[T09 metrics] {\"label\":\"active 3 taps/s, max caps before evolving\",\"evolveMode\":\"AfterCaps\",\"tapsPerSecond\":3.0,\"points\":\"0/0/0\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":40.0,\"youngSec\":53.0,\"youngMaxedSec\":189.0,\"largeSec\":214.0,\"largeMaxedSec\":6868.0,\"purchases\":50,\"taps\":20604,\"bankAtLarge\":42.0,\"finalWater\":27.149999999732245,\"finalGrowth\":26576.09999999856,\"longestGapSec\":2270.0,\"longestGapAt\":\"6867s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"11s seedling root -> L2\",\"11s seedling leaves -> L2\",\"20s seedling root -> L3\",\"20s seedling leaves -> L3\",\"29s seedling root -> L4\",\"29s seedling leaves -> L4\",\"39s seedling root -> L5\",\"39s seedling leaves -> L5\",\"53s young_tree trunk -> L1\",\"53s young_tree trunk -> L2\",\"53s young_tree trunk -> L3\",\"57s young_tree trunk -> L4\",\"70s young_tree trunk -> L5\",\"70s young_tree root -> L6\",\"80s young_tree leaves -> L6\",\"83s young_tree root -> L7\",\"93s young_tree leaves -> L7\",\"107s young_tree root -> L8\",\"112s young_tree leaves -> L8\",\"140s young_tree root -> L9\",\"140s young_tree leaves -> L9\",\"188s young_tree root -> L10\",\"188s young_tree leaves -> L10\",\"214s large_tree trunk -> L6\",\"214s large_tree trunk -> L7\",\"219s large_tree trunk -> L8\",\"253s large_tree trunk -> L9\",\"307s large_tree trunk -> L10\",\"307s large_tree root -> L11\",\"351s large_tree leaves -> L11\",\"383s large_tree root -> L12\",\"415s large_tree leaves -> L12\",\"529s large_tree root -> L13\",\"529s large_tree leaves -> L13\",\"729s large_tree root -> L14\",\"729s large_tree leaves -> L14\",\"1014s large_tree root -> L15\",\"1014s large_tree leaves -> L15\",\"1495s large_tree root -> L16\",\"1495s large_tree leaves -> L16\",\"2215s large_tree root -> L17\",\"2215s large_tree leaves -> L17\",\"3192s large_tree root -> L18\",\"3192s large_tree leaves -> L18\",\"4597s large_tree root -> L19\",\"4597s large_tree leaves -> L19\",\"6867s large_tree root -> L20\",\"6867s large_tree leaves -> L20\"]}\r\n[T09 metrics] {\"label\":\"idle, evolve ASAP, points 3/3/3 (after Rebirths)\",\"evolveMode\":\"Asap\",\"tapsPerSecond\":0.0,\"points\":\"3/3/3\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":-1.0,\"youngSec\":36.0,\"youngMaxedSec\":-1.0,\"largeSec\":129.0,\"largeMaxedSec\":6149.0,\"purchases\":50,\"taps\":0,\"bankAtLarge\":0.0,\"finalWater\":20.159999998722924,\"finalGrowth\":23166.25999999707,\"longestGapSec\":1979.0,\"longestGapAt\":\"6148s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"9s seedling root -> L2\",\"9s seedling leaves -> L2\",\"17s seedling root -> L3\",\"17s seedling leaves -> L3\",\"43s young_tree root -> L4\",\"43s young_tree leaves -> L4\",\"52s young_tree root -> L5\",\"52s young_tree trunk -> L1\",\"52s young_tree trunk -> L2\",\"52s young_tree trunk -> L3\",\"53s young_tree trunk -> L4\",\"60s young_tree leaves -> L5\",\"71s young_tree trunk -> L5\",\"71s young_tree root -> L6\",\"81s young_tree leaves -> L6\",\"81s young_tree root -> L7\",\"93s young_tree leaves -> L7\",\"101s young_tree root -> L8\",\"129s large_tree trunk -> L6\",\"136s large_tree trunk -> L7\",\"150s large_tree leaves -> L8\",\"174s large_tree trunk -> L8\",\"174s large_tree root -> L9\",\"194s large_tree leaves -> L9\",\"229s large_tree trunk -> L9\",\"229s large_tree root -> L10\",\"256s large_tree leaves -> L10\",\"306s large_tree trunk -> L10\",\"306s large_tree root -> L11\",\"346s large_tree leaves -> L11\",\"356s large_tree root -> L12\",\"404s large_tree leaves -> L12\",\"485s large_tree root -> L13\",\"489s large_tree leaves -> L13\",\"675s large_tree root -> L14\",\"675s large_tree leaves -> L14\",\"912s large_tree root -> L15\",\"912s large_tree leaves -> L15\",\"1339s large_tree root -> L16\",\"1339s large_tree leaves -> L16\",\"1980s large_tree root -> L17\",\"1980s large_tree leaves -> L17\",\"2869s large_tree root -> L18\",\"2869s large_tree leaves -> L18\",\"4169s large_tree root -> L19\",\"4169s large_tree leaves -> L19\",\"6148s large_tree root -> L20\",\"6148s large_tree leaves -> L20\"]}\r\n[T09 metrics] {\"label\":\"idle, max caps first, points 3/3/3 (after Rebirths)\",\"evolveMode\":\"AfterCaps\",\"tapsPerSecond\":0.0,\"points\":\"3/3/3\",\"firstRootSec\":1.0,\"firstLeavesSec\":1.0,\"seedlingMaxedSec\":35.0,\"youngSec\":46.0,\"youngMaxedSec\":167.0,\"largeSec\":190.0,\"largeMaxedSec\":6134.0,\"purchases\":50,\"taps\":0,\"bankAtLarge\":0.0,\"finalWater\":23.9699999987497,\"finalGrowth\":23400.169999997073,\"longestGapSec\":1979.0,\"longestGapAt\":\"6133s large_tree root -> L20\",\"purchaseLog\":[\"0s seedling root -> L1\",\"0s seedling leaves -> L1\",\"9s seedling root -> L2\",\"9s seedling leaves -> L2\",\"17s seedling root -> L3\",\"17s seedling leaves -> L3\",\"25s seedling root -> L4\",\"25s seedling leaves -> L4\",\"34s seedling root -> L5\",\"34s seedling leaves -> L5\",\"46s young_tree trunk -> L1\",\"46s young_tree trunk -> L2\",\"46s young_tree trunk -> L3\",\"51s young_tree trunk -> L4\",\"63s young_tree trunk -> L5\",\"63s young_tree root -> L6\",\"72s young_tree leaves -> L6\",\"73s young_tree root -> L7\",\"84s young_tree leaves -> L7\",\"94s young_tree root -> L8\",\"101s young_tree leaves -> L8\",\"124s young_tree root -> L9\",\"124s young_tree leaves -> L9\",\"166s young_tree root -> L10\",\"166s young_tree leaves -> L10\",\"190s large_tree trunk -> L6\",\"190s large_tree trunk -> L7\",\"199s large_tree trunk -> L8\",\"231s large_tree trunk -> L9\",\"280s large_tree trunk -> L10\",\"280s large_tree root -> L11\",\"320s large_tree leaves -> L11\",\"340s large_tree root -> L12\",\"378s large_tree leaves -> L12\",\"470s large_tree root -> L13\",\"470s large_tree leaves -> L13\",\"662s large_tree root -> L14\",\"662s large_tree leaves -> L14\",\"897s large_tree root -> L15\",\"897s large_tree leaves -> L15\",\"1324s large_tree root -> L16\",\"1324s large_tree leaves -> L16\",\"1964s large_tree root -> L17\",\"1964s large_tree leaves -> L17\",\"2857s large_tree root -> L18\",\"2857s large_tree leaves -> L18\",\"4154s large_tree root -> L19\",\"4154s large_tree leaves -> L19\",\"6133s large_tree root -> L20\",\"6133s large_tree leaves -> L20\"]}\r\n"
+              },
+              {
+                "name": "ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible",
+                "fullName": "CayTheGioi.Tests.ProgressionMetricsTests.ThunderstormDeathRisk_ProtectionLowersRisk_DeathIsRareButPossible",
+                "state": "Passed",
+                "durationSeconds": 0.389152,
+                "message": null,
+                "stackTrace": null,
+                "output": "[T09 metrics] {\"trunkLevel\":0,\"runs\":200,\"protection\":0.0,\"medianHours\":4.402777777777778,\"p10Hours\":2.286111111111111,\"p90Hours\":7.830555555555556,\"meanStrikes\":5.0,\"fractionDeadWithin72h\":1.0}\r\n[T09 metrics] {\"trunkLevel\":5,\"runs\":200,\"protection\":0.25,\"medianHours\":5.35,\"p10Hours\":2.763888888888889,\"p90Hours\":10.116666666666667,\"meanStrikes\":5.0,\"fractionDeadWithin72h\":1.0}\r\n[T09 metrics] {\"trunkLevel\":10,\"runs\":200,\"protection\":0.5,\"medianHours\":6.625,\"p10Hours\":3.4833333333333334,\"p90Hours\":11.116666666666667,\"meanStrikes\":5.0,\"fractionDeadWithin72h\":1.0}\r\n"
+              },
+              {
+                "name": "CloneAliasCannotExposeUncommittedReset",
+                "fullName": "CayTheGioi.Tests.RebirthTests.CloneAliasCannotExposeUncommittedReset",
+                "state": "Passed",
+                "durationSeconds": 0.0079733,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay",
+                "fullName": "CayTheGioi.Tests.RebirthTests.CrashAfterReplacementReloadsNewRunAndOldCommandCannotReplay",
+                "state": "Passed",
+                "durationSeconds": 0.0084095,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder",
+                "fullName": "CayTheGioi.Tests.RebirthTests.EffectMappingUsesIdsRegardlessOfWalletAndConfigOrder",
+                "state": "Passed",
+                "durationSeconds": 0.0042774,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)",
+                "fullName": "CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(AfterFlush)",
+                "state": "Passed",
+                "durationSeconds": 0.0094774,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)",
+                "fullName": "CayTheGioi.Tests.RebirthTests.FailedCommitKeepsSourceFileAndPointThenRetryAwardsOnce(BeforeReplace)",
+                "state": "Passed",
+                "durationSeconds": 0.008556,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"seedling\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"seedling\")",
+                "state": "Passed",
+                "durationSeconds": 0.0089868,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"young_tree\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"young_tree\")",
+                "state": "Passed",
+                "durationSeconds": 0.0076357,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"large_tree\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.ForcedDeathAnyStageAwardsItsPointAndFreezesUntilConfirmation(\"large_tree\")",
+                "state": "Passed",
+                "durationSeconds": 0.0081681,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEffectConfigurationIsRejected(\"duplicate\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\"duplicate\")",
+                "state": "Passed",
+                "durationSeconds": 0.0048538,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEffectConfigurationIsRejected(\"missing\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\"missing\")",
+                "state": "Passed",
+                "durationSeconds": 0.0025636,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEffectConfigurationIsRejected(\"target\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\"target\")",
+                "state": "Passed",
+                "durationSeconds": 0.003137,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidEffectConfigurationIsRejected(\"nan\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidEffectConfigurationIsRejected(\"nan\")",
+                "state": "Passed",
+                "durationSeconds": 0.0029111,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrLockedCannotCommit(\"locked\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\"locked\")",
+                "state": "Passed",
+                "durationSeconds": 0.0062539,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrLockedCannotCommit(\"overflow\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\"overflow\")",
+                "state": "Passed",
+                "durationSeconds": 0.0036399,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrLockedCannotCommit(\"count\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\"count\")",
+                "state": "Passed",
+                "durationSeconds": 0.0042451,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidOrLockedCannotCommit(\"invalid\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.InvalidOrLockedCannotCommit(\"invalid\")",
+                "state": "Passed",
+                "durationSeconds": 0.0031762,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked",
+                "fullName": "CayTheGioi.Tests.RebirthTests.ObserverFailureCannotUndoAcknowledgedCommitOrLeaveGuardLocked",
+                "state": "Passed",
+                "durationSeconds": 0.0090422,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OlderConfigMigratesByValidationWithoutResettingWallets(\"prototype-1\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(\"prototype-1\")",
+                "state": "Passed",
+                "durationSeconds": 0.0064756,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OlderConfigMigratesByValidationWithoutResettingWallets(\"prototype-2\")",
+                "fullName": "CayTheGioi.Tests.RebirthTests.OlderConfigMigratesByValidationWithoutResettingWallets(\"prototype-2\")",
+                "state": "Passed",
+                "durationSeconds": 0.0040917,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus",
+                "fullName": "CayTheGioi.Tests.RebirthTests.OnlineOfflineRatesSharePermanentEffectsWithoutVitalityOrConsumptionBonus",
+                "state": "Passed",
+                "durationSeconds": 0.0044213,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse",
+                "fullName": "CayTheGioi.Tests.RebirthTests.PreviewDoesNotMutateAndYoungTreeAwardsOnlyItsWalletResetRunKeepsEverythingElse",
+                "state": "Passed",
+                "durationSeconds": 0.010394,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SeparateEffectsAffectOnlyTheirTarget(\"seedling\",1.1d,1,0)",
+                "fullName": "CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\"seedling\",1.1d,1,0)",
+                "state": "Passed",
+                "durationSeconds": 0.0050016,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SeparateEffectsAffectOnlyTheirTarget(\"young_tree\",1,1.1d,0)",
+                "fullName": "CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\"young_tree\",1,1.1d,0)",
+                "state": "Passed",
+                "durationSeconds": 0.0037215,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SeparateEffectsAffectOnlyTheirTarget(\"large_tree\",1,1,0.04d)",
+                "fullName": "CayTheGioi.Tests.RebirthTests.SeparateEffectsAffectOnlyTheirTarget(\"large_tree\",1,1,0.04d)",
+                "state": "Passed",
+                "durationSeconds": 0.0028209,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ClockRollbackDoesNotMoveCheckpointBackward",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.ClockRollbackDoesNotMoveCheckpointBackward",
+                "state": "Passed",
+                "durationSeconds": 0.0086953,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CorruptBothPreservedUntilExplicitArchivedReset",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.CorruptBothPreservedUntilExplicitArchivedReset",
+                "state": "Passed",
+                "durationSeconds": 0.0135354,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailureAfterReplacementAcknowledgesCommittedSnapshot",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.FailureAfterReplacementAcknowledgesCommittedSnapshot",
+                "state": "Passed",
+                "durationSeconds": 0.0094134,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailureBeforeCommitRetainsMainAndRevision(AfterFlush)",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(AfterFlush)",
+                "state": "Passed",
+                "durationSeconds": 0.0077036,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.FailureBeforeCommitRetainsMainAndRevision(BeforeReplace)",
+                "state": "Passed",
+                "durationSeconds": 0.0069465,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidRuntimeCannotReplaceGoodSave(\"life\")",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\"life\")",
+                "state": "Passed",
+                "durationSeconds": 0.0047594,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidRuntimeCannotReplaceGoodSave(\"counter\")",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\"counter\")",
+                "state": "Passed",
+                "durationSeconds": 0.0042224,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidRuntimeCannotReplaceGoodSave(\"points\")",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\"points\")",
+                "state": "Passed",
+                "durationSeconds": 0.0041535,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidRuntimeCannotReplaceGoodSave(\"weather\")",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.InvalidRuntimeCannotReplaceGoodSave(\"weather\")",
+                "state": "Passed",
+                "durationSeconds": 0.0042909,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MissingMainStillOffersBackupAndRequiresAcceptance",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.MissingMainStillOffersBackupAndRequiresAcceptance",
+                "state": "Passed",
+                "durationSeconds": 0.0135311,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "MissingOptionalFieldsDefaultButMissingCoreIsRejected",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.MissingOptionalFieldsDefaultButMissingCoreIsRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0006735,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NewerSchemaAndUnknownConfigCannotBeOverwritten",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.NewerSchemaAndUnknownConfigCannotBeOverwritten",
+                "state": "Passed",
+                "durationSeconds": 0.006397,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OlderSchemaAndDuplicateJsonKeysAreRejected",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.OlderSchemaAndDuplicateJsonKeysAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0056302,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SnapshotAndRestoreHaveNoMutableEntryAliases",
+                "fullName": "CayTheGioi.Tests.SaveSafetyTests.SnapshotAndRestoreHaveNoMutableEntryAliases",
+                "state": "Passed",
+                "durationSeconds": 0.0006744,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-1\")",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-1\")",
+                "state": "Passed",
+                "durationSeconds": 0.0022182,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-2\")",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-2\")",
+                "state": "Passed",
+                "durationSeconds": 0.0008782,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-3\")",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-3\")",
+                "state": "Passed",
+                "durationSeconds": 0.0009065,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-4\")",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.OldConfigLoadsIntoCurrencyConfigWithoutResettingResourcesOrLevels(\"prototype-4\")",
+                "state": "Passed",
+                "durationSeconds": 0.0008644,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Restore_Roundtrip_PreservesAllFields",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Restore_Roundtrip_PreservesAllFields",
+                "state": "Passed",
+                "durationSeconds": 0.0010237,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_CorruptBothFiles_ReturnsCorruptNoBackup",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptBothFiles_ReturnsCorruptNoBackup",
+                "state": "Passed",
+                "durationSeconds": 0.0070631,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_CorruptMain_LoadsFromBackup",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_CorruptMain_LoadsFromBackup",
+                "state": "Passed",
+                "durationSeconds": 0.0073536,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_DeleteFiles_ClearsAll",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_DeleteFiles_ClearsAll",
+                "state": "Passed",
+                "durationSeconds": 0.0113266,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_MissingFieldsGetDefaults_AfterRestore",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_MissingFieldsGetDefaults_AfterRestore",
+                "state": "Passed",
+                "durationSeconds": 0.0020337,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_MutipleQuickSaves_DoNotDoubleSave",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_MutipleQuickSaves_DoNotDoubleSave",
+                "state": "Passed",
+                "durationSeconds": 0.0183944,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_NewGame_WhenNoFileExists",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_NewGame_WhenNoFileExists",
+                "state": "Passed",
+                "durationSeconds": 0.0012354,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_PreviewAndCoroutineNotInSave_NoUnityReferences",
+                "state": "Passed",
+                "durationSeconds": 0.0014595,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_RevisionIncrementsEachSave",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_RevisionIncrementsEachSave",
+                "state": "Passed",
+                "durationSeconds": 0.0137925,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_Roundtrip_SaveAndLoad",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_Roundtrip_SaveAndLoad",
+                "state": "Passed",
+                "durationSeconds": 0.0051513,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveService_VersionTooNew_DoesNotAllowLoad",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.SaveService_VersionTooNew_DoesNotAllowLoad",
+                "state": "Passed",
+                "durationSeconds": 0.0044375,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Snapshot_DeepCopiesNestedState_NoSharedReference",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Snapshot_DeepCopiesNestedState_NoSharedReference",
+                "state": "Passed",
+                "durationSeconds": 0.000835,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Snapshot_ReturnsDto_WithExpectedSchemaAndFields",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Snapshot_ReturnsDto_WithExpectedSchemaAndFields",
+                "state": "Passed",
+                "durationSeconds": 0.0008407,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_BankSecondsOverCap_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_BankSecondsOverCap_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0010367,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_EquippedCosmeticNotOwned_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_EquippedCosmeticNotOwned_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0007362,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_LevelExceedsCap_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_LevelExceedsCap_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0011004,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_NanGrowth_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_NanGrowth_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0008995,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_NegativeWater_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_NegativeWater_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0006941,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_NullDto_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_NullDto_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0010726,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_SchemaVersionTooNew_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_SchemaVersionTooNew_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0014467,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_TapProgressAtMax_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_TapProgressAtMax_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0010156,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_UnknownStageId_ReturnsError",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_UnknownStageId_ReturnsError",
+                "state": "Passed",
+                "durationSeconds": 0.0009774,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Validate_ValidNewGameDto_ReturnsEmpty",
+                "fullName": "CayTheGioi.Tests.SaveSystemTests.Validate_ValidNewGameDto_ReturnsEmpty",
+                "state": "Passed",
+                "durationSeconds": 0.0008207,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AudioController_MusicToggle_MutesAndUnmutesBgm",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_MusicToggle_MutesAndUnmutesBgm",
+                "state": "Passed",
+                "durationSeconds": 0.4354558,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AudioController_RateLimiting_RejectsSpamTapSfx",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.AudioController_RateLimiting_RejectsSpamTapSfx",
+                "state": "Passed",
+                "durationSeconds": 0.0289585,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SettingsState_Serialization_PreservesValuesAcrossSaveLoad",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.SettingsState_Serialization_PreservesValuesAcrossSaveLoad",
+                "state": "Passed",
+                "durationSeconds": 0.0003853,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DeadRun_ReturnsNullCurrentStep_ToAvoidSoftlock",
+                "state": "Passed",
+                "durationSeconds": 0.0004054,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_DialogueSteps_RequireConfirmation",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_DialogueSteps_RequireConfirmation",
+                "state": "Passed",
+                "durationSeconds": 0.0006963,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_EvolutionToYoungTree_AdvancesToTrunkWeather",
+                "state": "Passed",
+                "durationSeconds": 0.0003223,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_InitialState_CurrentStepIsVitality",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_InitialState_CurrentStepIsVitality",
+                "state": "Passed",
+                "durationSeconds": 0.0001197,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_Rebirth_PreservesCompletedSteps",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_Rebirth_PreservesCompletedSteps",
+                "state": "Passed",
+                "durationSeconds": 0.0002825,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_SaveFailure_RollsBackStepCompletion",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_SaveFailure_RollsBackStepCompletion",
+                "state": "Passed",
+                "durationSeconds": 0.0004253,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_UpgradeRootAndLeaves_AdvancesSteps",
+                "state": "Passed",
+                "durationSeconds": 0.0002742,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot",
+                "fullName": "CayTheGioi.Tests.TutorialSettingsAudioTests.TutorialSystem_VitalityEarned_CompletesStepVitality_AndAdvancesToUpgradeRoot",
+                "state": "Passed",
+                "durationSeconds": 0.0002317,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AbundantWaterCannotPayAGrowthCost(\"leaves\",1)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(\"leaves\",1)",
+                "state": "Passed",
+                "durationSeconds": 0.0006116,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AbundantWaterCannotPayAGrowthCost(\"trunk\",0)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.AbundantWaterCannotPayAGrowthCost(\"trunk\",0)",
+                "state": "Passed",
+                "durationSeconds": 7.4e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AllBranchesReachTheirOwnCapWithAbundantResources",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.AllBranchesReachTheirOwnCapWithAbundantResources",
+                "state": "Passed",
+                "durationSeconds": 0.0002978,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.ConfiguredCurrencyOverridesAreUsedAndInvalidBootstrapIsRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0007317,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CostUsesConfiguredExponentialAndSingleCeiling(0,5)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(0,5)",
+                "state": "Passed",
+                "durationSeconds": 0.0004746,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CostUsesConfiguredExponentialAndSingleCeiling(1,8)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(1,8)",
+                "state": "Passed",
+                "durationSeconds": 0.0001327,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CostUsesConfiguredExponentialAndSingleCeiling(2,13)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(2,13)",
+                "state": "Passed",
+                "durationSeconds": 9.15e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CostUsesConfiguredExponentialAndSingleCeiling(3,21)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(3,21)",
+                "state": "Passed",
+                "durationSeconds": 7.4e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CostUsesConfiguredExponentialAndSingleCeiling(4,33)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CostUsesConfiguredExponentialAndSingleCeiling(4,33)",
+                "state": "Passed",
+                "durationSeconds": 6.48e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "CustomCostAndKDisplayStillSpendExactFullValue",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.CustomCostAndKDisplayStillSpendExactFullValue",
+                "state": "Passed",
+                "durationSeconds": 0.0004922,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EachUpgradeDeductsOnlyItsQuotedCurrency(\"root\",0,\"water\",5)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\"root\",0,\"water\",5)",
+                "state": "Passed",
+                "durationSeconds": 0.000668,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EachUpgradeDeductsOnlyItsQuotedCurrency(\"root\",1,\"water\",8)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\"root\",1,\"water\",8)",
+                "state": "Passed",
+                "durationSeconds": 7.73e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EachUpgradeDeductsOnlyItsQuotedCurrency(\"leaves\",0,\"water\",5)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\"leaves\",0,\"water\",5)",
+                "state": "Passed",
+                "durationSeconds": 4.37e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EachUpgradeDeductsOnlyItsQuotedCurrency(\"leaves\",1,\"growth\",8)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\"leaves\",1,\"growth\",8)",
+                "state": "Passed",
+                "durationSeconds": 4.47e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EachUpgradeDeductsOnlyItsQuotedCurrency(\"trunk\",0,\"growth\",10)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.EachUpgradeDeductsOnlyItsQuotedCurrency(\"trunk\",0,\"growth\",10)",
+                "state": "Passed",
+                "durationSeconds": 3.92e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.ExactFiveWaterUpgradesOnceAndEventsObserveCommittedState",
+                "state": "Passed",
+                "durationSeconds": 0.0007281,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "FreshRunBootstrapsAndRequotesLeavesAfterFirstPurchase",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.FreshRunBootstrapsAndRequotesLeavesAfterFirstPurchase",
+                "state": "Passed",
+                "durationSeconds": 0.0006445,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.GrowthPurchaseUsesFullPrecisionAndRejectsFreeOrReentrantLevels",
+                "state": "Passed",
+                "durationSeconds": 0.0004762,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.InsufficientRoundedDisplayAndStaleQuoteCannotAuthorizePurchase",
+                "state": "Passed",
+                "durationSeconds": 0.000438,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidBalanceCannotMutate(double.NaN)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.NaN)",
+                "state": "Passed",
+                "durationSeconds": 0.0003268,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidBalanceCannotMutate(double.PositiveInfinity)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(double.PositiveInfinity)",
+                "state": "Passed",
+                "durationSeconds": 5.64e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidBalanceCannotMutate(-1)",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.InvalidBalanceCannotMutate(-1)",
+                "state": "Passed",
+                "durationSeconds": 3.34e-05,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.InvalidStageLevelsCostOverflowAndUnrepresentableSpendAreRejected",
+                "state": "Passed",
+                "durationSeconds": 0.0002832,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.LockedCapDeadAndUnknownHaveReasonsWithoutMutationOrEvents",
+                "state": "Passed",
+                "durationSeconds": 0.0003318,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.RepeatedCommandsNeverOverdrawAndReentrantSubscriberCannotUpgrade",
+                "state": "Passed",
+                "durationSeconds": 0.0003415,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "StageCapUnlocksTrunkAndVitalityNeverChangesProtection",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.StageCapUnlocksTrunkAndVitalityNeverChangesProtection",
+                "state": "Passed",
+                "durationSeconds": 0.0002517,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "UpgradeUpdatesProductionWithOneVitalityMultiplier",
+                "fullName": "CayTheGioi.Tests.UpgradeTests.UpgradeUpdatesProductionWithOneVitalityMultiplier",
+                "state": "Passed",
+                "durationSeconds": 0.0002115,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "AfterThunderstorm_MustAlwaysTransitionToCalm",
+                "fullName": "CayTheGioi.Tests.WeatherTests.AfterThunderstorm_MustAlwaysTransitionToCalm",
+                "state": "Passed",
+                "durationSeconds": 0.0013792,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Burning_Deals2HpPerSecond_AndExpiresAfterDuration",
+                "fullName": "CayTheGioi.Tests.WeatherTests.Burning_Deals2HpPerSecond_AndExpiresAfterDuration",
+                "state": "Passed",
+                "durationSeconds": 0.0003871,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot",
+                "fullName": "CayTheGioi.Tests.WeatherTests.BurningLeaves_ReducesGrowthBy30Percent_OtherRegionsDoNot",
+                "state": "Passed",
+                "durationSeconds": 0.0002279,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Cooldown_PreventsImmediateSubsequentStrikes",
+                "fullName": "CayTheGioi.Tests.WeatherTests.Cooldown_PreventsImmediateSubsequentStrikes",
+                "state": "Passed",
+                "durationSeconds": 0.0002296,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "DeadTree_StopsProductionEntirely",
+                "fullName": "CayTheGioi.Tests.WeatherTests.DeadTree_StopsProductionEntirely",
+                "state": "Passed",
+                "durationSeconds": 0.000197,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "EarlyStages_ExposureZero_StrikeProbabilityIsZero",
+                "fullName": "CayTheGioi.Tests.WeatherTests.EarlyStages_ExposureZero_StrikeProbabilityIsZero",
+                "state": "Passed",
+                "durationSeconds": 0.0001595,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "HpReachingZero_TriggersDead_AndFiresRunDiedOnce",
+                "fullName": "CayTheGioi.Tests.WeatherTests.HpReachingZero_TriggersDead_AndFiresRunDiedOnce",
+                "state": "Passed",
+                "durationSeconds": 0.0003486,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LargeTree_UnlocksThunderstorm",
+                "fullName": "CayTheGioi.Tests.WeatherTests.LargeTree_UnlocksThunderstorm",
+                "state": "Passed",
+                "durationSeconds": 0.0007769,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "LightningStrike_SetsCooldownAndStartsBurning",
+                "fullName": "CayTheGioi.Tests.WeatherTests.LightningStrike_SetsCooldownAndStartsBurning",
+                "state": "Passed",
+                "durationSeconds": 0.0002863,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "NonCalmWeather_NeverRepeatsTwiceInARow",
+                "fullName": "CayTheGioi.Tests.WeatherTests.NonCalmWeather_NeverRepeatsTwiceInARow",
+                "state": "Passed",
+                "durationSeconds": 0.000335,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Protection_DecreasesStrikeProbability",
+                "fullName": "CayTheGioi.Tests.WeatherTests.Protection_DecreasesStrikeProbability",
+                "state": "Passed",
+                "durationSeconds": 0.0002182,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "RainyWeather_BuffsRootWaterBy20Percent",
+                "fullName": "CayTheGioi.Tests.WeatherTests.RainyWeather_BuffsRootWaterBy20Percent",
+                "state": "Passed",
+                "durationSeconds": 0.0001985,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "ResetForRebirth_RestoresHpAndCalmStatus",
+                "fullName": "CayTheGioi.Tests.WeatherTests.ResetForRebirth_RestoresHpAndCalmStatus",
+                "state": "Passed",
+                "durationSeconds": 0.0004406,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SaveData_ValidatesAllWeatherIdsAndBurningStatus",
+                "fullName": "CayTheGioi.Tests.WeatherTests.SaveData_ValidatesAllWeatherIdsAndBurningStatus",
+                "state": "Passed",
+                "durationSeconds": 0.0009512,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "Seedling_OnlyHasCalmWeather",
+                "fullName": "CayTheGioi.Tests.WeatherTests.Seedling_OnlyHasCalmWeather",
+                "state": "Passed",
+                "durationSeconds": 0.0002214,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "StrikeProbability_IsIndependentOfFrameRate",
+                "fullName": "CayTheGioi.Tests.WeatherTests.StrikeProbability_IsIndependentOfFrameRate",
+                "state": "Passed",
+                "durationSeconds": 0.0001631,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "SunnyWeather_BuffsLeavesGrowthBy20Percent",
+                "fullName": "CayTheGioi.Tests.WeatherTests.SunnyWeather_BuffsLeavesGrowthBy20Percent",
+                "state": "Passed",
+                "durationSeconds": 0.000214,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "TransitionToCalm_ClearsBurning_WithoutHealingHp",
+                "fullName": "CayTheGioi.Tests.WeatherTests.TransitionToCalm_ClearsBurning_WithoutHealingHp",
+                "state": "Passed",
+                "durationSeconds": 0.0001811,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting",
+                "fullName": "CayTheGioi.Tests.WeatherTests.VitalityAndWeatherBuffs_MultiplyIndependentlyWithoutDoubleCounting",
+                "state": "Passed",
+                "durationSeconds": 0.0001473,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              },
+              {
+                "name": "YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm",
+                "fullName": "CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm",
+                "state": "Passed",
+                "durationSeconds": 0.0007011,
+                "message": null,
+                "stackTrace": null,
+                "output": ""
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

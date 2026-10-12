@@ -1,0 +1,17 @@
+=== SEEDLING PIXEL (642, 307) DIAGNOSTIC ===
+Resolution: 1366x768
+Target Pixel: (642.00, 307.00)
+Ray: origin=(0.00, 0.49, -1.30), dir=(-0.04, -0.34, 0.94)
+
+-- WITH queriesHitBackfaces = FALSE --
+Hits count: 2
+  Hit 0: collider=Tree, parent=World, dist=1,1271, normal=(-0.17, -0.22, -0.96), dot=-0,8194
+  Hit 1: collider=Planet_Terrain, parent=WorldEnvironment, dist=1,4354, normal=(-0.01, 1.00, 0.01), dot=-0,3354
+
+-- WITH queriesHitBackfaces = TRUE --
+Hits count: 3
+  Hit 0: collider=Tree, parent=World, dist=1,1271, normal=(-0.17, -0.22, -0.96), dot=-0,8194
+  Hit 1: collider=SeedShell, parent=Model, dist=1,3663, normal=(0.25, -0.17, 0.95), dot=0,9426
+  Hit 2: collider=Planet_Terrain, parent=WorldEnvironment, dist=1,4354, normal=(-0.01, 1.00, 0.01), dot=-0,3354
+
+Current OnTree result: True

@@ -1,0 +1,17 @@
+{
+  "before": {
+    "hp": 0.0,
+    "life": "DEAD",
+    "forcedModal": true,
+    "cancelInteractable": true
+  },
+  "cancelStillVisible": true,
+  "after": {
+    "hp": 100.0,
+    "life": "ALIVE",
+    "stage": "seedling",
+    "weather": "calm",
+    "status": "none",
+    "modalVisible": false
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "Seedling": {
+    "label": "Seedling",
+    "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+    "initial_sha256": "cdbdd09dcf57071eb4052fd286653cd671afc241722c2357e4a970bf3340b141",
+    "saved_sha256": "0497709bb53f906e7aa2abedf832d59d1f3b0c57c4144cdc3aa96e74f4f461ff",
+    "total_vertices": 1436,
+    "total_triangles": 2778,
+    "normal_strength": 0.08,
+    "tint_factor": 0.7,
+    "renders": {
+      "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\seedling\\perspective.png",
+      "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\seedling\\back.png",
+      "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\seedling\\top.png",
+      "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\seedling\\low.png",
+      "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\seedling\\closeup_foliage.png"
+    }
+  },
+  "Young": {
+    "label": "Young",
+    "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+    "initial_sha256": "2aa6df9dd3a81c0ebf78945a537e5bbc27d776a94db812c1895cb8cefaebe454",
+    "saved_sha256": "004480f34facc7077b1e7b24671cb414faf3a7c76c1af9d6f8b024eb319f4a9a",
+    "total_vertices": 2420,
+    "total_triangles": 4574,
+    "normal_strength": 0.14,
+    "tint_factor": 0.85,
+    "renders": {
+      "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\young\\perspective.png",
+      "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\young\\back.png",
+      "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\young\\top.png",
+      "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\young\\low.png",
+      "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\young\\closeup_foliage.png"
+    }
+  },
+  "Large": {
+    "label": "Large",
+    "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+    "initial_sha256": "7a8ac8ffabaa7b296f4207602f0a12b4951ef52ab037a915812283563fa50e3e",
+    "saved_sha256": "c3b088967b65e6174a45a487e857fbac8d19bf63599300c3c210022cd884cd0c",
+    "total_vertices": 16632,
+    "total_triangles": 26682,
+    "normal_strength": 0.2,
+    "tint_factor": 1.0,
+    "renders": {
+      "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large\\perspective.png",
+      "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large\\back.png",
+      "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large\\top.png",
+      "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large\\low.png",
+      "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large\\closeup_foliage.png"
+    }
+  },
+  "Ancient": {
+    "label": "Ancient",
+    "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+    "initial_sha256": "16c043bbc936504a19e0c5d2f5a87204bc6a57e78dea87da5d512aad7f386219",
+    "saved_sha256": "e354d2f2f018eda32145cffcb43c1a43929edcbf7a3c3c09980a1ae518a9ccef",
+    "total_vertices": 51332,
+    "total_triangles": 73888,
+    "normal_strength": 0.22,
+    "tint_factor": 1.0,
+    "renders": {
+      "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\ancient\\perspective.png",
+      "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\ancient\\back.png",
+      "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\ancient\\top.png",
+      "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\ancient\\low.png",
+      "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\ancient\\closeup_foliage.png"
+    }
+  },
+  "large_ancient_comparison": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P02_20261006\\final\\large_ancient_comparison.png",
+  "protected_assets_unchanged": true,
+  "protected_hashes": {
+    "Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644"
+  }
+}

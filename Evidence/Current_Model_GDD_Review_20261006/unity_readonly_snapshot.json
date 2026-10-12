@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":\"SCENE=Assets/_Project/Scenes/MainScene.unity;DIRTY=False;PLAY=False\\nLIVE_MESH=Stem;MESH=Cylinder;PATH=Library/unity default resources\\nLIVE_MESH=LeafLeft;MESH=Sphere;PATH=Library/unity default resources\\nLIVE_MESH=LeafRight;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=LeafLeft;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=LeafRight;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=Crown;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=CrownLeft;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=CrownRight;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=Crown;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=CrownLeft;MESH=Sphere;PATH=Library/unity default resources\\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=CrownRight;MESH=Sphere;PATH=Library/unity default resources\",\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": "SCENE=Assets/_Project/Scenes/MainScene.unity;DIRTY=False;PLAY=False\nLIVE_MESH=Stem;MESH=Cylinder;PATH=Library/unity default resources\nLIVE_MESH=LeafLeft;MESH=Sphere;PATH=Library/unity default resources\nLIVE_MESH=LeafRight;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=LeafLeft;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/seedling.prefab;PART=LeafRight;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=Crown;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=CrownLeft;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/young_tree.prefab;PART=CrownRight;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=Stem;MESH=Cylinder;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=Crown;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=CrownLeft;MESH=Sphere;PATH=Library/unity default resources\nPREFAB=Assets/_Project/Prefabs/Trees/large_tree.prefab;PART=CrownRight;MESH=Sphere;PATH=Library/unity default resources",
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

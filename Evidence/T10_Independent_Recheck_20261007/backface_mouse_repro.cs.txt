@@ -1,0 +1,17 @@
+var b=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>();
+b.SaveCtrl.SendMessage("OnApplicationFocus",true); b.Input.SendMessage("OnApplicationFocus",true);b.TickDriver.ManualTick=true;
+var tree=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Presentation.TreeView>();var rig=UnityEngine.Object.FindAnyObjectByType<CayTheGioi.Presentation.OrbitCameraRig>();
+tree.ShowStage(b.Config.FindVisual("seedling"));rig.SetStagePose(1.4f,16f,0.12f);
+var native=new System.Collections.Generic.List<UnityEngine.InputSystem.InputDevice>(); foreach(var d in UnityEngine.InputSystem.InputSystem.devices) if(d.native&&d.enabled&&d is UnityEngine.InputSystem.Pointer)native.Add(d);
+foreach(var d in native)UnityEngine.InputSystem.InputSystem.DisableDevice(d);
+var prior=UnityEngine.InputSystem.Mouse.current;
+var bg=UnityEngine.InputSystem.InputSystem.settings.backgroundBehavior;var ei=UnityEngine.InputSystem.InputSystem.settings.editorInputBehaviorInPlayMode;
+UnityEngine.InputSystem.InputSystem.settings.backgroundBehavior=UnityEngine.InputSystem.InputSettings.BackgroundBehavior.IgnoreFocus;
+UnityEngine.InputSystem.InputSystem.settings.editorInputBehaviorInPlayMode=UnityEngine.InputSystem.InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+var mouse=UnityEngine.InputSystem.InputSystem.AddDevice<UnityEngine.InputSystem.Mouse>();
+var point=new UnityEngine.Vector2(913.731262f,453.8399f);int before=b.State.vitality.tapProgress;int step=0;int frame=UnityEngine.Time.frameCount;
+UnityEditor.EditorApplication.CallbackFunction tick=null; tick=()=>{if(UnityEngine.Time.frameCount==frame)return;frame=UnityEngine.Time.frameCount;step++;
+if(step==2)UnityEngine.InputSystem.InputSystem.QueueStateEvent(mouse,new UnityEngine.InputSystem.LowLevel.MouseState{position=point}.WithButton(UnityEngine.InputSystem.LowLevel.MouseButton.Left));
+if(step==3)UnityEngine.InputSystem.InputSystem.QueueStateEvent(mouse,new UnityEngine.InputSystem.LowLevel.MouseState{position=point});
+if(step>=6){UnityEditor.SessionState.SetString("T10RecheckBackface",UnityEngine.JsonUtility.ToJson(new UnityEngine.Vector3(before,b.State.vitality.tapProgress,b.Input.IsOverUi(point)?1:0)));UnityEngine.InputSystem.InputSystem.RemoveDevice(mouse);if(prior!=null&&prior.added)prior.MakeCurrent(); foreach(var d in native)if(d.added)UnityEngine.InputSystem.InputSystem.EnableDevice(d);UnityEngine.InputSystem.InputSystem.settings.backgroundBehavior=bg;UnityEngine.InputSystem.InputSystem.settings.editorInputBehaviorInPlayMode=ei;UnityEditor.EditorApplication.update-=tick;}
+};UnityEditor.EditorApplication.update+=tick;return new{scheduled=true,point=point.ToString("F4"),before=before,stage=tree.CurrentStageId};

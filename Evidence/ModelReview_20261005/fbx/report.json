@@ -1,0 +1,148 @@
+{
+  "source": "C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Art/Bonsai_Tree.fbx",
+  "sha256_before": "52b63d9f9f555bbbc85302da9ba3aa0e6f1bf82f4e193e070f5b1b8981d0b7d5",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        8.209527015686035,
+        5.054014205932617,
+        3.297238349914551
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 22880,
+      "faces": 18304,
+      "evaluated_triangles": 18304,
+      "boundary_edges": 18304,
+      "non_manifold_edges": 18304,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": []
+    },
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        6.854331016540527,
+        5.704259872436523,
+        1.271528959274292
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 9120,
+      "faces": 8928,
+      "evaluated_triangles": 17856,
+      "boundary_edges": 384,
+      "non_manifold_edges": 384,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": []
+    },
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        -1.6292068494294654e-07,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        6.2130866050720215,
+        3.6678295135498047,
+        3.7320308685302734
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 19332,
+      "faces": 18864,
+      "evaluated_triangles": 37728,
+      "boundary_edges": 936,
+      "non_manifold_edges": 936,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": []
+    }
+  ],
+  "materials": [],
+  "images": [],
+  "total_evaluated_triangles": 73888,
+  "empty_objects": [],
+  "world_bounds": {
+    "min": [
+      -4.462429046630859,
+      -2.7517833709716797,
+      -0.019257720559835434
+    ],
+    "max": [
+      3.747097969055176,
+      2.952476739883423,
+      4.287494659423828
+    ],
+    "size": [
+      8.209527015686035,
+      5.704259872436523,
+      4.3067522048950195
+    ]
+  },
+  "sha256_after": "52b63d9f9f555bbbc85302da9ba3aa0e6f1bf82f4e193e070f5b1b8981d0b7d5",
+  "source_unchanged": true
+}

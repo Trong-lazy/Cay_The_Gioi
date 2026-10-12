@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "contents": [
+      {
+        "uri": "mcpforunity://editor/state",
+        "mimeType": "text/plain",
+        "text": "{\"success\":true,\"message\":\"Retrieved editor state.\",\"error\":null,\"data\":{\"schema_version\":\"unity-mcp/editor_state@2\",\"observed_at_unix_ms\":1790986352027,\"sequence\":9,\"unity\":{\"instance_id\":\"Cay_The_Gioi@c16bfba113f4554d\",\"unity_version\":\"6000.6.1f1\",\"project_id\":null,\"platform\":\"WindowsEditor\",\"is_batch_mode\":false},\"editor\":{\"is_focused\":false,\"play_mode\":{\"is_playing\":false,\"is_paused\":false,\"is_changing\":false},\"active_scene\":{\"path\":\"Assets/_Project/Scenes/MainScene.unity\",\"guid\":\"b28587d7990edd64b962fe53a761144e\",\"name\":\"MainScene\"}},\"activity\":{\"phase\":\"idle\",\"since_unix_ms\":1790986266312,\"reasons\":[\"tick\"]},\"compilation\":{\"is_compiling\":false,\"is_domain_reload_pending\":false,\"last_compile_started_unix_ms\":null,\"last_compile_finished_unix_ms\":null,\"last_domain_reload_before_unix_ms\":null,\"last_domain_reload_after_unix_ms\":1790985745207},\"assets\":{\"is_updating\":false,\"external_changes_dirty\":false,\"external_changes_last_seen_unix_ms\":1790985740590,\"external_changes_dirty_since_unix_ms\":null,\"external_changes_last_cleared_unix_ms\":1790985748254,\"refresh\":{\"is_refresh_in_progress\":false,\"last_refresh_requested_unix_ms\":null,\"last_refresh_finished_unix_ms\":null}},\"tests\":{\"is_running\":false,\"mode\":null,\"current_job_id\":null,\"started_unix_ms\":1790985748344,\"started_by\":\"unknown\",\"last_run\":{\"finished_unix_ms\":1790985755745,\"result\":\"unknown\",\"counts\":null}},\"transport\":{\"unity_bridge_connected\":null,\"last_message_unix_ms\":null},\"settings\":{\"batch_execute_max_commands\":25},\"advice\":{\"ready_for_tools\":true,\"blocking_reasons\":[],\"recommended_retry_after_ms\":0,\"recommended_next_action\":\"none\"},\"staleness\":{\"age_ms\":120,\"is_stale\":false}},\"hint\":null}"
+      }
+    ]
+  }
+}

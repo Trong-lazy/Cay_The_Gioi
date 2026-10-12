@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"success\":true,\"reason\":\"\",\"stage\":\"mature_tree\",\"level\":2,\"path\":\"C:\\\\Users\\\\Asus\\\\foder game 3D\\\\Cay_The_Gioi\\\\Evidence\\\\GameUI_20261010\\\\manual_mature_save\\\\world_tree_save.json\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "success": true,
+          "reason": "",
+          "stage": "mature_tree",
+          "level": 2,
+          "path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\GameUI_20261010\\manual_mature_save\\world_tree_save.json"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

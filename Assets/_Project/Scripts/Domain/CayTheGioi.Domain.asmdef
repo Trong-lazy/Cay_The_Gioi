@@ -1,0 +1,6 @@
+{
+  "name": "CayTheGioi.Domain",
+  "rootNamespace": "CayTheGioi.Domain",
+  "references": [],
+  "noEngineReferences": true
+}

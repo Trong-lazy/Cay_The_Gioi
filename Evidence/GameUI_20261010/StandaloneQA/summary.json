@@ -1,0 +1,13 @@
+{
+  "exitCodes": {
+    "smoke_fresh": 0,
+    "smoke_offline": 0,
+    "smoke_progression": 0,
+    "smoke_death_forced_rebirth": 0,
+    "ui_flow": 0
+  },
+  "realSaveUnchanged": true,
+  "exe": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Builds\\Windows_Economy_UI_20261010\\Cay_The_Gioi.exe",
+  "exeSha256": "61695BA6E3D61056DB5F10A955B41F680E78F85626FFC909D4E7A93ECB20DF9E",
+  "runAt": "2026-10-10T00:26:06"
+}

@@ -1,0 +1,1 @@
+{"name": "execute_code", "arguments": {"action": "execute", "code": "var b=UnityEngine.Object.FindFirstObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>();var r=b.SaveCtrl.ForceSave(\"UI_MATURE_VALIDATION\");return new {success=r.Success,reason=r.Reason,stage=b.State.run.stageId,level=b.State.run.levels.spiritAbsorption,path=b.SaveSvc.MainPath};"}}

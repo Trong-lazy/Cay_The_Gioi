@@ -1,0 +1,495 @@
+{
+  "source": "C:/Users/Asus/foder game 3D/Cay_The_Gioi/Assets/_Project/Art/Bonsai_Tree.blend",
+  "sha256_before": "4dd11ba4f4c3e87bb589427a800db006171be4025bcd49e19bf6ec0017c809dd",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        6.2130866050720215,
+        3.6678295135498047,
+        3.7320308685302734
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 19332,
+      "faces": 19646,
+      "evaluated_triangles": 38510,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Bonsai_Bark"
+      ],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 77802,
+          "min": [
+            -0.07008041441440582,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0638649463653564
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anchor_LightningTarget",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        4.367360591888428
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Anchor_LeavesCenter",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        -0.27181652188301086,
+        0.003100983565673232,
+        2.5577099323272705
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Anchor_TrunkAura",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        -0.13180357217788696,
+        0.012144533917307854,
+        2.3028743267059326
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Anchor_Root",
+      "type": "EMPTY",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT",
+      "parent": null,
+      "location": [
+        4.0,
+        -4.0,
+        6.0
+      ],
+      "rotation_euler": [
+        0.6503279805183411,
+        0.055217113345861435,
+        1.8663908243179321
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA",
+      "parent": null,
+      "location": [
+        0.0,
+        -8.0,
+        2.299999952316284
+      ],
+      "rotation_euler": [
+        1.5083774328231812,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hide_render": false,
+      "modifiers": []
+    },
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        4.398388862609863,
+        3.713408946990967,
+        1.2522717714309692
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 9120,
+      "faces": 9248,
+      "evaluated_triangles": 18176,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Bonsai_Bark"
+      ],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 36672,
+          "min": [
+            -0.06481005251407623,
+            0.0
+          ],
+          "max": [
+            1.0097650289535522,
+            1.0309942960739136
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        8.270624160766602,
+        5.05820369720459,
+        3.194809913635254
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 22880,
+      "faces": 18304,
+      "evaluated_triangles": 18304,
+      "boundary_edges": 18304,
+      "non_manifold_edges": 18304,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Bonsai_Foliage"
+      ],
+      "uv_statistics": [
+        {
+          "name": "UVMap",
+          "loops": 54912,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Bonsai_Bark",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.8199999928474426,
+          "alpha": 1.0,
+          "linked_inputs": [
+            "Base Color",
+            "Normal"
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "T_Bonsai_Bark_BaseMap"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "image": "T_Bonsai_Bark_Normal"
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP"
+        }
+      ]
+    },
+    {
+      "name": "M_Bonsai_Foliage",
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "roughness": 0.6499999761581421,
+          "alpha": 1.0,
+          "linked_inputs": [
+            "Base Color",
+            "Normal"
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "T_Bonsai_Foliage_BaseMap"
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "TEX_IMAGE",
+          "image": "T_Bonsai_Foliage_Normal"
+        },
+        {
+          "name": "Normal Map",
+          "type": "NORMAL_MAP"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    },
+    {
+      "name": "T_Bonsai_Bark_BaseMap",
+      "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Textures\\T_Bonsai_Bark_BaseMap.png",
+      "packed": false,
+      "exists": true
+    },
+    {
+      "name": "T_Bonsai_Bark_Normal",
+      "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Textures\\T_Bonsai_Bark_Normal.png",
+      "packed": false,
+      "exists": true
+    },
+    {
+      "name": "T_Bonsai_Foliage_BaseMap",
+      "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Textures\\T_Bonsai_Foliage_BaseMap.png",
+      "packed": false,
+      "exists": true
+    },
+    {
+      "name": "T_Bonsai_Foliage_Normal",
+      "filepath": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Textures\\T_Bonsai_Foliage_Normal.png",
+      "packed": false,
+      "exists": true
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    }
+  ],
+  "total_evaluated_triangles": 74990,
+  "empty_objects": [
+    "Anchor_LightningTarget",
+    "Anchor_LeavesCenter",
+    "Anchor_TrunkAura",
+    "Anchor_Root"
+  ],
+  "world_bounds": {
+    "min": [
+      -4.500271797180176,
+      -2.5408458709716797,
+      0.0
+    ],
+    "max": [
+      3.7703518867492676,
+      2.517357587814331,
+      4.267360687255859
+    ],
+    "size": [
+      8.270624160766602,
+      5.05820369720459,
+      4.267360687255859
+    ]
+  },
+  "sha256_after": "4dd11ba4f4c3e87bb589427a800db006171be4025bcd49e19bf6ec0017c809dd",
+  "source_unchanged": true
+}

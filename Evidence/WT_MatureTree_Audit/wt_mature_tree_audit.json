@@ -1,0 +1,305 @@
+{
+  "LOD0": {
+    "objects": {
+      "WT_MatureTree_TrunkAndRoots": {
+        "verts": 1510,
+        "tris": 2928,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark",
+          "M_WT_RootAccent"
+        ]
+      },
+      "WT_MatureTree_Branches": {
+        "verts": 1455,
+        "tris": 2778,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark"
+        ]
+      },
+      "WT_MatureTree_Foliage": {
+        "verts": 8190,
+        "tris": 10920,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Leaves_Light",
+          "M_WT_Leaves_Dark"
+        ]
+      }
+    },
+    "total_verts": 11155,
+    "total_tris": 16626,
+    "bbox_min": [
+      -5.121,
+      -4.0217,
+      -0.0412
+    ],
+    "bbox_max": [
+      4.8888,
+      4.3928,
+      9.1952
+    ],
+    "dimensions": [
+      10.0098,
+      8.4145,
+      9.2364
+    ]
+  },
+  "LOD1": {
+    "objects": {
+      "WT_MatureTree_TrunkAndRoots_LOD1": {
+        "verts": 658,
+        "tris": 1248,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark",
+          "M_WT_RootAccent"
+        ]
+      },
+      "WT_MatureTree_Branches_LOD1": {
+        "verts": 690,
+        "tris": 1280,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark"
+        ]
+      },
+      "WT_MatureTree_Foliage_LOD1": {
+        "verts": 4590,
+        "tris": 6120,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Leaves_Light",
+          "M_WT_Leaves_Dark"
+        ]
+      }
+    },
+    "total_verts": 5938,
+    "total_tris": 8648,
+    "bbox_min": [
+      -5.1212,
+      -4.1609,
+      -0.0413
+    ],
+    "bbox_max": [
+      4.9418,
+      4.3156,
+      9.1704
+    ],
+    "dimensions": [
+      10.063,
+      8.4764,
+      9.2117
+    ]
+  },
+  "LOD2": {
+    "objects": {
+      "WT_MatureTree_TrunkAndRoots_LOD2": {
+        "verts": 195,
+        "tris": 362,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark",
+          "M_WT_RootAccent"
+        ]
+      },
+      "WT_MatureTree_Branches_LOD2": {
+        "verts": 324,
+        "tris": 600,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Bark"
+        ]
+      },
+      "WT_MatureTree_Foliage_LOD2": {
+        "verts": 1914,
+        "tris": 2552,
+        "non_manifold_edges": 0,
+        "boundary_edges": 0,
+        "loose_verts": 0,
+        "degenerate_faces": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "M_WT_Leaves_Light",
+          "M_WT_Leaves_Dark"
+        ]
+      }
+    },
+    "total_verts": 2433,
+    "total_tris": 3514,
+    "bbox_min": [
+      -5.2488,
+      -4.1593,
+      -0.0411
+    ],
+    "bbox_max": [
+      4.9025,
+      4.2414,
+      9.1121
+    ],
+    "dimensions": [
+      10.1513,
+      8.4007,
+      9.1532
+    ]
+  }
+}

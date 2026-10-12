@@ -1,0 +1,33 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"root10\":10.0,\"leavesGrowth10\":4.0,\"leavesWater\":0.0,\"bankBoundaryWater\":10.25,\"bank49\":0.0,\"bank50\":20.0,\"bank100\":40.0,\"cap\":3600.0,\"counter\":0,\"bootstrapCount\":1,\"models\":1},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "root10": 10.0,
+          "leavesGrowth10": 4.0,
+          "leavesWater": 0.0,
+          "bankBoundaryWater": 10.25,
+          "bank49": 0.0,
+          "bank50": 20.0,
+          "bank100": 40.0,
+          "cap": 3600.0,
+          "counter": 0,
+          "bootstrapCount": 1,
+          "models": 1
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

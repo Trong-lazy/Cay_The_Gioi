@@ -1,0 +1,13 @@
+{
+  "exitCodes": {
+    "smoke_fresh": 1,
+    "smoke_offline": 0,
+    "smoke_progression": 0,
+    "smoke_death_forced_rebirth": 0,
+    "ui_flow": 0
+  },
+  "realSaveUnchanged": true,
+  "exe": "Builds/Windows_UI_Reference_20261010/Cay_The_Gioi.exe",
+  "exeLastWrite": "2026-10-10T10:19:28",
+  "runAt": "2026-10-10T10:24:39"
+}

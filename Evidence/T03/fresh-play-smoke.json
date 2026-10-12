@@ -1,0 +1,32 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"initialized\":true,\"stage\":\"seedling\",\"water\":10.0,\"growth\":0.0,\"model\":\"seedling\",\"models\":1,\"transition\":false,\"input\":true,\"evolutionReason\":\"INSUFFICIENT_RESOURCE\",\"configErrors\":[]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "initialized": true,
+          "stage": "seedling",
+          "water": 10.0,
+          "growth": 0.0,
+          "model": "seedling",
+          "models": 1,
+          "transition": false,
+          "input": true,
+          "evolutionReason": "INSUFFICIENT_RESOURCE",
+          "configErrors": []
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

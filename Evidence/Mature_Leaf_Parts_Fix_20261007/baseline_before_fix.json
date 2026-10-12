@@ -1,0 +1,1394 @@
+{
+  "hashes_before_fix": {
+    "ArtSource/Models/Bonsai_Trunk_Candidate_v01.blend": "b1c1a1504e24fd397a9555afd0382d40032fdb44e850e9e6bacd1d0d57bdc95b",
+    "ArtSource/Models/Tree_Large.blend": "5cbb554d09a88becc38eaec33efec6acb56e7417bad5ad0ad804e8ce633ba70b",
+    "ArtSource/Models/Tree_Seedling_Simple_v01.blend": "8781507c59608f546229eb4bd0fa0da8b4b6218416fb5e9a0127e2d5c2918938",
+    "ArtSource/Models/Tree_Young_Simple_v01.blend": "a862d973f63adad5fbaa44713d1948928fefe45988864249dbd1b7bcd4f3e315",
+    "ArtSource/Models/WT_MatureTree.blend": "dc2ecbf840a528258233619da89b4bc10d82bbcd661797d8a8b5cabb52257e42",
+    "ArtSource/Exports/Bonsai_Trunk_Candidate_v01.fbx": "2efb2b489ccf2d08e3a4c9fa2f058f9145181fb7e45ab4cfa28c01f0099d1ba4",
+    "ArtSource/Exports/Tree_Large.fbx": "1d0b4b383865d51f8f5c39ac0a72cc2eba2a1dd35919229ce7896a0dcf229154",
+    "ArtSource/Exports/Tree_Seedling_Simple_v01.fbx": "6fc4aa5a5a11d3a0dba9dc903891cd59d2f6845ff891520432d43e19cb6d60e6",
+    "ArtSource/Exports/Tree_Young_Simple_v01.fbx": "2f3bfb2c354c91c89ea5cdd96e862f90c60265fb06a304da60615e9f8ac71fa9",
+    "ArtSource/Exports/WT_MatureTree_LOD0.fbx": "36f7d02d7a9b18c3a2a874bd5628d3e5c1401e57c6ffa2153ec5e62b39b1e027",
+    "ArtSource/Exports/WT_MatureTree_LOD1.fbx": "7d7b5ea29ab56f1f51b35cc3d8efea6f7828b3915fb46d30e3a9f1fb34fc8017",
+    "ArtSource/Exports/WT_MatureTree_LOD2.fbx": "003b5fe956ea25ab838ec2e8318eabad6b97085895f43683dbf7639d0e13d6d8",
+    "ArtSource/Textures/Tree_Common/Ancient_Bark_BaseColor.png": "35666154a226cfb8d22d1a1c9e4c30f631a752b6b1874546121f3d5ef684b8e6",
+    "ArtSource/Textures/Tree_Common/Ancient_Bark_Normal.png": "1c0436e6d324a7c1d62aa9bc283deae01f5e2887b8fd51a2209a23e6439fd4c6",
+    "ArtSource/Textures/Tree_Common/Large_Bark_BaseColor.png": "9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4",
+    "ArtSource/Textures/Tree_Common/Large_Bark_Normal.png": "7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159",
+    "ArtSource/Textures/Tree_Common/Leaf_Ancient_BaseColor.png": "ce0f3028fa3c6dc173b0c6059a8ad719dc39534887edef142d81ca109e4d7c9f",
+    "ArtSource/Textures/Tree_Common/Leaf_Common_BaseColor.png": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+    "ArtSource/Textures/Tree_Common/Leaf_Common_Normal.png": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+    "ArtSource/Textures/Tree_Common/Leaf_Large_BaseColor.png": "f13432a6a0955e9b93c98fc4fd06ff4a399c926934f60edcf1da2b99887bb64a",
+    "ArtSource/Textures/Tree_Common/Leaf_Seedling_BaseColor.png": "58f3c33f91a79a4f6429416195fc82ecc60ee46fca22d6adbfa7291dc3177b4a",
+    "ArtSource/Textures/Tree_Common/Leaf_Young_BaseColor.png": "537132d50c7abefae152794da81c992a9b4951f1f9d086cd04701061aca4c1f5",
+    "ArtSource/Textures/Tree_Common/WT_Bark_BaseColor.png": "27f23aeabb5a2f9ab318b41922707c24ac3a021fa41272f7cdf75e59b6306e0e",
+    "ArtSource/Textures/Tree_Common/WT_Bark_Normal.png": "11142f271da7e18499c8a66d6ea23b90eade18ca58ee5bf278527f03cce3bc76",
+    "ArtSource/Textures/Tree_Common/WT_Leaves_Dark_BaseColor.png": "d820fee21feb38497acb2be5135337b9d0e1e28ac1943823eb88ee0103e139c5",
+    "ArtSource/Textures/Tree_Common/WT_Leaves_Light_BaseColor.png": "7243d781d6e19f303754ca3a7c552d1fc6ab65c40a2ea7dd2477c6529fb096d5",
+    "ArtSource/Textures/Tree_Common/WT_RootAccent_BaseColor.png": "458cc4a8b1bac96f1a50e09532e831842c68b7edefaf74588742c8e1dc50ff39",
+    "Assets/_Project/Art/Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "Assets/_Project/Art/Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644"
+  },
+  "dated_backups": {
+    "WT_MatureTree.blend": {
+      "source_path": "ArtSource/Models/WT_MatureTree.blend",
+      "backup_path": "Evidence/Mature_Leaf_Parts_Fix_20261007/backup_20261007/WT_MatureTree.blend",
+      "source_sha256": "dc2ecbf840a528258233619da89b4bc10d82bbcd661797d8a8b5cabb52257e42",
+      "backup_sha256": "dc2ecbf840a528258233619da89b4bc10d82bbcd661797d8a8b5cabb52257e42",
+      "matches": true
+    },
+    "WT_MatureTree_LOD0.fbx": {
+      "source_path": "ArtSource/Exports/WT_MatureTree_LOD0.fbx",
+      "backup_path": "Evidence/Mature_Leaf_Parts_Fix_20261007/backup_20261007/WT_MatureTree_LOD0.fbx",
+      "source_sha256": "36f7d02d7a9b18c3a2a874bd5628d3e5c1401e57c6ffa2153ec5e62b39b1e027",
+      "backup_sha256": "36f7d02d7a9b18c3a2a874bd5628d3e5c1401e57c6ffa2153ec5e62b39b1e027",
+      "matches": true
+    },
+    "WT_MatureTree_LOD1.fbx": {
+      "source_path": "ArtSource/Exports/WT_MatureTree_LOD1.fbx",
+      "backup_path": "Evidence/Mature_Leaf_Parts_Fix_20261007/backup_20261007/WT_MatureTree_LOD1.fbx",
+      "source_sha256": "7d7b5ea29ab56f1f51b35cc3d8efea6f7828b3915fb46d30e3a9f1fb34fc8017",
+      "backup_sha256": "7d7b5ea29ab56f1f51b35cc3d8efea6f7828b3915fb46d30e3a9f1fb34fc8017",
+      "matches": true
+    },
+    "WT_MatureTree_LOD2.fbx": {
+      "source_path": "ArtSource/Exports/WT_MatureTree_LOD2.fbx",
+      "backup_path": "Evidence/Mature_Leaf_Parts_Fix_20261007/backup_20261007/WT_MatureTree_LOD2.fbx",
+      "source_sha256": "003b5fe956ea25ab838ec2e8318eabad6b97085895f43683dbf7639d0e13d6d8",
+      "backup_sha256": "003b5fe956ea25ab838ec2e8318eabad6b97085895f43683dbf7639d0e13d6d8",
+      "matches": true
+    }
+  },
+  "mature_baseline_meshes": {
+    "WT_MatureTree_Branches": {
+      "vertices": 1455,
+      "polygons": 1590,
+      "triangles": 2778,
+      "position_hash": "c07996e27887ef22d5f90318e55f8cc0a076a33a532abc1aaa577cd0c6c9f654",
+      "world_position_hash": "c07996e27887ef22d5f90318e55f8cc0a076a33a532abc1aaa577cd0c6c9f654",
+      "topology_hash": "30410425ef02fa7c0f6c26bb3e4514ccc9ae7ac8e50931a56b02bbd9b323839e",
+      "normal_hash": "c58b63d58faad077776b21f7e8567d176d469e736011ea160bb47928d4029a45",
+      "uv_hashes": {
+        "Float2": "8e3dbe835ed319b5727f00485b599555b9e47ad3ad25f7893f7e18cacb1ba656"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.4551024,
+          -2.3828216,
+          1.1890254
+        ],
+        "max": [
+          3.0555906,
+          2.5802519,
+          8.5904989
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD0"
+      ]
+    },
+    "WT_MatureTree_Branches_LOD1": {
+      "vertices": 690,
+      "polygons": 764,
+      "triangles": 1280,
+      "position_hash": "bd22194ed8267472bf96fc3d0c3b8ae98d783cd7b9b487d03f2e52cf388b03ef",
+      "world_position_hash": "bd22194ed8267472bf96fc3d0c3b8ae98d783cd7b9b487d03f2e52cf388b03ef",
+      "topology_hash": "ac6fee2719f5aafc740bbd047e80c4ab60c9c1341fa4e379edba2126831c38d6",
+      "normal_hash": "8e1d1f1164f2a367e59ab16e5b8d5cbcb64a34b9e5e30a102613a9db9ed28f49",
+      "uv_hashes": {
+        "Float2": "2cf2f2a6ca0f5b426dfc22634e629b5ff937dbc11240b70d63395c0b712c5a2d"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.450983,
+          -2.3840261,
+          1.2179359
+        ],
+        "max": [
+          3.0517433,
+          2.5797837,
+          8.5904989
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD1"
+      ]
+    },
+    "WT_MatureTree_Branches_LOD2": {
+      "vertices": 324,
+      "polygons": 360,
+      "triangles": 600,
+      "position_hash": "bce36f6cb21c77fb715fade79266f227a70eac07de5fe45132bf2f29946e7beb",
+      "world_position_hash": "bce36f6cb21c77fb715fade79266f227a70eac07de5fe45132bf2f29946e7beb",
+      "topology_hash": "086c74353c05ec8fc842fcc4d9240904fba7f5b4505089f9a4c1b2860ff2994c",
+      "normal_hash": "7734d59499bd957563ac7230367eb5485a23ace8d0f2681f3713507071d08a4d",
+      "uv_hashes": {
+        "Float2": "d426599189f80871fe76d9eba1e103d9e556fa5aaa697e6b24f21c7f976e52f5"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.4518595,
+          -2.383101,
+          1.2010028
+        ],
+        "max": [
+          3.0541134,
+          2.5760634,
+          7.484848
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD2"
+      ]
+    },
+    "WT_MatureTree_Foliage": {
+      "vertices": 8190,
+      "polygons": 10920,
+      "triangles": 10920,
+      "position_hash": "85cdbd360db0f2a9ce8556cac197102609866359e5dfc5ee3d2815ae74c8dc19",
+      "world_position_hash": "85cdbd360db0f2a9ce8556cac197102609866359e5dfc5ee3d2815ae74c8dc19",
+      "topology_hash": "9d32a095eb9d250bf2b6f6cc5da16ffbd8024c6e33cfb8c1967602da10879b0c",
+      "normal_hash": "fa76f11a177bca72eb998f39d17910e7f483a288a0ec00948e2b30ec685f08f4",
+      "uv_hashes": {
+        "Float2": "7dc00f3128a5e43da453c20b25971d078357a79f8c732c39dbdea6b27d2f1adc"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Leaves_Light",
+        "M_WT_Leaves_Dark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -5.1210256,
+          -4.0216703,
+          1.3974831
+        ],
+        "max": [
+          4.8888001,
+          4.3927855,
+          9.1952
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD0"
+      ]
+    },
+    "WT_MatureTree_Foliage_LOD1": {
+      "vertices": 4590,
+      "polygons": 6120,
+      "triangles": 6120,
+      "position_hash": "8a0be3bfd85639419f063c68302a91366eae8f253e066d37de6bb88eda111222",
+      "world_position_hash": "8a0be3bfd85639419f063c68302a91366eae8f253e066d37de6bb88eda111222",
+      "topology_hash": "a361c6f1813aa9d35349728f46a5e427c8429573c55aa2650667b572f93de11d",
+      "normal_hash": "71fbf9117f9968cc971f53fd89449eddad4d36912b9f221f6eec243f43c78e59",
+      "uv_hashes": {
+        "Float2": "cd646fe87980d0e05a3d28da63046c88ac65f3b9ce77371b17d04c3e2d06840b"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Leaves_Light",
+        "M_WT_Leaves_Dark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -5.1212006,
+          -4.1608534,
+          1.3974831
+        ],
+        "max": [
+          4.9418302,
+          4.3155966,
+          9.1704006
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD1"
+      ]
+    },
+    "WT_MatureTree_Foliage_LOD2": {
+      "vertices": 1914,
+      "polygons": 2552,
+      "triangles": 2552,
+      "position_hash": "2d6603d9004005a408d299280f063f67575ba3ff23b424fcec25a1f35963b2f5",
+      "world_position_hash": "2d6603d9004005a408d299280f063f67575ba3ff23b424fcec25a1f35963b2f5",
+      "topology_hash": "3ba67f1381cca78d2cf952f3011b4c0b37ba31b69b42b4a19a9125b39b93d687",
+      "normal_hash": "a31d4b9ad2c0ffa36ef8f332af2f592e80d53df8721e5d7f7633dac7d4408f90",
+      "uv_hashes": {
+        "Float2": "8cb0552596a85c42c8b0e471f61318460a0f4ab619ac2f868d9dcef58778e33c"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Leaves_Light",
+        "M_WT_Leaves_Dark"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -5.2488475,
+          -4.1593304,
+          2.8355746
+        ],
+        "max": [
+          4.9024987,
+          4.241385,
+          9.1120596
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD2"
+      ]
+    },
+    "WT_MatureTree_TrunkAndRoots": {
+      "vertices": 1510,
+      "polygons": 1607,
+      "triangles": 2928,
+      "position_hash": "707c975334b08b0dc3b18e3c95bb442be303fc55210f7cbebaa884d3bbd5f491",
+      "world_position_hash": "707c975334b08b0dc3b18e3c95bb442be303fc55210f7cbebaa884d3bbd5f491",
+      "topology_hash": "9b84439bc99bf40091c28339e0b8c84f3fbdb601a45bc933f5b85e64f3cb4e0c",
+      "normal_hash": "ff91dcda54c04712fbf4d9c7fc4c54acd436b1621bc6bd06a32dd9b52d36a0fe",
+      "uv_hashes": {
+        "Float2": "b6943f972845ebc646bcc09c8ebac6e507c4df04778a19715b4625dafd5e6e08"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark",
+        "M_WT_RootAccent"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.4896991,
+          -2.9933481,
+          -0.0412364
+        ],
+        "max": [
+          3.2590301,
+          3.0299425,
+          8.1675014
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD0"
+      ]
+    },
+    "WT_MatureTree_TrunkAndRoots_LOD1": {
+      "vertices": 658,
+      "polygons": 708,
+      "triangles": 1248,
+      "position_hash": "42e9a7db177cee9b4c9334a0f0e2b25e802173aaddb3fb2cb7bc6edbc975c1fc",
+      "world_position_hash": "42e9a7db177cee9b4c9334a0f0e2b25e802173aaddb3fb2cb7bc6edbc975c1fc",
+      "topology_hash": "189b7b9f3ae62ac1940f8ec7e434dbbb7ae6ac7e8267def02ec457de995189cd",
+      "normal_hash": "5a4c835b58745c84f92de9cb7cd2fca262543793c0711a2f51238f015b1e6e56",
+      "uv_hashes": {
+        "Float2": "857b69cc4cc9946cb9618a6c5c3ffebaefd249486e1b6e71953895f87123c888"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark",
+        "M_WT_RootAccent"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.4893916,
+          -2.9922366,
+          -0.0413101
+        ],
+        "max": [
+          3.2583127,
+          3.0293005,
+          8.1675014
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD1"
+      ]
+    },
+    "WT_MatureTree_TrunkAndRoots_LOD2": {
+      "vertices": 195,
+      "polygons": 213,
+      "triangles": 362,
+      "position_hash": "12109db13796f56656bffece450e337a211780e4851a1d7503d847712dc95dd5",
+      "world_position_hash": "12109db13796f56656bffece450e337a211780e4851a1d7503d847712dc95dd5",
+      "topology_hash": "6d943acb42997e99de02bc91d13f48a8e9db94cf8548c6bda783b2b266cd22be",
+      "normal_hash": "6bea940e02a5393d4d7e3bceef3a31eccd47eae2094f999c0bb4162ee901647b",
+      "uv_hashes": {
+        "Float2": "8277c7a2b0a0a69abed0100d3325e972e35eaf761592f0862949ef5df837e359"
+      },
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_WT_Bark",
+        "M_WT_RootAccent"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -3.4884923,
+          -2.9300971,
+          -0.0411276
+        ],
+        "max": [
+          2.6973155,
+          2.4676993,
+          8.1674995
+        ]
+      },
+      "collections": [
+        "WT_MatureTree_LOD2"
+      ]
+    }
+  },
+  "mature_wood_islands": {
+    "WT_MatureTree_TrunkAndRoots": [
+      {
+        "first_vert": 0,
+        "last_vert": 217,
+        "num_verts": 218,
+        "num_faces": 228,
+        "z_min": 0.3805,
+        "z_max": 8.1675,
+        "r_min": 0.0001,
+        "r_max": 0.8333,
+        "material_face_counts": {
+          "0": 228
+        }
+      },
+      {
+        "first_vert": 218,
+        "last_vert": 291,
+        "num_verts": 74,
+        "num_faces": 80,
+        "z_min": 2.4666,
+        "z_max": 5.2334,
+        "r_min": 0.0246,
+        "r_max": 1.6396,
+        "material_face_counts": {
+          "0": 80
+        }
+      },
+      {
+        "first_vert": 292,
+        "last_vert": 377,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0411,
+        "z_max": 3.4814,
+        "r_min": 0.0974,
+        "r_max": 3.0177,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 378,
+        "last_vert": 463,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0412,
+        "z_max": 3.1824,
+        "r_min": 0.0553,
+        "r_max": 3.4772,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 464,
+        "last_vert": 549,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0412,
+        "z_max": 2.8813,
+        "r_min": 0.0162,
+        "r_max": 3.6082,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 550,
+        "last_vert": 635,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0405,
+        "z_max": 2.1248,
+        "r_min": 0.2047,
+        "r_max": 3.1779,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 636,
+        "last_vert": 721,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0412,
+        "z_max": 2.5779,
+        "r_min": 0.1711,
+        "r_max": 3.1537,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 722,
+        "last_vert": 807,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0412,
+        "z_max": 2.3822,
+        "r_min": 0.1894,
+        "r_max": 3.2895,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 808,
+        "last_vert": 893,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0409,
+        "z_max": 2.7285,
+        "r_min": 0.1884,
+        "r_max": 3.5731,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 894,
+        "last_vert": 979,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0406,
+        "z_max": 3.027,
+        "r_min": 0.1351,
+        "r_max": 3.0675,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 980,
+        "last_vert": 1065,
+        "num_verts": 86,
+        "num_faces": 91,
+        "z_min": -0.0409,
+        "z_max": 2.6749,
+        "r_min": 0.16,
+        "r_max": 3.6177,
+        "material_face_counts": {
+          "0": 91
+        }
+      },
+      {
+        "first_vert": 1066,
+        "last_vert": 1102,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.3139,
+        "r_min": 1.4198,
+        "r_max": 3.1042,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1103,
+        "last_vert": 1139,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0392,
+        "z_max": 0.2895,
+        "r_min": 1.5854,
+        "r_max": 3.1563,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1140,
+        "last_vert": 1176,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.04,
+        "z_max": 0.2601,
+        "r_min": 1.5201,
+        "r_max": 2.6317,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1177,
+        "last_vert": 1213,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.3325,
+        "r_min": 1.3205,
+        "r_max": 2.9879,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1214,
+        "last_vert": 1250,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.2105,
+        "r_min": 1.8916,
+        "r_max": 2.9973,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1251,
+        "last_vert": 1287,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.2749,
+        "r_min": 1.5487,
+        "r_max": 2.8415,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1288,
+        "last_vert": 1324,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.2305,
+        "r_min": 1.8178,
+        "r_max": 3.0832,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1325,
+        "last_vert": 1361,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.04,
+        "z_max": 0.3341,
+        "r_min": 1.3493,
+        "r_max": 3.1952,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1362,
+        "last_vert": 1398,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.04,
+        "z_max": 0.2651,
+        "r_min": 1.7515,
+        "r_max": 2.7622,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1399,
+        "last_vert": 1435,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.0401,
+        "z_max": 0.2943,
+        "r_min": 1.4428,
+        "r_max": 2.8224,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1436,
+        "last_vert": 1472,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.04,
+        "z_max": 0.2653,
+        "r_min": 1.5882,
+        "r_max": 3.0413,
+        "material_face_counts": {
+          "1": 40
+        }
+      },
+      {
+        "first_vert": 1473,
+        "last_vert": 1509,
+        "num_verts": 37,
+        "num_faces": 40,
+        "z_min": -0.04,
+        "z_max": 0.2651,
+        "r_min": 1.8466,
+        "r_max": 2.9412,
+        "material_face_counts": {
+          "1": 40
+        }
+      }
+    ],
+    "WT_MatureTree_TrunkAndRoots_LOD1": [
+      {
+        "first_vert": 0,
+        "last_vert": 109,
+        "num_verts": 110,
+        "num_faces": 117,
+        "z_min": 0.3815,
+        "z_max": 8.1675,
+        "r_min": 0.0,
+        "r_max": 0.802,
+        "material_face_counts": {
+          "0": 117
+        }
+      },
+      {
+        "first_vert": 110,
+        "last_vert": 147,
+        "num_verts": 38,
+        "num_faces": 42,
+        "z_min": 2.4647,
+        "z_max": 5.233,
+        "r_min": 0.0244,
+        "r_max": 1.64,
+        "material_face_counts": {
+          "0": 42
+        }
+      },
+      {
+        "first_vert": 148,
+        "last_vert": 189,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0408,
+        "z_max": 3.4821,
+        "r_min": 0.1584,
+        "r_max": 3.0177,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 190,
+        "last_vert": 231,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.041,
+        "z_max": 3.1772,
+        "r_min": 0.0922,
+        "r_max": 3.4772,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 232,
+        "last_vert": 273,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0412,
+        "z_max": 2.8785,
+        "r_min": 0.1058,
+        "r_max": 3.6082,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 274,
+        "last_vert": 315,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0405,
+        "z_max": 2.1247,
+        "r_min": 0.2224,
+        "r_max": 3.1779,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 316,
+        "last_vert": 357,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0413,
+        "z_max": 2.5779,
+        "r_min": 0.1703,
+        "r_max": 3.1537,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 358,
+        "last_vert": 399,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.041,
+        "z_max": 2.3829,
+        "r_min": 0.1984,
+        "r_max": 3.2896,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 400,
+        "last_vert": 441,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0409,
+        "z_max": 2.7287,
+        "r_min": 0.1789,
+        "r_max": 3.5731,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 442,
+        "last_vert": 483,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0409,
+        "z_max": 3.0271,
+        "r_min": 0.1555,
+        "r_max": 3.0675,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 484,
+        "last_vert": 525,
+        "num_verts": 42,
+        "num_faces": 45,
+        "z_min": -0.0405,
+        "z_max": 2.6749,
+        "r_min": 0.19,
+        "r_max": 3.6177,
+        "material_face_counts": {
+          "0": 45
+        }
+      },
+      {
+        "first_vert": 526,
+        "last_vert": 547,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.3187,
+        "r_min": 1.4198,
+        "r_max": 3.1041,
+        "material_face_counts": {
+          "1": 24
+        }
+      },
+      {
+        "first_vert": 548,
+        "last_vert": 569,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.2642,
+        "r_min": 1.5156,
+        "r_max": 2.6317,
+        "material_face_counts": {
+          "1": 24
+        }
+      },
+      {
+        "first_vert": 570,
+        "last_vert": 591,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.2146,
+        "r_min": 1.8843,
+        "r_max": 2.9973,
+        "material_face_counts": {
+          "1": 24
+        }
+      },
+      {
+        "first_vert": 592,
+        "last_vert": 613,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.2347,
+        "r_min": 1.8178,
+        "r_max": 3.083,
+        "material_face_counts": {
+          "1": 24
+        }
+      },
+      {
+        "first_vert": 614,
+        "last_vert": 635,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.2695,
+        "r_min": 1.7332,
+        "r_max": 2.7622,
+        "material_face_counts": {
+          "1": 24
+        }
+      },
+      {
+        "first_vert": 636,
+        "last_vert": 657,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0402,
+        "z_max": 0.2697,
+        "r_min": 1.5769,
+        "r_max": 3.0413,
+        "material_face_counts": {
+          "1": 24
+        }
+      }
+    ],
+    "WT_MatureTree_TrunkAndRoots_LOD2": [
+      {
+        "first_vert": 0,
+        "last_vert": 57,
+        "num_verts": 58,
+        "num_faces": 63,
+        "z_min": 0.3823,
+        "z_max": 8.1675,
+        "r_min": 0.0002,
+        "r_max": 0.7646,
+        "material_face_counts": {
+          "0": 63
+        }
+      },
+      {
+        "first_vert": 58,
+        "last_vert": 84,
+        "num_verts": 27,
+        "num_faces": 30,
+        "z_min": 2.4697,
+        "z_max": 5.2325,
+        "r_min": 0.0242,
+        "r_max": 1.6314,
+        "material_face_counts": {
+          "0": 30
+        }
+      },
+      {
+        "first_vert": 85,
+        "last_vert": 106,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0411,
+        "z_max": 3.486,
+        "r_min": 0.1589,
+        "r_max": 3.0178,
+        "material_face_counts": {
+          "0": 24
+        }
+      },
+      {
+        "first_vert": 107,
+        "last_vert": 128,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0411,
+        "z_max": 2.877,
+        "r_min": 0.1612,
+        "r_max": 3.6082,
+        "material_face_counts": {
+          "0": 24
+        }
+      },
+      {
+        "first_vert": 129,
+        "last_vert": 150,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0404,
+        "z_max": 2.5767,
+        "r_min": 0.1957,
+        "r_max": 3.1537,
+        "material_face_counts": {
+          "0": 24
+        }
+      },
+      {
+        "first_vert": 151,
+        "last_vert": 172,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0401,
+        "z_max": 2.7284,
+        "r_min": 0.2176,
+        "r_max": 3.5731,
+        "material_face_counts": {
+          "0": 24
+        }
+      },
+      {
+        "first_vert": 173,
+        "last_vert": 194,
+        "num_verts": 22,
+        "num_faces": 24,
+        "z_min": -0.0396,
+        "z_max": 2.6747,
+        "r_min": 0.212,
+        "r_max": 3.6177,
+        "material_face_counts": {
+          "0": 24
+        }
+      }
+    ]
+  },
+  "tree_large_foliage_reference": {
+    "object_name": "Foliage",
+    "total_vertices": 15400,
+    "total_polygons": 18480,
+    "total_triangles": 24640,
+    "num_connected_blade_components": 1540,
+    "num_4blade_sprigs": 385,
+    "verts_per_blade": 10,
+    "first_blade_vert_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "first_sprig_vert_range": [
+      0,
+      39
+    ],
+    "sample_blade_metrics": {
+      "length_m": 0.23947,
+      "width_m": 0.23965,
+      "length_to_width_ratio": 0.999,
+      "thickness_m": 0.00136,
+      "midrib_fold_angle_deg": 99.34
+    },
+    "sample_sprig_size_m": [
+      0.35787,
+      0.21392,
+      0.23679
+    ],
+    "uv_layer_name": "Float2"
+  }
+}

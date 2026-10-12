@@ -1,0 +1,1079 @@
+{
+  "pre_hashes": {
+    "ArtSource/Models/Tree_Seedling_Simple_v01.blend": "39617953f796848fea4ee400087cd13643b7df0b77b8e33882806b72a885c393",
+    "ArtSource/Exports/Tree_Seedling_Simple_v01.fbx": "2ad58563872dd00f48e28baf36118f192a8b894ef299cef0d5c0e448718392db",
+    "ArtSource/Models/Tree_Young_Simple_v01.blend": "51da343016b387e7ec350cabbd93a781530636cb90a1f51a7f846af60bfabbbc",
+    "ArtSource/Exports/Tree_Young_Simple_v01.fbx": "1537310d52340c8e8d6bcc161a4c355df844c5d85f3b0376c70475cf4d59b0a4",
+    "ArtSource/Models/Tree_Large.blend": "170568cd734453dc1f31f94ca44931132608b824b334e942a789f751613decbb",
+    "ArtSource/Exports/Tree_Large.fbx": "fc689ec890e3a9668dec2e655dcc1c9e61229e036894446fccf3589ce7869b8e",
+    "ArtSource/Models/Bonsai_Trunk_Candidate_v01.blend": "75a1fa22f1b6ecd35d276c6b63701d303e81c42834f963f8f75d952a441158a6",
+    "ArtSource/Exports/Bonsai_Trunk_Candidate_v01.fbx": "e7394898d301549c17c8878124927c6e72b08c7a3605b573281e2742e04ca782",
+    "ArtSource/Textures/Tree_Common/Ancient_Bark_BaseColor.png": "c9156c2294201c1cf2f7c907c3ebce9dcf1e9b9643801bd897e280f3065100bd",
+    "ArtSource/Textures/Tree_Common/Ancient_Bark_Normal.png": "2e6a74f53863b9b645d37da5208ebb25b8ea1a3eadef3e3e701c86092ad7853f",
+    "ArtSource/Textures/Tree_Common/Large_Bark_BaseColor.png": "9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4",
+    "ArtSource/Textures/Tree_Common/Large_Bark_Normal.png": "7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159",
+    "ArtSource/Textures/Tree_Common/Leaf_Common_BaseColor.png": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+    "ArtSource/Textures/Tree_Common/Leaf_Common_Normal.png": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+    "Assets/_Project/Art/Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "Assets/_Project/Art/Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644"
+  },
+  "models": {
+    "seedling": {
+      "blend_sha256": "39617953f796848fea4ee400087cd13643b7df0b77b8e33882806b72a885c393",
+      "fbx_sha256": "2ad58563872dd00f48e28baf36118f192a8b894ef299cef0d5c0e448718392db",
+      "total_vertices": 1436,
+      "total_triangles": 2778,
+      "meshes": {
+        "Foliage": {
+          "vertices": 600,
+          "triangles": 1180,
+          "polygons": 590,
+          "edges": 1180,
+          "position_hash": "bc3f55b3656f61d3126da58478f95a83fc89bf78e2b038a8fac96716f8f4b8a3",
+          "topology_hash": "ff704dda43432cbc8a71991f2e0ab2db9251e1d1654e4f3d4b0294915b0d78c4",
+          "normal_hash": "817cc50299b4aea135343cd2740074cc5ba77d7c359172fe037f86333f331c0e",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "UVMap": "e223e7b193d1099ed39a77c594cbc6714ed02e6f583ef4e181dda4dac502fba4"
+          },
+          "uv_order": [
+            "UVMap"
+          ],
+          "degenerate_uv_triangles": {
+            "UVMap": 65
+          },
+          "materials": [
+            "M_Leaves"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.15158604085445404,
+              -0.03252565115690231,
+              0.14313319325447083
+            ],
+            "max": [
+              0.14174100756645203,
+              0.041779909282922745,
+              0.2580000162124634
+            ]
+          }
+        },
+        "Roots": {
+          "vertices": 170,
+          "triangles": 316,
+          "polygons": 148,
+          "edges": 314,
+          "position_hash": "6df64fa2db2b148b9239a1f5028dbe6f928ae3d47fc5513fc1be6be9b05c2fc2",
+          "topology_hash": "3c8869bef3d88baf3f61bd92ef32b4a21197c87b0167c10152ddfbe211117c4f",
+          "normal_hash": "65683b8c60b2f76cc7298eb0f2d6bd96ab096fed1d035225b40088765d8d01be",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {},
+          "uv_order": [],
+          "degenerate_uv_triangles": {},
+          "materials": [
+            "M_Roots"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.07225295901298523,
+              -0.016390712931752205,
+              -0.1980486959218979
+            ],
+            "max": [
+              0.06530322134494781,
+              0.01838996633887291,
+              0.012000000104308128
+            ]
+          }
+        },
+        "SeedShell": {
+          "vertices": 516,
+          "triangles": 1024,
+          "polygons": 544,
+          "edges": 1056,
+          "position_hash": "3eb4700cf585f9c78ce72b4c44caebc25c453fffe214433bcd6502072c641665",
+          "topology_hash": "8841838c237917cb3ab2759630aea32dcba9c83ca2d40c3a7e4b247a3103723c",
+          "normal_hash": "17e0bb2125c1b379305c89640c391e20dbf198dc4569982d08f96c4834eecb12",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {},
+          "uv_order": [],
+          "degenerate_uv_triangles": {},
+          "materials": [
+            "M_SeedShell_Outer",
+            "M_SeedShell_Inner"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.06838704645633698,
+              -0.046562522649765015,
+              -0.011922402307391167
+            ],
+            "max": [
+              0.0687236562371254,
+              0.01876869983971119,
+              0.04530373960733414
+            ]
+          }
+        },
+        "Trunk_Branches": {
+          "vertices": 150,
+          "triangles": 258,
+          "polygons": 120,
+          "edges": 266,
+          "position_hash": "a7eceda0c7b7b6ddc319ba6364cf9b2800161586dbfc6d111b91945a8a5293af",
+          "topology_hash": "b3483c1b383ce2692e253901ea6ae34cd9673eba8778f8f6cc89b3aee82e0004",
+          "normal_hash": "5fd331a7a89e3c912d28db27cce679541c0894495111410f943d9edd82e05194",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {},
+          "uv_order": [],
+          "degenerate_uv_triangles": {},
+          "materials": [
+            "M_Stem"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.022727567702531815,
+              -0.007608452811837196,
+              -0.004999999888241291
+            ],
+            "max": [
+              0.022727567702531815,
+              0.007608452811837196,
+              0.20000000298023224
+            ]
+          }
+        }
+      },
+      "leaf_graph_before": {
+        "material_name": "M_Leaves",
+        "diffuse_color": [
+          0.3278000056743622,
+          0.5971999764442444,
+          0.09080000221729279,
+          1.0
+        ],
+        "roughness": 0.6499999761581421,
+        "metallic": 0.0,
+        "mix_blend_type": "MULTIPLY",
+        "mix_factor": 0.699999988079071,
+        "mix_tint_A_linear": [
+          0.3278000056743622,
+          0.5971999764442444,
+          0.09080000221729279,
+          1.0
+        ],
+        "basecolor_image": "Leaf_Common_BaseColor.png",
+        "basecolor_colorspace": "sRGB",
+        "normal_image": "Leaf_Common_Normal.png",
+        "normal_colorspace": "Non-Color",
+        "normal_strength": 0.07999999821186066,
+        "normal_space": "TANGENT",
+        "normal_uv_map": "UVMap"
+      }
+    },
+    "young": {
+      "blend_sha256": "51da343016b387e7ec350cabbd93a781530636cb90a1f51a7f846af60bfabbbc",
+      "fbx_sha256": "1537310d52340c8e8d6bcc161a4c355df844c5d85f3b0376c70475cf4d59b0a4",
+      "total_vertices": 2420,
+      "total_triangles": 4574,
+      "meshes": {
+        "Foliage": {
+          "vertices": 1638,
+          "triangles": 3224,
+          "polygons": 1612,
+          "edges": 3224,
+          "position_hash": "229cd6b25435110a69322f980b5f184c52d19830f14f06d5a3421ff4ab34a9ec",
+          "topology_hash": "895c2fc15a1e75a6128582a216bd4e70ee119341d3c10cd8b1a22d480360b626",
+          "normal_hash": "fc9a78a3d544c0bd7f81151e9ad3e8bd8ce645328e23f2c11774833566f09f32",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "UVMap": "8772f2a29a6ff36cf4fabe01c1b103ddfeddefdc0d7a0bc0bb0cc2b60745b082"
+          },
+          "uv_order": [
+            "UVMap"
+          ],
+          "degenerate_uv_triangles": {
+            "UVMap": 150
+          },
+          "materials": [
+            "M_Leaves"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.24084684252738953,
+              -0.06323202699422836,
+              0.18608377873897552
+            ],
+            "max": [
+              0.24775193631649017,
+              0.15909375250339508,
+              0.8379999995231628
+            ]
+          }
+        },
+        "Roots": {
+          "vertices": 436,
+          "triangles": 760,
+          "polygons": 357,
+          "edges": 782,
+          "position_hash": "7ab84a6c773535823f16bf2f302dffaafa0848e57246c118836218ec6f522de7",
+          "topology_hash": "7b6da5b0042b29804348c9f0fc479e38b62a2aec1f6b31d0790d4354b5f9ef5f",
+          "normal_hash": "6fcf0086cfc5d007291b665b8c2d2069c22dd04026a37cd38deb598b3031feb1",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {},
+          "uv_order": [],
+          "degenerate_uv_triangles": {},
+          "materials": [
+            "M_Roots"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.24540764093399048,
+              -0.22647389769554138,
+              -0.4801379442214966
+            ],
+            "max": [
+              0.24841608107089996,
+              0.22247828543186188,
+              0.0020000000949949026
+            ]
+          }
+        },
+        "Trunk_Branches": {
+          "vertices": 346,
+          "triangles": 590,
+          "polygons": 274,
+          "edges": 610,
+          "position_hash": "8ce678b003ee9c64e65aa64427fe8306f36cca9ed38d733bbc1a7e63271b8c2e",
+          "topology_hash": "2f25028f2955ae188444c076ef60f0f57c5d27e462e0dcb6c84de74f3d4ea51a",
+          "normal_hash": "7cc5083c0761a0c27f1b8ffb02374d196d839b44e33b0652c6ecb82e516453cb",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {},
+          "uv_order": [],
+          "degenerate_uv_triangles": {},
+          "materials": [
+            "M_Stem"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.04658208414912224,
+              -0.018522370606660843,
+              -0.00800000037997961
+            ],
+            "max": [
+              0.07821930944919586,
+              0.03155316039919853,
+              0.7699999809265137
+            ]
+          }
+        }
+      },
+      "leaf_graph_before": {
+        "material_name": "M_Leaves",
+        "diffuse_color": [
+          0.17790000140666962,
+          0.4020000100135803,
+          0.05609999969601631,
+          1.0
+        ],
+        "roughness": 0.699999988079071,
+        "metallic": 0.0,
+        "mix_blend_type": "MULTIPLY",
+        "mix_factor": 0.8500000238418579,
+        "mix_tint_A_linear": [
+          0.17790000140666962,
+          0.4020000100135803,
+          0.05609999969601631,
+          1.0
+        ],
+        "basecolor_image": "Leaf_Common_BaseColor.png",
+        "basecolor_colorspace": "sRGB",
+        "normal_image": "Leaf_Common_Normal.png",
+        "normal_colorspace": "Non-Color",
+        "normal_strength": 0.14000000059604645,
+        "normal_space": "TANGENT",
+        "normal_uv_map": "UVMap"
+      }
+    },
+    "large": {
+      "blend_sha256": "170568cd734453dc1f31f94ca44931132608b824b334e942a789f751613decbb",
+      "fbx_sha256": "fc689ec890e3a9668dec2e655dcc1c9e61229e036894446fccf3589ce7869b8e",
+      "total_vertices": 16632,
+      "total_triangles": 26682,
+      "meshes": {
+        "Foliage": {
+          "vertices": 15400,
+          "triangles": 24640,
+          "polygons": 18480,
+          "edges": 30800,
+          "position_hash": "b38f6b81304680cc887848d91a5d6a5ad85789400b68e3166ebcf3a6329f3f89",
+          "topology_hash": "78cae45828425d394fda3caab12f492ad7d3013f79b589a0c69d85de427e2ac4",
+          "normal_hash": "0b35aa9a02829af649f78b790d2df28664dae3d5bf545a241d26c65564bee60f",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "7b7ceafe107eb594de86da53a80886118a625a9de7fd5ac4b46765d3a63db2bb"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 12320
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -1.683823823928833,
+              -0.9527472257614136,
+              0.6869006156921387
+            ],
+            "max": [
+              1.6381416320800781,
+              1.156751036643982,
+              2.3528895378112793
+            ]
+          }
+        },
+        "Roots": {
+          "vertices": 374,
+          "triangles": 634,
+          "polygons": 290,
+          "edges": 654,
+          "position_hash": "7d32f5cb8f3bedcfe5e7302b9f14c2dd80082d793cb414ef4d4c38df39f508f6",
+          "topology_hash": "e5b9080222d71db55deb571f85a8d76f208046f5d90c771563ef33a310d4754e",
+          "normal_hash": "20631c9be2da244ea479518193134a3bcf877880b2d9902ca9fb508510106f4b",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "2013a447263562a7fb1fd786b6e95c021e4ab88d2ebe9fadf3e51f360fc64a38"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -0.6925340294837952,
+              -0.5489616990089417,
+              -0.26431599259376526
+            ],
+            "max": [
+              0.9276635646820068,
+              0.49483805894851685,
+              0.09177142381668091
+            ]
+          }
+        },
+        "Trunk_Branches": {
+          "vertices": 858,
+          "triangles": 1408,
+          "polygons": 656,
+          "edges": 1482,
+          "position_hash": "509ced9621d6045f867fb1f7646336a35e4060304b420d0fdcf844d68b04e6a1",
+          "topology_hash": "e59d1fcc78da4b66d73a389347c37d6b89a18488433de74d1b241c4e863232dd",
+          "normal_hash": "e260aebf63f7a56c9c4187721918ffed55291489bbff7d25ceba55b3bc676eb8",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "Float2": "a88beec84933d8154f52aceac1dde556b92341fa208682440f698a73c2ede609"
+          },
+          "uv_order": [
+            "Float2"
+          ],
+          "degenerate_uv_triangles": {
+            "Float2": 0
+          },
+          "materials": [
+            "M_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -1.0503826141357422,
+              -0.37918341159820557,
+              -0.02500000037252903
+            ],
+            "max": [
+              1.0241161584854126,
+              0.6096388697624207,
+              2.0881450176239014
+            ]
+          }
+        }
+      },
+      "leaf_graph_before": {
+        "material_name": "M_Foliage",
+        "diffuse_color": [
+          0.1143999993801117,
+          0.3050000071525574,
+          0.04820000007748604,
+          1.0
+        ],
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "mix_blend_type": "MULTIPLY",
+        "mix_factor": 1.0,
+        "mix_tint_A_linear": [
+          0.1143999993801117,
+          0.3050000071525574,
+          0.04820000007748604,
+          1.0
+        ],
+        "basecolor_image": "Leaf_Common_BaseColor.png",
+        "basecolor_colorspace": "sRGB",
+        "normal_image": "Leaf_Common_Normal.png",
+        "normal_colorspace": "Non-Color",
+        "normal_strength": 0.20000000298023224,
+        "normal_space": "TANGENT",
+        "normal_uv_map": "Float2"
+      }
+    },
+    "ancient": {
+      "blend_sha256": "75a1fa22f1b6ecd35d276c6b63701d303e81c42834f963f8f75d952a441158a6",
+      "fbx_sha256": "e7394898d301549c17c8878124927c6e72b08c7a3605b573281e2742e04ca782",
+      "total_vertices": 51332,
+      "total_triangles": 73888,
+      "meshes": {
+        "Foliage": {
+          "vertices": 22880,
+          "triangles": 18304,
+          "polygons": 18304,
+          "edges": 36608,
+          "position_hash": "cd32b302eb02b563ac9111f5946a7248289583f2b41519fdd97c26befc6cf37b",
+          "topology_hash": "a96f74344dfacaca351ab9a83e0fdc2ec579ee513240285e36c628d0081dab07",
+          "normal_hash": "dee6f42ce3e8b5d1cfd5f48e66a5c6a3d2eed48b4fc3dc50ad2148ff195cb3bc",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "UVMap": "58193205769cda95ed7b91fd14fd177d3add905773a9fbe6848a9dd16ce8224e"
+          },
+          "uv_order": [
+            "UVMap"
+          ],
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          },
+          "materials": [
+            "M_Foliage"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -4.462429046630859,
+              -2.5528066158294678,
+              0.9902558326721191
+            ],
+            "max": [
+              3.747097969055176,
+              2.5012078285217285,
+              4.28749418258667
+            ]
+          }
+        },
+        "Roots": {
+          "vertices": 9120,
+          "triangles": 17856,
+          "polygons": 8928,
+          "edges": 18048,
+          "position_hash": "c39e1e9c6d07f69f4300fd5382a7d38536abb28619346b0c2ba621049ef824d2",
+          "topology_hash": "6f40a7674302858d6cbfe7cb406872d56b7d51bc644f78887942b039ab66d875",
+          "normal_hash": "e82b972d98b8bd6be18ecee4638a24496325c6d319de24ddcf5237aeef128523",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "UVMap": "e8411aec9015c55770670e0837673356bde85a4f33e9f166d540e764b355802b"
+          },
+          "uv_order": [
+            "UVMap"
+          ],
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          },
+          "materials": [
+            "M_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.3533694744110107,
+              -2.7517833709716797,
+              -0.019257239997386932
+            ],
+            "max": [
+              3.5009617805480957,
+              2.9524765014648438,
+              1.2522717714309692
+            ]
+          }
+        },
+        "Trunk_Branches": {
+          "vertices": 19332,
+          "triangles": 37728,
+          "polygons": 18864,
+          "edges": 38196,
+          "position_hash": "e75f54f4472d3608f3038f791f9b666cc6bee25d94c287cdb709771a513fa5f1",
+          "topology_hash": "13eaae059771d524bf5c50b20a295becad23867cb5ad536ca9bd4a6f227485e0",
+          "normal_hash": "79b84ba0f3efde6f71e57401c0fb8979f7f5b33d5c6a56726fe6e6feb095c17d",
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "uv_hashes": {
+            "UVMap": "774dcf35d7dbdfd0dc69e246aeff9169c528bf1e96ed1b9b45f2085bb0b14690"
+          },
+          "uv_order": [
+            "UVMap"
+          ],
+          "degenerate_uv_triangles": {
+            "UVMap": 0
+          },
+          "materials": [
+            "M_Bark"
+          ],
+          "modifiers": [],
+          "bounds": {
+            "min": [
+              -3.4565017223358154,
+              -1.7811193466186523,
+              0.08750885725021362
+            ],
+            "max": [
+              2.756584882736206,
+              1.8867100477218628,
+              3.819539785385132
+            ]
+          }
+        }
+      },
+      "leaf_graph_before": {
+        "material_name": "M_Foliage",
+        "diffuse_color": [
+          0.08020000159740448,
+          0.20160000026226044,
+          0.039500001817941666,
+          1.0
+        ],
+        "roughness": 0.75,
+        "metallic": 0.0,
+        "mix_blend_type": "MULTIPLY",
+        "mix_factor": 1.0,
+        "mix_tint_A_linear": [
+          0.08020000159740448,
+          0.20160000026226044,
+          0.039500001817941666,
+          1.0
+        ],
+        "basecolor_image": "Leaf_Common_BaseColor.png",
+        "basecolor_colorspace": "sRGB",
+        "normal_image": "Leaf_Common_Normal.png",
+        "normal_colorspace": "Non-Color",
+        "normal_strength": 0.2199999988079071,
+        "normal_space": "TANGENT",
+        "normal_uv_map": "UVMap"
+      }
+    }
+  },
+  "textures": {
+    "Ancient_Bark_BaseColor.png": {
+      "sha256": "c9156c2294201c1cf2f7c907c3ebce9dcf1e9b9643801bd897e280f3065100bd",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        99,
+        88,
+        71
+      ],
+      "corner_00_hex": "#635847",
+      "rgb_min": [
+        0.301961,
+        0.270588,
+        0.215686
+      ],
+      "rgb_max": [
+        0.533333,
+        0.47451,
+        0.376471
+      ],
+      "rgb_mean": [
+        0.427509,
+        0.378382,
+        0.302343
+      ]
+    },
+    "Ancient_Bark_Normal.png": {
+      "sha256": "2e6a74f53863b9b645d37da5208ebb25b8ea1a3eadef3e3e701c86092ad7853f",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        115,
+        142,
+        253
+      ],
+      "corner_00_hex": "#738EFD",
+      "rgb_min": [
+        0.152941,
+        0.223529,
+        0.85098
+      ],
+      "rgb_max": [
+        0.815686,
+        0.776471,
+        1.0
+      ],
+      "rgb_mean": [
+        0.498076,
+        0.498008,
+        0.983499
+      ]
+    },
+    "Large_Bark_BaseColor.png": {
+      "sha256": "9129ad63cec6f0dfba6ec827e310561058193fd1ccdd2ffd1b7cafb1b4fe65c4",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        147,
+        112,
+        77
+      ],
+      "corner_00_hex": "#93704D",
+      "rgb_min": [
+        0.380392,
+        0.301961,
+        0.219608
+      ],
+      "rgb_max": [
+        0.627451,
+        0.490196,
+        0.345098
+      ],
+      "rgb_mean": [
+        0.511758,
+        0.393023,
+        0.277423
+      ]
+    },
+    "Large_Bark_Normal.png": {
+      "sha256": "7ed90aba566a2ebe80c26f0acb67b5eacfc2254a10cfdb7248985e1f523d2159",
+      "size": [
+        1024,
+        1024
+      ],
+      "corner_00_srgb_u8": [
+        114,
+        124,
+        254
+      ],
+      "corner_00_hex": "#727CFE",
+      "rgb_min": [
+        0.235294,
+        0.341176,
+        0.921569
+      ],
+      "rgb_max": [
+        0.745098,
+        0.658824,
+        1.0
+      ],
+      "rgb_mean": [
+        0.497934,
+        0.498187,
+        0.994905
+      ]
+    },
+    "Leaf_Common_BaseColor.png": {
+      "sha256": "582b37099a9646b3d4c84066e902efcf600cfdee26b38ff90ed43dd0e5b4bd69",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        209,
+        209,
+        200
+      ],
+      "corner_00_hex": "#D1D1C8",
+      "rgb_min": [
+        0.819608,
+        0.819608,
+        0.784314
+      ],
+      "rgb_max": [
+        0.976471,
+        0.976471,
+        0.937255
+      ],
+      "rgb_mean": [
+        0.824653,
+        0.824653,
+        0.79
+      ]
+    },
+    "Leaf_Common_Normal.png": {
+      "sha256": "b9e95c557945fef42c0774bcdf593223d38d17485dac95c31fd33d04acf85f9a",
+      "size": [
+        512,
+        512
+      ],
+      "corner_00_srgb_u8": [
+        127,
+        127,
+        255
+      ],
+      "corner_00_hex": "#7F7FFF",
+      "rgb_min": [
+        0.027451,
+        0.113725,
+        0.658824
+      ],
+      "rgb_max": [
+        0.972549,
+        0.890196,
+        1.0
+      ],
+      "rgb_mean": [
+        0.498102,
+        0.498208,
+        0.981687
+      ]
+    }
+  }
+}

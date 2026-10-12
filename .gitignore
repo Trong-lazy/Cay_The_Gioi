@@ -1,0 +1,27 @@
+# Unity generated data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Bb]uild/
+/[Bb]uilds/
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+sysinfo.txt
+*.pyc
+__pycache__/
+*.blend1
+*.blend2
+*.tmp
+# Keep Assets, its .meta files, Packages, ProjectSettings and Docs in version control.

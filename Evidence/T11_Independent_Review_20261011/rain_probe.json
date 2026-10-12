@@ -1,0 +1,35 @@
+[
+  {
+    "stage": "seedling",
+    "emitterY": 6.5,
+    "shapeOffsetY": 8.0,
+    "particles": 480,
+    "visibleParticleCenters": 0,
+    "particlesAtTreeHeight": 0,
+    "minY": 0.3083432,
+    "maxY": 14.9756727,
+    "treeTop": 0.25
+  },
+  {
+    "stage": "young_tree",
+    "emitterY": 6.5,
+    "shapeOffsetY": 8.0,
+    "particles": 494,
+    "visibleParticleCenters": 1,
+    "particlesAtTreeHeight": 3,
+    "minY": 0.390414953,
+    "maxY": 15.0320091,
+    "treeTop": 0.8
+  },
+  {
+    "stage": "large_tree",
+    "emitterY": 6.72000027,
+    "shapeOffsetY": 8.0,
+    "particles": 487,
+    "visibleParticleCenters": 19,
+    "particlesAtTreeHeight": 12,
+    "minY": 0.555735469,
+    "maxY": 15.3405876,
+    "treeTop": 2.22
+  }
+]

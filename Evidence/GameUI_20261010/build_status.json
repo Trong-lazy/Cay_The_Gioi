@@ -1,0 +1,29 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Build Succeeded.\",\"data\":{\"job_id\":\"build-43b8559246\",\"result\":\"succeeded\",\"platform\":\"StandaloneWindows64\",\"output_path\":\"Builds/Windows_Economy_UI_20261010/Cay_The_Gioi.exe\",\"started_at\":\"2026-10-09T17:24:27.462734Z\",\"duration_seconds\":45.641824199999995,\"completed_at\":\"2026-10-09T17:25:13.1045582Z\",\"total_size_mb\":174.87,\"errors\":0,\"warnings\":10}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Build Succeeded.",
+      "data": {
+        "job_id": "build-43b8559246",
+        "result": "succeeded",
+        "platform": "StandaloneWindows64",
+        "output_path": "Builds/Windows_Economy_UI_20261010/Cay_The_Gioi.exe",
+        "started_at": "2026-10-09T17:24:27.462734Z",
+        "duration_seconds": 45.641824199999995,
+        "completed_at": "2026-10-09T17:25:13.1045582Z",
+        "total_size_mb": 174.87,
+        "errors": 0,
+        "warnings": 10
+      }
+    },
+    "isError": false
+  }
+}

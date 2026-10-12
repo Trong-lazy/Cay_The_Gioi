@@ -1,0 +1,31 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"tree\":\"(0.00, 0.00, 0.00)\",\"scale\":\"(1.00, 1.00, 1.00)\",\"center\":\"(0.00, 0.60, 0.00)\",\"radius\":0.65,\"enabled\":true,\"trigger\":false,\"layer\":0,\"bounds\":\"Center: (0.00, 0.60, 0.00), Extents: (0.65, 0.65, 0.65)\",\"queriesHitTriggers\":true},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "tree": "(0.00, 0.00, 0.00)",
+          "scale": "(1.00, 1.00, 1.00)",
+          "center": "(0.00, 0.60, 0.00)",
+          "radius": 0.65,
+          "enabled": true,
+          "trigger": false,
+          "layer": 0,
+          "bounds": "Center: (0.00, 0.60, 0.00), Extents: (0.65, 0.65, 0.65)",
+          "queriesHitTriggers": true
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

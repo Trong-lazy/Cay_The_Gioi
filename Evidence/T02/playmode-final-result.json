@@ -1,0 +1,160 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"081f183806154a8aad643d1545081fda\",\"status\":\"succeeded\",\"mode\":\"PlayMode\",\"started_unix_ms\":1790918092298,\"finished_unix_ms\":1790918098601,\"last_update_unix_ms\":1790918098601,\"progress\":{\"completed\":11,\"total\":11,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1790918098372,\"last_finished_test_full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"last_finished_unix_ms\":1790918098573,\"stuck_suspected\":false,\"editor_is_focused\":true,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"PlayMode\",\"summary\":{\"total\":11,\"passed\":11,\"failed\":0,\"skipped\":0,\"durationSeconds\":4.6971735,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"MouseTapHoldDragUiAndRightOrbit\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit\",\"state\":\"Passed\",\"durationSeconds\":0.9802348,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"OnlineTickHudPauseAndDead\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead\",\"state\":\"Passed\",\"durationSeconds\":0.5792422,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"state\":\"Passed\",\"durationSeconds\":0.1380566,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"state\":\"Passed\",\"durationSeconds\":0.8327992,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchTapAndMouseDuplicationSuppression\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression\",\"state\":\"Passed\",\"durationSeconds\":0.187905,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MainSceneInitializesWithoutDuplicatingOnReload\",\"fullName\":\"CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload\",\"state\":\"Passed\",\"durationSeconds\":0.301715,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"CapDeadAndRebindDoNotDuplicateListeners\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners\",\"state\":\"Passed\",\"durationSeconds\":0.2649863,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"state\":\"Passed\",\"durationSeconds\":0.1934403,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"state\":\"Passed\",\"durationSeconds\":0.7913827,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"state\":\"Passed\",\"durationSeconds\":0.1481452,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"},{\"name\":\"SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"state\":\"Passed\",\"durationSeconds\":0.2012796,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T00 initialized: prototype-1, stage=seedling\\r\\n\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "081f183806154a8aad643d1545081fda",
+          "status": "succeeded",
+          "mode": "PlayMode",
+          "started_unix_ms": 1790918092298,
+          "finished_unix_ms": 1790918098601,
+          "last_update_unix_ms": 1790918098601,
+          "progress": {
+            "completed": 11,
+            "total": 11,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1790918098372,
+            "last_finished_test_full_name": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+            "last_finished_unix_ms": 1790918098573,
+            "stuck_suspected": false,
+            "editor_is_focused": true,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "PlayMode",
+            "summary": {
+              "total": 11,
+              "passed": 11,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 4.6971735,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "MouseTapHoldDragUiAndRightOrbit",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit",
+                "state": "Passed",
+                "durationSeconds": 0.9802348,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "OnlineTickHudPauseAndDead",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead",
+                "state": "Passed",
+                "durationSeconds": 0.5792422,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "state": "Passed",
+                "durationSeconds": 0.1380566,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "state": "Passed",
+                "durationSeconds": 0.8327992,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchTapAndMouseDuplicationSuppression",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression",
+                "state": "Passed",
+                "durationSeconds": 0.187905,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MainSceneInitializesWithoutDuplicatingOnReload",
+                "fullName": "CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload",
+                "state": "Passed",
+                "durationSeconds": 0.301715,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "CapDeadAndRebindDoNotDuplicateListeners",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners",
+                "state": "Passed",
+                "durationSeconds": 0.2649863,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "state": "Passed",
+                "durationSeconds": 0.1934403,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "state": "Passed",
+                "durationSeconds": 0.7913827,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "state": "Passed",
+                "durationSeconds": 0.1481452,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              },
+              {
+                "name": "SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "state": "Passed",
+                "durationSeconds": 0.2012796,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T00 initialized: prototype-1, stage=seedling\r\n"
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

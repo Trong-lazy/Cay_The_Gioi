@@ -1,0 +1,27 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"point\":\"(640.00, 335.65, 3.32)\",\"hit\":\"Ground\",\"blocked\":false,\"allowed\":true,\"max\":0.4},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "point": "(640.00, 335.65, 3.32)",
+          "hit": "Ground",
+          "blocked": false,
+          "allowed": true,
+          "max": 0.4
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

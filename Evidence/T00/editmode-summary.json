@@ -1,0 +1,26 @@
+{
+  "task": "T00",
+  "unity": "6000.6.1f1",
+  "config": "prototype-1",
+  "jobId": "e8c351b30b5343d1bebfd7d7eb269463",
+  "assembly": "CayTheGioi.EditModeTests",
+  "mode": "EditMode",
+  "result": "Passed",
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "skipped": 0,
+  "durationSeconds": 0.6014304,
+  "tests": [
+    "BuildEntryAndEditorSettingsPointToFoundationScene",
+    "CreatedConfigHasAllValidPrefabViews",
+    "DefaultRulesMatchConfirmedOfflineAndVitalityContracts",
+    "DuplicateStageAndUnknownInitialIdAreRejected",
+    "InvalidEconomyValueCannotInitialize(-1)",
+    "InvalidEconomyValueCannotInitialize(double.NaN)",
+    "InvalidEconomyValueCannotInitialize(double.PositiveInfinity)",
+    "NewRunsHaveUniqueIdsAndIndependentMutableData",
+    "SaveDtoCanRepresentVersionAndVitalityWithoutUnityReferences",
+    "ShrinkingCapAndCyclicStageChainAreRejected"
+  ]
+}

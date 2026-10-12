@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-10-03T09:55:00+07:00",
+  "task": "T07",
+  "configVersion": "prototype-4",
+  "scene": "Assets/_Project/Scenes/MainScene.unity",
+  "steps": [
+    {
+      "step": "InitialState",
+      "stageId": "seedling",
+      "weatherId": "calm",
+      "weatherRemaining": 112.8,
+      "hp": 100,
+      "maxHp": 100,
+      "life": "ALIVE",
+      "statusId": "none",
+      "impactRegionId": "none"
+    },
+    {
+      "step": "SunnyWeather",
+      "weatherId": "sunny",
+      "growthRate": 2.4,
+      "expectedBase": 2.0,
+      "buffPercent": 20,
+      "lightColor": "RGBA(1.000, 0.960, 0.850, 1.000)",
+      "lightIntensity": 1.625
+    },
+    {
+      "step": "RainyWeather",
+      "weatherId": "rainy",
+      "waterSupplyRate": 2.4,
+      "expectedBase": 2.0,
+      "buffPercent": 20,
+      "lightColor": "RGBA(0.720, 0.820, 0.950, 1.000)",
+      "lightIntensity": 1.105
+    },
+    {
+      "step": "ThunderstormAndStrike",
+      "weatherId": "thunderstorm",
+      "struckRegion": "leaves",
+      "statusId": "burning",
+      "remainingBurning": 10.0,
+      "growthRate": 1.4,
+      "expectedGrowthDebuff": -30,
+      "burnVisualActive": true
+    },
+    {
+      "step": "DeathTransition",
+      "hp": 0,
+      "life": "DEAD",
+      "forcedRebirthModalVisible": true,
+      "cancelActive": false,
+      "confirmInteractable": true,
+      "productionHalted": true
+    },
+    {
+      "step": "ForcedRebirthConfirmed",
+      "stageAfter": "seedling",
+      "hpAfter": 100,
+      "lifeAfter": "ALIVE",
+      "weatherAfter": "calm",
+      "statusAfter": "none",
+      "burnVisualActive": false,
+      "modalClosed": true
+    }
+  ],
+  "console": {
+    "errors": 0,
+    "warnings": 0
+  }
+}

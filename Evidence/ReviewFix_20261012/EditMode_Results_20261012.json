@@ -1,0 +1,13 @@
+{
+  "mode": "EditMode",
+  "summary": {
+    "total": 261,
+    "passed": 261,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 3.9796486,
+    "resultState": "Passed"
+  },
+  "job_id": "6192ab18ba4e4916b775370d27517113",
+  "timestamp": "2026-10-12T16:09:56Z"
+}

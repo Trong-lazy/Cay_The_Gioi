@@ -1,0 +1,66 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"8f4af0f194fc4303848280d0567fff95\",\"status\":\"failed\",\"mode\":\"PlayMode\",\"started_unix_ms\":1791537440108,\"finished_unix_ms\":1791537487577,\"last_update_unix_ms\":1791537487577,\"progress\":{\"completed\":65,\"total\":65,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791537487415,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates\",\"last_finished_unix_ms\":1791537487536,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"message\":\"  Expected: not equal to (0.00, 1.29, -2.66)\\r\\n  But was:  (0.00, 1.29, -2.66)\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"message\":\"  Expected: not equal to (0.00, 1.29, -2.66)\\r\\n  But was:  (0.00, 1.29, -2.66)\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.MatureSpiritUnlockPaysThreeWalletsAndPersistsProduction\",\"message\":\"  Expected: String containing \\\"1000\\\"\\r\\n  But was:  \\\"SPIRIT_ABSORPTION   L0/10   ·   1K Water · 1K Quang hợp · 1K Growth\\nLinh khí/s 0 → 1\\\"\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"message\":\"  Expected: False\\r\\n  But was:  True\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "8f4af0f194fc4303848280d0567fff95",
+          "status": "failed",
+          "mode": "PlayMode",
+          "started_unix_ms": 1791537440108,
+          "finished_unix_ms": 1791537487577,
+          "last_update_unix_ms": 1791537487577,
+          "progress": {
+            "completed": 65,
+            "total": 65,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1791537487415,
+            "last_finished_test_full_name": "CayTheGioi.Tests.WeatherSceneTests.WeatherMultipliersApplyToLiveRates",
+            "last_finished_unix_ms": 1791537487536,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [
+              {
+                "full_name": "CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+                "message": "  Expected: not equal to (0.00, 1.29, -2.66)\r\n  But was:  (0.00, 1.29, -2.66)\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+                "message": "  Expected: not equal to (0.00, 1.29, -2.66)\r\n  But was:  (0.00, 1.29, -2.66)\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.UpgradeSceneTests.MatureSpiritUnlockPaysThreeWalletsAndPersistsProduction",
+                "message": "  Expected: String containing \"1000\"\r\n  But was:  \"SPIRIT_ABSORPTION   L0/10   ·   1K Water · 1K Quang hợp · 1K Growth\nLinh khí/s 0 → 1\"\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "message": "  Expected: False\r\n  But was:  True\r\n"
+              }
+            ],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": null
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

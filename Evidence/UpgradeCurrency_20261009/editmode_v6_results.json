@@ -1,0 +1,70 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"70bc3b5c67d84651b6e3d447f0f4ecc5\",\"status\":\"failed\",\"mode\":\"EditMode\",\"started_unix_ms\":1791537239666,\"finished_unix_ms\":1791537250116,\"last_update_unix_ms\":1791537250116,\"progress\":{\"completed\":206,\"total\":206,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1791537249883,\"last_finished_test_full_name\":\"CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm\",\"last_finished_unix_ms\":1791537249885,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[{\"full_name\":\"CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress\",\"message\":\"  Expected: True\\r\\n  But was:  False\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState\",\"message\":\"  Expected: 31.5d\\r\\n  But was:  31.500000000000004d\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.ProgressionMetricsTests.OfflineBankMatchesConfirmedRule24HoursAt50Percent\",\"message\":\"  Expected: 86400 +/- 9.9999999999999995E-07d\\r\\n  But was:  0.0d\\r\\n\"},{\"full_name\":\"CayTheGioi.Tests.ProgressionMetricsTests.ProgressionToLargeTreeIsReachableForIdleAndActivePlayers\",\"message\":\"Fixed purchase route did not reach large_tree in 24 hours.\"},{\"full_name\":\"CayTheGioi.Tests.WeatherTests.DeadTree_StopsProductionEntirely\",\"message\":\"  Expected: 0\\r\\n  But was:  10.0d\\r\\n\"}],\"failures_capped\":false},\"error\":null,\"result\":null},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "70bc3b5c67d84651b6e3d447f0f4ecc5",
+          "status": "failed",
+          "mode": "EditMode",
+          "started_unix_ms": 1791537239666,
+          "finished_unix_ms": 1791537250116,
+          "last_update_unix_ms": 1791537250116,
+          "progress": {
+            "completed": 206,
+            "total": 206,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1791537249883,
+            "last_finished_test_full_name": "CayTheGioi.Tests.WeatherTests.YoungTree_UnlocksSunnyAndRainy_NeverThunderstorm",
+            "last_finished_unix_ms": 1791537249885,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [
+              {
+                "full_name": "CayTheGioi.Tests.AchievementTests.MilestoneDetection_Evolution_UpdatesYoungAndLargeTreeProgress",
+                "message": "  Expected: True\r\n  But was:  False\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.CoreResourcesTests.BuffDoesNotIncreaseConsumptionOrUnrelatedState",
+                "message": "  Expected: 31.5d\r\n  But was:  31.500000000000004d\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.ProgressionMetricsTests.OfflineBankMatchesConfirmedRule24HoursAt50Percent",
+                "message": "  Expected: 86400 +/- 9.9999999999999995E-07d\r\n  But was:  0.0d\r\n"
+              },
+              {
+                "full_name": "CayTheGioi.Tests.ProgressionMetricsTests.ProgressionToLargeTreeIsReachableForIdleAndActivePlayers",
+                "message": "Fixed purchase route did not reach large_tree in 24 hours."
+              },
+              {
+                "full_name": "CayTheGioi.Tests.WeatherTests.DeadTree_StopsProductionEntirely",
+                "message": "  Expected: 0\r\n  But was:  10.0d\r\n"
+              }
+            ],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": null
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 1 log entries.\",\"data\":[{\"type\":\"Error\",\"message\":\"[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\",\"file\":\"Assets/_Project/Scripts/Presentation/EvolutionTransition.cs\",\"line\":40,\"stackTrace\":null}]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 1 log entries.",
+      "data": [
+        {
+          "type": "Error",
+          "message": "[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.",
+          "file": "Assets/_Project/Scripts/Presentation/EvolutionTransition.cs",
+          "line": 40,
+          "stackTrace": null
+        }
+      ]
+    },
+    "isError": false
+  }
+}

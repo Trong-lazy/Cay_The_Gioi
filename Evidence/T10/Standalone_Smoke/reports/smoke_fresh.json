@@ -1,0 +1,28 @@
+{
+    "scenario": "smoke_fresh",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 1.7074429567903269,
+    "growth": 2.241018880787303,
+    "hp": 100.0,
+    "rootLevel": 1,
+    "leavesLevel": 1,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 17.86569630401209,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Onboarding OK: Root=1, Leaves=1, Water=1,71, Growth=2,24, Bank=17,9s",
+    "screenshot": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10\\Standalone_Smoke\\screenshots\\smoke_fresh_20261007_122009.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10\\Standalone_Smoke\\screenshots\\smoke_fresh_20261007_122009.png"
+    ],
+    "steps": []
+}

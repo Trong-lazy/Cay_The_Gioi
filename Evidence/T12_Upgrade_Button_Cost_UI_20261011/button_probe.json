@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "id": "root",
+      "labelBefore": "13\nWater",
+      "cost": 13.0,
+      "wasInteractable": true,
+      "deducted": 13.0,
+      "levelBefore": 2,
+      "levelAfter": 3,
+      "labelAfter": "21\nWater"
+    },
+    {
+      "id": "leaves",
+      "labelBefore": "13\nQuang hợp",
+      "cost": 13.0,
+      "wasInteractable": true,
+      "deducted": 13.0,
+      "levelBefore": 2,
+      "levelAfter": 3,
+      "labelAfter": "21\nQuang hợp"
+    },
+    {
+      "id": "trunk",
+      "labelBefore": "26\nGrowth",
+      "cost": 26.0,
+      "wasInteractable": false,
+      "deducted": 0.0,
+      "levelBefore": 2,
+      "levelAfter": 2,
+      "labelAfter": "26\nGrowth"
+    },
+    {
+      "id": "root_cap",
+      "interactable": false
+    }
+  ],
+  "unlockLabel": "Mở khóa"
+}

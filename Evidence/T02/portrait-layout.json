@@ -1,0 +1,28 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"width\":540,\"height\":960,\"panelWidth\":1024.0,\"safeWidth\":1080.0,\"root\":\"ROOT   L1/5   ·   8 Water\\nWater/s 1.05 → 2.1\",\"leaves\":\"LEAVES   L1/5   ·   8 Water\\nGrowth/s tiềm năng 1.05 → 2.1\\nTiêu Water/s 0.25 → 0.5\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "width": 540,
+          "height": 960,
+          "panelWidth": 1024.0,
+          "safeWidth": 1080.0,
+          "root": "ROOT   L1/5   ·   8 Water\nWater/s 1.05 → 2.1",
+          "leaves": "LEAVES   L1/5   ·   8 Water\nGrowth/s tiềm năng 1.05 → 2.1\nTiêu Water/s 0.25 → 0.5"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

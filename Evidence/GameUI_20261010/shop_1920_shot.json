@@ -1,0 +1,24 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Screenshot requested to 'Evidence/GameUI_20261010/shop_1920.png'.\",\"data\":{\"path\":\"Evidence/GameUI_20261010/shop_1920.png\",\"fullPath\":\"C:/Users/Asus/foder game 3D/Cay_The_Gioi/Evidence/GameUI_20261010/shop_1920.png\",\"superSize\":1,\"isAsync\":true,\"captureSource\":\"game_view\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Screenshot requested to 'Evidence/GameUI_20261010/shop_1920.png'.",
+      "data": {
+        "path": "Evidence/GameUI_20261010/shop_1920.png",
+        "fullPath": "C:/Users/Asus/foder game 3D/Cay_The_Gioi/Evidence/GameUI_20261010/shop_1920.png",
+        "superSize": 1,
+        "isAsync": true,
+        "captureSource": "game_view"
+      }
+    },
+    "isError": false
+  }
+}

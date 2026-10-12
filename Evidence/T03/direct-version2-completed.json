@@ -1,0 +1,32 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"version\":\"prototype-2\",\"stage\":\"young_tree\",\"view\":\"young_tree\",\"models\":1,\"water\":0.0,\"growth\":0.0,\"busy\":false,\"input\":true,\"distance\":6.8,\"target\":1.1},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "version": "prototype-2",
+          "stage": "young_tree",
+          "view": "young_tree",
+          "models": 1,
+          "water": 0.0,
+          "growth": 0.0,
+          "busy": false,
+          "input": true,
+          "distance": 6.8,
+          "target": 1.1
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

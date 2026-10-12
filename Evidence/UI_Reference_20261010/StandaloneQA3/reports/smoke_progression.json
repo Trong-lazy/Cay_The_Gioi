@@ -1,0 +1,30 @@
+{
+    "scenario": "smoke_progression",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 10.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 1,
+    "vitalityBank": 16.827921092772158,
+    "vitalityTaps": 0,
+    "coin": 30,
+    "equippedCosmetic": "glow_placeholder",
+    "achievementsClaimed": 5,
+    "error": "",
+    "details": "Full loop OK: RebirthPoints=1, Coin=30, Claimed=5, Equipped=glow_placeholder",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\smoke_progression_20261010_032415.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA3\\screenshots\\smoke_progression_20261010_032415.png"
+    ],
+    "steps": [
+        "HOOK_FOCUS automated hidden scenario emulates focused lifecycle; not an OS input test"
+    ]
+}

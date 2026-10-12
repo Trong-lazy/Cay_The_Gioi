@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "message": "Retrieved 1 log entries.",
+  "data": [
+    {
+      "type": "Assert",
+      "message": "Mismatched state in DefaultScenario, was Idle but expected Starting",
+      "file": "",
+      "line": 0,
+      "stackTrace": "UnityEngine.Debug:LogAssertion (object)\nUnity.PlayMode.Editor.DefaultScenario:StateSyncedSanityCheck ()\nUnity.PlayMode.Editor.DefaultScenario:OnEnable ()\n"
+    }
+  ]
+}

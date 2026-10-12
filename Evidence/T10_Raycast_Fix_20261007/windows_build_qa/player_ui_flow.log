@@ -1,0 +1,150 @@
+Mono path[0] = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/Managed'
+Mono config path = 'c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path c:/Users/Asus/foder game 3D/Cay_The_Gioi/Builds/Windows_T10_20261007/Cay_The_Gioi_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7240
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.014 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.647600 ms
+[CayTheGioi] T07 initialized: prototype-4, stage=seedling, loadOutcome=NewGame
+[SaveController] Save OK (TUTORIAL_STEP) rev=1
+[SaveController] Save OK (SETTINGS_MUSIC) rev=2
+[SaveController] Save OK (SETTINGS_MUSIC) rev=3
+[SaveController] Save OK (TUTORIAL_STEP) rev=4
+[SaveController] Save OK (TUTORIAL_STEP) rev=5
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=6
+[SaveController] Save OK (TUTORIAL_STEP) rev=7
+[SaveController] Save OK (EVOLUTION_COMMIT) rev=8
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=9
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=10
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=11
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=12
+[SaveController] Save OK (ACHIEVEMENT_CLAIM) rev=13
+[SaveController] Save OK (COSMETIC_COMMIT) rev=14
+[SaveController] Save OK (COSMETIC_COMMIT) rev=15
+[SaveController] Rebirth COMMITTED rev=16
+[SaveController] Save OK (UI_FLOW_COMMIT) rev=17
+[QaBuildRunner] Finished scenario 'ui_flow' (success=True):
+{
+    "scenario": "ui_flow",
+    "success": true,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 0.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 1,
+    "vitalityBank": 4.127499697293388,
+    "vitalityTaps": 0,
+    "coin": 30,
+    "equippedCosmetic": "glow_placeholder",
+    "achievementsClaimed": 5,
+    "error": "",
+    "details": "UI flow OK (see steps: UI_CLICK vs HOOK_*)",
+    "screenshot": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_11_after_rebirth_20261007_144330.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_00_hud_tutorial_20261007_144314.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_01_settings_20261007_144315.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_02_upgrade_open_20261007_144317.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_03_upgrade_bought_20261007_144318.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_04_young_tree_20261007_144321.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_05_large_tree_20261007_144324.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_06_achievements_20261007_144325.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_07_achievements_claimed_20261007_144327.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_08_shop_20261007_144327.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_09_shop_equipped_20261007_144328.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_10_rebirth_modal_20261007_144329.png",
+        "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\T10_Raycast_Fix_20261007\\windows_build_qa\\shots_ui_flow\\ui_flow_11_after_rebirth_20261007_144330.png"
+    ],
+    "steps": [
+        "HOOK_TAP vitality.TryTap x50",
+        "CHECK_OK vitality bank > 0 after 50 taps",
+        "CHECK_OK tutorial step_vitality done",
+        "UI_CLICK SettingsOpen",
+        "CHECK_OK SettingsOpen clickable",
+        "UI_CLICK MusicToggleBtn",
+        "CHECK_OK MusicToggleBtn clickable",
+        "CHECK_OK music setting toggled",
+        "UI_CLICK MusicToggleBtn",
+        "CHECK_OK music setting restored",
+        "UI_CLICK ContinueBtn",
+        "CHECK_OK ContinueBtn closes settings",
+        "UI_CLICK UpgradeOpen",
+        "CHECK_OK UpgradeOpen clickable",
+        "UI_CLICK Buy[row 0]",
+        "CHECK_OK Buy root via UI",
+        "CHECK_OK root level 1",
+        "UI_CLICK Buy[row 1]",
+        "CHECK_OK Buy leaves via UI",
+        "CHECK_OK leaves level 1",
+        "CHECK_OK tutorial upgrade steps done",
+        "HOOK_FUND water/growth for Evolution (young_tree)",
+        "UI_CLICK Evolve",
+        "CHECK_OK Evolve button (to young_tree)",
+        "CHECK_OK stage young_tree",
+        "HOOK_FUND water/growth for Trunk and Evolution (large_tree)",
+        "UI_CLICK Buy[row 2]",
+        "CHECK_OK Buy trunk via UI",
+        "CHECK_OK trunk level 1",
+        "UI_CLICK Evolve",
+        "CHECK_OK Evolve button (to large_tree)",
+        "CHECK_OK stage large_tree",
+        "UI_CLICK Close",
+        "UI_CLICK AchievementOpen",
+        "CHECK_OK AchievementOpen clickable",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK ClaimBtn",
+        "UI_CLICK_MISSING ClaimBtn",
+        "CHECK_OK achievements claimed via UI (total >= 4)",
+        "UI_CLICK CloseBtn",
+        "UI_CLICK ShopOpen",
+        "CHECK_OK ShopOpen clickable",
+        "UI_CLICK ActionBtn",
+        "CHECK_OK cosmetic bought",
+        "CHECK_OK coin deducted",
+        "UI_CLICK ActionBtn",
+        "CHECK_OK cosmetic equipped",
+        "UI_CLICK CloseBtn",
+        "UI_CLICK RebirthOpen",
+        "CHECK_OK RebirthOpen clickable",
+        "UI_CLICK RebirthConfirm",
+        "CHECK_OK RebirthConfirm clickable",
+        "CHECK_OK run reset to seedling",
+        "CHECK_OK rebirth point awarded",
+        "CHECK_OK vitality bank kept",
+        "CHECK_OK ForceSave ok"
+    ]
+}
+[SaveController] Save OK (QUIT) rev=18
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

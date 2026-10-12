@@ -1,0 +1,313 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Test job status retrieved.\",\"error\":null,\"data\":{\"job_id\":\"7c1f1647e7a64f1d9142b0e4767a02a2\",\"status\":\"succeeded\",\"mode\":\"PlayMode\",\"started_unix_ms\":1790959229858,\"finished_unix_ms\":1790959248469,\"last_update_unix_ms\":1790959248469,\"progress\":{\"completed\":28,\"total\":28,\"current_test_full_name\":null,\"current_test_started_unix_ms\":1790959248273,\"last_finished_test_full_name\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"last_finished_unix_ms\":1790959248441,\"stuck_suspected\":false,\"editor_is_focused\":false,\"blocked_reason\":null,\"failures_so_far\":[],\"failures_capped\":false},\"error\":null,\"result\":{\"mode\":\"PlayMode\",\"summary\":{\"total\":28,\"passed\":28,\"failed\":0,\"skipped\":0,\"durationSeconds\":13.5731905,\"resultState\":\"Passed\"},\"results\":[{\"name\":\"MouseTapHoldDragUiAndRightOrbit\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit\",\"state\":\"Passed\",\"durationSeconds\":1.2339678,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"OnlineTickHudPauseAndDead\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead\",\"state\":\"Passed\",\"durationSeconds\":0.6747035,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (BACKGROUND) rev=1\\r\\n\"},{\"name\":\"SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets\",\"state\":\"Passed\",\"durationSeconds\":0.1356687,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss\",\"state\":\"Passed\",\"durationSeconds\":0.8921526,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (BACKGROUND) rev=1\\r\\n\"},{\"name\":\"SimulatedTouchTapAndMouseDuplicationSuppression\",\"fullName\":\"CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression\",\"state\":\"Passed\",\"durationSeconds\":0.2107021,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"DisableAndViewFailureReleaseLocksWithoutDuplicatePayment\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment\",\"state\":\"Passed\",\"durationSeconds\":0.2202203,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\\r\\n\"},{\"name\":\"InsufficientDeadAndTransitionBlockUiAndWorldCommands\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands\",\"state\":\"Passed\",\"durationSeconds\":1.0479194,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n\"},{\"name\":\"MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera\",\"state\":\"Passed\",\"durationSeconds\":2.2889746,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\\r\\n\"},{\"name\":\"MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits\",\"state\":\"Passed\",\"durationSeconds\":1.3272698,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n\"},{\"name\":\"TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"fullName\":\"CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition\",\"state\":\"Passed\",\"durationSeconds\":1.3229152,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n\"},{\"name\":\"MainSceneInitializesWithoutDuplicatingOnReload\",\"fullName\":\"CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload\",\"state\":\"Passed\",\"durationSeconds\":0.3030433,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"CorruptMain_LoadsFromBackup\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.CorruptMain_LoadsFromBackup\",\"state\":\"Passed\",\"durationSeconds\":0.2291184,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (T1) rev=1\\r\\n[SaveController] Save OK (T2) rev=2\\r\\n[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=LoadedFromBackup\\r\\n\"},{\"name\":\"EvolutionCommitsStageToDiskDuringTransition\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.EvolutionCommitsStageToDiskDuringTransition\",\"state\":\"Passed\",\"durationSeconds\":0.2084713,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=young_tree, loadOutcome=Loaded\\r\\n\"},{\"name\":\"FinalStageDeadMetaAndSettingsRestoreWithoutProduction\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.FinalStageDeadMetaAndSettingsRestoreWithoutProduction\",\"state\":\"Passed\",\"durationSeconds\":0.2052287,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EXPLICIT) rev=1\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=large_tree, loadOutcome=Loaded\\r\\n\"},{\"name\":\"ForceSave_CreatesFileOnDisk\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.ForceSave_CreatesFileOnDisk\",\"state\":\"Passed\",\"durationSeconds\":0.1246439,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (TEST) rev=1\\r\\n\"},{\"name\":\"LifecycleSavesOnceFreezesBankAndResumesWithoutOfflineReward\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.LifecycleSavesOnceFreezesBankAndResumesWithoutOfflineReward\",\"state\":\"Passed\",\"durationSeconds\":0.1318101,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (BACKGROUND) rev=1\\r\\n[SaveController] Save OK (AUTOSAVE) rev=2\\r\\n\"},{\"name\":\"Regression_TickAndVitalityWorkAfterSaveInit\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.Regression_TickAndVitalityWorkAfterSaveInit\",\"state\":\"Passed\",\"durationSeconds\":0.1151891,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"Reload_DoesNotAutoEvolve_AndPreservesStage\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.Reload_DoesNotAutoEvolve_AndPreservesStage\",\"state\":\"Passed\",\"durationSeconds\":0.207382,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (SEEDLING) rev=1\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\\r\\n\"},{\"name\":\"Reload_PreservesBankAndTapProgress\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.Reload_PreservesBankAndTapProgress\",\"state\":\"Passed\",\"durationSeconds\":0.2170324,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (VITALITY_TEST) rev=1\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\\r\\n\"},{\"name\":\"SaveAndReload_RestoresWaterAndLevels\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.SaveAndReload_RestoresWaterAndLevels\",\"state\":\"Passed\",\"durationSeconds\":0.2240032,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (TEST_ROUNDTRIP) rev=1\\r\\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\\r\\n\"},{\"name\":\"SaveControllerIsBoundAfterInit\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.SaveControllerIsBoundAfterInit\",\"state\":\"Passed\",\"durationSeconds\":0.144181,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"SaveFailureShowsRetryAndMouseAndTouchCommitOnce\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce\",\"state\":\"Passed\",\"durationSeconds\":0.2580595,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EXPLICIT) rev=1\\r\\n[SaveController] Save FAILED (EXPLICIT): IO_ERROR: Injected UI save failure\\r\\n[SaveController] Save OK (UI_RETRY) rev=2\\r\\n[SaveController] Save FAILED (EXPLICIT): IO_ERROR: Touch retry\\r\\n[SaveController] Save OK (UI_RETRY) rev=3\\r\\n\"},{\"name\":\"UnsupportedSaveBlocksGameplayAndAllAutomaticWrites\",\"fullName\":\"CayTheGioi.Tests.SaveSceneTests.UnsupportedSaveBlocksGameplayAndAllAutomaticWrites\",\"state\":\"Passed\",\"durationSeconds\":0.2018157,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n[SaveController] Save OK (EXPLICIT) rev=1\\r\\n[CayTheGioi] Load blocked: VERSION_TOO_NEW\\r\\n\"},{\"name\":\"CapDeadAndRebindDoNotDuplicateListeners\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners\",\"state\":\"Passed\",\"durationSeconds\":0.2338829,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes\",\"state\":\"Passed\",\"durationSeconds\":0.2005645,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap\",\"state\":\"Passed\",\"durationSeconds\":0.8265412,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea\",\"state\":\"Passed\",\"durationSeconds\":0.1223153,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"},{\"name\":\"SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"fullName\":\"CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton\",\"state\":\"Passed\",\"durationSeconds\":0.1675904,\"message\":null,\"stackTrace\":null,\"output\":\"[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\\r\\n\"}]}},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Test job status retrieved.",
+        "error": null,
+        "data": {
+          "job_id": "7c1f1647e7a64f1d9142b0e4767a02a2",
+          "status": "succeeded",
+          "mode": "PlayMode",
+          "started_unix_ms": 1790959229858,
+          "finished_unix_ms": 1790959248469,
+          "last_update_unix_ms": 1790959248469,
+          "progress": {
+            "completed": 28,
+            "total": 28,
+            "current_test_full_name": null,
+            "current_test_started_unix_ms": 1790959248273,
+            "last_finished_test_full_name": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+            "last_finished_unix_ms": 1790959248441,
+            "stuck_suspected": false,
+            "editor_is_focused": false,
+            "blocked_reason": null,
+            "failures_so_far": [],
+            "failures_capped": false
+          },
+          "error": null,
+          "result": {
+            "mode": "PlayMode",
+            "summary": {
+              "total": 28,
+              "passed": 28,
+              "failed": 0,
+              "skipped": 0,
+              "durationSeconds": 13.5731905,
+              "resultState": "Passed"
+            },
+            "results": [
+              {
+                "name": "MouseTapHoldDragUiAndRightOrbit",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.MouseTapHoldDragUiAndRightOrbit",
+                "state": "Passed",
+                "durationSeconds": 1.2339678,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "OnlineTickHudPauseAndDead",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.OnlineTickHudPauseAndDead",
+                "state": "Passed",
+                "durationSeconds": 0.6747035,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (BACKGROUND) rev=1\r\n"
+              },
+              {
+                "name": "SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SafeAreaPortraitAndLandscapeKeepHudInsideInsets",
+                "state": "Passed",
+                "durationSeconds": 0.1356687,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchDragHoldMultitouchCancelUiAndFocusLoss",
+                "state": "Passed",
+                "durationSeconds": 0.8921526,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (BACKGROUND) rev=1\r\n"
+              },
+              {
+                "name": "SimulatedTouchTapAndMouseDuplicationSuppression",
+                "fullName": "CayTheGioi.Tests.CoreResourcesSceneTests.SimulatedTouchTapAndMouseDuplicationSuppression",
+                "state": "Passed",
+                "durationSeconds": 0.2107021,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "DisableAndViewFailureReleaseLocksWithoutDuplicatePayment",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.DisableAndViewFailureReleaseLocksWithoutDuplicatePayment",
+                "state": "Passed",
+                "durationSeconds": 0.2202203,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\r\n"
+              },
+              {
+                "name": "InsufficientDeadAndTransitionBlockUiAndWorldCommands",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.InsufficientDeadAndTransitionBlockUiAndWorldCommands",
+                "state": "Passed",
+                "durationSeconds": 1.0479194,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n"
+              },
+              {
+                "name": "MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.MouseButtonEvolvesBothStagesOnceUpdatesViewCapsHudAndCamera",
+                "state": "Passed",
+                "durationSeconds": 2.2889746,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=2\r\n"
+              },
+              {
+                "name": "MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.MouseOrbitSettingAndTransitionLocksRecoverAndUiStartNeverOrbits",
+                "state": "Passed",
+                "durationSeconds": 1.3272698,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n"
+              },
+              {
+                "name": "TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+                "fullName": "CayTheGioi.Tests.EvolutionSceneTests.TouchEvolutionAndOrbitLockUiDoNotTapTreeAndDragRestoresAfterTransition",
+                "state": "Passed",
+                "durationSeconds": 1.3229152,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n"
+              },
+              {
+                "name": "MainSceneInitializesWithoutDuplicatingOnReload",
+                "fullName": "CayTheGioi.Tests.FoundationSceneTests.MainSceneInitializesWithoutDuplicatingOnReload",
+                "state": "Passed",
+                "durationSeconds": 0.3030433,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "CorruptMain_LoadsFromBackup",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.CorruptMain_LoadsFromBackup",
+                "state": "Passed",
+                "durationSeconds": 0.2291184,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (T1) rev=1\r\n[SaveController] Save OK (T2) rev=2\r\n[CayTheGioi] Load blocked: RECOVERY_CONFIRMATION_REQUIRED\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=LoadedFromBackup\r\n"
+              },
+              {
+                "name": "EvolutionCommitsStageToDiskDuringTransition",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.EvolutionCommitsStageToDiskDuringTransition",
+                "state": "Passed",
+                "durationSeconds": 0.2084713,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EVOLUTION_COMMIT) rev=1\r\n[CayTheGioi] T04 initialized: prototype-2, stage=young_tree, loadOutcome=Loaded\r\n"
+              },
+              {
+                "name": "FinalStageDeadMetaAndSettingsRestoreWithoutProduction",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.FinalStageDeadMetaAndSettingsRestoreWithoutProduction",
+                "state": "Passed",
+                "durationSeconds": 0.2052287,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EXPLICIT) rev=1\r\n[CayTheGioi] T04 initialized: prototype-2, stage=large_tree, loadOutcome=Loaded\r\n"
+              },
+              {
+                "name": "ForceSave_CreatesFileOnDisk",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.ForceSave_CreatesFileOnDisk",
+                "state": "Passed",
+                "durationSeconds": 0.1246439,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (TEST) rev=1\r\n"
+              },
+              {
+                "name": "LifecycleSavesOnceFreezesBankAndResumesWithoutOfflineReward",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.LifecycleSavesOnceFreezesBankAndResumesWithoutOfflineReward",
+                "state": "Passed",
+                "durationSeconds": 0.1318101,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (BACKGROUND) rev=1\r\n[SaveController] Save OK (AUTOSAVE) rev=2\r\n"
+              },
+              {
+                "name": "Regression_TickAndVitalityWorkAfterSaveInit",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.Regression_TickAndVitalityWorkAfterSaveInit",
+                "state": "Passed",
+                "durationSeconds": 0.1151891,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "Reload_DoesNotAutoEvolve_AndPreservesStage",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.Reload_DoesNotAutoEvolve_AndPreservesStage",
+                "state": "Passed",
+                "durationSeconds": 0.207382,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (SEEDLING) rev=1\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\r\n"
+              },
+              {
+                "name": "Reload_PreservesBankAndTapProgress",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.Reload_PreservesBankAndTapProgress",
+                "state": "Passed",
+                "durationSeconds": 0.2170324,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (VITALITY_TEST) rev=1\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\r\n"
+              },
+              {
+                "name": "SaveAndReload_RestoresWaterAndLevels",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.SaveAndReload_RestoresWaterAndLevels",
+                "state": "Passed",
+                "durationSeconds": 0.2240032,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (TEST_ROUNDTRIP) rev=1\r\n[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=Loaded\r\n"
+              },
+              {
+                "name": "SaveControllerIsBoundAfterInit",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.SaveControllerIsBoundAfterInit",
+                "state": "Passed",
+                "durationSeconds": 0.144181,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "SaveFailureShowsRetryAndMouseAndTouchCommitOnce",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.SaveFailureShowsRetryAndMouseAndTouchCommitOnce",
+                "state": "Passed",
+                "durationSeconds": 0.2580595,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EXPLICIT) rev=1\r\n[SaveController] Save FAILED (EXPLICIT): IO_ERROR: Injected UI save failure\r\n[SaveController] Save OK (UI_RETRY) rev=2\r\n[SaveController] Save FAILED (EXPLICIT): IO_ERROR: Touch retry\r\n[SaveController] Save OK (UI_RETRY) rev=3\r\n"
+              },
+              {
+                "name": "UnsupportedSaveBlocksGameplayAndAllAutomaticWrites",
+                "fullName": "CayTheGioi.Tests.SaveSceneTests.UnsupportedSaveBlocksGameplayAndAllAutomaticWrites",
+                "state": "Passed",
+                "durationSeconds": 0.2018157,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n[SaveController] Save OK (EXPLICIT) rev=1\r\n[CayTheGioi] Load blocked: VERSION_TOO_NEW\r\n"
+              },
+              {
+                "name": "CapDeadAndRebindDoNotDuplicateListeners",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.CapDeadAndRebindDoNotDuplicateListeners",
+                "state": "Passed",
+                "durationSeconds": 0.2338829,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.FreshRunLoopsRootThenLeavesAndBuffUpdatesQuotes",
+                "state": "Passed",
+                "durationSeconds": 0.2005645,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.MouseOpenBuyOnceHoldAndCloseUpdateHudWithoutTap",
+                "state": "Passed",
+                "durationSeconds": 0.8265412,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.PanelAndButtonsStayWithinPortraitAndLandscapeSafeArea",
+                "state": "Passed",
+                "durationSeconds": 0.1223153,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              },
+              {
+                "name": "SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "fullName": "CayTheGioi.Tests.UpgradeSceneTests.SimulatedTouchUiBuysOneAndBlocksTreeBelowButton",
+                "state": "Passed",
+                "durationSeconds": 0.1675904,
+                "message": null,
+                "stackTrace": null,
+                "output": "[CayTheGioi] T04 initialized: prototype-2, stage=seedling, loadOutcome=NewGame\r\n"
+              }
+            ]
+          }
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

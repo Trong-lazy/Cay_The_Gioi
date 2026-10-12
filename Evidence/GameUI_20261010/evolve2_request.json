@@ -1,0 +1,1 @@
+{"name": "execute_code", "arguments": {"action": "execute", "code": "var b=UnityEngine.Object.FindFirstObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>(); b.TickDriver.ManualTick=true; var r=b.Evolution.TryEvolve(); return new {success=r.Success,reason=r.Reason,stage=b.State.run.stageId};"}}

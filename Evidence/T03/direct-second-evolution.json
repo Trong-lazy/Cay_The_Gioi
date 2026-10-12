@@ -1,0 +1,29 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"success\":true,\"stage\":\"large_tree\",\"water\":0.0,\"growth\":0.0,\"root\":5,\"leaves\":2,\"bank\":19.0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "success": true,
+          "stage": "large_tree",
+          "water": 0.0,
+          "growth": 0.0,
+          "root": 5,
+          "leaves": 2,
+          "bank": 19.0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

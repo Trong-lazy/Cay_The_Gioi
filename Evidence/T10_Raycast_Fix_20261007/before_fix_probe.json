@@ -1,0 +1,280 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":[{\"stage\":\"seedling\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":625,\"meshHits\":45,\"physicsTreeHits\":206,\"falsePositiveEmpty\":168,\"falseNegativeVisible\":3,\"examples\":[{\"screenX\":809.836,\"screenY\":592.7248,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":809.836,\"screenY\":615.872253,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":809.836,\"screenY\":639.0197,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":809.836,\"screenY\":662.167236,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":827.1519,\"screenY\":546.4298,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":827.1519,\"screenY\":592.7248,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":827.1519,\"screenY\":615.872253,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":827.1519,\"screenY\":639.0197,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"}],\"missed\":[{\"screenX\":896.4154,\"screenY\":430.6924,\"meshDistance\":1.36810315,\"hitObject\":\"Ground\",\"physicsDistance\":1.43109918},{\"screenX\":1000.31067,\"screenY\":407.544922,\"meshDistance\":1.37397587,\"hitObject\":\"Ground\",\"physicsDistance\":1.373083},{\"screenX\":1017.62659,\"screenY\":407.544922,\"meshDistance\":1.37506437,\"hitObject\":\"Ground\",\"physicsDistance\":1.37355268}]},{\"stage\":\"young_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":613,\"meshHits\":53,\"physicsTreeHits\":206,\"falsePositiveEmpty\":162,\"falseNegativeVisible\":0,\"examples\":[{\"screenX\":826.038757,\"screenY\":562.6956,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":826.038757,\"screenY\":593.917,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":840.8385,\"screenY\":531.4742,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":840.8385,\"screenY\":562.6956,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":840.8385,\"screenY\":593.917,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":840.8385,\"screenY\":625.1384,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":840.8385,\"screenY\":656.359863,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"},{\"screenX\":855.638245,\"screenY\":500.252747,\"collider\":\"SphereCollider\",\"hitObject\":\"Tree\"}],\"missed\":[]},{\"stage\":\"large_tree\",\"screenWidth\":1920,\"screenHeight\":1080,\"checkedPoints\":580,\"meshHits\":187,\"physicsTreeHits\":242,\"falsePositiveEmpty\":84,\"falseNegativeVisible\":17,\"examples\":[{\"screenX\":611.49,\"screenY\":505.4523,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":611.49,\"screenY\":536.4933,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":611.49,\"screenY\":567.534241,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":611.49,\"screenY\":598.575256,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":611.49,\"screenY\":629.6163,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":649.6849,\"screenY\":536.4933,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":649.6849,\"screenY\":567.534241,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"},{\"screenX\":649.6849,\"screenY\":598.575256,\"collider\":\"CapsuleCollider\",\"hitObject\":\"CanopyTapCollider\"}],\"missed\":[{\"screenX\":573.295166,\"screenY\":381.2884,\"meshDistance\":5.94281673,\"hitObject\":\"Ground\",\"physicsDistance\":7.76252127},{\"screenX\":573.295166,\"screenY\":412.329346,\"meshDistance\":6.13234663,\"hitObject\":\"Ground\",\"physicsDistance\":8.096129},{\"screenX\":573.295166,\"screenY\":443.370331,\"meshDistance\":6.40497065,\"hitObject\":\"Ground\",\"physicsDistance\":8.463818},{\"screenX\":611.49,\"screenY\":381.2884,\"meshDistance\":5.79517937,\"hitObject\":\"Ground\",\"physicsDistance\":7.721035},{\"screenX\":611.49,\"screenY\":412.329346,\"meshDistance\":5.92162,\"hitObject\":\"Ground\",\"physicsDistance\":8.052712},{\"screenX\":611.49,\"screenY\":443.370331,\"meshDistance\":6.05357456,\"hitObject\":\"Ground\",\"physicsDistance\":8.418308},{\"screenX\":611.49,\"screenY\":474.411316,\"meshDistance\":6.35132074,\"hitObject\":\"Ground\",\"physicsDistance\":8.822804},{\"screenX\":649.6849,\"screenY\":412.329346,\"meshDistance\":5.787574,\"hitObject\":\"Ground\",\"physicsDistance\":8.013608}]}],\"compiler\":\"codedom\"}}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": [
+        {
+          "stage": "seedling",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 625,
+          "meshHits": 45,
+          "physicsTreeHits": 206,
+          "falsePositiveEmpty": 168,
+          "falseNegativeVisible": 3,
+          "examples": [
+            {
+              "screenX": 809.836,
+              "screenY": 592.7248,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 809.836,
+              "screenY": 615.872253,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 809.836,
+              "screenY": 639.0197,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 809.836,
+              "screenY": 662.167236,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 827.1519,
+              "screenY": 546.4298,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 827.1519,
+              "screenY": 592.7248,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 827.1519,
+              "screenY": 615.872253,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 827.1519,
+              "screenY": 639.0197,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            }
+          ],
+          "missed": [
+            {
+              "screenX": 896.4154,
+              "screenY": 430.6924,
+              "meshDistance": 1.36810315,
+              "hitObject": "Ground",
+              "physicsDistance": 1.43109918
+            },
+            {
+              "screenX": 1000.31067,
+              "screenY": 407.544922,
+              "meshDistance": 1.37397587,
+              "hitObject": "Ground",
+              "physicsDistance": 1.373083
+            },
+            {
+              "screenX": 1017.62659,
+              "screenY": 407.544922,
+              "meshDistance": 1.37506437,
+              "hitObject": "Ground",
+              "physicsDistance": 1.37355268
+            }
+          ]
+        },
+        {
+          "stage": "young_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 613,
+          "meshHits": 53,
+          "physicsTreeHits": 206,
+          "falsePositiveEmpty": 162,
+          "falseNegativeVisible": 0,
+          "examples": [
+            {
+              "screenX": 826.038757,
+              "screenY": 562.6956,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 826.038757,
+              "screenY": 593.917,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 840.8385,
+              "screenY": 531.4742,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 840.8385,
+              "screenY": 562.6956,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 840.8385,
+              "screenY": 593.917,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 840.8385,
+              "screenY": 625.1384,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 840.8385,
+              "screenY": 656.359863,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            },
+            {
+              "screenX": 855.638245,
+              "screenY": 500.252747,
+              "collider": "SphereCollider",
+              "hitObject": "Tree"
+            }
+          ],
+          "missed": []
+        },
+        {
+          "stage": "large_tree",
+          "screenWidth": 1920,
+          "screenHeight": 1080,
+          "checkedPoints": 580,
+          "meshHits": 187,
+          "physicsTreeHits": 242,
+          "falsePositiveEmpty": 84,
+          "falseNegativeVisible": 17,
+          "examples": [
+            {
+              "screenX": 611.49,
+              "screenY": 505.4523,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 536.4933,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 567.534241,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 598.575256,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 629.6163,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 649.6849,
+              "screenY": 536.4933,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 649.6849,
+              "screenY": 567.534241,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            },
+            {
+              "screenX": 649.6849,
+              "screenY": 598.575256,
+              "collider": "CapsuleCollider",
+              "hitObject": "CanopyTapCollider"
+            }
+          ],
+          "missed": [
+            {
+              "screenX": 573.295166,
+              "screenY": 381.2884,
+              "meshDistance": 5.94281673,
+              "hitObject": "Ground",
+              "physicsDistance": 7.76252127
+            },
+            {
+              "screenX": 573.295166,
+              "screenY": 412.329346,
+              "meshDistance": 6.13234663,
+              "hitObject": "Ground",
+              "physicsDistance": 8.096129
+            },
+            {
+              "screenX": 573.295166,
+              "screenY": 443.370331,
+              "meshDistance": 6.40497065,
+              "hitObject": "Ground",
+              "physicsDistance": 8.463818
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 381.2884,
+              "meshDistance": 5.79517937,
+              "hitObject": "Ground",
+              "physicsDistance": 7.721035
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 412.329346,
+              "meshDistance": 5.92162,
+              "hitObject": "Ground",
+              "physicsDistance": 8.052712
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 443.370331,
+              "meshDistance": 6.05357456,
+              "hitObject": "Ground",
+              "physicsDistance": 8.418308
+            },
+            {
+              "screenX": 611.49,
+              "screenY": 474.411316,
+              "meshDistance": 6.35132074,
+              "hitObject": "Ground",
+              "physicsDistance": 8.822804
+            },
+            {
+              "screenX": 649.6849,
+              "screenY": 412.329346,
+              "meshDistance": 5.787574,
+              "hitObject": "Ground",
+              "physicsDistance": 8.013608
+            }
+          ]
+        }
+      ],
+      "compiler": "codedom"
+    }
+  },
+  "isError": false
+}

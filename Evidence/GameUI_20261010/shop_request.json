@@ -1,0 +1,1 @@
+{"name": "execute_code", "arguments": {"action": "execute", "code": "var b=UnityEngine.Object.FindFirstObjectByType<CayTheGioi.Bootstrap.GameBootstrapper>(); b.TickDriver.ManualTick=true; b.Settings.Close(); b.Shop.Open(); return b.Shop.IsVisible;"}}

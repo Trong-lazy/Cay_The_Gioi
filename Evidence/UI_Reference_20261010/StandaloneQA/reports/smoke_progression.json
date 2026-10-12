@@ -1,0 +1,28 @@
+{
+    "scenario": "smoke_progression",
+    "success": false,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 2000.0,
+    "growth": 2000.0,
+    "hp": 100.0,
+    "rootLevel": 1,
+    "leavesLevel": 1,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 17.853338201530278,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Full loop OK: RebirthPoints=0, Coin=0, Claimed=0, Equipped=none",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA\\screenshots\\smoke_progression_20261010_032017.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 0.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UI_Reference_20261010\\StandaloneQA\\screenshots\\smoke_progression_20261010_032017.png"
+    ],
+    "steps": []
+}

@@ -1,0 +1,13 @@
+{
+    "exitCodes":  {
+                      "smoke_fresh":  0,
+                      "smoke_offline":  0,
+                      "smoke_progression":  0,
+                      "smoke_death_forced_rebirth":  0,
+                      "ui_flow":  0
+                  },
+    "realSaveUnchanged":  true,
+    "exe":  "Builds\\Windows\\CayTheGioi.exe",
+    "exeLastWrite":  "2026-10-03T23:09:48",
+    "runAt":  "2026-10-04T16:11:26"
+}

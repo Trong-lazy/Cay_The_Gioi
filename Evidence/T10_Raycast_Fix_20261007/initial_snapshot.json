@@ -1,0 +1,43 @@
+{
+  "main_save_sha256": "91B3491C4D3B1F989B2BD82C8040C055F04BF91CAF7EB082CB2B3B83401DBC2F",
+  "backup_save_sha256": "9242975C6C2CA998EC3A26046E060D30A3F527532FEE0975C18E62E7B686CE65",
+  "main_save_size": 1491,
+  "backup_save_size": 1490,
+  "unity_state": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"version\":\"6000.6.1f1\",\"isPlaying\":false,\"isCompiling\":false,\"scene\":\"Assets/_Project/Scenes/MainScene.unity\",\"dirty\":false},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "version": "6000.6.1f1",
+          "isPlaying": false,
+          "isCompiling": false,
+          "scene": "Assets/_Project/Scenes/MainScene.unity",
+          "dirty": false
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  },
+  "unity_console": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved 0 log entries.",
+      "data": []
+    },
+    "isError": false
+  }
+}

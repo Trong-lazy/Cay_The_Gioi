@@ -1,0 +1,133 @@
+{
+  "source_preservation": {
+    "source_blend": {
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend",
+      "sha256": "18BB67FC27BEA34137777EC00ACD0AD12B4FDF408537F3DA2E833CE48095BEF3",
+      "unchanged": true
+    },
+    "source_fbx": {
+      "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx",
+      "sha256": "52B63D9F9F555BBBC85302DA9BA3AA0E6F1BF82F4E193E070F5B1B8981D0B7D5",
+      "unchanged": true
+    }
+  },
+  "candidate": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+    "sha256": "B99A966A42BD2A44591C7BA007A3BB896482A013DC6A0F4C5F979A1A12C3FC66",
+    "version": "v01"
+  },
+  "detailed_comparison": {
+    "Roots": {
+      "vertices_match": true,
+      "faces_match": true,
+      "triangles_match": true,
+      "edges_match": true,
+      "faces_topology_match": true,
+      "max_position_delta": 0.0,
+      "max_normal_delta": 0.0,
+      "max_uv_delta": 0.0,
+      "matrix_world_match": true,
+      "modifiers_match": true,
+      "materials_match": true,
+      "boundary_edges": 384,
+      "non_manifold": 384,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "passed_all": true
+    },
+    "Foliage": {
+      "vertices_match": true,
+      "faces_match": true,
+      "triangles_match": true,
+      "edges_match": true,
+      "faces_topology_match": true,
+      "max_position_delta": 0.0,
+      "max_normal_delta": 0.0,
+      "max_uv_delta": 0.0,
+      "matrix_world_match": true,
+      "modifiers_match": true,
+      "materials_match": true,
+      "boundary_edges": 18304,
+      "non_manifold": 18304,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "passed_all": true
+    },
+    "Trunk_Branches": {
+      "vertices_match": true,
+      "faces_match": true,
+      "triangles_match": true,
+      "edges_topology_match": true,
+      "faces_topology_match": true,
+      "locked_vertices_count": 12257,
+      "editable_vertices_count": 7075,
+      "max_locked_vertex_delta": 0.0,
+      "max_boundary_vertex_delta": 0.0,
+      "all_boundary_vertices_locked": true,
+      "boundary_vertices_count": 936,
+      "max_locked_uv_delta": 0.0,
+      "editable_displacement": {
+        "min": 0.0,
+        "avg": 0.05995381601358983,
+        "max": 0.20297304814442568
+      },
+      "transition_boundary_edges_count": 750,
+      "transition_locked_ends_max_delta": 0.0,
+      "transition_editable_ends_avg_delta": 0.04598900475598206,
+      "boundary_edges": 936,
+      "non_manifold": 936,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "matrix_world_match": true,
+      "modifiers_match": true,
+      "materials_match": true
+    }
+  },
+  "fbx_reimport_verification": {
+    "file_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Bonsai_Trunk_Candidate_v01.fbx",
+    "sha256": "802610722100C52F810E198C9DCF43A23267D31D30CF7AF38747ED6A3BF68644",
+    "objects_present": [
+      "Foliage",
+      "Roots",
+      "Trunk_Branches"
+    ],
+    "scales_correct": true,
+    "rotations_correct": false,
+    "mesh_stats": {
+      "Foliage": {
+        "vertices": 22880,
+        "triangles": 18304,
+        "dimensions": [
+          8.2095,
+          5.054,
+          3.2972
+        ]
+      },
+      "Roots": {
+        "vertices": 9120,
+        "triangles": 17856,
+        "dimensions": [
+          6.8543,
+          5.7043,
+          1.2715
+        ]
+      },
+      "Trunk_Branches": {
+        "vertices": 19332,
+        "triangles": 37728,
+        "dimensions": [
+          6.2131,
+          3.6678,
+          3.732
+        ]
+      }
+    },
+    "total_triangles": 73888,
+    "total_triangles_match_baseline": true
+  },
+  "total_triangles_summary": {
+    "baseline": 73888,
+    "candidate_blend": 73888,
+    "candidate_fbx": 73888
+  }
+}

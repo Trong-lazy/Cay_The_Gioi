@@ -1,0 +1,5 @@
+{
+  "name": "CayTheGioi.PlayModeTests",
+  "references": ["CayTheGioi.Domain", "CayTheGioi.Runtime", "Unity.InputSystem", "UnityEngine.UI"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

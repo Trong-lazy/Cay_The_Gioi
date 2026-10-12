@@ -1,0 +1,50 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"texts\":[\"Free Aspect\",\"16:9 Aspect\",\"16:10 Aspect\",\"Full HD (1920x1080)\",\"WXGA (1366x768)\",\"QHD (2560x1440)\",\"4K UHD (3840x2160)\"],\"methods\":[\"UnityEditor.GameViewSize GetGameViewSize(Int32)\",\"System.String[] GetDisplayTexts()\",\"Int32 GetTotalCount()\",\"Int32 GetBuiltinCount()\",\"Int32 GetCustomCount()\",\"Void AddBuiltinSizes(UnityEditor.GameViewSize[])\",\"Void AddBuiltinSize(UnityEditor.GameViewSize)\",\"Void AddCustomSizes(UnityEditor.GameViewSize[])\",\"Void AddCustomSize(UnityEditor.GameViewSize)\",\"Void RemoveCustomSize(Int32)\",\"Boolean IsCustomSize(Int32)\",\"Int32 TotalIndexToCustomIndex(Int32)\",\"Int32 IndexOf(UnityEditor.GameViewSize)\",\"Boolean Equals(System.Object)\",\"Int32 GetHashCode()\",\"System.Type GetType()\",\"System.String ToString()\"]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "texts": [
+            "Free Aspect",
+            "16:9 Aspect",
+            "16:10 Aspect",
+            "Full HD (1920x1080)",
+            "WXGA (1366x768)",
+            "QHD (2560x1440)",
+            "4K UHD (3840x2160)"
+          ],
+          "methods": [
+            "UnityEditor.GameViewSize GetGameViewSize(Int32)",
+            "System.String[] GetDisplayTexts()",
+            "Int32 GetTotalCount()",
+            "Int32 GetBuiltinCount()",
+            "Int32 GetCustomCount()",
+            "Void AddBuiltinSizes(UnityEditor.GameViewSize[])",
+            "Void AddBuiltinSize(UnityEditor.GameViewSize)",
+            "Void AddCustomSizes(UnityEditor.GameViewSize[])",
+            "Void AddCustomSize(UnityEditor.GameViewSize)",
+            "Void RemoveCustomSize(Int32)",
+            "Boolean IsCustomSize(Int32)",
+            "Int32 TotalIndexToCustomIndex(Int32)",
+            "Int32 IndexOf(UnityEditor.GameViewSize)",
+            "Boolean Equals(System.Object)",
+            "Int32 GetHashCode()",
+            "System.Type GetType()",
+            "System.String ToString()"
+          ]
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

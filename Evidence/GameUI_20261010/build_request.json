@@ -1,0 +1,1 @@
+{"name": "manage_build", "arguments": {"action": "build", "target": "windows64", "output_path": "Builds/Windows_Economy_UI_20261010/Cay_The_Gioi.exe", "scenes": "[\"Assets/_Project/Scenes/MainScene.unity\"]", "development": "true"}}

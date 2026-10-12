@@ -1,0 +1,1896 @@
+{
+  "Seedling": {
+    "label": "Seedling",
+    "filepath": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+    "sha256": "5c575b1e1c5a298f6b638831a8e9a4a26c26966aad7427a83f1c7cda47abb923",
+    "unit_settings": {
+      "system": "METRIC",
+      "scale_length": 1.0,
+      "length_unit": "METERS"
+    },
+    "total_vertices": 1436,
+    "total_triangles": 2778,
+    "objects": [
+      {
+        "name": "Foliage",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 600,
+        "edges": 1180,
+        "polygons": 590,
+        "triangles": 1180,
+        "degenerate_faces": 58,
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "bounds": {
+          "x": [
+            -0.1516,
+            0.1417
+          ],
+          "y": [
+            -0.0325,
+            0.0418
+          ],
+          "z": [
+            0.1431,
+            0.258
+          ],
+          "size": [
+            0.2933,
+            0.0743,
+            0.1149
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Leaves",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.42,
+                  0.74,
+                  0.18,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.38,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 590
+          }
+        ],
+        "fingerprint": "c3d91784a16bfd1567ac46cef9d3924ac607bc4ecbc741a92f2bca6f0dc5c0d9"
+      },
+      {
+        "name": "Roots",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 170,
+        "edges": 314,
+        "polygons": 148,
+        "triangles": 316,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 16,
+        "non_manifold_edges": 16,
+        "bounds": {
+          "x": [
+            -0.0723,
+            0.0653
+          ],
+          "y": [
+            -0.0164,
+            0.0184
+          ],
+          "z": [
+            -0.198,
+            0.012
+          ],
+          "size": [
+            0.1376,
+            0.0348,
+            0.21
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Roots",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.94,
+                  0.9,
+                  0.8,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.55,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 148
+          }
+        ],
+        "fingerprint": "a22cd06ad14364473c35ac12e4c9876aa2a3129e3573aaa9a6ac95167ca85aa1"
+      },
+      {
+        "name": "SeedShell",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 516,
+        "edges": 1056,
+        "polygons": 544,
+        "triangles": 1024,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "bounds": {
+          "x": [
+            -0.0684,
+            0.0687
+          ],
+          "y": [
+            -0.0466,
+            0.0188
+          ],
+          "z": [
+            -0.0119,
+            0.0453
+          ],
+          "size": [
+            0.1371,
+            0.0653,
+            0.0572
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_SeedShell_Outer",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.5,
+                  0.25,
+                  0.1,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.65,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 288
+          },
+          {
+            "slot_index": 1,
+            "material": {
+              "name": "M_SeedShell_Inner",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.68,
+                  0.42,
+                  0.22,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.58,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 256
+          }
+        ],
+        "fingerprint": "dc0c4bdb1158e4cc410ee89ef37c1de1ba487fa2e569ad0b770f7f260cc787c9"
+      },
+      {
+        "name": "Trunk_Branches",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 150,
+        "edges": 266,
+        "polygons": 120,
+        "triangles": 258,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 34,
+        "non_manifold_edges": 34,
+        "bounds": {
+          "x": [
+            -0.0227,
+            0.0227
+          ],
+          "y": [
+            -0.0076,
+            0.0076
+          ],
+          "z": [
+            -0.005,
+            0.2
+          ],
+          "size": [
+            0.0455,
+            0.0152,
+            0.205
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Stem",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.38,
+                  0.68,
+                  0.15,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.45,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 120
+          }
+        ],
+        "fingerprint": "55e6d72d370e95baf8cab0fdf6adbfceaa9fdd5a6a4d315c95b5fd627b1115a0"
+      }
+    ]
+  },
+  "Young": {
+    "label": "Young",
+    "filepath": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+    "sha256": "53aee33d69c01e8115a63fe02de635cf8a0aa6782337a80e166b6d72c0430c75",
+    "unit_settings": {
+      "system": "METRIC",
+      "scale_length": 1.0,
+      "length_unit": "METERS"
+    },
+    "total_vertices": 2420,
+    "total_triangles": 4574,
+    "objects": [
+      {
+        "name": "Foliage",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 1638,
+        "edges": 3224,
+        "polygons": 1612,
+        "triangles": 3224,
+        "degenerate_faces": 155,
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "bounds": {
+          "x": [
+            -0.2408,
+            0.2478
+          ],
+          "y": [
+            -0.0632,
+            0.1591
+          ],
+          "z": [
+            0.1861,
+            0.838
+          ],
+          "size": [
+            0.4886,
+            0.2223,
+            0.6519
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Leaves",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.36,
+                  0.72,
+                  0.14,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.38,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 1612
+          }
+        ],
+        "fingerprint": "f819d21317f477e2c663a64e15274089b521089b87e1faf18dfd37bba5d3a9d1"
+      },
+      {
+        "name": "Roots",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 436,
+        "edges": 782,
+        "polygons": 357,
+        "triangles": 760,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 90,
+        "non_manifold_edges": 90,
+        "bounds": {
+          "x": [
+            -0.2454,
+            0.2484
+          ],
+          "y": [
+            -0.2265,
+            0.2225
+          ],
+          "z": [
+            -0.4801,
+            0.002
+          ],
+          "size": [
+            0.4938,
+            0.449,
+            0.4821
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Roots",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.94,
+                  0.89,
+                  0.79,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.55,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 357
+          }
+        ],
+        "fingerprint": "5dc1cc522aee6a1a99fefac1992d7b5d4bff398989cfab5809ae639e992f3186"
+      },
+      {
+        "name": "Trunk_Branches",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 346,
+        "edges": 610,
+        "polygons": 274,
+        "triangles": 590,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 82,
+        "non_manifold_edges": 82,
+        "bounds": {
+          "x": [
+            -0.0466,
+            0.0782
+          ],
+          "y": [
+            -0.0185,
+            0.0316
+          ],
+          "z": [
+            -0.008,
+            0.77
+          ],
+          "size": [
+            0.1248,
+            0.0501,
+            0.778
+          ]
+        },
+        "uv_layers": [],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Stem",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.38,
+                  0.68,
+                  0.15,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.45,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 274
+          }
+        ],
+        "fingerprint": "d20ccf5ec738d48f819f88acc83d8f1717c7b428b78768ea2903f8c5045bf7fd"
+      }
+    ]
+  },
+  "Large": {
+    "label": "Large",
+    "filepath": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+    "sha256": "a01e1328f3ad95df3e238057050f06d9e247e321ede9853f7d3601e28b49f723",
+    "unit_settings": {
+      "system": "METRIC",
+      "scale_length": 1.0,
+      "length_unit": "METERS"
+    },
+    "total_vertices": 16632,
+    "total_triangles": 26682,
+    "objects": [
+      {
+        "name": "Foliage",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 15400,
+        "edges": 30800,
+        "polygons": 18480,
+        "triangles": 24640,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges": 0,
+        "bounds": {
+          "x": [
+            -1.6838,
+            1.6381
+          ],
+          "y": [
+            -0.9527,
+            1.1568
+          ],
+          "z": [
+            0.6869,
+            2.3529
+          ],
+          "size": [
+            3.322,
+            2.1095,
+            1.666
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "Float2",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              1.0
+            ],
+            "v_range": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Foliage",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.35,
+                0.72,
+                0.1,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.35,
+                  0.72,
+                  0.1,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.45,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 18480
+          }
+        ],
+        "fingerprint": "661f6a865bd78ffe0bda093725261c22fa1d556db4f98d480c500597f8b57434"
+      },
+      {
+        "name": "Roots",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 374,
+        "edges": 654,
+        "polygons": 290,
+        "triangles": 634,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 94,
+        "non_manifold_edges": 94,
+        "bounds": {
+          "x": [
+            -0.6925,
+            0.9277
+          ],
+          "y": [
+            -0.549,
+            0.4948
+          ],
+          "z": [
+            -0.2643,
+            0.0918
+          ],
+          "size": [
+            1.6202,
+            1.0438,
+            0.3561
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "Float2",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              0.0
+            ],
+            "v_range": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Bark",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.68,
+                0.44,
+                0.24,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.68,
+                  0.44,
+                  0.24,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.52,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 290
+          }
+        ],
+        "fingerprint": "95d045468b972bc2d48cf556bf7e3f8d9963abac69ad0b8170cbf0fd1bda25f3"
+      },
+      {
+        "name": "Trunk_Branches",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 858,
+        "edges": 1482,
+        "polygons": 656,
+        "triangles": 1408,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 244,
+        "non_manifold_edges": 244,
+        "bounds": {
+          "x": [
+            -1.0504,
+            1.0241
+          ],
+          "y": [
+            -0.3792,
+            0.6096
+          ],
+          "z": [
+            -0.025,
+            2.0881
+          ],
+          "size": [
+            2.0745,
+            0.9888,
+            2.1131
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "Float2",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              0.0
+            ],
+            "v_range": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "material_slots": [
+          {
+            "slot_index": 0,
+            "material": {
+              "name": "M_Bark",
+              "use_nodes": true,
+              "diffuse_color": [
+                0.68,
+                0.44,
+                0.24,
+                1.0
+              ],
+              "principled": {
+                "Base Color": [
+                  0.68,
+                  0.44,
+                  0.24,
+                  1.0
+                ],
+                "Metallic": 0.0,
+                "Roughness": 0.52,
+                "IOR": 1.5,
+                "Alpha": 1.0,
+                "Thin Wall": false,
+                "Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Weight": 0.0,
+                "Diffuse Roughness": 0.0,
+                "Subsurface Weight": 0.0,
+                "Subsurface Radius": [
+                  1.0,
+                  0.2,
+                  0.1
+                ],
+                "Subsurface Scale": 0.005,
+                "Subsurface IOR": 1.4,
+                "Subsurface Anisotropy": 0.0,
+                "Specular IOR Level": 0.5,
+                "Specular Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Anisotropic": 0.0,
+                "Anisotropic Rotation": 0.0,
+                "Tangent": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Transmission Weight": 0.0,
+                "Coat Weight": 0.0,
+                "Coat Roughness": 0.03,
+                "Coat IOR": 1.5,
+                "Coat Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Coat Normal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "Sheen Weight": 0.0,
+                "Sheen Roughness": 0.5,
+                "Sheen Tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "Emission Strength": 0.0,
+                "Thin Film Thickness": 0.0,
+                "Thin Film IOR": 1.33
+              },
+              "nodes": [
+                {
+                  "name": "Principled BSDF",
+                  "type": "BSDF_PRINCIPLED"
+                },
+                {
+                  "name": "Material Output",
+                  "type": "OUTPUT_MATERIAL"
+                }
+              ]
+            },
+            "assigned_faces": 656
+          }
+        ],
+        "fingerprint": "a05850d0e40a6c8a65854589e67dd5cd95833683b672bb1367b64d038a795c46"
+      }
+    ]
+  },
+  "Ancient": {
+    "label": "Ancient",
+    "filepath": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+    "sha256": "a7af560a2ec414ca0c0d07b03a4a576507419b404ab46da2ee6ef4723d6b90b9",
+    "unit_settings": {
+      "system": "METRIC",
+      "scale_length": 1.0,
+      "length_unit": "METERS"
+    },
+    "total_vertices": 51332,
+    "total_triangles": 73888,
+    "objects": [
+      {
+        "name": "Camera",
+        "type": "CAMERA",
+        "location": [
+          0.0,
+          -9.5,
+          3.0
+        ]
+      },
+      {
+        "name": "Foliage",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 22880,
+        "edges": 36608,
+        "polygons": 18304,
+        "triangles": 18304,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 18304,
+        "non_manifold_edges": 18304,
+        "bounds": {
+          "x": [
+            -4.4624,
+            3.7471
+          ],
+          "y": [
+            -2.5528,
+            2.5012
+          ],
+          "z": [
+            0.9903,
+            4.2875
+          ],
+          "size": [
+            8.2095,
+            5.054,
+            3.2972
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              1.0
+            ],
+            "v_range": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "material_slots": [],
+        "fingerprint": "5be9723cf24b79d1f4a3cbf83d5100ec9f01dc058abe2b3d9ef34000ca59ad82"
+      },
+      {
+        "name": "Light",
+        "type": "LIGHT",
+        "location": [
+          4.0,
+          -4.0,
+          6.0
+        ]
+      },
+      {
+        "name": "Roots",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 9120,
+        "edges": 18048,
+        "polygons": 8928,
+        "triangles": 17856,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 384,
+        "non_manifold_edges": 384,
+        "bounds": {
+          "x": [
+            -3.3534,
+            3.501
+          ],
+          "y": [
+            -2.7518,
+            2.9525
+          ],
+          "z": [
+            -0.0193,
+            1.2523
+          ],
+          "size": [
+            6.8543,
+            5.7043,
+            1.2715
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              1.0
+            ],
+            "v_range": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "material_slots": [],
+        "fingerprint": "9fcc43b71dfcd7b2dc54855895d7e4e30c0d11945dc9b86bb66d1fbc10649b8c"
+      },
+      {
+        "name": "Trunk_Branches",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 19332,
+        "edges": 38196,
+        "polygons": 18864,
+        "triangles": 37728,
+        "degenerate_faces": 0,
+        "loose_vertices": 0,
+        "boundary_edges": 936,
+        "non_manifold_edges": 936,
+        "bounds": {
+          "x": [
+            -3.4565,
+            2.7566
+          ],
+          "y": [
+            -1.7811,
+            1.8867
+          ],
+          "z": [
+            0.0875,
+            3.8195
+          ],
+          "size": [
+            6.2131,
+            3.6678,
+            3.732
+          ]
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "active": true,
+            "active_render": true,
+            "u_range": [
+              0.0,
+              1.0
+            ],
+            "v_range": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "material_slots": [],
+        "fingerprint": "b78dd2a5e0e6f9e75eb384e8ff5e32053d92a5da667cc8cb59850eb7f2cae99e"
+      }
+    ]
+  }
+}

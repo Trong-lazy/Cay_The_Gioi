@@ -1,0 +1,34 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"scene\":\"Assets/_Project/Scenes/MainScene.unity\",\"dirty\":false,\"playing\":false,\"compiling\":false,\"version\":\"prototype-2\",\"configErrors\":[],\"blend\":0.8,\"heights\":[0.65,1.1,1.9]},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "scene": "Assets/_Project/Scenes/MainScene.unity",
+          "dirty": false,
+          "playing": false,
+          "compiling": false,
+          "version": "prototype-2",
+          "configErrors": [],
+          "blend": 0.8,
+          "heights": [
+            0.65,
+            1.1,
+            1.9
+          ]
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

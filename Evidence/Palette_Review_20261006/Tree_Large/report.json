@@ -1,0 +1,276 @@
+{
+  "source": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+  "sha256_before": "690424d073b5b1c68fa19dc1e2aa1af9dbf2098e720dd19d827f6ac685771adf",
+  "blender": "5.2.2 LTS",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "objects": [
+    {
+      "name": "Roots",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        1.6201975345611572,
+        1.0437997579574585,
+        0.35608741641044617
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 374,
+      "faces": 290,
+      "evaluated_triangles": 634,
+      "boundary_edges": 94,
+      "non_manifold_edges": 94,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "uv_statistics": [
+        {
+          "name": "Float2",
+          "loops": 1214,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trunk_Branches",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0744986534118652,
+        0.9888222813606262,
+        2.113145112991333
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 858,
+      "faces": 656,
+      "evaluated_triangles": 1408,
+      "boundary_edges": 244,
+      "non_manifold_edges": 244,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Bark"
+      ],
+      "uv_statistics": [
+        {
+          "name": "Float2",
+          "loops": 2720,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foliage",
+      "type": "MESH",
+      "parent": null,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        3.315967321395874,
+        2.1043460369110107,
+        1.6483062505722046
+      ],
+      "hide_render": false,
+      "modifiers": [],
+      "vertices": 3850,
+      "faces": 4620,
+      "evaluated_triangles": 6160,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "degenerate_faces": 0,
+      "uv_layers": [
+        "Float2"
+      ],
+      "materials": [
+        "M_Foliage"
+      ],
+      "uv_statistics": [
+        {
+          "name": "Float2",
+          "loops": 15400,
+          "min": [
+            0.0,
+            0.0
+          ],
+          "max": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Bark",
+      "diffuse_color": [
+        0.6800000071525574,
+        0.4399999976158142,
+        0.23999999463558197,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.6800000071525574,
+            0.4399999976158142,
+            0.23999999463558197,
+            1.0
+          ],
+          "roughness": 0.5199999809265137,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    },
+    {
+      "name": "M_Foliage",
+      "diffuse_color": [
+        0.3499999940395355,
+        0.7200000286102295,
+        0.10000000149011612,
+        1.0
+      ],
+      "backface_culling": false,
+      "surface_render_method": "DITHERED",
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "base_color": [
+            0.3499999940395355,
+            0.7200000286102295,
+            0.10000000149011612,
+            1.0
+          ],
+          "roughness": 0.44999998807907104,
+          "alpha": 1.0,
+          "linked_inputs": []
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Render Result",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    },
+    {
+      "name": "Viewer Node",
+      "filepath": "",
+      "packed": false,
+      "exists": null
+    }
+  ],
+  "total_evaluated_triangles": 8202,
+  "empty_objects": [],
+  "world_bounds": {
+    "min": [
+      -1.6806612014770508,
+      -0.952319860458374,
+      -0.26431599259376526
+    ],
+    "max": [
+      1.6353061199188232,
+      1.1520261764526367,
+      2.3216822147369385
+    ],
+    "size": [
+      3.315967321395874,
+      2.1043460369110107,
+      2.585998296737671
+    ]
+  },
+  "review_renders": [
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Large\\front.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Large\\back.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Large\\right.png",
+    "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Palette_Review_20261006\\Tree_Large\\perspective.png"
+  ],
+  "sha256_after": "690424d073b5b1c68fa19dc1e2aa1af9dbf2098e720dd19d827f6ac685771adf",
+  "source_unchanged": true
+}

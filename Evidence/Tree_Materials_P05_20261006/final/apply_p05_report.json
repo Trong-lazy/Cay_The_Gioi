@@ -1,0 +1,577 @@
+{
+  "task": "T10",
+  "prompt": "P05",
+  "models": {
+    "Seedling": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Seedling_Simple_v01.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Seedling_Simple_v01.fbx",
+      "pre_blend_sha": "cd1f5a3d682202ad6e27c9fd9c30bbb953aac03b94015a2b17b28e8d4d0f7d81",
+      "saved_blend_sha": "39617953f796848fea4ee400087cd13643b7df0b77b8e33882806b72a885c393",
+      "fbx_sha": "2ad58563872dd00f48e28baf36118f192a8b894ef299cef0d5c0e448718392db",
+      "target_vertices": 1436,
+      "target_triangles": 2778,
+      "reimported_vertices": 1436,
+      "reimported_triangles": 2778,
+      "mesh_stats_blend": {
+        "Roots": {
+          "vertices": 170,
+          "triangles": 316,
+          "polygons": 148,
+          "edges": 314,
+          "fingerprint": "f44179e765c7142698258768c48794e327e77f14d35e4350b6974ce99a33901e",
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Roots"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 150,
+          "triangles": 258,
+          "polygons": 120,
+          "edges": 266,
+          "fingerprint": "5ed2563f94d2d8a633336f6af36511c8a6d0b620da76d91c926084b58aa47da9",
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Stem"
+          ]
+        },
+        "Foliage": {
+          "vertices": 600,
+          "triangles": 1180,
+          "polygons": 590,
+          "edges": 1180,
+          "fingerprint": "4bfa80d69b0717bb21422c935bfe0bebba3a680732fafbb1c6f21e6a391c2a82",
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Leaves"
+          ]
+        },
+        "SeedShell": {
+          "vertices": 516,
+          "triangles": 1024,
+          "polygons": 544,
+          "edges": 1056,
+          "fingerprint": "9059b90e0d85bbcd29fb2004a5794a38886f23686ac01f653d3818845b129d8a",
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_SeedShell_Outer",
+            "M_SeedShell_Inner"
+          ]
+        }
+      },
+      "reimported_stats": {
+        "Foliage": {
+          "vertices": 600,
+          "triangles": 1180,
+          "polygons": 590,
+          "edges": 1180,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Leaves"
+          ]
+        },
+        "Roots": {
+          "vertices": 170,
+          "triangles": 316,
+          "polygons": 148,
+          "edges": 314,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Roots"
+          ]
+        },
+        "SeedShell": {
+          "vertices": 516,
+          "triangles": 1024,
+          "polygons": 544,
+          "edges": 1056,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_SeedShell_Outer",
+            "M_SeedShell_Inner"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 150,
+          "triangles": 258,
+          "polygons": 120,
+          "edges": 266,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Stem"
+          ]
+        }
+      },
+      "renders": {
+        "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\perspective.png",
+        "front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\front.png",
+        "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\back.png",
+        "left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\left.png",
+        "right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\right.png",
+        "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\top.png",
+        "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\low.png",
+        "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\seedling\\closeup_foliage.png"
+      }
+    },
+    "Young": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Young_Simple_v01.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Young_Simple_v01.fbx",
+      "pre_blend_sha": "004480f34facc7077b1e7b24671cb414faf3a7c76c1af9d6f8b024eb319f4a9a",
+      "saved_blend_sha": "51da343016b387e7ec350cabbd93a781530636cb90a1f51a7f846af60bfabbbc",
+      "fbx_sha": "1537310d52340c8e8d6bcc161a4c355df844c5d85f3b0376c70475cf4d59b0a4",
+      "target_vertices": 2420,
+      "target_triangles": 4574,
+      "reimported_vertices": 2420,
+      "reimported_triangles": 4574,
+      "mesh_stats_blend": {
+        "Roots": {
+          "vertices": 436,
+          "triangles": 760,
+          "polygons": 357,
+          "edges": 782,
+          "fingerprint": "b102b2b4518cc1e871c953f4a47a94436112fed02a9205d3f1a22f8e3d1ff51a",
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Roots"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 346,
+          "triangles": 590,
+          "polygons": 274,
+          "edges": 610,
+          "fingerprint": "b6d548da8be0e8252dee19c72322cce4995e5b0230ba146ab7a44a365399a16c",
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Stem"
+          ]
+        },
+        "Foliage": {
+          "vertices": 1638,
+          "triangles": 3224,
+          "polygons": 1612,
+          "edges": 3224,
+          "fingerprint": "df84eabb32762646b57347a66596ca9f904a2d428675fd4953460e4010bbcca0",
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Leaves"
+          ]
+        }
+      },
+      "reimported_stats": {
+        "Foliage": {
+          "vertices": 1638,
+          "triangles": 3224,
+          "polygons": 1612,
+          "edges": 3224,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Leaves"
+          ]
+        },
+        "Roots": {
+          "vertices": 436,
+          "triangles": 760,
+          "polygons": 357,
+          "edges": 782,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Roots"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 346,
+          "triangles": 590,
+          "polygons": 274,
+          "edges": 610,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [],
+          "active_uv": null,
+          "materials": [
+            "M_Stem"
+          ]
+        }
+      },
+      "renders": {
+        "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\perspective.png",
+        "front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\front.png",
+        "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\back.png",
+        "left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\left.png",
+        "right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\right.png",
+        "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\top.png",
+        "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\low.png",
+        "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\young\\closeup_foliage.png"
+      }
+    },
+    "Large": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Tree_Large.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Tree_Large.fbx",
+      "pre_blend_sha": "e19a5c06c7d4a8ece000ee1ada30d01e5d6a40c7468cec7597767a3d59d914e1",
+      "saved_blend_sha": "60879de936999c5dab236adc2326f16d17b2c93ffe6557d21271ee50ba11f298",
+      "fbx_sha": "fc689ec890e3a9668dec2e655dcc1c9e61229e036894446fccf3589ce7869b8e",
+      "target_vertices": 16632,
+      "target_triangles": 26682,
+      "reimported_vertices": 16632,
+      "reimported_triangles": 26682,
+      "mesh_stats_blend": {
+        "Roots": {
+          "vertices": 374,
+          "triangles": 634,
+          "polygons": 290,
+          "edges": 654,
+          "fingerprint": "18a96356881268e5f4ea0d1d24b782c26cc3185faab679e7e36959fc024085ad",
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 858,
+          "triangles": 1408,
+          "polygons": 656,
+          "edges": 1482,
+          "fingerprint": "429df9319868d04f1ab88f49a03b98f351b550b3b48228de607093ba6af8847a",
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Foliage": {
+          "vertices": 15400,
+          "triangles": 24640,
+          "polygons": 18480,
+          "edges": 30800,
+          "fingerprint": "30b9787e3ce4cfe46438d106c8d081043fab6835948e3f556ff79cad3ce67b90",
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Foliage"
+          ]
+        }
+      },
+      "reimported_stats": {
+        "Foliage": {
+          "vertices": 15400,
+          "triangles": 24640,
+          "polygons": 18480,
+          "edges": 30800,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Foliage"
+          ]
+        },
+        "Roots": {
+          "vertices": 374,
+          "triangles": 634,
+          "polygons": 290,
+          "edges": 654,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 858,
+          "triangles": 1408,
+          "polygons": 656,
+          "edges": 1482,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "Float2"
+          ],
+          "active_uv": "Float2",
+          "materials": [
+            "M_Bark"
+          ]
+        }
+      },
+      "renders": {
+        "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\perspective.png",
+        "front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\front.png",
+        "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\back.png",
+        "left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\left.png",
+        "right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\right.png",
+        "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\top.png",
+        "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\low.png",
+        "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\closeup_foliage.png",
+        "closeup_bark": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\large\\closeup_bark.png"
+      }
+    },
+    "Ancient": {
+      "blend_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+      "fbx_path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Bonsai_Trunk_Candidate_v01.fbx",
+      "pre_blend_sha": "4233aecf6225130b638905fc2e2d6866c5f02c4933b013ffdcab4b2cc4850224",
+      "saved_blend_sha": "75a1fa22f1b6ecd35d276c6b63701d303e81c42834f963f8f75d952a441158a6",
+      "fbx_sha": "e7394898d301549c17c8878124927c6e72b08c7a3605b573281e2742e04ca782",
+      "target_vertices": 51332,
+      "target_triangles": 73888,
+      "reimported_vertices": 51332,
+      "reimported_triangles": 73888,
+      "mesh_stats_blend": {
+        "Trunk_Branches": {
+          "vertices": 19332,
+          "triangles": 37728,
+          "polygons": 18864,
+          "edges": 38196,
+          "fingerprint": "cf4a6dbd16f842e4c95487c01287685ca334fded44c02cf3c4d0d02bde91db69",
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Roots": {
+          "vertices": 9120,
+          "triangles": 17856,
+          "polygons": 8928,
+          "edges": 18048,
+          "fingerprint": "891dbcbca4909f1a999853dc611721660a03406efab0db092eb94d846ba2c764",
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Foliage": {
+          "vertices": 22880,
+          "triangles": 18304,
+          "polygons": 18304,
+          "edges": 36608,
+          "fingerprint": "0175771e57ea0ded911cc9a9583cef53515a1ff2e33f12046084eb37afb14d0d",
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Foliage"
+          ]
+        }
+      },
+      "reimported_stats": {
+        "Foliage": {
+          "vertices": 22880,
+          "triangles": 18304,
+          "polygons": 18304,
+          "edges": 36608,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Foliage"
+          ]
+        },
+        "Roots": {
+          "vertices": 9120,
+          "triangles": 17856,
+          "polygons": 8928,
+          "edges": 18048,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Bark"
+          ]
+        },
+        "Trunk_Branches": {
+          "vertices": 19332,
+          "triangles": 37728,
+          "polygons": 18864,
+          "edges": 38196,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "uv_layers": [
+            "UVMap"
+          ],
+          "active_uv": "UVMap",
+          "materials": [
+            "M_Bark"
+          ]
+        }
+      },
+      "renders": {
+        "perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\perspective.png",
+        "front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\front.png",
+        "back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\back.png",
+        "left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\left.png",
+        "right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\right.png",
+        "top": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\top.png",
+        "low": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\low.png",
+        "closeup_foliage": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\closeup_foliage.png",
+        "closeup_bark": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\ancient\\closeup_bark.png"
+      }
+    }
+  },
+  "final_lineup_render": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Tree_Materials_P05_20261006\\final\\final_lineup_progression.png",
+  "protected_assets_verified": true,
+  "protected_hashes": {
+    "Bonsai_Tree.blend": "b99a966a42bd2a44591c7ba007a3bb896482a013dc6a0f4c5f979a1a12c3fc66",
+    "Bonsai_Tree.fbx": "802610722100c52f810e198c9dcf43a23267d31d30cf7af38747ed6a3bf68644"
+  }
+}

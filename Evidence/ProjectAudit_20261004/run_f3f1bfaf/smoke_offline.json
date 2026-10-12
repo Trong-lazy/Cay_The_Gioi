@@ -1,0 +1,28 @@
+{
+    "scenario": "smoke_offline",
+    "success": false,
+    "stageId": "seedling",
+    "life": "ALIVE",
+    "water": 10.0,
+    "growth": 0.0,
+    "hp": 100.0,
+    "rootLevel": 0,
+    "leavesLevel": 0,
+    "trunkLevel": 0,
+    "rebirthPoints": 0,
+    "vitalityBank": 0.0,
+    "vitalityTaps": 0,
+    "coin": 0,
+    "equippedCosmetic": "none",
+    "achievementsClaimed": 0,
+    "error": "",
+    "details": "Offline atomic OK: WaterDelta=0,00, GrowthDelta=0,00, Elapsed=3600s",
+    "screenshot": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\ProjectAudit_20261004\\run_f3f1bfaf\\screenshots\\smoke_offline_20261004_143906.png",
+    "offlineWaterDelta": 0.0,
+    "offlineGrowthDelta": 0.0,
+    "offlineElapsed": 3600.0,
+    "screenshots": [
+        "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\ProjectAudit_20261004\\run_f3f1bfaf\\screenshots\\smoke_offline_20261004_143906.png"
+    ],
+    "steps": []
+}

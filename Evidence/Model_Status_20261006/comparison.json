@@ -1,0 +1,268 @@
+{
+  "current": {
+    "path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend",
+    "hash_before": "18bb67fc27bea34137777ec00acd0ad12b4fdf408537f3da2e833ce48095bef3",
+    "hash_after": "18bb67fc27bea34137777ec00acd0ad12b4fdf408537f3da2e833ce48095bef3",
+    "meshes": {
+      "Trunk_Branches": {
+        "vertices": 19332,
+        "triangles": 37728,
+        "positions": "53190cd432b9eaefe16679bd0ee49577220bc07a82c66809f7e8d6cfe7923201",
+        "topology": "f0dd26366f3ff3db922cce1a6a19813edd378a66ca83d91fa73898d00cc49cd1",
+        "uv": "6502939714d9758320b90aca885e3d0c539d338c1fa14234134b9b7460327cd4",
+        "corner_normals": "4bdecdf4290d26575c423522cc5b63442d1da99fc719c1a3857d58ca01a761ab",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      },
+      "Roots": {
+        "vertices": 9120,
+        "triangles": 17856,
+        "positions": "c39e1e9c6d07f69f4300fd5382a7d38536abb28619346b0c2ba621049ef824d2",
+        "topology": "404356ed10cdacea936c9b2ca1eb491f8b59c915ca86b3d3e619fd172d586fdd",
+        "uv": "357100004154a3f7f6f63b3417945f52eb7331c11dfd14d574cee6df4aa41313",
+        "corner_normals": "e82b972d98b8bd6be18ecee4638a24496325c6d319de24ddcf5237aeef128523",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      },
+      "Foliage": {
+        "vertices": 22880,
+        "triangles": 18304,
+        "positions": "cd32b302eb02b563ac9111f5946a7248289583f2b41519fdd97c26befc6cf37b",
+        "topology": "b63c3380a0fdd51063b2ce2af12546e1e0b505d972d671637653850b7fc6fe12",
+        "uv": "6ff094a2d381791aaf0424d32fec4adafe434e8cfaaa4e306e7358cbc32ba220",
+        "corner_normals": "dee6f42ce3e8b5d1cfd5f48e66a5c6a3d2eed48b4fc3dc50ad2148ff195cb3bc",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      }
+    }
+  },
+  "baseline": {
+    "path": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Backup_20261005\\Bonsai_Tree_pre_T10.blend",
+    "hash_before": "c8383937b751ca3564ebf3e3e7f8714675ffbdddf476d9f9872b554ed588bbf2",
+    "hash_after": "c8383937b751ca3564ebf3e3e7f8714675ffbdddf476d9f9872b554ed588bbf2",
+    "meshes": {
+      "Trunk_Branches": {
+        "vertices": 19332,
+        "triangles": 37728,
+        "positions": "53190cd432b9eaefe16679bd0ee49577220bc07a82c66809f7e8d6cfe7923201",
+        "topology": "f0dd26366f3ff3db922cce1a6a19813edd378a66ca83d91fa73898d00cc49cd1",
+        "uv": "6502939714d9758320b90aca885e3d0c539d338c1fa14234134b9b7460327cd4",
+        "corner_normals": "4bdecdf4290d26575c423522cc5b63442d1da99fc719c1a3857d58ca01a761ab",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      },
+      "Roots": {
+        "vertices": 9120,
+        "triangles": 17856,
+        "positions": "c39e1e9c6d07f69f4300fd5382a7d38536abb28619346b0c2ba621049ef824d2",
+        "topology": "404356ed10cdacea936c9b2ca1eb491f8b59c915ca86b3d3e619fd172d586fdd",
+        "uv": "357100004154a3f7f6f63b3417945f52eb7331c11dfd14d574cee6df4aa41313",
+        "corner_normals": "e82b972d98b8bd6be18ecee4638a24496325c6d319de24ddcf5237aeef128523",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      },
+      "Foliage": {
+        "vertices": 22880,
+        "triangles": 18304,
+        "positions": "cd32b302eb02b563ac9111f5946a7248289583f2b41519fdd97c26befc6cf37b",
+        "topology": "b63c3380a0fdd51063b2ce2af12546e1e0b505d972d671637653850b7fc6fe12",
+        "uv": "6ff094a2d381791aaf0424d32fec4adafe434e8cfaaa4e306e7358cbc32ba220",
+        "corner_normals": "dee6f42ce3e8b5d1cfd5f48e66a5c6a3d2eed48b4fc3dc50ad2148ff195cb3bc",
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "materials": [],
+        "modifiers": []
+      }
+    }
+  },
+  "equal_fields": {
+    "Trunk_Branches": {
+      "vertices": true,
+      "triangles": true,
+      "positions": true,
+      "topology": true,
+      "uv": true,
+      "corner_normals": true,
+      "matrix_world": true,
+      "materials": true,
+      "modifiers": true
+    },
+    "Roots": {
+      "vertices": true,
+      "triangles": true,
+      "positions": true,
+      "topology": true,
+      "uv": true,
+      "corner_normals": true,
+      "matrix_world": true,
+      "materials": true,
+      "modifiers": true
+    },
+    "Foliage": {
+      "vertices": true,
+      "triangles": true,
+      "positions": true,
+      "topology": true,
+      "uv": true,
+      "corner_normals": true,
+      "matrix_world": true,
+      "materials": true,
+      "modifiers": true
+    }
+  },
+  "same_mesh_names": true
+}

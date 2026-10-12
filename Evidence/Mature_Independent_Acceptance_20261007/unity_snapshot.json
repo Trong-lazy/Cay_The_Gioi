@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-07",
+  "scene": "MainScene",
+  "unityVersion": "6000.6.1f1",
+  "isPlaying": false,
+  "isCompiling": false,
+  "sceneDirty": false,
+  "console_error_warning_query_returned": [],
+  "AssetDatabase_WT_MatureTree_results": [],
+  "project_materials": [
+    "Assets/_Project/Art/Placeholders/Materials/Bark.mat",
+    "Assets/_Project/Art/Placeholders/Materials/Leaf.mat",
+    "Assets/_Project/Art/Placeholders/Materials/Soil.mat"
+  ],
+  "playModeValidation": "NOT_RUN"
+}

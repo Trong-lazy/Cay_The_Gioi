@@ -1,0 +1,103 @@
+{
+  "status": "SUCCESS",
+  "source": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.blend",
+    "sha256": "18BB67FC27BEA34137777EC00ACD0AD12B4FDF408537F3DA2E833CE48095BEF3",
+    "unchanged": true
+  },
+  "source_fbx": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Assets\\_Project\\Art\\Bonsai_Tree.fbx",
+    "sha256": "52B63D9F9F555BBBC85302DA9BA3AA0E6F1BF82F4E193E070F5B1B8981D0B7D5",
+    "unchanged": true
+  },
+  "candidate": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Models\\Bonsai_Trunk_Candidate_v01.blend",
+    "sha256": "2707CD92E1EE11996663D461FC457421814C2A1A208085CF965AB826F4C2848C",
+    "version": "v01"
+  },
+  "candidate_export_fbx": {
+    "path": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\ArtSource\\Exports\\Bonsai_Trunk_Candidate_v01.fbx",
+    "sha256": "802610722100C52F810E198C9DCF43A23267D31D30CF7AF38747ED6A3BF68644"
+  },
+  "mesh_preservation": {
+    "roots_unchanged": true,
+    "foliage_unchanged": true,
+    "trunk_topology_preserved": true,
+    "locked_vertices_max_error": 0.0,
+    "total_triangles": 73888,
+    "boundary_edges": 936
+  },
+  "reimport_verification": {
+    "objects": {
+      "Foliage": {
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          -1.6292068494294654e-07,
+          0.0,
+          0.0
+        ],
+        "triangles": 18304,
+        "vertices": 22880,
+        "dimensions": [
+          8.209527015686035,
+          5.054014205932617,
+          3.297238349914551
+        ]
+      },
+      "Roots": {
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          -1.6292068494294654e-07,
+          0.0,
+          0.0
+        ],
+        "triangles": 17856,
+        "vertices": 9120,
+        "dimensions": [
+          6.854331016540527,
+          5.704259872436523,
+          1.271528959274292
+        ]
+      },
+      "Trunk_Branches": {
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation": [
+          -1.6292068494294654e-07,
+          0.0,
+          0.0
+        ],
+        "triangles": 37728,
+        "vertices": 19332,
+        "dimensions": [
+          6.2130866050720215,
+          3.6678295135498047,
+          3.7320308685302734
+        ]
+      }
+    },
+    "total_triangles": 73888,
+    "render": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\reimport_fbx_perspective.png"
+  },
+  "rendered_files": {
+    "candidate_front": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_front.png",
+    "candidate_back": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_back.png",
+    "candidate_left": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_left.png",
+    "candidate_right": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_right.png",
+    "candidate_perspective": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_perspective.png",
+    "candidate_closeup_trunk": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_closeup_trunk.png",
+    "candidate_closeup_branch_collar": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_closeup_branch_collar.png",
+    "candidate_closeup_root_junction": "c:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\Trunk_Candidate_v01_Audit\\candidate_closeup_root_junction.png"
+  }
+}

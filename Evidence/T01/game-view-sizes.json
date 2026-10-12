@@ -1,0 +1,33 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"screen\":\"1280x699\",\"choices\":[\"Free Aspect\",\"16:9 Aspect\",\"16:10 Aspect\",\"Full HD (1920x1080)\",\"WXGA (1366x768)\",\"QHD (2560x1440)\",\"4K UHD (3840x2160)\"],\"index\":0},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "screen": "1280x699",
+          "choices": [
+            "Free Aspect",
+            "16:9 Aspect",
+            "16:10 Aspect",
+            "Full HD (1920x1080)",
+            "WXGA (1366x768)",
+            "QHD (2560x1440)",
+            "4K UHD (3840x2160)"
+          ],
+          "index": 0
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

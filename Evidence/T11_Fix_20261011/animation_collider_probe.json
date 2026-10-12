@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "seedling",
+    "vertices": 808,
+    "scale": "(1.00, 1.00, 1.00)",
+    "minLeafMoveWorld": 0.0,
+    "maxLeafMoveWorld": 0.00200341712,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(270.24, 119.38, 240.62)",
+    "leafRotation": "(270.24, 119.38, 240.62)"
+  },
+  {
+    "stage": "young_tree",
+    "vertices": 2189,
+    "scale": "(1.00, 1.00, 1.00)",
+    "minLeafMoveWorld": 0.0,
+    "maxLeafMoveWorld": 0.00333909248,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(270.49, 119.38, 240.62)",
+    "leafRotation": "(270.49, 119.38, 240.62)"
+  },
+  {
+    "stage": "large_tree",
+    "vertices": 41480,
+    "scale": "(100.00, 100.00, 100.00)",
+    "minLeafMoveWorld": 0.0,
+    "maxLeafMoveWorld": 0.00498425448,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(270.78, 119.38, 240.62)",
+    "leafRotation": "(270.78, 119.38, 240.62)"
+  }
+]

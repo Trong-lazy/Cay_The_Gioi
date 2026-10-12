@@ -1,0 +1,6 @@
+{
+  "name": "CayTheGioi.Editor",
+  "rootNamespace": "CayTheGioi.Editor",
+  "references": ["CayTheGioi.Domain", "CayTheGioi.Runtime", "Unity.InputSystem", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "includePlatforms": ["Editor"]
+}

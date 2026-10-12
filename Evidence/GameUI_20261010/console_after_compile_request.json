@@ -1,0 +1,1 @@
+{"name": "read_console", "arguments": {"types": ["error", "warning"], "count": 20, "include_stacktrace": true}}

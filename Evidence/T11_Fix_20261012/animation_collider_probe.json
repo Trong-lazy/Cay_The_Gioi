@@ -1,0 +1,41 @@
+[
+  {
+    "stage": "seedling",
+    "vertices": 808,
+    "minLeafDisplacement": 0.0,
+    "maxLeafDisplacement": 0.0017672109,
+    "colliderRays": 302,
+    "colliderMiss": 7,
+    "colliderOffset": 249,
+    "maxColliderOffset": 0.049745623,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(270.55, 72.14, 287.86)",
+    "leafRotation": "(270.55, 72.14, 287.86)"
+  },
+  {
+    "stage": "young_tree",
+    "vertices": 2189,
+    "minLeafDisplacement": 0.0,
+    "maxLeafDisplacement": 0.003574637,
+    "colliderRays": 268,
+    "colliderMiss": 18,
+    "colliderOffset": 243,
+    "maxColliderOffset": 0.0492160134,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(271.10, 72.14, 287.86)",
+    "leafRotation": "(271.10, 72.14, 287.86)"
+  },
+  {
+    "stage": "large_tree",
+    "vertices": 41480,
+    "minLeafDisplacement": 0.0,
+    "maxLeafDisplacement": 1.975084E-05,
+    "colliderRays": 301,
+    "colliderMiss": 0,
+    "colliderOffset": 294,
+    "maxColliderOffset": 0.09754534,
+    "trunkVerticesUnchanged": true,
+    "trunkRotation": "(271.75, 72.14, 287.86)",
+    "leafRotation": "(271.75, 72.14, 287.86)"
+  }
+]

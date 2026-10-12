@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "message": "Retrieved 12 log entries.",
+  "data": [
+    "[CayTheGioi] Evolution view failed: TreeView stage visual or model slot is missing.",
+    "UberPostProcess/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 1 do not match RenderPass specifications (1918 x 1006 1AA) vs (1366 x 768 1AA).",
+    "NextSubPass: Not inside a Renderpass",
+    "EndRenderPass: Not inside a Renderpass",
+    "UberPostProcess/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 1 do not match RenderPass specifications (1918 x 1006 1AA) vs (1366 x 768 1AA).",
+    "NextSubPass: Not inside a Renderpass",
+    "EndRenderPass: Not inside a Renderpass",
+    "UberPostProcess/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 1 do not match RenderPass specifications (1918 x 1006 1AA) vs (1366 x 768 1AA).",
+    "NextSubPass: Not inside a Renderpass",
+    "EndRenderPass: Not inside a Renderpass",
+    "UberPostProcess/Draw UIToolkit/uGUI Overlay: The dimensions or sample count of attachment 1 do not match RenderPass specifications (1918 x 1006 1AA) vs (1366 x 768 1AA).",
+    "NextSubPass: Not inside a Renderpass"
+  ]
+}

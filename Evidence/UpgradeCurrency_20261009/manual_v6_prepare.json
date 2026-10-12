@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"prior\":null,\"priorUtc\":null,\"directory\":\"C:\\\\Users\\\\Asus\\\\foder game 3D\\\\Cay_The_Gioi\\\\Evidence\\\\UpgradeCurrency_20261009\\\\manual_v6_save\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "prior": null,
+          "priorUtc": null,
+          "directory": "C:\\Users\\Asus\\foder game 3D\\Cay_The_Gioi\\Evidence\\UpgradeCurrency_20261009\\manual_v6_save"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

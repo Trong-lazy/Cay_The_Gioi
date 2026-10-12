@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b9528743b55b04793cef4b59c0df5e, type: 3}
+  m_Name: PrototypeConfig
+  m_EditorClassIdentifier: CayTheGioi.Runtime::CayTheGioi.Configuration.PrototypeConfig
+  rules:
+    configVersion: prototype-6
+    initialStageId: seedling
+    initialWater: 10
+    initialPhotosynthesis: 5
+    initialGrowth: 10
+    maxHp: 100
+    initialCalmSeconds: 120
+    minWeatherDurationSeconds: 180
+    maxWeatherDurationSeconds: 600
+    sunnyGrowthMultiplier: 1.2
+    rainyWaterMultiplier: 1.2
+    baseStrikeRate: 0.001
+    strikeCooldownOnlineSeconds: 120
+    burningDurationSeconds: 10
+    burningDamagePerSecond: 2
+    burningLeavesGrowthMultiplier: 0.7
+    pointEffects:
+    - stageId: seedling
+      targetId: water
+      perPoint: 0.05
+    - stageId: young_tree
+      targetId: growth
+      perPoint: 0.05
+    - stageId: large_tree
+      targetId: protection
+      perPoint: 0.02
+    - stageId: mature_tree
+      targetId: spirit
+      perPoint: 0.05
+    rootWaterPerLevelSecond: 1
+    leavesPhotosynthesisPerLevelSecond: 1
+    trunkGrowthPerLevelSecond: 1
+    trunkPhotosynthesisPerLevelSecond: 0.25
+    leavesWaterPerLevelSecond: 0.25
+    trunkProtectionPerLevel: 0.05
+    spiritPerLevelSecond: 1
+    spiritAbsorptionBaseCost: 10
+    spiritUnlockWaterCost: 1000
+    spiritUnlockPhotosynthesisCost: 1000
+    spiritUnlockGrowthCost: 1000
+    rootBaseCost: 5
+    leavesBaseCost: 5
+    trunkBaseCost: 10
+    rootCostResourceId: water
+    leavesCostResourceId: photosynthesis
+    trunkCostResourceId: growth
+    upgradeCostFactor: 1.6
+    autosaveIntervalSeconds: 30
+    offlineMaxSeconds: 86400
+    offlineRateFactor: 0.5
+    tapsPerReward: 50
+    secondsPerTapReward: 20
+    vitalityMaxBankSeconds: 3600
+    vitalityOutputMultiplier: 1.05
+    stages:
+    - stageId: seedling
+      displayName: "M\u1EA7m"
+      nextStageId: young_tree
+      rootCap: 5
+      leavesCap: 5
+      trunkCap: 5
+      spiritAbsorptionCap: 0
+      evolutionWaterCost: 0
+      evolutionPhotosynthesisCost: 0
+      evolutionGrowthCost: 0
+      exposure: 0
+      rebirthUnlocked: 0
+      weatherUnlocked: 0
+      harmfulWeatherUnlocked: 0
+    - stageId: young_tree
+      displayName: "C\xE2y Non"
+      nextStageId: large_tree
+      rootCap: 10
+      leavesCap: 10
+      trunkCap: 5
+      spiritAbsorptionCap: 0
+      evolutionWaterCost: 50
+      evolutionPhotosynthesisCost: 25
+      evolutionGrowthCost: 25
+      exposure: 0
+      rebirthUnlocked: 1
+      weatherUnlocked: 1
+      harmfulWeatherUnlocked: 0
+    - stageId: large_tree
+      displayName: "C\xE2y L\u1EDBn"
+      nextStageId: mature_tree
+      rootCap: 20
+      leavesCap: 20
+      trunkCap: 10
+      spiritAbsorptionCap: 0
+      evolutionWaterCost: 200
+      evolutionPhotosynthesisCost: 100
+      evolutionGrowthCost: 100
+      exposure: 1
+      rebirthUnlocked: 1
+      weatherUnlocked: 1
+      harmfulWeatherUnlocked: 1
+    - stageId: mature_tree
+      displayName: "C\xE2y Tr\u01B0\u1EDFng Th\xE0nh"
+      nextStageId: 
+      rootCap: 30
+      leavesCap: 30
+      trunkCap: 20
+      spiritAbsorptionCap: 10
+      evolutionWaterCost: 500
+      evolutionPhotosynthesisCost: 250
+      evolutionGrowthCost: 250
+      exposure: 1.2
+      rebirthUnlocked: 1
+      weatherUnlocked: 1
+      harmfulWeatherUnlocked: 1
+    achievements:
+    - achievementId: first_root
+      displayName: "N\xE2ng c\u1EA5p R\u1EC5 l\u1EA7n \u0111\u1EA7u"
+      description: "N\xE2ng c\u1EA5p nh\xE1nh R\u1EC5 l\xEAn c\u1EA5p 1"
+      targetProgress: 1
+      coinReward: 10
+    - achievementId: first_leaves
+      displayName: "N\xE2ng c\u1EA5p L\xE1 l\u1EA7n \u0111\u1EA7u"
+      description: "N\xE2ng c\u1EA5p nh\xE1nh L\xE1 l\xEAn c\u1EA5p 1"
+      targetProgress: 1
+      coinReward: 10
+    - achievementId: evolve_young_tree
+      displayName: "Ti\u1EBFn h\xF3a C\xE2y Non"
+      description: "Ti\u1EBFn h\xF3a c\xE2y l\xEAn giai \u0111o\u1EA1n C\xE2y Non"
+      targetProgress: 1
+      coinReward: 10
+    - achievementId: evolve_large_tree
+      displayName: "Ti\u1EBFn h\xF3a C\xE2y L\u1EDBn"
+      description: "Ti\u1EBFn h\xF3a c\xE2y l\xEAn giai \u0111o\u1EA1n C\xE2y L\u1EDBn"
+      targetProgress: 1
+      coinReward: 10
+    - achievementId: first_rebirth
+      displayName: "Rebirth l\u1EA7n \u0111\u1EA7u"
+      description: "Th\u1EF1c hi\u1EC7n Rebirth l\u1EA7n \u0111\u1EA7u ti\xEAn \u0111\u1EC3 nh\u1EADn \u0111i\u1EC3m v\u0129nh vi\u1EC5n"
+      targetProgress: 1
+      coinReward: 10
+    - achievementId: first_vitality
+      displayName: "Nh\u1EADn th\u01B0\u1EDFng S\u1EE9c s\u1ED1ng"
+      description: "Ho\xE0n th\xE0nh chu\u1ED7i 50 tap \u0111\u1EC3 nh\u1EADn th\u01B0\u1EDFng th\u1EDDi gian S\u1EE9c s\u1ED1ng l\u1EA7n \u0111\u1EA7u"
+      targetProgress: 1
+      coinReward: 10
+    cosmetics:
+    - cosmeticId: glow_placeholder
+      displayName: "H\xE0o Quang Sinh M\u1EC7nh"
+      description: "Hi\u1EC7u \u1EE9ng h\xE0o quang ng\u1ECDc b\xEDch ph\xE1t s\xE1ng quanh c\xE2y"
+      price: 20
+  visuals:
+  - stageId: seedling
+    prefab: {fileID: 3221106062927009078, guid: 0f9f4b7c4c98be74fb9434b3e4962af8, type: 3}
+    cameraDistance: 1.4
+    cameraPitch: 16
+    cameraTargetHeight: 0.12
+  - stageId: young_tree
+    prefab: {fileID: 4031840590216387537, guid: 71802b4846f1f0045ba8add282f6dc2a, type: 3}
+    cameraDistance: 2.8
+    cameraPitch: 18
+    cameraTargetHeight: 0.42
+  - stageId: large_tree
+    prefab: {fileID: 5436367671724853586, guid: 37dc3f7f57f2bca4baaedb64db2936a3, type: 3}
+    cameraDistance: 6.2
+    cameraPitch: 20
+    cameraTargetHeight: 1.18
+  - stageId: mature_tree
+    prefab: {fileID: 5436367671724853586, guid: 37dc3f7f57f2bca4baaedb64db2936a3, type: 3}
+    cameraDistance: 6.2
+    cameraPitch: 20
+    cameraTargetHeight: 1.18
+  input:
+    dragMillimetres: 2
+    fallbackDragScreenFraction: 0.012
+    maximumTapSeconds: 0.4
+    minimumDragPixels: 4
+    maximumDragScreenFraction: 0.04
+  evolutionTransitionSeconds: 0.8

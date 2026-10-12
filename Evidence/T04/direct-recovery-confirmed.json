@@ -1,0 +1,1 @@
+{"success":true,"message":"Code executed successfully.","data":{"result":{"initialized":true,"water":88,"bank":250,"taps":17,"checkpoint":1790958914,"checkpointAdvanced":true,"noReward":true,"corruptArchived":1,"panel":false,"hud":"Water 88  (+2.1/s)\nGrowth 12.25  (+0/s)\nHP 100 · ALIVE\nSức sống 250s / 3600s  +5%\nTap 17/50"},"compiler":"codedom"}}

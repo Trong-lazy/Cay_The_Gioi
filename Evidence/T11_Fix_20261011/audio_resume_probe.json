@@ -1,0 +1,7 @@
+{
+  "rainPlaying": true,
+  "windPlaying": true,
+  "rainTarget": 0.38,
+  "windTarget": 0.3,
+  "musicEnabled": true
+}

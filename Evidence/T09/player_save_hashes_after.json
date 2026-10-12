@@ -1,0 +1,22 @@
+﻿[
+    {
+        "file":  "Player-prev.log",
+        "Hash":  "E1BB6213BEDA85CC3D6EB19ECC24BC4AA3DE1F0CB3C02E72EB67BB7463D11BF4"
+    },
+    {
+        "file":  "Player.log",
+        "Hash":  "6DC81E573733D121B764E89939CB787D1FC5C7A5C2D323F91D2D1A9706AFB4F9"
+    },
+    {
+        "file":  "TestResults.xml",
+        "Hash":  "371EAFC087C7F7085F86C615F08A3D088387F13610D71A73E36FB3F38CDBF298"
+    },
+    {
+        "file":  "world_tree_save.backup.json",
+        "Hash":  "3A3C99951E9CFE4EDF0F55A391C32618C1A7AD4554780832DF3B1F3D85DE6E57"
+    },
+    {
+        "file":  "world_tree_save.json",
+        "Hash":  "D9013370A758147A07456BFBD6BC8F5341ACDF900F6A2F2EBDEF6BBD4624CFA2"
+    }
+]

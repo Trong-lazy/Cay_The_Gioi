@@ -1,0 +1,6 @@
+{
+  "name": "CayTheGioi.EditModeTests",
+  "references": ["CayTheGioi.Domain", "CayTheGioi.Runtime", "CayTheGioi.Editor", "Unity.InputSystem", "UnityEngine.UI"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

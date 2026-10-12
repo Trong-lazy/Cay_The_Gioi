@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"_mcp_status\":\"pending\",\"_mcp_poll_interval\":5.0,\"message\":\"Build scheduled for StandaloneWindows64. Polling for completion...\",\"data\":{\"job_id\":\"build-43b8559246\",\"platform\":\"StandaloneWindows64\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "_mcp_status": "pending",
+      "_mcp_poll_interval": 5.0,
+      "message": "Build scheduled for StandaloneWindows64. Polling for completion...",
+      "data": {
+        "job_id": "build-43b8559246",
+        "platform": "StandaloneWindows64"
+      }
+    },
+    "isError": false
+  }
+}

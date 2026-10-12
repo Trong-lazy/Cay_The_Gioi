@@ -1,0 +1,11 @@
+{
+  "screenWidth": 1920,
+  "screenHeight": 1080,
+  "tap0": 0,
+  "tapAfterEmptyMouse": 1,
+  "tapAfterEmptyTouch": 2,
+  "tapAfterModelMouse": 2,
+  "tapAfterModelTouch": 2,
+  "emptyOverUi": 0,
+  "modelOverUi": 0
+}

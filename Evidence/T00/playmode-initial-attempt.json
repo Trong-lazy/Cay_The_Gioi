@@ -1,0 +1,10 @@
+{
+  "task": "T00",
+  "jobId": "2f87dbac07ef4026912b4d3187717be8",
+  "mode": "PlayMode",
+  "status": "failed",
+  "testsStarted": 0,
+  "error": "Test job failed to initialize (tests did not start within timeout)",
+  "observed": "MainScene was forced through playModeStartScene; Editor also logged repeated Layout update failed to stabilize after 10 iterations.",
+  "correction": "Removed forced Play start scene; preserved MainScene as the sole build entry. Retry after script compilation."
+}
